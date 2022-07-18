@@ -1,4 +1,4 @@
-# Calculates fold-changes and corresponding q values to determine differentially expressed
+# Calculates fold-changes and corresponding p- and q values to determine differentially expressed
 # genes in all the sample groups present in the 
 library(edgeR)
 library(stringr)
@@ -37,7 +37,7 @@ for(trt.group in unique(samples.annotation$sample.group)) {
   y <- estimateDisp(y)
   et <- exactTest(y)
   res <- topTags(et, n=Inf)
-  res <- as.data.frame(res)[c(1,4)]
+  res <- as.data.frame(res)[c(1,3,4)]
   names(res) = paste0(trt.group, "_", names(res))
   res$gene = row.names(res)
   
