@@ -11,6 +11,6 @@ logfc = as.matrix(diffexp[grep("_logFC", names(diffexp))])
 rownames(logfc) = diffexp$gene
 colnames(logfc) = str_split_fixed(colnames(logfc), "_", 2)[,1]
 
-png("output/full_heatmap.png")
+png("output/plots/full_heatmap.png")
 heatmap(logfc)
 dev.off()
