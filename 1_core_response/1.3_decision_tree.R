@@ -1,6 +1,7 @@
 # Select genes which are robustly changed through the treatments
 library(stringr)
-library(tree)
+library(rpart)
+library(rpart.plot)
 
 diffexp = read.csv("output/differential_expression.lfs.csv.gz")
 
@@ -45,28 +46,25 @@ train.table$tissue = as.factor(train.table$tissue)
 train.table$temperature = as.factor(train.table$temperature)
 
 # Now we'll try predicting the effect on a specific gene by all our input factors
-gene.predictability = data.frame(gene=character(), non.ns=numeric(), accuracy=numeric())
+gene.predictability = data.frame(gene=character(), up=numeric(), down=numeric(), accuracy=numeric())
 for(g in names(gene.effect)) {
   print(g)
-  train.table[[g]] = factor(train.table[[g]], levels=c("up","down","ns"))
-  t_tree =  tree(get(g) ~ tissue + temperature + stress.duration, data = train.table)
-  s = summary(t_tree)
-  # @TODO this should use cross-validation
-  accuracy = (s$misclass[2] - s$misclass[1]) / s$misclass[2]
-  non.ns = sum(table(train.table[[g]])[1:2]) / nrow(train.table)
-  gene.predictability = rbind(gene.predictability, data.frame(gene=g, non.ns=non.ns, accuracy=accuracy))
+  train.table[[g]] = factor(train.table[[g]], levels=c("down","ns","up"))
+  r_tree =  rpart(get(g) ~ tissue + temperature + stress.duration, data = train.table, method="class")
+  root.node.error = as.numeric(na.omit(str_match(capture.output(printcp(r_tree)), "Root node error: .* = (.*)$"))[1,2])
+  cp = printcp(r_tree)
+  accuracy = 1 - cp[nrow(cp),4] * root.node.error
+  up = table(train.table[[g]])[3] / nrow(train.table)
+  down = table(train.table[[g]])[1] / nrow(train.table)
+  gene.predictability = rbind(gene.predictability, data.frame(gene=g, up=up, down=down, accuracy=accuracy))
 }
+gene.predictability$non.ns = gene.predictability$up + gene.predictability$down
 write.csv(gene.predictability, gzfile("output/gene_predictability_decision_tree.lfs.csv.gz", "w"), row.names=F)
 
 show_tree <- function(g) {
-  train.table[[g]] = factor(train.table[[g]], levels=c("up","down","ns"))
-  t_tree =  tree(get(g) ~ tissue + temperature + stress.duration, data = train.table)
-  print(t_tree)
-  summary(t_tree)
-  plot(t_tree)
-  text(t_tree)
-  # @TODO have a nice-looking plot below each leaf node of how many cases there are (not the ugly built-in one)
-  # as well as proper labels for the tissues
+  train.table[[g]] = factor(train.table[[g]], levels=c("down","ns","up"))
+  r_tree =  rpart(get(g) ~ tissue + temperature + stress.duration, data = train.table, method="class")
+  print(r_tree); printcp(r_tree); rpart.plot(r_tree)
 }
 # Example:
 show_tree("Solyc01g102960")
