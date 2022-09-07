@@ -44,4 +44,5 @@ for(trt.group in unique(samples.annotation$sample.group)) {
   diffexp = merge(diffexp, res)
 }
 
-write.csv(diffexp, gzfile("output/differential_expression.lfs.csv.gz", "w"), row.names=F)
+write.csv(diffexp, "output/differential_expression.lfs.csv", row.names=F)
+system("pigz -11 output/differential_expression.lfs.csv")
