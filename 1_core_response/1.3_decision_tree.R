@@ -5,11 +5,6 @@ library(rpart.plot)
 
 diffexp = read.csv("output/differential_expression.lfs.csv.gz")
 
-# Drop experiments 13, 14, and 16 (two are non-tomato and the other is miRNA)
-diffexp = diffexp[-grep("e13", colnames(diffexp))]
-diffexp = diffexp[-grep("e14", colnames(diffexp))]
-diffexp = diffexp[-grep("e16", colnames(diffexp))]
-
 # Build table for training: Classify each gene x sample in upregulated, downregulated, or non-significant (this is what we want to predict)
 gene.effect = data.frame(sapply(unique(str_split_fixed(colnames(diffexp)[2:ncol(diffexp)], "_", 2)[,1]), FUN=function(s) {
   sapply(1:nrow(diffexp), FUN=function(g) {
@@ -59,7 +54,8 @@ for(g in names(gene.effect)) {
   gene.predictability = rbind(gene.predictability, data.frame(gene=g, up=up, down=down, accuracy=accuracy))
 }
 gene.predictability$non.ns = gene.predictability$up + gene.predictability$down
-write.csv(gene.predictability, gzfile("output/gene_predictability_decision_tree.lfs.csv.gz", "w"), row.names=F)
+write.csv(gene.predictability, "output/gene_predictability_decision_tree.lfs.csv", row.names=F)
+system("pigz -11 output/gene_predictability_decision_tree.lfs.csv")
 
 show_tree <- function(g) {
   train.table[[g]] = factor(train.table[[g]], levels=c("down","ns","up"))

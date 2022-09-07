@@ -1,6 +1,8 @@
 # Select genes which are robustly changed through the treatments
 library(stringr)
 
+a = read.csv("output/gene_predictability_decision_tree.lfs.csv.gz")
+
 diffexp = read.csv("output/differential_expression.lfs.csv.gz")
 
 responsive.genes = data.frame(gene=str_split_fixed(diffexp$gene, "\\.", 2)[,1])
