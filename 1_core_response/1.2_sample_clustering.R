@@ -62,8 +62,9 @@ fig <- plot_ly(scores, x = ~PC1, y = ~PC2, z = ~PC3,
                            "Duration: ", point.annotations$stress.duration, "\n",
                            "Genotype: ", point.annotations$genotype.name, "\n"
                ), 
-               hoverinfo="text", mode="markers", type="scatter3d", color=point.annotations$temperature) %>%
+               hoverinfo="text", mode="markers", type="scatter3d", color=point.annotations$tissue) %>%
   layout(scene = list(xaxis = list(title = paste0('PC1 (',summary(pca_res)$importance[2,1]*100,"%)")),
                       yaxis = list(title = paste0('PC2 (',summary(pca_res)$importance[2,2]*100,"%)")),
                       zaxis = list(title = paste0('PC3 (',summary(pca_res)$importance[2,3]*100,"%)"))))
 saveWidget(fig, "output/plots/1.2_pca_fc.html", selfcontained = F, libdir = "lib")
+

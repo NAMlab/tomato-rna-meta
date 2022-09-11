@@ -63,7 +63,7 @@ show_tree <- function(g) {
   print(r_tree); printcp(r_tree); rpart.plot(r_tree)
 }
 # Example:
-show_tree("Solyc01g102960")
+show_tree("Solyc03g113930")
 
 # protein.descriptions = read.csv("input/protein_descriptions.csv.gz")
 # responsive.genes$gene = str_split_fixed(responsive.genes$gene, "\\.", 2)[,1]
