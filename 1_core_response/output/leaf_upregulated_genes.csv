@@ -1,193 +1,195 @@
-"gene","ITAG4.1_description","OMA_orthologues"
+"gene","ITAG4.1_description","OMA_orthologues","UniProtKB.reviewed","UniProtKB.protein.names","UniProtKB.gene.names"
 "Solyc01g006920","Pentatricopeptide repeat-containing protein (AHRD
 V3.3 *** A0A2G2XTB6_CAPBA)","AT4G39530(Tetratricopeptide repeat (TPR)-like
-superfamily protein)"
+superfamily protein)",NA,NA,NA
 "Solyc01g008510","photosystem II 5 kDa protein, chloroplastic-like
-(AHRD V3.3 *-* A0A2I4GVV4_9ROSI)","AT1G51400(Photosystem II 5 kD protein)"
+(AHRD V3.3 *-* A0A2I4GVV4_9ROSI)","AT1G51400(Photosystem II 5 kD protein)","unreviewed","Uncharacterized protein","101255525"
 "Solyc01g079710","Deoxyribose-phosphate aldolase (AHRD V3.3 ***
-A0A166YQY4_9PEZI)","AT5G19300()"
-"Solyc01g079750","MAP kinase kinase kinase 4","AT3G06030(NPK1-related protein kinase 3)"
+A0A166YQY4_9PEZI)","AT5G19300()","unreviewed","Uncharacterized protein","101249013"
+"Solyc01g079750","MAP kinase kinase kinase 4","AT3G06030(NPK1-related protein kinase 3)","unreviewed","Protein kinase domain-containing protein","101249577"
 "Solyc01g081270","Glutathione S-transferase (AHRD V3.3 ***
-A0A200PVK3_9MAGN)",""
+A0A200PVK3_9MAGN)","",NA,NA,NA
 "Solyc01g095320","Bag family molecular chaperone regulator 6-like
-protein (AHRD V3.3 *** A0A2K3PRI9_TRIPR)","AT2G46240(BCL-2-associated athanogene 6)"
+protein (AHRD V3.3 *** A0A2K3PRI9_TRIPR)","AT2G46240(BCL-2-associated athanogene 6)","unreviewed","BAG domain-containing protein",""
 "Solyc01g096010","Embryo defective 1703 (AHRD V3.3 ***
-Q9M360_ARATH)","AT3G61780(embryo defective 1703)"
+Q9M360_ARATH)","AT3G61780(embryo defective 1703)",NA,NA,NA
 "Solyc01g098150","Pentatricopeptide repeat-containing protein (AHRD
 V3.3 *** A0A2G2YZ45_CAPAN)","AT5G03800(Pentatricopeptide repeat (PPR)
-superfamily protein)"
+superfamily protein)","unreviewed","DYW_deaminase domain-containing protein",""
 "Solyc01g098320","DNA-directed RNA polymerase V subunit 5A (AHRD
 V3.3 *** A0A1U8GKX3_CAPAN)","AT2G41340(RNA polymerase II fifth largest
 subunit, D), AT3G57080(Eukaryotic rpb5 RNA
-polymerase subunit family protein)"
+polymerase subunit family protein)",NA,NA,NA
 "Solyc01g102960","22.0 kDa class IV heat shock protein (AHRD V3.3
-*** A0A2G3ATG3_CAPCH)",""
+*** A0A2G3ATG3_CAPCH)","","unreviewed","Uncharacterized protein","101254946"
 "Solyc01g103970","E3 ubiquitin-protein ligase RNF170-like protein
-(DUF 1232) (AHRD V3.3 *** Q0WWX8_ARATH)","AT4G33940(RING/U-box superfamily protein)"
+(DUF 1232) (AHRD V3.3 *** Q0WWX8_ARATH)","AT4G33940(RING/U-box superfamily protein)",NA,NA,NA
 "Solyc01g104740","Multiprotein-bridging factor 1c (AHRD V3.3 ***
-A0A1U8F6N4_CAPAN)","AT3G24500(multiprotein bridging factor 1C)"
-"Solyc01g111640","SKP1-like protein (AHRD V3.3 *** O82463_NICCL)",""
+A0A1U8F6N4_CAPAN)","AT3G24500(multiprotein bridging factor 1C)","unreviewed","HTH cro/C1-type domain-containing protein","544168"
+"Solyc01g111640","SKP1-like protein (AHRD V3.3 *** O82463_NICCL)","",NA,NA,NA
 "Solyc02g030110","Vacuolar protein sorting-associated protein 54,
-chloroplastic (AHRD V3.3 *** A0A1U8FS35_CAPAN)",""
+chloroplastic (AHRD V3.3 *** A0A1U8FS35_CAPAN)","",NA,NA,NA
 "Solyc02g062130","Ferredoxin--NADP reductase, chloroplastic (AHRD
-V3.11 *** tr|K4B6A3|K4B6A3_SOLLC)",""
-"Solyc02g068730","60 kDa chaperonin (AHRD V3.3 *** B2IXD2_NOSP7)","AT5G18820(TCP-1/cpn60 chaperonin family protein)"
+V3.11 *** tr|K4B6A3|K4B6A3_SOLLC)","",NA,NA,NA
+"Solyc02g068730","60 kDa chaperonin (AHRD V3.3 *** B2IXD2_NOSP7)","AT5G18820(TCP-1/cpn60 chaperonin family protein)","unreviewed","Uncharacterized protein","101259113"
 "Solyc02g070390","protein PLASTID TRANSCRIPTIONALLY ACTIVE 12 (AHRD
-V3.3 *** A0A2I4GUX2_9ROSI)","AT2G34640(plastid transcriptionally active 12)"
+V3.3 *** A0A2I4GUX2_9ROSI)","AT2G34640(plastid transcriptionally active 12)","unreviewed","Uncharacterized protein","101055518"
 "Solyc02g070810","Nuclear pore complex protein (AHRD V3.3 ***
-A0A2G3D4U4_CAPCH)","AT5G40480(embryo defective 3012)"
-"Solyc02g078380","Stem-specific protein TSJ.1",""
+A0A2G3D4U4_CAPCH)","AT5G40480(embryo defective 3012)",NA,NA,NA
+"Solyc02g078380","Stem-specific protein TSJ.1","","unreviewed","DUF3700 domain-containing protein","101246306"
 "Solyc02g080130","Chaperone protein dnaJ 50 (AHRD V3.11 ***
 tr|A0A2G3A964|A0A2G3A964_CAPAN)","AT1G61770(Chaperone DnaJ-domain superfamily
-protein)"
+protein)","unreviewed","J domain-containing protein","101262769"
 "Solyc02g083500","cell wall integrity/stress response component
-(AHRD V3.3 *** AT5G66090.1)",""
+(AHRD V3.3 *** AT5G66090.1)","",NA,NA,NA
 "Solyc02g087770","Aldose 1-epimerase (AHRD V3.3 ***
-A0A1U8G0C5_CAPAN)",""
+A0A1U8G0C5_CAPAN)","",NA,NA,NA
 "Solyc02g091640","Endoribonuclease E-like protein (AHRD V3.3 ***
-Q656E2_ORYSJ)","AT4G37920()"
+Q656E2_ORYSJ)","AT4G37920()","unreviewed","Uncharacterized protein","101253144"
 "Solyc02g093600","Class I heat shock protein (AHRD V3.3 ***
-A0A2K3K1J3_TRIPR)",""
+A0A2K3K1J3_TRIPR)","","unreviewed","SHSP domain-containing protein","101256536"
 "Solyc03g007100","Cleavage and polyadenylation specificity factor
 subunit.1","AT5G51660(cleavage and polyadenylation
-specificity factor 160)"
-"Solyc03g031840","Expansin (AHRD V3.11 *** tr|Q9ZP33|Q9ZP33_SOLLC)",""
+specificity factor 160)","unreviewed","Uncharacterized protein",""
+"Solyc03g031840","Expansin (AHRD V3.11 *** tr|Q9ZP33|Q9ZP33_SOLLC)","",NA,NA,NA
 "Solyc03g043850","cytochrome c oxidase subunit 6a,
 mitochondrial-like (AHRD V3.3 ***
-A0A2I4HW31_9ROSI)","AT4G37830(cytochrome c oxidase-related)"
+A0A2I4HW31_9ROSI)","AT4G37830(cytochrome c oxidase-related)","unreviewed","Uncharacterized protein","101264898"
 "Solyc03g082420","Small heat shock protein, chloroplastic (AHRD
-V3.3 *** HS21C_SOLLC)","AT4G27670(heat shock protein 21)"
+V3.3 *** HS21C_SOLLC)","AT4G27670(heat shock protein 21)","reviewed","Small heat shock protein, chloroplastic","HSP21 TOM111"
 "Solyc03g093880","U6 snRNA phosphodiesterase (AHRD V3.3 ***
-A0A2G2YI60_CAPAN)","AT5G51170()"
+A0A2G2YI60_CAPAN)","AT5G51170()","unreviewed","U6 snRNA phosphodiesterase (EC 3.1.4.-)","101244935"
 "Solyc03g095180","Superoxide dismutase (AHRD V3.3 *** S8E1B9_9LAMI)","AT4G25100(Fe superoxide dismutase 1),
-AT5G51100(Fe superoxide dismutase 2)"
-"Solyc03g097960","Cysteine/Histidine-rich .1",""
+AT5G51100(Fe superoxide dismutase 2)","unreviewed","Superoxide dismutase (EC 1.15.1.1)","101248277"
+"Solyc03g097960","Cysteine/Histidine-rich .1","","unreviewed","Uncharacterized protein","101264193"
 "Solyc03g110930","30S ribosomal protein S21, chloroplastic (AHRD
-V3.3 *-* A0A2G3CY41_CAPCH)",""
+V3.3 *-* A0A2G3CY41_CAPCH)","","unreviewed","Uncharacterized protein","101245346"
 "Solyc03g111050","CONSTANS interacting protein 5","AT3G48500(Nucleic acid-binding, OB-fold-like
-protein)"
+protein)","unreviewed","S1 motif domain-containing protein","778252"
 "Solyc03g113930","22.0 kDa class IV heat shock protein (AHRD V3.3
-*** A0A2G3ATG3_CAPCH)",""
+*** A0A2G3ATG3_CAPCH)","",NA,NA,NA
 "Solyc03g116560","Pentatricopeptide repeat (AHRD V3.3 ***
 A0A200QVA5_9MAGN)","AT1G52620(Pentatricopeptide repeat (PPR)
-superfamily protein)"
+superfamily protein)","unreviewed","Uncharacterized protein","101256668"
 "Solyc03g117630","Heat shock 70 kDa protein (AHRD V3.3 ***
-A0A1U8FVW2_CAPAN)","AT1G16030(heat shock protein 70B)"
-"Solyc03g118060","NF.1",""
-"Solyc03g119610","hypothetical protein (AHRD V3.3 *** AT1G13360.1)",""
+A0A1U8FVW2_CAPAN)","AT1G16030(heat shock protein 70B)","unreviewed","Uncharacterized protein","101255185"
+"Solyc03g118060","NF.1","","unreviewed","Uncharacterized protein","101246122"
+"Solyc03g119610","hypothetical protein (AHRD V3.3 *** AT1G13360.1)","","unreviewed","Uncharacterized protein","101261213"
 "Solyc03g123530","CCAAT/enhancer-binding protein zeta (AHRD V3.3
-*** A0A1J3FE65_NOCCA)","AT1G72440(CCAAT-binding factor)"
+*** A0A1J3FE65_NOCCA)","AT1G72440(CCAAT-binding factor)",NA,NA,NA
 "Solyc03g123880","Glutamyl-tRNA reductase-binding protein,
-chloroplastic (AHRD V3.3 *** A0A2G2WPF5_CAPBA)","AT3G21200(proton gradient regulation 7)"
+chloroplastic (AHRD V3.3 *** A0A2G2WPF5_CAPBA)","AT3G21200(proton gradient regulation 7)","unreviewed","DUF2470 domain-containing protein","101265521"
 "Solyc04g014480","15.7 kDa heat shock protein, peroxisomal (AHRD
 V3.3 *** A0A1U8GLK8_CAPAN)","AT5G37670(HSP20-like chaperones superfamily
-protein)"
+protein)","unreviewed","Uncharacterized protein","101268271"
 "Solyc04g054290","Pentatricopeptide repeat-containing protein (AHRD
 V3.3 *** A0A2G2WLY5_CAPBA)","AT2G22070(pentatricopeptide (PPR)
-repeat-containing protein)"
+repeat-containing protein)",NA,NA,NA
 "Solyc04g082050","Cellular retinaldehyde-binding/triple function,
-C-terminal (AHRD V3.3 *** B6SN40_MAIZE)",""
+C-terminal (AHRD V3.3 *** B6SN40_MAIZE)","","unreviewed","CRAL-TRIO domain-containing protein",""
 "Solyc05g007910","50S ribosomal protein L18, chloroplastic (AHRD
-V3.3 *** A0A1J3I4E4_NOCCA)","AT1G14205(Ribosomal L18p/L5e family protein)"
+V3.3 *** A0A1J3I4E4_NOCCA)","AT1G14205(Ribosomal L18p/L5e family protein)","unreviewed","Uncharacterized protein","101249357"
 "Solyc05g012200","Asparagine synthase family protein (AHRD V3.3 ***
-A0A2U1NH55_ARTAN)","AT2G03667(Asparagine synthase family protein)"
-"Solyc05g014280","small heat shock protein 1",""
+A0A2U1NH55_ARTAN)","AT2G03667(Asparagine synthase family protein)","unreviewed","Glutamine amidotransferase type-2 domain-containing protein","101266122"
+"Solyc05g014280","small heat shock protein 1","","unreviewed","SHSP domain-containing protein",""
 "Solyc05g018520","NADH-cytochrome b5 reductase (AHRD V3.3 ***
-K4BZA6_SOLLC)","AT5G20080(FAD/NAD(P)-binding oxidoreductase)"
+K4BZA6_SOLLC)","AT5G20080(FAD/NAD(P)-binding oxidoreductase)","unreviewed","NADH-cytochrome b5 reductase (EC 1.6.2.2)","101244772"
 "Solyc06g035600","Pentatricopeptide repeat (AHRD V3.3 ***
-A0A200QK42_9MAGN)",""
+A0A200QK42_9MAGN)","",NA,NA,NA
 "Solyc06g066330","Poly [ADP-ribose] polymerase (AHRD V3.3 ***
 A0A200PXE3_9MAGN)","AT1G32230(WWE protein-protein interaction domain
-protein family), AT2G35510(similar to RCD one 1)"
-"Solyc06g068860","Alpha-mannosidase (AHRD V3.3 *** E0XN34_SOLLC)",""
+protein family), AT2G35510(similar to RCD one 1)","unreviewed","Uncharacterized protein","101256097"
+"Solyc06g068860","Alpha-mannosidase (AHRD V3.3 *** E0XN34_SOLLC)","","unreviewed","Alpha-mannosidase (EC 3.2.1.-)","100500729"
 "Solyc06g076520","Class I heat shock protein (AHRD V3.3 ***
-A0A2K3M3P7_TRIPR)",""
+A0A2K3M3P7_TRIPR)","",NA,NA,NA
 "Solyc06g076540","Class I heat shock protein (AHRD V3.3 ***
-A0A2K3M3P7_TRIPR)",""
+A0A2K3M3P7_TRIPR)","",NA,NA,NA
 "Solyc06g076560","Class I heat shock protein (AHRD V3.3 ***
-A0A2K3M3P7_TRIPR)",""
+A0A2K3M3P7_TRIPR)","",NA,NA,NA
 "Solyc07g005740","Pentatricopeptide repeat (AHRD V3.3 ***
-A0A200QWP2_9MAGN)",""
+A0A200QWP2_9MAGN)","","unreviewed","Uncharacterized protein",""
 "Solyc07g044760","RNA helicase DEAD23","AT3G22310(putative mitochondrial RNA helicase 1),
-AT3G22330(putative mitochondrial RNA helicase 2)"
+AT3G22330(putative mitochondrial RNA helicase 2)","unreviewed","Uncharacterized protein","101249660"
 "Solyc07g052700","MADS-box transcription factor (AHRD V3.3 ***
-A0A2K3PNN3_TRIPR)","AT1G77950(AGAMOUS-like 67)"
-"Solyc07g052740","STOREKEEPER protein (AHRD V3.3 *-* STK_SOLTU)",""
-"Solyc07g052950","Unknown protein",""
+A0A2K3PNN3_TRIPR)","AT1G77950(AGAMOUS-like 67)","unreviewed","MADS-box domain-containing protein",""
+"Solyc07g052740","STOREKEEPER protein (AHRD V3.3 *-* STK_SOLTU)","","unreviewed","Uncharacterized protein",""
+"Solyc07g052950","Unknown protein","","unreviewed","Uncharacterized protein","101268883"
 "Solyc07g054760","Wound-responsive family protein (AHRD V3.3 ***
 A0A2K3L288_TRIPR)","AT4G10265(Wound-responsive family protein),
-AT4G10270(Wound-responsive family protein)"
+AT4G10270(Wound-responsive family protein)","unreviewed","Uncharacterized protein","101254813"
 "Solyc07g054780","Wound induced protein (AHRD V3.3 ***
 Q04129_SOLLC)","AT4G10265(Wound-responsive family protein),
-AT4G10270(Wound-responsive family protein)"
+AT4G10270(Wound-responsive family protein)","unreviewed","Uncharacterized protein","544070"
 "Solyc07g061800","Heme-binding-like protein (AHRD V3.11 ***
-tr|A0A2I0X1C8|A0A2I0X1C8_9ASPA)","AT1G17100(SOUL heme-binding family protein)"
-"Solyc07g062115","Unknown protein",""
-"Solyc07g062440","hypothetical protein (AHRD V3.3 *** AT3G14900.1)","AT3G14900()"
+tr|A0A2I0X1C8|A0A2I0X1C8_9ASPA)","AT1G17100(SOUL heme-binding family protein)","unreviewed","Uncharacterized protein","101255514"
+"Solyc07g062115","Unknown protein","",NA,NA,NA
+"Solyc07g062440","hypothetical protein (AHRD V3.3 *** AT3G14900.1)","AT3G14900()","unreviewed","Uncharacterized protein","104648569"
 "Solyc07g064500","Purple acid phosphatase (AHRD V3.3 ***
 A0A2G2WF94_CAPBA)","AT4G27000(RNA-binding (RRM/RBD/RNP motifs) family
-protein)"
-"Solyc07g065410","hypothetical protein (AHRD V3.3 *** AT5G41761.1)",""
+protein)",NA,NA,NA
+"Solyc07g065410","hypothetical protein (AHRD V3.3 *** AT5G41761.1)","","unreviewed","Uncharacterized protein",""
 "Solyc08g005420","cell division cycle 20.2, cofactor of APC
-complex-like (AHRD V3.3 *** A0A2I4FBA0_9ROSI)",""
+complex-like (AHRD V3.3 *** A0A2I4FBA0_9ROSI)","","unreviewed","Cell division control 20","cdc20-2"
+"Solyc08g005420","cell division cycle 20.2, cofactor of APC
+complex-like (AHRD V3.3 *** A0A2I4FBA0_9ROSI)","","unreviewed","ANAPC4_WD40 domain-containing protein","101244602"
 "Solyc08g006150","Gamma-glutamylcyclotransferase (AHRD V3.3 ***
-A0A2G2W469_CAPBA)","AT5G26220(ChaC-like family protein)"
+A0A2G2W469_CAPBA)","AT5G26220(ChaC-like family protein)","unreviewed","Gamma-glutamylcyclotransferase (EC 4.3.2.9)","101259958"
 "Solyc08g062340","17.9 kDa class II heat shock protein (AHRD V3.3
-*** A0A2G3A1B9_CAPAN)",""
+*** A0A2G3A1B9_CAPAN)","","unreviewed","SHSP domain-containing protein","543572"
 "Solyc08g078700","Mitochondrial small heat shock protein (AHRD
-V3.11 *** tr|O80432|O80432_SOLLC)",""
+V3.11 *** tr|O80432|O80432_SOLLC)","",NA,NA,NA
 "Solyc08g078870","Bifunctional inhibitor/lipid-transfer
 protein/seed storage 2S albumin superfamily
-protein (AHRD V3.3 *** A0A2U1PU47_ARTAN)",""
-"Solyc09g007270","Ascorbate peroxidase (AHRD V3.3 *** Q42941_TOBAC)","AT3G09640(ascorbate peroxidase 2)"
-"Solyc09g008970","plant/protein (AHRD V3.3 *** AT3G10020.1)","AT3G10020()"
+protein (AHRD V3.3 *** A0A2U1PU47_ARTAN)","",NA,NA,NA
+"Solyc09g007270","Ascorbate peroxidase (AHRD V3.3 *** Q42941_TOBAC)","AT3G09640(ascorbate peroxidase 2)","unreviewed","PEROXIDASE_4 domain-containing protein","101258987"
+"Solyc09g008970","plant/protein (AHRD V3.3 *** AT3G10020.1)","AT3G10020()","unreviewed","Uncharacterized protein","101245195"
 "Solyc09g015000","Class I heat shock protein (AHRD V3.3 ***
 A0A2K3KSJ8_TRIPR)","AT1G53540(HSP20-like chaperones superfamily
-protein)"
+protein)","unreviewed","SHSP domain-containing protein",""
 "Solyc09g015020","Class I heat shock protein (AHRD V3.3 ***
 A0A2K3KSJ8_TRIPR)","AT1G53540(HSP20-like chaperones superfamily
-protein)"
+protein)","unreviewed","SHSP domain-containing protein",""
 "Solyc09g061760","Pentatricopeptide repeat-containing protein,
 mitochondrial (AHRD V3.3 *** A0A2G3DBN2_CAPCH)","AT2G17525(Pentatricopeptide repeat (PPR)
-superfamily protein)"
+superfamily protein)","unreviewed","Uncharacterized protein","101249014"
 "Solyc09g064790","Protein PALE CRESS, chloroplastic (AHRD V3.3 ***
-A0A2G3BLP0_CAPCH)","AT2G48120(pale cress protein (PAC))"
+A0A2G3BLP0_CAPCH)","AT2G48120(pale cress protein (PAC))","unreviewed","Uncharacterized protein","101250047"
 "Solyc09g065710","Pentatricopeptide repeat-containing protein (AHRD
 V3.3 *** A0A2G2X5Z3_CAPBA)","AT3G63370(Tetratricopeptide repeat (TPR)-like
-superfamily protein)"
+superfamily protein)","unreviewed","DYW_deaminase domain-containing protein","101265961"
 "Solyc09g075950","Heat shock protein 70 kDa (AHRD V3.3 ***
-A0A2K3P5L8_TRIPR)","AT2G32120(heat-shock protein 70T-2)"
-"Solyc09g083435","Proteinase inhibitor.1",""
-"Solyc09g091770","Unknown protein",""
+A0A2K3P5L8_TRIPR)","AT2G32120(heat-shock protein 70T-2)","unreviewed","Uncharacterized protein","101255240"
+"Solyc09g083435","Proteinase inhibitor.1","",NA,NA,NA
+"Solyc09g091770","Unknown protein","","unreviewed","Uncharacterized protein",""
 "Solyc09g092240","small subunit processome component 20 homolog
-isoform .1","AT4G30990(ARM repeat superfamily protein)"
+isoform .1","AT4G30990(ARM repeat superfamily protein)","unreviewed","DRIM domain-containing protein","101248519"
 "Solyc09g092690","Peptidylprolyl isomerase (AHRD V3.3 ***
-A0A2G2W2H8_CAPBA)",""
+A0A2G2W2H8_CAPBA)","","unreviewed","Peptidylprolyl isomerase (EC 5.2.1.8)","101255537"
 "Solyc10g006610","Auxin-responsive GH3 family protein (AHRD V3.11
-*** tr|A0A2U1LNK3|A0A2U1LNK3_ARTAN)",""
-"Solyc10g045310","DUF35.1","AT4G29400(Protein of unknown function (DUF3531))"
+*** tr|A0A2U1LNK3|A0A2U1LNK3_ARTAN)","","unreviewed","Uncharacterized protein",""
+"Solyc10g045310","DUF35.1","AT4G29400(Protein of unknown function (DUF3531))","unreviewed","Uncharacterized protein",""
 "Solyc10g080190","DUF1138 domain-containing protein (AHRD V3.3 ***
-A0A1Q3B532_CEPFO)","AT4G00860(Protein of unknown function (DUF1138))"
+A0A1Q3B532_CEPFO)","AT4G00860(Protein of unknown function (DUF1138))","unreviewed","Uncharacterized protein","101257225"
 "Solyc11g006700","Pentatricopeptide repeat-containing protein (AHRD
 V3.3 *** A0A1U8EYC4_CAPAN)","AT5G04780(Pentatricopeptide repeat (PPR)
-superfamily protein)"
+superfamily protein)","unreviewed","DYW_deaminase domain-containing protein","101245222"
 "Solyc11g006740","F-box domain, Phloem protein 2-like protein (AHRD
-V3.11 *** tr|A0A2U1NHQ2|A0A2U1NHQ2_ARTAN)",""
-"Solyc11g007800","Ribonucleases P/MRP protein subunit PO.1",""
+V3.11 *** tr|A0A2U1NHQ2|A0A2U1NHQ2_ARTAN)","","unreviewed","F-box domain-containing protein",""
+"Solyc11g007800","Ribonucleases P/MRP protein subunit PO.1","",NA,NA,NA
 "Solyc11g008970","Pentatricopeptide repeat-containing protein,
 mitochondrial (AHRD V3.3 *** A0A2G2Y5J6_CAPAN)","AT4G39952(Pentatricopeptide repeat (PPR)
-superfamily protein)"
-"Solyc11g020040","heat shock protein 70",""
+superfamily protein)","unreviewed","Uncharacterized protein","101259109"
+"Solyc11g020040","heat shock protein 70","","unreviewed","Uncharacterized protein","100134914"
 "Solyc11g020330","leer-sHSP small heat shock protein","AT4G10250(HSP20-like chaperones superfamily
-protein)"
-"Solyc11g070060","hypothetical protein (AHRD V3.3 *** AT4G32930.1)","AT4G32930()"
+protein)","unreviewed","Uncharacterized protein","544205"
+"Solyc11g070060","hypothetical protein (AHRD V3.3 *** AT4G32930.1)","AT4G32930()","unreviewed","Uncharacterized protein","101250957"
 "Solyc11g071830","DnaJ protein like (AHRD V3.3 ***
-A0A2I0X6P9_9ASPA)",""
+A0A2I0X6P9_9ASPA)","","unreviewed","Uncharacterized protein","101259708"
 "Solyc12g014330","Pentatricopeptide repeat-containing protein (AHRD
 V3.3 *** A0A2I0VRQ5_9ASPA)","AT1G53330(Pentatricopeptide repeat (PPR)
-superfamily protein)"
+superfamily protein)","unreviewed","Uncharacterized protein",""
 "Solyc12g089210","Ornithine carbamoyltransferase (AHRD V3.3 ***
-A0A2G2YA09_CAPAN)","AT1G75330(ornithine carbamoyltransferase)"
-"Solyc12g099110","30S ribosomal protein .1",""
+A0A2G2YA09_CAPAN)","AT1G75330(ornithine carbamoyltransferase)","unreviewed","Ornithine carbamoyltransferase (EC 2.1.3.3)","101246902"
+"Solyc12g099110","30S ribosomal protein .1","","unreviewed","Uncharacterized protein","101245144"
 "Solyc12g099360","AMP-dependent synthetase/ligase (AHRD V3.3 ***
-A0A200R265_9MAGN)","AT3G16910(acyl-activating enzyme 7)"
+A0A200R265_9MAGN)","AT3G16910(acyl-activating enzyme 7)","unreviewed","Uncharacterized protein","101265715"
