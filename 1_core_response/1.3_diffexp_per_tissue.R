@@ -36,19 +36,9 @@ upset(fromList(upregulated.genes), order.by = "freq")
 grid.text("Upregulated Genes",x = 0.65, y=0.95, gp=gpar(fontsize=16))
 upset(fromList(downregulated.genes), order.by = "freq")
 grid.text("Downregulated Genes",x = 0.65, y=0.95, gp=gpar(fontsize=16))
-
+dev.off()
 
 protein.descriptions = read.csv("input/protein_descriptions.csv.gz")
-protein.descriptions$ITAG4.1_description = sapply(lapply(protein.descriptions$ITAG4.1_description, strwrap, width=50), paste, collapse="\n")
-protein.descriptions$OMA_orthologues = sapply(lapply(protein.descriptions$OMA_orthologues, strwrap, width=50), paste, collapse="\n")
-
-#plot.new()
-#always.up = Reduce(intersect, upregulated.genes)
-#grid.table(protein.descriptions[protein.descriptions$gene %in% str_split_fixed(always.up, "\\.", 2)[,1],], theme=ttheme_minimal(base_size = 6))
-
-plot.new()
-grid.table(protein.descriptions[protein.descriptions$gene %in% str_split_fixed(upregulated.genes[["leaf"]], "\\.", 2)[,1],], theme=ttheme_minimal(base_size = 6))
-dev.off()
 
 up.leaves = protein.descriptions[protein.descriptions$gene %in% str_split_fixed(upregulated.genes[["leaf"]], "\\.", 2)[,1],]
 write.csv(up.leaves, "output/leaf_upregulated_genes.csv", row.names = F)
@@ -60,3 +50,21 @@ write.csv(up.leaves, "output/leaf_upregulated_genes.csv", row.names = F)
 # leaf.samples = leaf.samples[grep("_logFC", names(leaf.samples))]
 # row.names(leaf.samples) = paste(str_split_fixed(row.names(leaf.samples), "\\.", 3)[,1], str_split_fixed(row.names(leaf.samples), "\\.", 3)[,2], sep=".")
 # write.table(leaf.samples, "paintomics_vals.tsv", sep="\t", quote=F, col.names = F)
+
+g = diffexp[row.names(diffexp) %in% upregulated.genes[["leaf"]],grep("_logFC", names(diffexp))]
+meta = unique(samples.annotation[c("sample.group", "tissue", "temperature", "stress.duration", "genotype.name")])
+g = g[paste0(meta$sample.group, "_logFC")]
+g$gene = str_split_fixed(row.names(g), "\\.", 2)[,1]
+g = merge(g, unique(protein.descriptions[c("gene", "ITAG4.1_description")]), all.y=F)
+row.names(g) = paste0(gsub(" \\(AHRD.*\\)", "", g$ITAG4.1_description), " (", g$gene, ")")
+library(ComplexHeatmap)
+library(circlize)
+library(grid)
+col_fun = colorRamp2(c(-10, 0, 10), c("blue", "white", "red"))
+column_ha = HeatmapAnnotation(tissue = as.factor(meta$tissue), temperature = as.numeric(meta$temperature), log.duration = log(as.numeric(meta$stress.duration)),
+                              genotype = meta$genotype)
+#cols = str_split_fixed(names(g), "_", 2)[,1]
+
+pdf("output/plots/leaf_genes_heatmap.pdf", 10, 20)
+Heatmap(as.matrix(g[2:18]), row_names_gp = grid::gpar(fontsize = 4), col = col_fun, bottom_annotation = column_ha)
+dev.off()
