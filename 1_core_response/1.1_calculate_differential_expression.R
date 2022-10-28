@@ -26,20 +26,25 @@ for(trt.group in unique(samples.annotation$sample.group)) {
   ctrl.samples = samples.annotation[samples.annotation$sample.group == ctrl.group,]$sra_run_id
 
   if(length(trt.samples) < 2 | length(ctrl.samples) < 2) {
-    print("No replication (skip)")
-    next
+    ctrl.counts = abundance[paste0(ctrl.samples,"_est_counts")]
+    trt.counts = abundance[paste0(trt.samples,"_est_counts")]
+    res = data.frame(gene = row.names(ctrl.counts))
+    # We are adding 1 to each mean as Andrea does in her course material, this prevents Infs and NaNs
+    res[paste0(trt.group, "_logFC")] = log2((rowMeans(trt.counts) + 1)/(rowMeans(ctrl.counts) + 1))
+    res[paste0(trt.group, "_PValue")] = NA
+    res[paste0(trt.group, "_FDR")] = NA
+  } else {
+    counts = abundance[paste0(c(ctrl.samples, trt.samples),"_est_counts")]
+    groups = factor(c(rep("control", length(ctrl.samples)), rep("treatment", length(trt.samples))))
+    y <- DGEList(counts=counts,group=groups)
+    y <- calcNormFactors(y)
+    y <- estimateDisp(y)
+    et <- exactTest(y)
+    res <- topTags(et, n=Inf)
+    res <- as.data.frame(res)[c(1,3,4)]
+    names(res) = paste0(trt.group, "_", names(res))
+    res$gene = row.names(res)
   }
-    
-  counts = abundance[paste0(c(ctrl.samples, trt.samples),"_est_counts")]
-  groups = factor(c(rep("control", length(ctrl.samples)), rep("treatment", length(trt.samples))))
-  y <- DGEList(counts=counts,group=groups)
-  y <- calcNormFactors(y)
-  y <- estimateDisp(y)
-  et <- exactTest(y)
-  res <- topTags(et, n=Inf)
-  res <- as.data.frame(res)[c(1,3,4)]
-  names(res) = paste0(trt.group, "_", names(res))
-  res$gene = row.names(res)
   
   diffexp = merge(diffexp, res)
 }
