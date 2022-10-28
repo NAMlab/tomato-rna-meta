@@ -24,27 +24,31 @@ for(trt.group in unique(samples.annotation$sample.group)) {
   }
   trt.samples = samples.annotation[samples.annotation$sample.group == trt.group,]$sra_run_id
   ctrl.samples = samples.annotation[samples.annotation$sample.group == ctrl.group,]$sra_run_id
-
+  
+  counts = abundance[paste0(c(ctrl.samples, trt.samples),"_est_counts")]
+  groups = factor(c(rep("control", length(ctrl.samples)), rep("treatment", length(trt.samples))))
+  y <- DGEList(counts=counts,group=groups)
+  y <- calcNormFactors(y)
+  
   if(length(trt.samples) < 2 | length(ctrl.samples) < 2) {
-    ctrl.counts = abundance[paste0(ctrl.samples,"_est_counts")]
-    trt.counts = abundance[paste0(trt.samples,"_est_counts")]
-    res = data.frame(gene = row.names(ctrl.counts))
-    # We are adding 1 to each mean as Andrea does in her course material, this prevents Infs and NaNs
-    res[paste0(trt.group, "_logFC")] = log2((rowMeans(trt.counts) + 1)/(rowMeans(ctrl.counts) + 1))
-    res[paste0(trt.group, "_PValue")] = NA
-    res[paste0(trt.group, "_FDR")] = NA
+    # When there are no replicates, we just assume a dispersion in order to be able to calculate
+    # our statistics. The dispersion has no influence on the logFC, but it does on the p-value.
+    # Therefore, since our disperion might be wrong, we will set the p-value to NA in cases when there
+    # are no replicates (see below) but at least we have a logFC.
+    et <- exactTest(y, dispersion = 0.2^2)
   } else {
-    counts = abundance[paste0(c(ctrl.samples, trt.samples),"_est_counts")]
-    groups = factor(c(rep("control", length(ctrl.samples)), rep("treatment", length(trt.samples))))
-    y <- DGEList(counts=counts,group=groups)
-    y <- calcNormFactors(y)
     y <- estimateDisp(y)
     et <- exactTest(y)
-    res <- topTags(et, n=Inf)
-    res <- as.data.frame(res)[c(1,3,4)]
-    names(res) = paste0(trt.group, "_", names(res))
-    res$gene = row.names(res)
   }
+  
+  res <- topTags(et, n=Inf)
+  res <- as.data.frame(res)[c(1,3,4)]
+  names(res) = paste0(trt.group, "_", names(res))
+  res$gene = row.names(res)
+  
+  # If we don't have replicates, we cannot know the p-value (see above), so we're setting it to NA
+  if(length(trt.samples) < 2 | length(ctrl.samples) < 2)
+    res[2:3] <- NA
   
   diffexp = merge(diffexp, res)
 }
