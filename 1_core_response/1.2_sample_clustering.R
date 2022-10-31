@@ -43,10 +43,6 @@ row.names(fcs) = str_remove(row.names(fcs), "_logFC")
 # fill in NAs with 0
 fcs[is.na(fcs)] <- 0
 
-# Set all non-significant fold-changes to 0
-fdrs = t(as.matrix(diffexp[grep("_FDR", names(diffexp))]))
-fcs[fdrs >= 0.05] <- 0
-
 pca_res <- prcomp(fcs)
 scores = as.data.frame(pca_res$x)
 
