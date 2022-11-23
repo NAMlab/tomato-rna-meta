@@ -27,6 +27,8 @@ go_enrichment <- function(genes, seed = 845052) {
   tableGOresults$q_value <- p.adjust(tableGOresults$classicFisher, method="BH")
   tableGOresults <- tableGOresults[tableGOresults$q_value<0.05,]
   
+  # to plot the resulting terms:
+  # showSigOfNodes(GOdata_sig, score(resultsGOfisher), firstSigNodes = 50, useInfo = 'all')
   
   return(tableGOresults)
 }

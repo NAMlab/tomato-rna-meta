@@ -1,0 +1,1627 @@
+"GO.ID","Term","Annotated","Significant","Expected","classicFisher","q_value"
+"GO:0044281","small molecule metabolic process",6862,4079,3107.86,1e-30,1.73970588235294e-29
+"GO:0043436","oxoacid metabolic process",3839,2453,1738.72,1e-30,1.73970588235294e-29
+"GO:0006082","organic acid metabolic process",3931,2499,1780.39,1e-30,1.73970588235294e-29
+"GO:0042221","response to chemical",7726,4436,3499.18,1e-30,1.73970588235294e-29
+"GO:0009628","response to abiotic stimulus",4953,3016,2243.26,1e-30,1.73970588235294e-29
+"GO:0019752","carboxylic acid metabolic process",3678,2336,1665.8,1e-30,1.73970588235294e-29
+"GO:0044283","small molecule biosynthetic process",3445,2206,1560.27,1e-30,1.73970588235294e-29
+"GO:1901700","response to oxygen-containing compound",4357,2659,1973.32,1e-30,1.73970588235294e-29
+"GO:0010033","response to organic substance",5165,3065,2339.28,1e-30,1.73970588235294e-29
+"GO:0006796","phosphate-containing compound metabolic ...",6378,3669,2888.65,1e-30,1.73970588235294e-29
+"GO:0006793","phosphorus metabolic process",6444,3695,2918.55,1e-30,1.73970588235294e-29
+"GO:1901566","organonitrogen compound biosynthetic pro...",4115,2505,1863.72,1e-30,1.73970588235294e-29
+"GO:1901135","carbohydrate derivative metabolic proces...",3041,1931,1377.3,1e-30,1.73970588235294e-29
+"GO:0032787","monocarboxylic acid metabolic process",2557,1662,1158.09,1e-30,1.73970588235294e-29
+"GO:0019637","organophosphate metabolic process",2737,1755,1239.61,1e-30,1.73970588235294e-29
+"GO:0016053","organic acid biosynthetic process",1839,1259,832.9,1e-30,1.73970588235294e-29
+"GO:0046394","carboxylic acid biosynthetic process",1683,1168,762.25,1e-30,1.73970588235294e-29
+"GO:0009605","response to external stimulus",4269,2551,1933.47,1e-30,1.73970588235294e-29
+"GO:0006790","sulfur compound metabolic process",1249,906,565.68,1e-30,1.73970588235294e-29
+"GO:1901564","organonitrogen compound metabolic proces...",12830,6676,5810.82,1e-30,1.73970588235294e-29
+"GO:0005975","carbohydrate metabolic process",3211,1975,1454.29,1e-30,1.73970588235294e-29
+"GO:0099402","plant organ development",2572,1628,1164.88,1e-30,1.73970588235294e-29
+"GO:0010035","response to inorganic substance",2650,1666,1200.21,1e-30,1.73970588235294e-29
+"GO:0043207","response to external biotic stimulus",3075,1890,1392.7,1e-30,1.73970588235294e-29
+"GO:0051707","response to other organism",3070,1886,1390.43,1e-30,1.73970588235294e-29
+"GO:0044085","cellular component biogenesis",3678,2187,1665.8,1e-30,1.73970588235294e-29
+"GO:0009607","response to biotic stimulus",3249,1964,1471.5,1e-30,1.73970588235294e-29
+"GO:0008610","lipid biosynthetic process",2033,1309,920.76,1e-30,1.73970588235294e-29
+"GO:0050896","response to stimulus",17671,8797,8003.36,1e-30,1.73970588235294e-29
+"GO:0006091","generation of precursor metabolites and ...",1377,942,623.66,1e-30,1.73970588235294e-29
+"GO:0090407","organophosphate biosynthetic process",1442,976,653.09,1e-30,1.73970588235294e-29
+"GO:0006090","pyruvate metabolic process",598,477,270.84,1e-30,1.73970588235294e-29
+"GO:0048367","shoot system development",2366,1478,1071.58,1e-30,1.73970588235294e-29
+"GO:0044419","biological process involved in interspec...",3263,1948,1477.84,1e-30,1.73970588235294e-29
+"GO:1901615","organic hydroxy compound metabolic proce...",1517,1014,687.06,1e-30,1.73970588235294e-29
+"GO:0009719","response to endogenous stimulus",3609,2114,1634.55,1e-30,1.73970588235294e-29
+"GO:0044272","sulfur compound biosynthetic process",739,559,334.7,1e-30,1.73970588235294e-29
+"GO:0098542","defense response to other organism",2289,1423,1036.71,1e-30,1.73970588235294e-29
+"GO:0009725","response to hormone",3459,2032,1566.61,1e-30,1.73970588235294e-29
+"GO:1901605","alpha-amino acid metabolic process",920,662,416.68,1e-30,1.73970588235294e-29
+"GO:1901617","organic hydroxy compound biosynthetic pr...",984,699,445.66,1e-30,1.73970588235294e-29
+"GO:0019748","secondary metabolic process",1619,1053,733.26,1e-30,1.73970588235294e-29
+"GO:0048646","anatomical structure formation involved ...",2233,1383,1011.35,1e-30,1.73970588235294e-29
+"GO:0009657","plastid organization",669,507,303,1e-30,1.73970588235294e-29
+"GO:0006520","cellular amino acid metabolic process",1404,931,635.88,1e-30,1.73970588235294e-29
+"GO:0072330","monocarboxylic acid biosynthetic process",1118,769,506.35,1e-30,1.73970588235294e-29
+"GO:1905392","plant organ morphogenesis",1470,965,665.78,1e-30,1.73970588235294e-29
+"GO:0019288","isopentenyl diphosphate biosynthetic pro...",305,271,138.14,1e-30,1.73970588235294e-29
+"GO:0006950","response to stress",9673,5040,4380.99,1e-30,1.73970588235294e-29
+"GO:0019682","glyceraldehyde-3-phosphate metabolic pro...",306,271,138.59,1e-30,1.73970588235294e-29
+"GO:0016051","carbohydrate biosynthetic process",1397,922,632.71,1e-30,1.73970588235294e-29
+"GO:0006629","lipid metabolic process",3648,2103,1652.21,1e-30,1.73970588235294e-29
+"GO:0008652","cellular amino acid biosynthetic process",736,543,333.34,1e-30,1.73970588235294e-29
+"GO:0009240","isopentenyl diphosphate biosynthetic pro...",316,277,143.12,1e-30,1.73970588235294e-29
+"GO:0046490","isopentenyl diphosphate metabolic proces...",316,277,143.12,1e-30,1.73970588235294e-29
+"GO:0044255","cellular lipid metabolic process",2545,1533,1152.65,1e-30,1.73970588235294e-29
+"GO:0006811","ion transport",4850,2699,2196.61,1e-30,1.73970588235294e-29
+"GO:0015979","photosynthesis",706,521,319.75,1e-30,1.73970588235294e-29
+"GO:0040007","growth",1973,1223,893.59,1e-30,1.73970588235294e-29
+"GO:0048827","phyllome development",1481,957,670.76,1e-30,1.73970588235294e-29
+"GO:0009416","response to light stimulus",2044,1258,925.75,1e-30,1.73970588235294e-29
+"GO:0009314","response to radiation",2141,1308,969.68,1e-30,1.73970588235294e-29
+"GO:0046686","response to cadmium ion",860,607,389.5,1e-30,1.73970588235294e-29
+"GO:0010016","shoot system morphogenesis",797,569,360.97,1e-30,1.73970588235294e-29
+"GO:0006970","response to osmotic stress",1690,1066,765.42,1e-30,1.73970588235294e-29
+"GO:0071554","cell wall organization or biogenesis",2094,1281,948.39,1e-30,1.73970588235294e-29
+"GO:0009888","tissue development",2420,1451,1096.04,1e-30,1.73970588235294e-29
+"GO:0005976","polysaccharide metabolic process",1547,988,700.65,1e-30,1.73970588235294e-29
+"GO:0070887","cellular response to chemical stimulus",3232,1868,1463.8,1e-30,1.73970588235294e-29
+"GO:0009791","post-embryonic development",4032,2271,1826.13,1e-30,1.73970588235294e-29
+"GO:0009117","nucleotide metabolic process",1787,1116,809.35,1e-30,1.73970588235294e-29
+"GO:0006081","cellular aldehyde metabolic process",498,388,225.55,1e-30,1.73970588235294e-29
+"GO:0006952","defense response",3292,1894,1490.98,1e-30,1.73970588235294e-29
+"GO:0006753","nucleoside phosphate metabolic process",1806,1123,817.95,1e-30,1.73970588235294e-29
+"GO:0008299","isoprenoid biosynthetic process",740,532,335.15,1e-30,1.73970588235294e-29
+"GO:0009651","response to salt stress",1567,994,709.71,1e-30,1.73970588235294e-29
+"GO:1901607","alpha-amino acid biosynthetic process",625,463,283.07,1e-30,1.73970588235294e-29
+"GO:0048731","system development",6506,3476,2946.63,1e-30,1.73970588235294e-29
+"GO:0055086","nucleobase-containing small molecule met...",1963,1203,889.06,1e-30,1.73970588235294e-29
+"GO:0010038","response to metal ion",1146,761,519.03,1e-30,1.73970588235294e-29
+"GO:0009069","serine family amino acid metabolic proce...",383,312,173.46,1e-30,1.73970588235294e-29
+"GO:0048589","developmental growth",1527,969,691.59,1e-30,1.73970588235294e-29
+"GO:0019693","ribose phosphate metabolic process",1435,919,649.92,1e-30,1.73970588235294e-29
+"GO:0009259","ribonucleotide metabolic process",1434,918,649.47,1e-30,1.73970588235294e-29
+"GO:0044550","secondary metabolite biosynthetic proces...",918,631,415.77,1e-30,1.73970588235294e-29
+"GO:0006740","NADPH regeneration",247,220,111.87,1e-30,1.73970588235294e-29
+"GO:0051156","glucose 6-phosphate metabolic process",247,220,111.87,1e-30,1.73970588235294e-29
+"GO:0006820","anion transport",3701,2090,1676.22,1e-30,1.73970588235294e-29
+"GO:0006720","isoprenoid metabolic process",849,591,384.52,1e-30,1.73970588235294e-29
+"GO:0006098","pentose-phosphate shunt",246,219,111.42,1e-30,1.73970588235294e-29
+"GO:0006739","NADP metabolic process",265,232,120.02,1e-30,1.73970588235294e-29
+"GO:0019684","photosynthesis, light reaction",497,381,225.1,1e-30,1.73970588235294e-29
+"GO:0090558","plant epidermis development",1141,753,516.77,1e-30,1.73970588235294e-29
+"GO:0009743","response to carbohydrate",1301,840,589.23,1e-30,1.73970588235294e-29
+"GO:0010207","photosystem II assembly",188,176,85.15,1e-30,1.73970588235294e-29
+"GO:0042440","pigment metabolic process",686,493,310.7,1e-30,1.73970588235294e-29
+"GO:0000096","sulfur amino acid metabolic process",501,381,226.91,1e-30,1.73970588235294e-29
+"GO:0044262","cellular carbohydrate metabolic process",1699,1047,769.49,1e-30,1.73970588235294e-29
+"GO:0033993","response to lipid",2330,1377,1055.28,1e-30,1.73970588235294e-29
+"GO:0048608","reproductive structure development",3048,1744,1380.47,1e-30,1.73970588235294e-29
+"GO:0061458","reproductive system development",3048,1744,1380.47,1e-30,1.73970588235294e-29
+"GO:0071310","cellular response to organic substance",2494,1461,1129.56,1e-30,1.73970588235294e-29
+"GO:0006810","transport",7662,3998,3470.19,1e-30,1.73970588235294e-29
+"GO:0022607","cellular component assembly",2427,1425,1099.21,1e-30,1.73970588235294e-29
+"GO:1901576","organic substance biosynthetic process",13965,6934,6324.87,1e-30,1.73970588235294e-29
+"GO:0046148","pigment biosynthetic process",503,378,227.81,1e-30,1.73970588235294e-29
+"GO:0000271","polysaccharide biosynthetic process",1050,692,475.55,1e-30,1.73970588235294e-29
+"GO:0071705","nitrogen compound transport",3166,1797,1433.91,1e-30,1.73970588235294e-29
+"GO:0014070","response to organic cyclic compound",1474,922,667.59,1e-30,1.73970588235294e-29
+"GO:0044282","small molecule catabolic process",1878,1136,850.56,1e-30,1.73970588235294e-29
+"GO:0009617","response to bacterium",1194,770,540.77,1e-30,1.73970588235294e-29
+"GO:0000097","sulfur amino acid biosynthetic process",427,330,193.39,1e-30,1.73970588235294e-29
+"GO:0044264","cellular polysaccharide metabolic proces...",1283,817,581.08,1e-30,1.73970588235294e-29
+"GO:0034622","cellular protein-containing complex asse...",1407,883,637.24,1e-30,1.73970588235294e-29
+"GO:0009266","response to temperature stimulus",1651,1013,747.75,1e-30,1.73970588235294e-29
+"GO:0007275","multicellular organism development",9665,4928,4377.37,1e-30,1.73970588235294e-29
+"GO:0009658","chloroplast organization",412,319,186.6,1e-30,1.73970588235294e-29
+"GO:1901701","cellular response to oxygen-containing c...",2013,1201,911.71,1e-30,1.73970588235294e-29
+"GO:0051234","establishment of localization",8172,4221,3701.17,1e-30,1.73970588235294e-29
+"GO:0016052","carbohydrate catabolic process",976,646,442.04,1e-30,1.73970588235294e-29
+"GO:0006066","alcohol metabolic process",866,584,392.22,1e-30,1.73970588235294e-29
+"GO:0006006","glucose metabolic process",627,447,283.97,1e-30,1.73970588235294e-29
+"GO:0009653","anatomical structure morphogenesis",4060,2232,1838.81,1e-30,1.73970588235294e-29
+"GO:0009626","plant-type hypersensitive response",808,550,365.95,1e-30,1.73970588235294e-29
+"GO:0045087","innate immune response",1158,744,524.47,1e-30,1.73970588235294e-29
+"GO:0034050","programmed cell death induced by symbion...",810,551,366.86,1e-30,1.73970588235294e-29
+"GO:0045229","external encapsulating structure organiz...",1470,912,665.78,1e-30,1.73970588235294e-29
+"GO:0051702","biological process involved in interacti...",812,552,367.76,1e-30,1.73970588235294e-29
+"GO:0005996","monosaccharide metabolic process",800,545,362.33,1e-30,1.73970588235294e-29
+"GO:0031347","regulation of defense response",1057,688,478.72,1e-30,1.73970588235294e-29
+"GO:0048437","floral organ development",936,621,423.92,1e-30,1.73970588235294e-29
+"GO:0065003","protein-containing complex assembly",1590,974,720.13,1e-30,1.73970588235294e-29
+"GO:0071702","organic substance transport",3314,1857,1500.94,1e-30,1.73970588235294e-29
+"GO:0019318","hexose metabolic process",702,488,317.94,1e-30,1.73970588235294e-29
+"GO:0009056","catabolic process",5367,2865,2430.76,1e-30,1.73970588235294e-29
+"GO:0090567","reproductive shoot system development",1568,960,710.16,1e-30,1.73970588235294e-29
+"GO:0006534","cysteine metabolic process",302,246,136.78,1e-30,1.73970588235294e-29
+"GO:0009908","flower development",1546,948,700.2,1e-30,1.73970588235294e-29
+"GO:0048513","animal organ development",3864,2127,1750.04,1e-30,1.73970588235294e-29
+"GO:0019320","hexose catabolic process",470,350,212.87,1e-30,1.73970588235294e-29
+"GO:0090698","post-embryonic plant morphogenesis",906,601,410.34,1e-30,1.73970588235294e-29
+"GO:0009070","serine family amino acid biosynthetic pr...",315,254,142.67,1e-30,1.73970588235294e-29
+"GO:0048438","floral whorl development",817,551,370.03,1e-30,1.73970588235294e-29
+"GO:0046365","monosaccharide catabolic process",492,363,222.83,1e-30,1.73970588235294e-29
+"GO:1901575","organic substance catabolic process",4535,2455,2053.94,1e-30,1.73970588235294e-29
+"GO:0006605","protein targeting",1231,778,557.53,1e-30,1.73970588235294e-29
+"GO:0006007","glucose catabolic process",448,336,202.9,1e-30,1.73970588235294e-29
+"GO:0006073","cellular glucan metabolic process",831,558,376.37,1e-30,1.73970588235294e-29
+"GO:0071555","cell wall organization",1377,856,623.66,1e-30,1.73970588235294e-29
+"GO:0043903","regulation of biological process involve...",666,464,301.64,1e-30,1.73970588235294e-29
+"GO:0010363","regulation of plant-type hypersensitive ...",649,454,293.94,1e-30,1.73970588235294e-29
+"GO:0044042","glucan metabolic process",843,564,381.8,1e-30,1.73970588235294e-29
+"GO:0048364","root development",1215,768,550.28,1e-30,1.73970588235294e-29
+"GO:0022622","root system development",1217,769,551.19,1e-30,1.73970588235294e-29
+"GO:0046165","alcohol biosynthetic process",511,373,231.44,1e-30,1.73970588235294e-29
+"GO:0019344","cysteine biosynthetic process",295,240,133.61,1e-30,1.73970588235294e-29
+"GO:0032870","cellular response to hormone stimulus",1933,1146,875.47,1e-30,1.73970588235294e-29
+"GO:0022414","reproductive process",4636,2499,2099.69,1e-30,1.73970588235294e-29
+"GO:0003006","developmental process involved in reprod...",3920,2147,1775.4,1e-30,1.73970588235294e-29
+"GO:0016310","phosphorylation",3619,1998,1639.08,1e-30,1.73970588235294e-29
+"GO:0009755","hormone-mediated signaling pathway",1829,1091,828.37,1e-30,1.73970588235294e-29
+"GO:0071669","plant-type cell wall organization or bio...",974,635,441.13,1e-30,1.73970588235294e-29
+"GO:1901137","carbohydrate derivative biosynthetic pro...",1483,909,671.66,1e-30,1.73970588235294e-29
+"GO:0008654","phospholipid biosynthetic process",614,432,278.09,1e-30,1.73970588235294e-29
+"GO:0006612","protein targeting to membrane",663,460,300.28,1e-30,1.73970588235294e-29
+"GO:0010817","regulation of hormone levels",1038,668,470.12,1e-30,1.73970588235294e-29
+"GO:0050793","regulation of developmental process",1707,1023,773.12,1e-30,1.73970588235294e-29
+"GO:1901698","response to nitrogen compound",1296,806,586.97,1e-30,1.73970588235294e-29
+"GO:0090150","establishment of protein localization to...",714,486,323.38,1e-30,1.73970588235294e-29
+"GO:0051704","multi-organism process",3185,1772,1442.52,1e-30,1.73970588235294e-29
+"GO:0048569","post-embryonic animal organ development",1004,646,454.72,1e-30,1.73970588235294e-29
+"GO:0000003","reproduction",4930,2629,2232.84,1e-30,1.73970588235294e-29
+"GO:0042254","ribosome biogenesis",756,508,342.4,1e-30,1.73970588235294e-29
+"GO:0072657","protein localization to membrane",741,499,335.61,1e-30,1.73970588235294e-29
+"GO:0072521","purine-containing compound metabolic pro...",1461,889,661.7,1e-30,1.73970588235294e-29
+"GO:0080134","regulation of response to stress",1202,751,544.4,1e-30,1.73970588235294e-29
+"GO:0045088","regulation of innate immune response",749,503,339.23,1e-30,1.73970588235294e-29
+"GO:0009698","phenylpropanoid metabolic process",742,498,336.06,1e-30,1.73970588235294e-29
+"GO:0009150","purine ribonucleotide metabolic process",1261,781,571.12,1e-30,1.73970588235294e-29
+"GO:0071495","cellular response to endogenous stimulus",2085,1210,944.32,1e-30,1.73970588235294e-29
+"GO:0009627","systemic acquired resistance",720,485,326.09,1e-30,1.73970588235294e-29
+"GO:0048856","anatomical structure development",10879,5435,4927.2,1e-30,1.73970588235294e-29
+"GO:0043933","protein-containing complex subunit organ...",1729,1025,783.08,1e-30,1.73970588235294e-29
+"GO:0006644","phospholipid metabolic process",777,516,351.91,1e-30,1.73970588235294e-29
+"GO:0048638","regulation of developmental growth",588,409,266.31,1e-30,1.73970588235294e-29
+"GO:0009965","leaf morphogenesis",350,268,158.52,1e-30,1.73970588235294e-29
+"GO:0009308","amine metabolic process",950,611,430.26,1e-30,1.73970588235294e-29
+"GO:0009668","plastid membrane organization",328,254,148.55,1e-30,1.73970588235294e-29
+"GO:0006364","rRNA processing",498,356,225.55,1e-30,1.73970588235294e-29
+"GO:0010027","thylakoid membrane organization",327,253,148.1,1e-30,1.73970588235294e-29
+"GO:0010200","response to chitin",703,473,318.4,1e-30,1.73970588235294e-29
+"GO:0016049","cell growth",1292,793,585.16,1e-30,1.73970588235294e-29
+"GO:0002831","regulation of response to biotic stimulu...",822,539,372.29,1e-30,1.73970588235294e-29
+"GO:0006163","purine nucleotide metabolic process",1410,855,638.6,1e-30,1.73970588235294e-29
+"GO:0035266","meristem growth",407,300,184.33,1e-30,1.73970588235294e-29
+"GO:1901657","glycosyl compound metabolic process",1132,705,512.69,1e-30,1.73970588235294e-29
+"GO:0016072","rRNA metabolic process",509,360,230.53,1e-30,1.73970588235294e-29
+"GO:2000026","regulation of multicellular organismal d...",1177,729,533.07,1e-30,1.73970588235294e-29
+"GO:0010075","regulation of meristem growth",389,289,176.18,1e-30,1.73970588235294e-29
+"GO:0010073","meristem maintenance",563,391,254.99,1e-30,1.73970588235294e-29
+"GO:0080135","regulation of cellular response to stres...",725,482,328.36,1e-30,1.73970588235294e-29
+"GO:0010243","response to organonitrogen compound",845,548,382.71,1e-30,1.73970588235294e-29
+"GO:0050776","regulation of immune response",794,519,359.61,1e-30,1.73970588235294e-29
+"GO:0071407","cellular response to organic cyclic comp...",787,515,356.44,1e-30,1.73970588235294e-29
+"GO:0034637","cellular carbohydrate biosynthetic proce...",941,599,426.19,1.2e-30,2.07746341463415e-29
+"GO:0016143","S-glycoside metabolic process",315,242,142.67,1.9e-30,3.241875e-29
+"GO:0019757","glycosinolate metabolic process",315,242,142.67,1.9e-30,3.241875e-29
+"GO:0019760","glucosinolate metabolic process",315,242,142.67,1.9e-30,3.241875e-29
+"GO:0043603","cellular amide metabolic process",2173,1241,984.17,2e-30,3.39617224880383e-29
+"GO:0005982","starch metabolic process",353,265,159.88,2.6e-30,4.394e-29
+"GO:0042886","amide transport",2301,1305,1042.14,3e-30,5.04597156398104e-29
+"GO:0009072","aromatic amino acid family metabolic pro...",392,288,177.54,4.6e-30,7.66450704225352e-29
+"GO:0006979","response to oxidative stress",1183,727,535.79,4.6e-30,7.66450704225352e-29
+"GO:0008202","steroid metabolic process",477,338,216.04,5e-30,8.29205607476635e-29
+"GO:0010015","root morphogenesis",864,555,391.31,6.2e-30,1.02343255813953e-28
+"GO:0035304","regulation of protein dephosphorylation",208,173,94.21,1.1e-29,1.79903225806452e-28
+"GO:0032101","regulation of response to external stimu...",891,569,403.54,1.1e-29,1.79903225806452e-28
+"GO:0040008","regulation of growth",771,503,349.19,1.4e-29,2.25845454545455e-28
+"GO:0006955","immune response",1395,837,631.81,1.4e-29,2.25845454545455e-28
+"GO:0015994","chlorophyll metabolic process",306,235,138.59,1.4e-29,2.25845454545455e-28
+"GO:0015995","chlorophyll biosynthetic process",165,144,74.73,1.5e-29,2.40882352941176e-28
+"GO:0033692","cellular polysaccharide biosynthetic pro...",878,561,397.65,2.2e-29,3.51702702702703e-28
+"GO:0044403","biological process involved in symbiotic...",1055,656,477.82,3.2e-29,5.09273542600897e-28
+"GO:0055085","transmembrane transport",2310,1304,1046.22,4.6e-29,7.288125e-28
+"GO:0015833","peptide transport",2278,1287,1031.73,7e-29,1.10413333333333e-27
+"GO:0042546","cell wall biogenesis",791,512,358.25,7.3e-29,1.14635840707965e-27
+"GO:0051649","establishment of localization in cell",2805,1551,1270.41,7.4e-29,1.15694273127753e-27
+"GO:0042742","defense response to bacterium",879,560,398.11,7.5e-29,1.16743421052632e-27
+"GO:0070542","response to fatty acid",904,573,409.43,1.1e-28,1.70475982532751e-27
+"GO:0042446","hormone biosynthetic process",512,355,231.89,1.5e-28,2.30454545454545e-27
+"GO:0009753","response to jasmonic acid",901,571,408.07,1.5e-28,2.30454545454545e-27
+"GO:0071396","cellular response to lipid",1302,784,589.69,2.1e-28,3.21245689655172e-27
+"GO:1901659","glycosyl compound biosynthetic process",324,244,146.74,2.2e-28,3.35098712446352e-27
+"GO:0009751","response to salicylic acid",893,566,404.45,2.5e-28,3.79166666666667e-27
+"GO:0060560","developmental growth involved in morphog...",1052,651,476.46,3.5e-28,5.28574468085106e-27
+"GO:0009165","nucleotide biosynthetic process",707,463,320.21,7.2e-28,1.08274576271186e-26
+"GO:0051179","localization",9546,4769,4323.47,7.8e-28,1.1680253164557e-26
+"GO:0007389","pattern specification process",741,481,335.61,1.3e-27,1.93852941176471e-26
+"GO:0033013","tetrapyrrole metabolic process",374,272,169.39,2.7e-27,4.00933054393305e-26
+"GO:0035303","regulation of dephosphorylation",213,173,96.47,2.9e-27,4.288375e-26
+"GO:0006631","fatty acid metabolic process",1004,622,454.72,3.7e-27,5.44867219917012e-26
+"GO:0009832","plant-type cell wall biogenesis",380,275,172.11,5.1e-27,7.47929752066116e-26
+"GO:0051239","regulation of multicellular organismal p...",1470,866,665.78,5.9e-27,8.61691358024691e-26
+"GO:0048366","leaf development",770,495,348.74,6.2e-27,9.01795081967213e-26
+"GO:0009664","plant-type cell wall organization",732,474,331.53,7.3e-27,1.05745714285714e-25
+"GO:1901293","nucleoside phosphate biosynthetic proces...",726,470,328.81,1.3e-26,1.87548780487805e-25
+"GO:0006694","steroid biosynthetic process",385,277,174.37,1.5e-26,2.15526315789474e-25
+"GO:0016108","tetraterpenoid metabolic process",154,133,69.75,2e-26,2.85060240963855e-25
+"GO:0016116","carotenoid metabolic process",154,133,69.75,2e-26,2.85060240963855e-25
+"GO:0016137","glycoside metabolic process",320,238,144.93,2.3e-26,3.26508e-25
+"GO:0009886","post-embryonic animal morphogenesis",704,457,318.85,2.7e-26,3.81764940239044e-25
+"GO:0016109","tetraterpenoid biosynthetic process",150,130,67.94,3.6e-26,5.0499604743083e-25
+"GO:0016117","carotenoid biosynthetic process",150,130,67.94,3.6e-26,5.0499604743083e-25
+"GO:0006778","porphyrin-containing compound metabolic ...",366,265,165.76,3.9e-26,5.44925196850394e-25
+"GO:0016125","sterol metabolic process",311,232,140.85,4.7e-26,6.54129411764706e-25
+"GO:0009620","response to fungus",1075,656,486.88,4.8e-26,6.654375e-25
+"GO:0033014","tetrapyrrole biosynthetic process",222,177,100.55,5e-26,6.90466926070039e-25
+"GO:0016144","S-glycoside biosynthetic process",246,192,111.42,5.8e-26,7.917e-25
+"GO:0019758","glycosinolate biosynthetic process",246,192,111.42,5.8e-26,7.917e-25
+"GO:0019761","glucosinolate biosynthetic process",246,192,111.42,5.8e-26,7.917e-25
+"GO:0006633","fatty acid biosynthetic process",465,322,210.6,7.3e-26,9.92632183908046e-25
+"GO:0090627","plant epidermal cell differentiation",701,453,317.49,1.9e-25,2.55420454545455e-24
+"GO:0071446","cellular response to salicylic acid stim...",661,431,299.37,1.9e-25,2.55420454545455e-24
+"GO:0009863","salicylic acid mediated signaling pathwa...",652,426,295.3,1.9e-25,2.55420454545455e-24
+"GO:0080167","response to karrikin",365,263,165.31,2e-25,2.66842105263158e-24
+"GO:0002376","immune system process",1765,1011,799.38,2e-25,2.66842105263158e-24
+"GO:0006886","intracellular protein transport",1724,990,780.82,2.1e-25,2.79134831460674e-24
+"GO:0008219","cell death",1404,825,635.88,3e-25,3.97276119402985e-24
+"GO:0070727","cellular macromolecule localization",1984,1120,898.57,5.6e-25,7.38825278810409e-24
+"GO:0012501","programmed cell death",1282,760,580.63,8.3e-25,1.09098888888889e-23
+"GO:0048443","stamen development",340,247,153.99,8.4e-25,1.092e-23
+"GO:0048466","androecium development",340,247,153.99,8.4e-25,1.092e-23
+"GO:0009411","response to UV",457,315,206.98,8.4e-25,1.092e-23
+"GO:0010374","stomatal complex development",330,241,149.46,9e-25,1.1657299270073e-23
+"GO:0007154","cell communication",6495,3308,2941.64,1.3e-24,1.67770909090909e-23
+"GO:0010053","root epidermal cell differentiation",671,434,303.9,1.5e-24,1.92880434782609e-23
+"GO:0002682","regulation of immune system process",891,553,403.54,1.6e-24,2.04258992805755e-23
+"GO:0009812","flavonoid metabolic process",527,354,238.68,1.6e-24,2.04258992805755e-23
+"GO:0046939","nucleotide phosphorylation",341,247,154.44,1.7e-24,2.15475e-23
+"GO:0009813","flavonoid biosynthetic process",460,316,208.34,1.7e-24,2.15475e-23
+"GO:0009218","pyrimidine ribonucleotide metabolic proc...",202,162,91.49,1.8e-24,2.27338078291815e-23
+"GO:0034220","ion transmembrane transport",1672,959,757.26,2.1e-24,2.64287234042553e-23
+"GO:0009826","unidimensional cell growth",853,532,386.33,2.5e-24,3.13515901060071e-23
+"GO:0043067","regulation of programmed cell death",981,600,444.3,3e-24,3.74894366197183e-23
+"GO:0006779","porphyrin-containing compound biosynthet...",212,168,96.02,3.1e-24,3.86031578947368e-23
+"GO:0009220","pyrimidine ribonucleotide biosynthetic p...",201,161,91.03,3.3e-24,4.095e-23
+"GO:0009409","response to cold",1084,654,490.95,3.8e-24,4.6990243902439e-23
+"GO:0034285","response to disaccharide",341,246,154.44,5.4e-24,6.654375e-23
+"GO:0009862","systemic acquired resistance, salicylic ...",405,283,183.43,7.5e-24,9.21020761245675e-23
+"GO:0016126","sterol biosynthetic process",268,202,121.38,8.1e-24,9.91272413793104e-23
+"GO:0033559","unsaturated fatty acid metabolic process",129,113,58.43,8.7e-24,1.0610412371134e-22
+"GO:0015031","protein transport",2133,1189,966.05,9.1e-24,1.10602397260274e-22
+"GO:0019252","starch biosynthetic process",265,200,120.02,1e-23,1.20714285714286e-22
+"GO:0072593","reactive oxygen species metabolic proces...",736,467,333.34,1e-23,1.20714285714286e-22
+"GO:0010114","response to red light",196,157,88.77,1.2e-23,1.43878378378378e-22
+"GO:0010054","trichoblast differentiation",652,421,295.3,1.2e-23,1.43878378378378e-22
+"GO:0022613","ribonucleoprotein complex biogenesis",946,579,428.45,1.5e-23,1.79242424242424e-22
+"GO:0000023","maltose metabolic process",209,165,94.66,1.7e-23,2.01782608695652e-22
+"GO:0006220","pyrimidine nucleotide metabolic process",225,175,101.9,1.7e-23,2.01782608695652e-22
+"GO:0043094","cellular metabolic compound salvage",268,201,121.38,3e-23,3.53720930232558e-22
+"GO:0031348","negative regulation of defense response",506,339,229.17,3e-23,3.53720930232558e-22
+"GO:0010941","regulation of cell death",1039,627,470.57,3.1e-23,3.64301324503311e-22
+"GO:0009853","photorespiration",226,175,102.36,4.3e-23,5.03653465346535e-22
+"GO:0048583","regulation of response to stimulus",2033,1135,920.76,5.2e-23,6.05075409836066e-22
+"GO:0006221","pyrimidine nucleotide biosynthetic proce...",223,173,101,5.2e-23,6.05075409836066e-22
+"GO:0009744","response to sucrose",336,241,152.18,5.7e-23,6.61088235294118e-22
+"GO:0008544","epidermis development",757,476,342.85,6e-23,6.93615635179153e-22
+"GO:0009132","nucleoside diphosphate metabolic process",321,232,145.38,6.9e-23,7.95068181818182e-22
+"GO:0034613","cellular protein localization",1917,1076,868.23,7.1e-23,8.15466019417476e-22
+"GO:0009637","response to blue light",217,169,98.28,7.7e-23,8.81525806451613e-22
+"GO:0010154","fruit development",1447,837,655.36,8.2e-23,9.35749196141479e-22
+"GO:0009414","response to water deprivation",895,549,405.35,1.1e-22,1.25125e-21
+"GO:0046390","ribose phosphate biosynthetic process",509,339,230.53,1.4e-22,1.58235668789809e-21
+"GO:0007030","Golgi organization",317,229,143.57,1.4e-22,1.58235668789809e-21
+"GO:0006165","nucleoside diphosphate phosphorylation",312,226,141.31,1.5e-22,1.69e-21
+"GO:0009260","ribonucleotide biosynthetic process",508,338,230.08,2.1e-22,2.35107255520505e-21
+"GO:0046031","ADP metabolic process",304,221,137.68,2.1e-22,2.35107255520505e-21
+"GO:0010310","regulation of hydrogen peroxide metaboli...",279,206,126.36,2.4e-22,2.66175e-21
+"GO:0042743","hydrogen peroxide metabolic process",646,414,292.58,2.4e-22,2.66175e-21
+"GO:0006636","unsaturated fatty acid biosynthetic proc...",124,108,56.16,2.4e-22,2.66175e-21
+"GO:0044106","cellular amine metabolic process",557,365,252.27,2.6e-22,2.87457943925234e-21
+"GO:0009135","purine nucleoside diphosphate metabolic ...",308,223,139.5,3.2e-22,3.50518518518519e-21
+"GO:0009179","purine ribonucleoside diphosphate metabo...",308,223,139.5,3.2e-22,3.50518518518519e-21
+"GO:0009185","ribonucleoside diphosphate metabolic pro...",308,223,139.5,3.2e-22,3.50518518518519e-21
+"GO:0051644","plastid localization",165,135,74.73,3.7e-22,4.0404e-21
+"GO:0061024","membrane organization",961,582,435.25,3.8e-22,4.13687116564417e-21
+"GO:0009773","photosynthetic electron transport in pho...",62,62,28.08,4.4e-22,4.76085365853659e-21
+"GO:2000377","regulation of reactive oxygen species me...",346,245,156.71,4.4e-22,4.76085365853659e-21
+"GO:0072528","pyrimidine-containing compound biosynthe...",250,188,113.23,4.5e-22,4.85425531914894e-21
+"GO:0006096","glycolytic process",302,219,136.78,5.4e-22,5.78990936555891e-21
+"GO:0006757","ATP generation from ADP",302,219,136.78,5.4e-22,5.78990936555891e-21
+"GO:0046907","intracellular transport",2367,1296,1072.04,6.1e-22,6.52075301204819e-21
+"GO:0019750","chloroplast localization",164,134,74.28,6.8e-22,7.24720720720721e-21
+"GO:0001101","response to acid chemical",942,571,426.64,7.2e-22,7.65053892215569e-21
+"GO:0009415","response to water",920,559,416.68,9.3e-22,9.85244776119403e-21
+"GO:0048764","trichoblast maturation",600,387,271.75,1e-21,1.05311572700297e-20
+"GO:0048765","root hair cell differentiation",600,387,271.75,1e-21,1.05311572700297e-20
+"GO:0032501","multicellular organismal process",12191,5935,5521.41,1.1e-21,1.15159292035398e-20
+"GO:0045184","establishment of protein localization",2189,1206,991.42,1.1e-21,1.15159292035398e-20
+"GO:0009902","chloroplast relocation",163,133,73.82,1.2e-21,1.24891495601173e-20
+"GO:0051667","establishment of plastid localization",163,133,73.82,1.2e-21,1.24891495601173e-20
+"GO:0048588","developmental cell growth",814,502,368.67,1.5e-21,1.55657894736842e-20
+"GO:0010103","stomatal complex morphogenesis",272,200,123.19,2.2e-21,2.27632653061224e-20
+"GO:0090626","plant epidermis morphogenesis",513,338,232.34,2.4e-21,2.47604651162791e-20
+"GO:0048469","cell maturation",616,394,278.99,4.1e-21,4.21765217391304e-20
+"GO:0048507","meristem development",896,544,405.81,4.2e-21,4.30803468208093e-20
+"GO:0072527","pyrimidine-containing compound metabolic...",268,197,121.38,4.6e-21,4.70472622478386e-20
+"GO:0071840","cellular component organization or bioge...",10348,5078,4686.7,5e-21,5.09913793103448e-20
+"GO:0000302","response to reactive oxygen species",776,480,351.46,5.1e-21,5.1714e-20
+"GO:0080147","root hair cell development",427,289,193.39,5.1e-21,5.1714e-20
+"GO:0009913","epidermal cell differentiation",722,451,327,5.3e-21,5.35888888888889e-20
+"GO:0035966","response to topologically incorrect prot...",562,364,254.53,5.9e-21,5.93175637393768e-20
+"GO:0042537","benzene-containing compound metabolic pr...",445,299,201.54,5.9e-21,5.93175637393768e-20
+"GO:0046189","phenol-containing compound biosynthetic ...",335,236,151.72,7.4e-21,7.41881355932203e-20
+"GO:0016138","glycoside biosynthetic process",247,184,111.87,7.6e-21,7.59785915492958e-20
+"GO:0030855","epithelial cell differentiation",735,457,332.89,1.1e-20,1.09660112359551e-19
+"GO:0048767","root hair elongation",397,271,179.8,1.3e-20,1.29235294117647e-19
+"GO:0051716","cellular response to stimulus",8327,4134,3771.37,1.4e-20,1.38787709497207e-19
+"GO:0008104","protein localization",2416,1312,1094.23,1.7e-20,1.68058495821727e-19
+"GO:0044248","cellular catabolic process",4164,2163,1885.91,1.8e-20,1.76958448753463e-19
+"GO:0048316","seed development",1305,754,591.05,1.8e-20,1.76958448753463e-19
+"GO:0097305","response to alcohol",1585,896,717.86,2.5e-20,2.44421487603306e-19
+"GO:1901565","organonitrogen compound catabolic proces...",2688,1445,1217.42,2.5e-20,2.44421487603306e-19
+"GO:0000902","cell morphogenesis",1303,752,590.14,3.1e-20,3.0225e-19
+"GO:0033554","cellular response to stress",3495,1838,1582.92,3.3e-20,3.20868493150685e-19
+"GO:0009867","jasmonic acid mediated signaling pathway",590,377,267.22,3.7e-20,3.5877868852459e-19
+"GO:0071398","cellular response to fatty acid",594,379,269.03,4.3e-20,4.14692934782609e-19
+"GO:0044036","cell wall macromolecule metabolic proces...",780,479,353.27,4.3e-20,4.14692934782609e-19
+"GO:0016129","phytosteroid biosynthetic process",218,165,98.73,4.8e-20,4.61658536585366e-19
+"GO:0033036","macromolecule localization",2957,1575,1339.25,4.9e-20,4.70002702702703e-19
+"GO:0019725","cellular homeostasis",892,538,403.99,5e-20,4.78301886792453e-19
+"GO:0042180","cellular ketone metabolic process",1011,600,457.89,6e-20,5.7241935483871e-19
+"GO:0071395","cellular response to jasmonic acid stimu...",593,378,268.58,6.1e-20,5.80399463806971e-19
+"GO:0033865","nucleoside bisphosphate metabolic proces...",255,187,115.49,7.1e-20,6.70156914893617e-19
+"GO:0033875","ribonucleoside bisphosphate metabolic pr...",255,187,115.49,7.1e-20,6.70156914893617e-19
+"GO:0034032","purine nucleoside bisphosphate metabolic...",255,187,115.49,7.1e-20,6.70156914893617e-19
+"GO:0043455","regulation of secondary metabolic proces...",245,181,110.96,7.3e-20,6.87206896551724e-19
+"GO:0003002","regionalization",544,351,246.38,7.4e-20,6.94777777777778e-19
+"GO:0016114","terpenoid biosynthetic process",470,310,212.87,8.5e-20,7.95949868073879e-19
+"GO:0030154","cell differentiation",2806,1499,1270.86,1.1e-19,1.02734210526316e-18
+"GO:0034976","response to endoplasmic reticulum stress",626,395,283.52,1.2e-19,1.11779527559055e-18
+"GO:0009250","glucan biosynthetic process",538,347,243.67,1.3e-19,1.20777486910995e-18
+"GO:0021700","developmental maturation",1006,596,455.63,1.4e-19,1.29728459530026e-18
+"GO:0007165","signal transduction",5644,2862,2556.22,1.6e-19,1.47875e-18
+"GO:0006084","acetyl-CoA metabolic process",218,164,98.73,1.8e-19,1.65927272727273e-18
+"GO:0009310","amine catabolic process",210,159,95.11,2.2e-19,2.01751937984496e-18
+"GO:0006721","terpenoid metabolic process",541,348,245.02,2.2e-19,2.01751937984496e-18
+"GO:0009962","regulation of flavonoid biosynthetic pro...",197,151,89.22,2.3e-19,2.10378865979381e-18
+"GO:0006637","acyl-CoA metabolic process",240,177,108.7,2.5e-19,2.275e-18
+"GO:0035383","thioester metabolic process",240,177,108.7,2.5e-19,2.275e-18
+"GO:0009963","positive regulation of flavonoid biosynt...",173,136,78.35,2.6e-19,2.35994884910486e-18
+"GO:0009699","phenylpropanoid biosynthetic process",451,298,204.26,2.9e-19,2.62553571428571e-18
+"GO:0042445","hormone metabolic process",731,450,331.08,3.1e-19,2.79946564885496e-18
+"GO:1901606","alpha-amino acid catabolic process",281,201,127.27,3.5e-19,3.15266497461929e-18
+"GO:0005984","disaccharide metabolic process",331,230,149.91,3.6e-19,3.23453164556962e-18
+"GO:0016128","phytosteroid metabolic process",249,182,112.77,4e-19,3.58484848484848e-18
+"GO:0007010","cytoskeleton organization",1085,635,491.41,4.2e-19,3.75460957178841e-18
+"GO:0060429","epithelium development",817,495,370.03,4.6e-19,4.10185929648241e-18
+"GO:0018958","phenol-containing compound metabolic pro...",395,266,178.9,5.3e-19,4.71421052631579e-18
+"GO:0030001","metal ion transport",545,349,246.84,5.6e-19,4.9686e-18
+"GO:0016132","brassinosteroid biosynthetic process",208,157,94.21,6.1e-19,5.39872817955112e-18
+"GO:0009058","biosynthetic process",15894,7592,7198.54,1e-18,8.80645161290323e-18
+"GO:0048468","cell development",1579,885,715.14,1e-18,8.80645161290323e-18
+"GO:0048653","anther development",222,165,100.55,1.1e-18,9.66311881188119e-18
+"GO:0006576","cellular biogenic amine metabolic proces...",363,247,164.41,1.3e-18,1.13080882352941e-17
+"GO:0009825","multidimensional cell growth",204,154,92.39,1.3e-18,1.13080882352941e-17
+"GO:0071695","anatomical structure maturation",975,576,441.59,1.3e-18,1.13080882352941e-17
+"GO:0009697","salicylic acid biosynthetic process",302,212,136.78,1.3e-18,1.13080882352941e-17
+"GO:0007017","microtubule-based process",700,431,317.04,1.7e-18,1.46795620437956e-17
+"GO:0009914","hormone transport",280,199,126.81,1.7e-18,1.46795620437956e-17
+"GO:0098656","anion transmembrane transport",882,527,399.47,1.7e-18,1.46795620437956e-17
+"GO:0006468","protein phosphorylation",2160,1173,978.28,2.3e-18,1.9764406779661e-17
+"GO:0009063","cellular amino acid catabolic process",315,219,142.67,2.3e-18,1.9764406779661e-17
+"GO:0031399","regulation of protein modification proce...",606,380,274.46,2.7e-18,2.3145652173913e-17
+"GO:0044249","cellular biosynthetic process",14455,6933,6546.8,2.8e-18,2.39450602409639e-17
+"GO:0120178","steroid hormone biosynthetic process",210,157,95.11,3e-18,2.559375e-17
+"GO:0051641","cellular localization",3477,1815,1574.76,3.3e-18,2.80856115107914e-17
+"GO:0016131","brassinosteroid metabolic process",239,174,108.25,4.6e-18,3.9055980861244e-17
+"GO:0016556","mRNA modification",292,205,132.25,4.9e-18,4.15038186157518e-17
+"GO:0042793","plastid transcription",83,75,37.59,5e-18,4.225e-17
+"GO:0051301","cell division",792,478,358.7,5.2e-18,4.38356294536817e-17
+"GO:0009624","response to nematode",191,145,86.51,5.4e-18,4.54137440758294e-17
+"GO:0060918","auxin transport",263,188,119.12,5.5e-18,4.6145390070922e-17
+"GO:0006812","cation transport",1687,935,764.06,6.8e-18,5.69179245283019e-17
+"GO:0043478","pigment accumulation in response to UV l...",198,149,89.68,7.6e-18,6.30196261682243e-17
+"GO:0043479","pigment accumulation in tissues in respo...",198,149,89.68,7.6e-18,6.30196261682243e-17
+"GO:0043480","pigment accumulation in tissues",198,149,89.68,7.6e-18,6.30196261682243e-17
+"GO:0043481","anthocyanin accumulation in tissues in r...",198,149,89.68,7.6e-18,6.30196261682243e-17
+"GO:0050832","defense response to fungus",797,480,360.97,7.7e-18,6.37e-17
+"GO:0006833","water transport",279,197,126.36,7.9e-18,6.50512761020882e-17
+"GO:0042044","fluid transport",279,197,126.36,7.9e-18,6.50512761020882e-17
+"GO:0043604","amide biosynthetic process",1825,1003,826.56,1e-17,8.21527777777778e-17
+"GO:0043473","pigmentation",215,159,97.38,1.1e-17,9.01593533487298e-17
+"GO:0009595","detection of biotic stimulus",174,134,78.81,1.2e-17,9.79034482758621e-17
+"GO:0048585","negative regulation of response to stimu...",846,505,383.16,1.2e-17,9.79034482758621e-17
+"GO:0042402","cellular biogenic amine catabolic proces...",197,148,89.22,1.3e-17,1.0581880733945e-16
+"GO:0043476","pigment accumulation",199,149,90.13,1.7e-17,1.38061784897025e-16
+"GO:0043269","regulation of ion transport",406,268,183.88,2.2e-17,1.7745e-16
+"GO:0019538","protein metabolic process",9892,4828,4480.18,2.2e-17,1.7745e-16
+"GO:0042542","response to hydrogen peroxide",506,323,229.17,2.2e-17,1.7745e-16
+"GO:0000165","MAPK cascade",538,340,243.67,3e-17,2.41428571428571e-16
+"GO:0023052","signaling",6481,3236,2935.3,3.2e-17,2.56941176470588e-16
+"GO:0010256","endomembrane system organization",405,267,183.43,3.3e-17,2.64372460496614e-16
+"GO:0010218","response to far red light",195,146,88.32,3.6e-17,2.86466367713004e-16
+"GO:0032502","developmental process",12704,6120,5753.76,3.6e-17,2.86466367713004e-16
+"GO:0009642","response to light intensity",445,289,201.54,3.6e-17,2.86466367713004e-16
+"GO:0009887","animal organ morphogenesis",850,505,384.97,4.1e-17,3.25523489932886e-16
+"GO:0044267","cellular protein metabolic process",8851,4342,4008.7,4.4e-17,3.485625e-16
+"GO:0042430","indole-containing compound metabolic pro...",282,197,127.72,5e-17,3.95211581291759e-16
+"GO:0009311","oligosaccharide metabolic process",415,272,187.96,5.2e-17,4.10106666666667e-16
+"GO:0009932","cell tip growth",620,383,280.8,6.5e-17,5.1149667405765e-16
+"GO:0009611","response to wounding",777,466,351.91,6.7e-17,5.26068584070796e-16
+"GO:0051258","protein polymerization",376,250,170.29,6.8e-17,5.32741721854305e-16
+"GO:0015849","organic acid transport",626,386,283.52,7.5e-17,5.85e-16
+"GO:0009696","salicylic acid metabolic process",353,237,159.88,7.5e-17,5.85e-16
+"GO:0001510","RNA methylation",269,189,121.83,8.4e-17,6.53763157894737e-16
+"GO:0034765","regulation of ion transmembrane transpor...",287,199,129.98,1.2e-16,9.31903719912473e-16
+"GO:0006518","peptide metabolic process",1856,1012,840.6,1.4e-16,1.08484716157205e-15
+"GO:0019220","regulation of phosphate metabolic proces...",687,417,311.15,1.9e-16,1.46589130434783e-15
+"GO:0051174","regulation of phosphorus metabolic proce...",687,417,311.15,1.9e-16,1.46589130434783e-15
+"GO:0042435","indole-containing compound biosynthetic ...",214,156,96.92,2e-16,1.53969631236443e-15
+"GO:0034284","response to monosaccharide",325,220,147.2,2.3e-16,1.76681818181818e-15
+"GO:0006766","vitamin metabolic process",211,154,95.56,2.6e-16,1.98866379310345e-15
+"GO:0048878","chemical homeostasis",945,551,428,2.6e-16,1.98866379310345e-15
+"GO:0009926","auxin polar transport",247,175,111.87,3.1e-16,2.366e-15
+"GO:0000910","cytokinesis",399,261,180.71,3.2e-16,2.43708154506438e-15
+"GO:0046364","monosaccharide biosynthetic process",249,176,112.77,3.7e-16,2.81184154175589e-15
+"GO:2000762","regulation of phenylpropanoid metabolic ...",205,150,92.85,4.3e-16,3.26083333333333e-15
+"GO:0009073","aromatic amino acid family biosynthetic ...",116,95,52.54,4.6e-16,3.48089552238806e-15
+"GO:0051567","histone H3-K9 methylation",209,152,94.66,6.7e-16,5.05921276595745e-15
+"GO:0009733","response to auxin",900,526,407.62,7e-16,5.27452229299363e-15
+"GO:0015698","inorganic anion transport",606,372,274.46,7.2e-16,5.41372881355932e-15
+"GO:0009746","response to hexose",315,213,142.67,8.3e-16,6.22763213530655e-15
+"GO:0051273","beta-glucan metabolic process",387,253,175.28,1e-15,7.47157894736842e-15
+"GO:0043414","macromolecule methylation",828,488,375.01,1e-15,7.47157894736842e-15
+"GO:1900376","regulation of secondary metabolite biosy...",173,130,78.35,1.1e-15,8.20147058823529e-15
+"GO:0009799","specification of symmetry",215,155,97.38,1.3e-15,9.67232704402516e-15
+"GO:0048580","regulation of post-embryonic development",785,465,355.53,1.5e-15,1.11137787056367e-14
+"GO:0000226","microtubule cytoskeleton organization",563,348,254.99,1.5e-15,1.11137787056367e-14
+"GO:0009734","auxin-activated signaling pathway",318,214,144.03,1.6e-15,1.183e-14
+"GO:0071365","cellular response to auxin stimulus",347,230,157.16,2e-15,1.47567567567568e-14
+"GO:0010383","cell wall polysaccharide metabolic proce...",581,357,263.14,2.2e-15,1.6198755186722e-14
+"GO:0009855","determination of bilateral symmetry",211,152,95.56,2.7e-15,1.97573195876289e-14
+"GO:0061647","histone H3-K9 modification",211,152,95.56,2.7e-15,1.97573195876289e-14
+"GO:0034762","regulation of transmembrane transport",296,201,134.06,2.7e-15,1.97573195876289e-14
+"GO:0010051","xylem and phloem pattern formation",213,153,96.47,3.3e-15,2.40486652977413e-14
+"GO:0016054","organic acid catabolic process",711,425,322.02,3.3e-15,2.40486652977413e-14
+"GO:0006816","calcium ion transport",244,171,110.51,3.5e-15,2.5453893442623e-14
+"GO:0065008","regulation of biological quality",3195,1655,1447.04,4.7e-15,3.41110429447853e-14
+"GO:0009555","pollen development",557,343,252.27,5.1e-15,3.69385714285714e-14
+"GO:0009955","adaxial/abaxial pattern specification",192,140,86.96,6.5e-15,4.69826883910387e-14
+"GO:0051606","detection of stimulus",348,229,157.61,7.7e-15,5.55432926829268e-14
+"GO:0055080","cation homeostasis",653,393,295.75,8.7e-15,6.26294117647059e-14
+"GO:0090696","post-embryonic plant organ development",669,401,303,1.1e-14,7.90263157894737e-14
+"GO:0019319","hexose biosynthetic process",227,160,102.81,1.2e-14,8.60363636363636e-14
+"GO:0009991","response to extracellular stimulus",725,430,328.36,1.3e-14,9.2830985915493e-14
+"GO:0009695","jasmonic acid biosynthetic process",222,157,100.55,1.3e-14,9.2830985915493e-14
+"GO:0051656","establishment of organelle localization",248,172,112.32,1.4e-14,9.95711422845691e-14
+"GO:0009944","polarity specification of adaxial/abaxia...",158,119,71.56,1.4e-14,9.95711422845691e-14
+"GO:0046395","carboxylic acid catabolic process",689,411,312.05,1.5e-14,1.0625748502994e-13
+"GO:0051049","regulation of transport",545,335,246.84,1.5e-14,1.0625748502994e-13
+"GO:0031668","cellular response to extracellular stimu...",651,391,294.84,1.6e-14,1.13115537848606e-13
+"GO:0071496","cellular response to external stimulus",657,394,297.56,1.7e-14,1.19708333333333e-13
+"GO:0030243","cellulose metabolic process",366,238,165.76,1.7e-14,1.19708333333333e-13
+"GO:0009750","response to fructose",266,182,120.47,1.8e-14,1.2649900990099e-13
+"GO:0009684","indoleacetic acid biosynthetic process",175,129,79.26,1.9e-14,1.33262845849802e-13
+"GO:0002237","response to molecule of bacterial origin",167,124,75.64,2.4e-14,1.67669291338583e-13
+"GO:0060548","negative regulation of cell death",429,272,194.3,2.4e-14,1.67669291338583e-13
+"GO:0009737","response to abscisic acid",1398,771,633.17,2.7e-14,1.88257367387033e-13
+"GO:0065001","specification of axis polarity",159,119,72.01,3e-14,2.08764705882353e-13
+"GO:0032259","methylation",1375,759,622.75,3.3e-14,2.29191780821918e-13
+"GO:1900378","positive regulation of secondary metabol...",146,111,66.12,3.4e-14,2.3567578125e-13
+"GO:0009451","RNA modification",1135,638,514.05,3.9e-14,2.6980701754386e-13
+"GO:0034599","cellular response to oxidative stress",330,217,149.46,4.3e-14,2.96900778210117e-13
+"GO:0043069","negative regulation of programmed cell d...",401,256,181.62,4.4e-14,3.03215533980583e-13
+"GO:0043043","peptide biosynthetic process",1729,934,783.08,4.7e-14,3.23261627906977e-13
+"GO:0006270","DNA replication initiation",85,72,38.5,5.4e-14,3.70688588007737e-13
+"GO:0048229","gametophyte development",840,487,380.44,5.5e-14,3.76824324324324e-13
+"GO:0035670","plant-type ovary development",277,187,125.46,5.9e-14,4.03450867052023e-13
+"GO:0097435","supramolecular fiber organization",493,305,223.28,7e-14,4.7775e-13
+"GO:0009267","cellular response to starvation",540,330,244.57,7.2e-14,4.90456813819578e-13
+"GO:0006094","gluconeogenesis",211,149,95.56,7.5e-14,5.09913793103448e-13
+"GO:0048481","plant ovule development",276,186,125,8.9e-14,6.03940726577438e-13
+"GO:0055082","cellular chemical homeostasis",653,389,295.75,9.9e-14,6.70517175572519e-13
+"GO:0042594","response to starvation",575,348,260.42,1e-13,6.76e-13
+"GO:0006865","amino acid transport",543,331,245.93,1.1e-13,7.40777988614801e-13
+"GO:0032268","regulation of cellular protein metabolic...",1017,576,460.61,1.1e-13,7.40777988614801e-13
+"GO:1905393","plant organ formation",413,261,187.05,1.4e-13,9.41022727272727e-13
+"GO:0032535","regulation of cellular component size",371,238,168.03,1.6e-13,1.06937853107345e-12
+"GO:0009639","response to red or far red light",745,436,337.42,1.6e-13,1.06937853107345e-12
+"GO:0010583","response to cyclopentenone",295,196,133.61,1.6e-13,1.06937853107345e-12
+"GO:0010087","phloem or xylem histogenesis",263,178,119.12,1.7e-13,1.1319512195122e-12
+"GO:0098660","inorganic ion transmembrane transport",852,491,385.88,1.7e-13,1.1319512195122e-12
+"GO:0006546","glycine catabolic process",83,70,37.59,1.9e-13,1.26275280898876e-12
+"GO:0044038","cell wall macromolecule biosynthetic pro...",377,241,170.75,2e-13,1.32425373134328e-12
+"GO:0070589","cellular component macromolecule biosynt...",377,241,170.75,2e-13,1.32425373134328e-12
+"GO:0000911","cytokinesis by cell plate formation",283,189,128.17,2.1e-13,1.38787709497207e-12
+"GO:0006412","translation",1709,920,774.02,2.2e-13,1.44857142857143e-12
+"GO:0030003","cellular cation homeostasis",566,342,256.35,2.2e-13,1.44857142857143e-12
+"GO:0006873","cellular ion homeostasis",608,364,275.37,2.3e-13,1.51161111111111e-12
+"GO:0009943","adaxial/abaxial axis specification",172,125,77.9,2.7e-13,1.7679520295203e-12
+"GO:0006544","glycine metabolic process",94,77,42.57,2.7e-13,1.7679520295203e-12
+"GO:0009644","response to high light intensity",325,212,147.2,2.9e-13,1.89541436464088e-12
+"GO:0009735","response to cytokinin",327,213,148.1,3.1e-13,2.02240808823529e-12
+"GO:0120254","olefinic compound metabolic process",313,205,141.76,3.9e-13,2.53965137614679e-12
+"GO:0090066","regulation of anatomical structure size",377,240,170.75,4.2e-13,2.73e-12
+"GO:0031669","cellular response to nutrient levels",570,343,258.16,4.5e-13,2.91965265082267e-12
+"GO:0048869","cellular developmental process",3474,1772,1573.41,5.1e-13,3.29688524590164e-12
+"GO:0031667","response to nutrient levels",643,381,291.22,5.1e-13,3.29688524590164e-12
+"GO:0010155","regulation of proton transport",104,83,47.1,5.3e-13,3.4137386569873e-12
+"GO:1904062","regulation of cation transmembrane trans...",104,83,47.1,5.3e-13,3.4137386569873e-12
+"GO:0009071","serine family amino acid catabolic proce...",87,72,39.4,6e-13,3.85760869565217e-12
+"GO:0050801","ion homeostasis",758,440,343.31,7e-13,4.49240506329114e-12
+"GO:0032879","regulation of localization",664,391,300.73,8.6e-13,5.50927797833935e-12
+"GO:0051246","regulation of protein metabolic process",1109,618,502.28,8.8e-13,5.62724324324324e-12
+"GO:0009636","response to toxic substance",670,394,303.45,9.2e-13,5.86190305206463e-12
+"GO:0070592","cell wall polysaccharide biosynthetic pr...",366,233,165.76,9.2e-13,5.86190305206463e-12
+"GO:0016043","cellular component organization",9589,4632,4342.94,9.5e-13,6.04220430107527e-12
+"GO:0062197","cellular response to chemical stress",392,247,177.54,1e-12,6.34883720930233e-12
+"GO:0009067","aspartate family amino acid biosynthetic...",174,125,78.81,1.1e-12,6.95882352941176e-12
+"GO:0006275","regulation of DNA replication",169,122,76.54,1.1e-12,6.95882352941176e-12
+"GO:0042545","cell wall modification",602,358,272.65,1.3e-12,8.20943060498221e-12
+"GO:0009850","auxin metabolic process",269,179,121.83,1.5e-12,9.45559502664298e-12
+"GO:0097306","cellular response to alcohol",726,422,328.81,1.6e-12,1.0068085106383e-11
+"GO:0009066","aspartate family amino acid metabolic pr...",218,150,98.73,1.7e-12,1.0678407079646e-11
+"GO:0009694","jasmonic acid metabolic process",302,197,136.78,1.9e-12,1.19136042402827e-11
+"GO:0009767","photosynthetic electron transport chain",148,109,67.03,2.1e-12,1.31444444444444e-11
+"GO:0016311","dephosphorylation",819,469,370.93,2.3e-12,1.43709507042254e-11
+"GO:0009739","response to gibberellin",328,211,148.55,2.5e-12,1.55931458699473e-11
+"GO:0009408","response to heat",511,309,231.44,2.8e-12,1.74336842105263e-11
+"GO:0009683","indoleacetic acid metabolic process",193,135,87.41,3.4e-12,2.11323992994746e-11
+"GO:0046777","protein autophosphorylation",320,206,144.93,4.1e-12,2.53942408376963e-11
+"GO:0009851","auxin biosynthetic process",202,140,91.49,4.1e-12,2.53942408376963e-11
+"GO:0009404","toxin metabolic process",379,238,171.65,4.3e-12,2.65865853658537e-11
+"GO:0042398","cellular modified amino acid biosyntheti...",129,97,58.43,4.4e-12,2.71575652173913e-11
+"GO:0009798","axis specification",204,141,92.39,4.7e-12,2.89588541666667e-11
+"GO:0009804","coumarin metabolic process",97,77,43.93,6e-12,3.6840830449827e-11
+"GO:0009805","coumarin biosynthetic process",97,77,43.93,6e-12,3.6840830449827e-11
+"GO:0048440","carpel development",369,232,167.12,6.6e-12,4.03851724137931e-11
+"GO:0046283","anthocyanin-containing compound metaboli...",182,128,82.43,6.6e-12,4.03851724137931e-11
+"GO:0009741","response to brassinosteroid",249,166,112.77,7.4e-12,4.52024096385542e-11
+"GO:0072598","protein localization to chloroplast",102,80,46.2,7.5e-12,4.57345360824742e-11
+"GO:0046173","polyol biosynthetic process",107,83,48.46,8.8e-12,5.35698113207547e-11
+"GO:0006996","organelle organization",5411,2676,2450.69,9.5e-12,5.77320205479452e-11
+"GO:0120252","hydrocarbon metabolic process",284,185,128.63,1.1e-11,6.67333333333333e-11
+"GO:0045036","protein targeting to chloroplast",101,79,45.74,1.3e-11,7.84642857142857e-11
+"GO:0072596","establishment of protein localization to...",101,79,45.74,1.3e-11,7.84642857142857e-11
+"GO:0009793","embryo development ending in seed dorman...",1008,561,456.53,1.3e-11,7.84642857142857e-11
+"GO:0035967","cellular response to topologically incor...",321,205,145.38,1.4e-11,8.3787521079258e-11
+"GO:0048467","gynoecium development",397,246,179.8,1.4e-11,8.3787521079258e-11
+"GO:0034968","histone lysine methylation",358,225,162.14,1.4e-11,8.3787521079258e-11
+"GO:0010014","meristem initiation",281,183,127.27,1.4e-11,8.3787521079258e-11
+"GO:0018022","peptidyl-lysine methylation",371,232,168.03,1.4e-11,8.3787521079258e-11
+"GO:0010413","glucuronoxylan metabolic process",312,200,141.31,1.5e-11,8.96212121212121e-11
+"GO:0051788","response to misfolded protein",256,169,115.94,1.6e-11,9.54352941176471e-11
+"GO:0052546","cell wall pectin metabolic process",87,70,39.4,1.7e-11,1.01229865771812e-10
+"GO:0043085","positive regulation of catalytic activit...",521,311,235.97,2.1e-11,1.24630434782609e-10
+"GO:0008361","regulation of cell size",177,124,80.16,2.1e-11,1.24630434782609e-10
+"GO:0010410","hemicellulose metabolic process",399,246,180.71,2.9e-11,1.71821368948247e-10
+"GO:0006598","polyamine catabolic process",66,56,29.89,3.1e-11,1.83365e-10
+"GO:0009110","vitamin biosynthetic process",130,96,58.88,3.3e-11,1.94870216306156e-10
+"GO:0016226","iron-sulfur cluster assembly",152,109,68.84,3.5e-11,2.05995024875622e-10
+"GO:0031163","metallo-sulfur cluster assembly",152,109,68.84,3.5e-11,2.05995024875622e-10
+"GO:0120251","hydrocarbon biosynthetic process",247,163,111.87,3.9e-11,2.29157284768212e-10
+"GO:0006986","response to unfolded protein",309,197,139.95,4.2e-11,2.46376859504132e-10
+"GO:0090697","post-embryonic plant organ morphogenesis",503,300,227.81,5.3e-11,3.10391089108911e-10
+"GO:0034660","ncRNA metabolic process",967,537,437.96,5.8e-11,3.39113673805601e-10
+"GO:0045492","xylan biosynthetic process",321,203,145.38,6.3e-11,3.67741776315789e-10
+"GO:0045491","xylan metabolic process",336,211,152.18,6.8e-11,3.96275862068966e-10
+"GO:0006839","mitochondrial transport",243,160,110.06,7.6e-11,4.42170491803279e-10
+"GO:0046785","microtubule polymerization",167,117,75.64,7.8e-11,4.53063829787234e-10
+"GO:0032958","inositol phosphate biosynthetic process",76,62,34.42,8.1e-11,4.69720588235294e-10
+"GO:0006972","hyperosmotic response",495,295,224.19,8.6e-11,4.97902120717781e-10
+"GO:0010167","response to nitrate",387,238,175.28,8.7e-11,5.02871335504886e-10
+"GO:0010264","myo-inositol hexakisphosphate biosynthet...",73,60,33.06,9e-11,5.18522727272727e-10
+"GO:0033517","myo-inositol hexakisphosphate metabolic ...",73,60,33.06,9e-11,5.18522727272727e-10
+"GO:0000038","very long-chain fatty acid metabolic pro...",118,88,53.44,9.1e-11,5.2343435980551e-10
+"GO:0009309","amine biosynthetic process",280,180,126.81,1.1e-10,6.28647342995169e-10
+"GO:0006261","DNA-dependent DNA replication",326,205,147.65,1.1e-10,6.28647342995169e-10
+"GO:0061077","chaperone-mediated protein folding",58,50,26.27,1.1e-10,6.28647342995169e-10
+"GO:0044706","multi-multicellular organism process",713,407,322.92,1.1e-10,6.28647342995169e-10
+"GO:0031109","microtubule polymerization or depolymeri...",180,124,81.52,1.3e-10,7.41752411575563e-10
+"GO:0055065","metal ion homeostasis",485,289,219.66,1.4e-10,7.97528089887641e-10
+"GO:0009106","lipoate metabolic process",75,61,33.97,1.5e-10,8.53125e-10
+"GO:0034620","cellular response to unfolded protein",303,192,137.23,1.6e-10,9.08544e-10
+"GO:0065009","regulation of molecular function",1542,819,698.39,1.7e-10,9.63785942492013e-10
+"GO:0048831","regulation of shoot system development",548,321,248.19,2.1e-10,1.18866028708134e-09
+"GO:0034614","cellular response to reactive oxygen spe...",278,178,125.91,2.2e-10,1.24328025477707e-09
+"GO:0009856","pollination",708,403,320.66,2.3e-10,1.29772655007949e-09
+"GO:0043900","regulation of multi-organism process",197,133,89.22,2.4e-10,1.352e-09
+"GO:0006984","ER-nucleus signaling pathway",282,180,127.72,2.5e-10,1.40387658227848e-09
+"GO:0007020","microtubule nucleation",162,113,73.37,2.5e-10,1.40387658227848e-09
+"GO:2000241","regulation of reproductive process",736,417,333.34,2.6e-10,1.45772511848341e-09
+"GO:0006568","tryptophan metabolic process",171,118,77.45,3e-10,1.67405660377358e-09
+"GO:0006586","indolalkylamine metabolic process",171,118,77.45,3e-10,1.67405660377358e-09
+"GO:0030968","endoplasmic reticulum unfolded protein r...",299,189,135.42,3e-10,1.67405660377358e-09
+"GO:0080129","proteasome core complex assembly",189,128,85.6,3.7e-10,2.06142857142857e-09
+"GO:0050790","regulation of catalytic activity",1359,726,615.5,5.1e-10,2.83697492163009e-09
+"GO:0044093","positive regulation of molecular functio...",557,324,252.27,5.3e-10,2.94361502347418e-09
+"GO:0120255","olefinic compound biosynthetic process",271,173,122.74,5.4e-10,2.99446875e-09
+"GO:0009718","anthocyanin-containing compound biosynth...",134,96,60.69,5.5e-10,3.04516380655226e-09
+"GO:0046034","ATP metabolic process",950,523,430.26,5.8e-10,3.20626168224299e-09
+"GO:0098754","detoxification",579,335,262.23,6.3e-10,3.47724727838258e-09
+"GO:0009909","regulation of flower development",519,304,235.06,6.4e-10,3.52695652173913e-09
+"GO:0009086","methionine biosynthetic process",143,101,64.77,7.3e-10,4.0166976744186e-09
+"GO:0046942","carboxylic acid transport",305,191,138.14,7.4e-10,4.06541795665635e-09
+"GO:0046459","short-chain fatty acid metabolic process",116,85,52.54,8.5e-10,4.65532407407407e-09
+"GO:0048439","flower morphogenesis",116,85,52.54,8.5e-10,4.65532407407407e-09
+"GO:0098662","inorganic cation transmembrane transport",753,423,341.04,8.9e-10,4.8668875192604e-09
+"GO:0009074","aromatic amino acid family catabolic pro...",152,106,68.84,9e-10,4.914e-09
+"GO:0042436","indole-containing compound catabolic pro...",135,96,61.14,1.1e-09,5.97840735068913e-09
+"GO:0006595","polyamine metabolic process",108,80,48.91,1.1e-09,5.97840735068913e-09
+"GO:0009723","response to ethylene",764,428,346.02,1.1e-09,5.97840735068913e-09
+"GO:0034470","ncRNA processing",776,434,351.46,1.2e-09,6.49207317073171e-09
+"GO:0098655","cation transmembrane transport",794,443,359.61,1.2e-09,6.49207317073171e-09
+"GO:0009765","photosynthesis, light harvesting",63,52,28.53,1.2e-09,6.49207317073171e-09
+"GO:0031407","oxylipin metabolic process",74,59,33.52,1.3e-09,7.01170212765957e-09
+"GO:0031408","oxylipin biosynthetic process",74,59,33.52,1.3e-09,7.01170212765957e-09
+"GO:0071704","organic substance metabolic process",25203,11638,11414.67,1.4e-09,7.51679273827534e-09
+"GO:0006354","DNA-templated transcription, elongation",165,113,74.73,1.4e-09,7.51679273827534e-09
+"GO:0055076","transition metal ion homeostasis",380,230,172.11,1.4e-09,7.51679273827534e-09
+"GO:0043248","proteasome assembly",252,161,114.13,1.9e-09,1.01859516616314e-08
+"GO:0010224","response to UV-B",203,134,91.94,2e-09,1.07058823529412e-08
+"GO:0009407","toxin catabolic process",336,206,152.18,2.2e-09,1.1758734939759e-08
+"GO:0048532","anatomical structure arrangement",410,245,185.69,2.3e-09,1.22563063063063e-08
+"GO:0045454","cell redox homeostasis",189,126,85.6,2.3e-09,1.22563063063063e-08
+"GO:0009834","plant-type secondary cell wall biogenesi...",104,77,47.1,2.4e-09,1.27508982035928e-08
+"GO:0015711","organic anion transport",355,216,160.78,2.4e-09,1.27508982035928e-08
+"GO:0048528","post-embryonic root development",314,194,142.21,2.7e-09,1.43233183856502e-08
+"GO:0015706","nitrate transport",382,230,173.01,2.8e-09,1.48316417910448e-08
+"GO:0048527","lateral root development",290,181,131.34,3e-09,1.58673621460507e-08
+"GO:1901136","carbohydrate derivative catabolic proces...",713,400,322.92,3.1e-09,1.6371875e-08
+"GO:0019216","regulation of lipid metabolic process",137,96,62.05,3.7e-09,1.95115898959881e-08
+"GO:0071215","cellular response to abscisic acid stimu...",649,367,293.94,4.1e-09,2.15888724035608e-08
+"GO:0070585","protein localization to mitochondrion",167,113,75.64,4.2e-09,2.205e-08
+"GO:0072655","establishment of protein localization to...",167,113,75.64,4.2e-09,2.205e-08
+"GO:0009933","meristem structural organization",393,235,177.99,4.5e-09,2.35901033973412e-08
+"GO:0009808","lignin metabolic process",169,114,76.54,4.7e-09,2.46022123893805e-08
+"GO:0006569","tryptophan catabolic process",129,91,58.43,5.5e-09,2.87051470588235e-08
+"GO:0046218","indolalkylamine catabolic process",129,91,58.43,5.5e-09,2.87051470588235e-08
+"GO:0045730","respiratory burst",207,135,93.75,5.6e-09,2.9184140969163e-08
+"GO:0006626","protein targeting to mitochondrion",166,112,75.18,6.3e-09,3.27840175953079e-08
+"GO:0042364","water-soluble vitamin biosynthetic proce...",102,75,46.2,6.4e-09,3.32070175438596e-08
+"GO:0098771","inorganic ion homeostasis",541,311,245.02,6.4e-09,3.32070175438596e-08
+"GO:0006555","methionine metabolic process",159,108,72.01,6.6e-09,3.41448979591837e-08
+"GO:0000904","cell morphogenesis involved in different...",764,424,346.02,6.6e-09,3.41448979591837e-08
+"GO:0070301","cellular response to hydrogen peroxide",224,144,101.45,7.4e-09,3.82279475982533e-08
+"GO:1901361","organic cyclic compound catabolic proces...",1388,732,628.64,7.8e-09,4.02357558139535e-08
+"GO:0009116","nucleoside metabolic process",729,406,330.17,7.9e-09,4.06924528301887e-08
+"GO:0010089","xylem development",170,114,76.99,8e-09,4.11478260869565e-08
+"GO:0007005","mitochondrion organization",306,188,138.59,8.7e-09,4.4683502170767e-08
+"GO:0006305","DNA alkylation",208,135,94.21,8.8e-09,4.50666666666667e-08
+"GO:0006306","DNA methylation",208,135,94.21,8.8e-09,4.50666666666667e-08
+"GO:0006857","oligopeptide transport",165,111,74.73,9.5e-09,4.85814121037464e-08
+"GO:0072523","purine-containing compound catabolic pro...",693,387,313.87,1.2e-08,6.11018651362984e-08
+"GO:0072522","purine-containing compound biosynthetic ...",377,225,170.75,1.2e-08,6.11018651362984e-08
+"GO:0046434","organophosphate catabolic process",711,396,322.02,1.2e-08,6.11018651362984e-08
+"GO:0009790","embryo development",1554,811,703.82,1.4e-08,7.11833810888252e-08
+"GO:0006470","protein dephosphorylation",531,304,240.49,1.7e-08,8.63133047210301e-08
+"GO:0009738","abscisic acid-activated signaling pathwa...",606,342,274.46,1.8e-08,9.126e-08
+"GO:0031365","N-terminal protein amino acid modificati...",390,231,176.63,1.9e-08,9.61925820256776e-08
+"GO:0042744","hydrogen peroxide catabolic process",254,159,115.04,2e-08,1.00967283072546e-07
+"GO:0046471","phosphatidylglycerol metabolic process",107,77,48.46,2e-08,1.00967283072546e-07
+"GO:0019439","aromatic compound catabolic process",1372,721,621.39,2.2e-08,1.10592067988669e-07
+"GO:0006260","DNA replication",540,308,244.57,2.2e-08,1.10592067988669e-07
+"GO:0009119","ribonucleoside metabolic process",599,338,271.29,2.2e-08,1.10592067988669e-07
+"GO:0034404","nucleobase-containing small molecule bio...",776,427,351.46,2.4e-08,1.20475247524752e-07
+"GO:0002679","respiratory burst involved in defense re...",203,131,91.94,2.5e-08,1.25141043723554e-07
+"GO:0007568","aging",443,258,200.64,2.5e-08,1.25141043723554e-07
+"GO:1901292","nucleoside phosphate catabolic process",663,370,300.28,2.6e-08,1.2996338028169e-07
+"GO:0009060","aerobic respiration",137,94,62.05,2.9e-08,1.44755274261603e-07
+"GO:0043412","macromolecule modification",7672,3682,3474.72,3e-08,1.49326788218794e-07
+"GO:0036293","response to decreased oxygen levels",153,103,69.3,3e-08,1.49326788218794e-07
+"GO:0006655","phosphatidylglycerol biosynthetic proces...",106,76,48.01,3.2e-08,1.59058823529412e-07
+"GO:0006164","purine nucleotide biosynthetic process",367,218,166.22,3.4e-08,1.68763636363636e-07
+"GO:0006575","cellular modified amino acid metabolic p...",293,179,132.7,3.5e-08,1.73242677824268e-07
+"GO:0044270","cellular nitrogen compound catabolic pro...",1324,696,599.65,3.5e-08,1.73242677824268e-07
+"GO:0007018","microtubule-based movement",134,92,60.69,3.8e-08,1.8783008356546e-07
+"GO:0043647","inositol phosphate metabolic process",108,77,48.91,3.9e-08,1.92504867872044e-07
+"GO:0035295","tube development",480,276,217.4,4.3e-08,2.11954166666667e-07
+"GO:0010305","leaf vascular tissue pattern formation",98,71,44.39,4.5e-08,2.21504854368932e-07
+"GO:0051322","anaphase",88,65,39.86,4.8e-08,2.3594459833795e-07
+"GO:0006498","N-terminal protein lipidation",351,209,158.97,5e-08,2.44758620689655e-07
+"GO:0006499","N-terminal protein myristoylation",351,209,158.97,5e-08,2.44758620689655e-07
+"GO:0018377","protein myristoylation",351,209,158.97,5e-08,2.44758620689655e-07
+"GO:0070482","response to oxygen levels",154,103,69.75,5.1e-08,2.48625e-07
+"GO:0071214","cellular response to abiotic stimulus",467,269,211.51,5.1e-08,2.48625e-07
+"GO:0104004","cellular response to environmental stimu...",467,269,211.51,5.1e-08,2.48625e-07
+"GO:0010118","stomatal movement",283,173,128.17,5.5e-08,2.67757201646091e-07
+"GO:0034406","cell wall beta-glucan metabolic process",62,49,28.08,5.6e-08,2.71879616963064e-07
+"GO:0052541","plant-type cell wall cellulose metabolic...",62,49,28.08,5.6e-08,2.71879616963064e-07
+"GO:0009768","photosynthesis, light harvesting in phot...",21,21,9.51,5.9e-08,2.86053278688525e-07
+"GO:0044728","DNA methylation or demethylation",222,140,100.55,6.9e-08,3.34080491132333e-07
+"GO:0042278","purine nucleoside metabolic process",596,334,269.93,7e-08,3.38460490463215e-07
+"GO:0071367","cellular response to brassinosteroid sti...",109,77,49.37,7.3e-08,3.52485714285714e-07
+"GO:0055072","iron ion homeostasis",267,164,120.93,7.7e-08,3.70791044776119e-07
+"GO:0006195","purine nucleotide catabolic process",648,360,293.49,7.7e-08,3.70791044776119e-07
+"GO:0046700","heterocycle catabolic process",1321,692,598.29,7.8e-08,3.74083783783784e-07
+"GO:0009166","nucleotide catabolic process",656,364,297.11,7.8e-08,3.74083783783784e-07
+"GO:0048645","animal organ formation",301,182,136.33,7.8e-08,3.74083783783784e-07
+"GO:0002252","immune effector process",561,316,254.08,8e-08,3.83157894736842e-07
+"GO:0046916","cellular transition metal ion homeostasi...",345,205,156.25,8.3e-08,3.96990566037736e-07
+"GO:0046128","purine ribonucleoside metabolic process",585,328,264.95,8.6e-08,4.1078600269179e-07
+"GO:0009809","lignin biosynthetic process",99,71,44.84,8.8e-08,4.19210738255034e-07
+"GO:0051790","short-chain fatty acid biosynthetic proc...",99,71,44.84,8.8e-08,4.19210738255034e-07
+"GO:0043648","dicarboxylic acid metabolic process",166,109,75.18,9.3e-08,4.42435656836461e-07
+"GO:0072594","establishment of protein localization to...",753,412,341.04,9.7e-08,4.60847389558233e-07
+"GO:0007169","transmembrane receptor protein tyrosine ...",150,100,67.94,1e-07,4.73831775700935e-07
+"GO:0006875","cellular metal ion homeostasis",419,243,189.77,1e-07,4.73831775700935e-07
+"GO:0008356","asymmetric cell division",58,46,26.27,1.2e-07,5.67083888149134e-07
+"GO:0032271","regulation of protein polymerization",192,123,86.96,1.2e-07,5.67083888149134e-07
+"GO:0031425","chloroplast RNA processing",117,81,52.99,1.4e-07,6.59840637450199e-07
+"GO:0048449","floral organ formation",280,170,126.81,1.4e-07,6.59840637450199e-07
+"GO:0000272","polysaccharide catabolic process",374,219,169.39,1.5e-07,7.06034482758621e-07
+"GO:0009154","purine ribonucleotide catabolic process",560,314,253.63,1.6e-07,7.51111111111111e-07
+"GO:0009261","ribonucleotide catabolic process",560,314,253.63,1.6e-07,7.51111111111111e-07
+"GO:0048868","pollen tube development",525,296,237.78,1.8e-07,8.43883751651255e-07
+"GO:0033365","protein localization to organelle",833,450,377.27,1.9e-07,8.89591029023747e-07
+"GO:0019751","polyol metabolic process",175,113,79.26,2.1e-07,9.81936758893281e-07
+"GO:0009692","ethylene metabolic process",188,120,85.15,2.2e-07,1.02062745098039e-06
+"GO:0009693","ethylene biosynthetic process",188,120,85.15,2.2e-07,1.02062745098039e-06
+"GO:0043449","cellular alkene metabolic process",188,120,85.15,2.2e-07,1.02062745098039e-06
+"GO:0043450","alkene biosynthetic process",188,120,85.15,2.2e-07,1.02062745098039e-06
+"GO:1900673","olefin metabolic process",188,120,85.15,2.2e-07,1.02062745098039e-06
+"GO:1900674","olefin biosynthetic process",188,120,85.15,2.2e-07,1.02062745098039e-06
+"GO:0042335","cuticle development",125,85,56.61,2.4e-07,1.11195822454308e-06
+"GO:0035556","intracellular signal transduction",2088,1057,945.67,2.5e-07,1.1537711313394e-06
+"GO:0033037","polysaccharide localization",170,110,76.99,2.5e-07,1.1537711313394e-06
+"GO:1902905","positive regulation of supramolecular fi...",170,110,76.99,2.5e-07,1.1537711313394e-06
+"GO:0009742","brassinosteroid mediated signaling pathw...",106,74,48.01,2.8e-07,1.28887159533074e-06
+"GO:0043401","steroid hormone mediated signaling pathw...",120,82,54.35,2.8e-07,1.28887159533074e-06
+"GO:0031334","positive regulation of protein-containin...",185,118,83.79,3e-07,1.37914507772021e-06
+"GO:0032273","positive regulation of protein polymeriz...",165,107,74.73,3.1e-07,1.42143410852713e-06
+"GO:0006304","DNA modification",239,147,108.25,3.1e-07,1.42143410852713e-06
+"GO:0048444","floral organ morphogenesis",363,212,164.41,3.2e-07,1.46162162162162e-06
+"GO:1901658","glycosyl compound catabolic process",577,321,261.33,3.2e-07,1.46162162162162e-06
+"GO:0042493","response to drug",187,119,84.69,3.2e-07,1.46162162162162e-06
+"GO:0001666","response to hypoxia",147,97,66.58,3.3e-07,1.50342747111682e-06
+"GO:0098661","inorganic anion transmembrane transport",108,75,48.91,3.3e-07,1.50342747111682e-06
+"GO:1902903","regulation of supramolecular fiber organ...",206,129,93.3,3.9e-07,1.7745e-06
+"GO:0051495","positive regulation of cytoskeleton orga...",171,110,77.45,4e-07,1.81766965428937e-06
+"GO:0009152","purine ribonucleotide biosynthetic proce...",318,188,144.03,4.5e-07,2.04226342710997e-06
+"GO:0071383","cellular response to steroid hormone sti...",121,82,54.8,4.9e-07,2.218125e-06
+"GO:0052545","callose localization",166,107,75.18,4.9e-07,2.218125e-06
+"GO:0006643","membrane lipid metabolic process",353,206,159.88,5e-07,2.26050955414013e-06
+"GO:0006457","protein folding",488,275,221.02,5.1e-07,2.30278625954198e-06
+"GO:0022900","electron transport chain",455,258,206.07,5.7e-07,2.57043202033037e-06
+"GO:0051493","regulation of cytoskeleton organization",237,145,107.34,5.9e-07,2.6572461928934e-06
+"GO:0009141","nucleoside triphosphate metabolic proces...",672,367,304.35,6.1e-07,2.74384030418251e-06
+"GO:0010208","pollen wall assembly",90,64,40.76,6.2e-07,2.78529113924051e-06
+"GO:0010109","regulation of photosynthesis",55,43,24.91,6.4e-07,2.87150442477876e-06
+"GO:0010106","cellular response to iron ion starvation",198,124,89.68,6.5e-07,2.91268939393939e-06
+"GO:0034754","cellular hormone metabolic process",403,231,182.52,7.2e-07,3.22229508196721e-06
+"GO:0048511","rhythmic process",287,171,129.98,7.3e-07,3.25883018867924e-06
+"GO:0006767","water-soluble vitamin metabolic process",120,81,54.35,7.3e-07,3.25883018867924e-06
+"GO:0043254","regulation of protein-containing complex...",219,135,99.19,7.8e-07,3.47329987452949e-06
+"GO:0010043","response to zinc ion",138,91,62.5,7.8e-07,3.47329987452949e-06
+"GO:0019374","galactolipid metabolic process",158,102,71.56,8e-07,3.55789473684211e-06
+"GO:0010565","regulation of cellular ketone metabolic ...",133,88,60.24,9.5e-07,4.21971214017522e-06
+"GO:0045010","actin nucleation",155,100,70.2,1.1e-06,4.85559701492537e-06
+"GO:0044087","regulation of cellular component biogene...",273,163,123.64,1.1e-06,4.85559701492537e-06
+"GO:0009860","pollen tube growth",442,250,200.19,1.1e-06,4.85559701492537e-06
+"GO:0030833","regulation of actin filament polymerizat...",179,113,81.07,1.1e-06,4.85559701492537e-06
+"GO:0010026","trichome differentiation",298,176,134.97,1.1e-06,4.85559701492537e-06
+"GO:0019375","galactolipid biosynthetic process",157,101,71.11,1.2e-06,5.27079207920792e-06
+"GO:1903825","organic acid transmembrane transport",157,101,71.11,1.2e-06,5.27079207920792e-06
+"GO:0006879","cellular iron ion homeostasis",239,145,108.25,1.2e-06,5.27079207920792e-06
+"GO:0030041","actin filament polymerization",181,114,81.98,1.2e-06,5.27079207920792e-06
+"GO:0051640","organelle localization",372,214,168.48,1.3e-06,5.70296662546354e-06
+"GO:0006787","porphyrin-containing compound catabolic ...",141,92,63.86,1.4e-06,6.11896551724138e-06
+"GO:0033015","tetrapyrrole catabolic process",141,92,63.86,1.4e-06,6.11896551724138e-06
+"GO:0042454","ribonucleoside catabolic process",542,300,245.48,1.4e-06,6.11896551724138e-06
+"GO:0019685","photosynthesis, dark reaction",28,25,12.68,1.5e-06,6.5479704797048e-06
+"GO:0046486","glycerolipid metabolic process",507,282,229.62,1.6e-06,6.97592137592138e-06
+"GO:0030838","positive regulation of actin filament po...",156,100,70.65,1.7e-06,7.38470012239902e-06
+"GO:0071229","cellular response to acid chemical",156,100,70.65,1.7e-06,7.38470012239902e-06
+"GO:0009164","nucleoside catabolic process",559,308,253.18,1.7e-06,7.38470012239902e-06
+"GO:0009064","glutamine family amino acid metabolic pr...",158,101,71.56,1.8e-06,7.80953545232274e-06
+"GO:0007140","male meiotic nuclear division",45,36,20.38,2e-06,8.64555420219245e-06
+"GO:0016042","lipid catabolic process",654,355,296.2,2e-06,8.64555420219245e-06
+"GO:1901068","guanosine-containing compound metabolic ...",162,103,73.37,2e-06,8.64555420219245e-06
+"GO:0006152","purine nucleoside catabolic process",548,302,248.19,2.1e-06,9.06678832116788e-06
+"GO:0019747","regulation of isoprenoid metabolic proce...",42,34,19.02,2.3e-06,9.91822600243013e-06
+"GO:0010119","regulation of stomatal movement",179,112,81.07,2.4e-06,1.03368932038835e-05
+"GO:0006479","protein methylation",485,270,219.66,2.5e-06,1.07285368802902e-05
+"GO:0008213","protein alkylation",485,270,219.66,2.5e-06,1.07285368802902e-05
+"GO:0048545","response to steroid hormone",146,94,66.12,2.5e-06,1.07285368802902e-05
+"GO:0046130","purine ribonucleoside catabolic process",539,297,244.12,2.6e-06,1.11039711191336e-05
+"GO:0034656","nucleobase-containing small molecule cat...",561,308,254.08,2.6e-06,1.11039711191336e-05
+"GO:0006458","'de novo' protein folding",39,32,17.66,2.6e-06,1.11039711191336e-05
+"GO:0010214","seed coat development",55,42,24.91,2.6e-06,1.11039711191336e-05
+"GO:0046890","regulation of lipid biosynthetic process",82,58,37.14,2.7e-06,1.15171875e-05
+"GO:0048441","petal development",172,108,77.9,2.8e-06,1.19151079136691e-05
+"GO:0048465","corolla development",172,108,77.9,2.8e-06,1.19151079136691e-05
+"GO:0008064","regulation of actin polymerization or de...",187,116,84.69,2.9e-06,1.22817422434368e-05
+"GO:0110053","regulation of actin filament organizatio...",187,116,84.69,2.9e-06,1.22817422434368e-05
+"GO:0019253","reductive pentose-phosphate cycle",27,24,12.23,2.9e-06,1.22817422434368e-05
+"GO:0007155","cell adhesion",202,124,91.49,2.9e-06,1.22817422434368e-05
+"GO:0052315","phytoalexin biosynthetic process",33,28,14.95,3.1e-06,1.31131108462455e-05
+"GO:0009143","nucleoside triphosphate catabolic proces...",522,288,236.42,3.2e-06,1.352e-05
+"GO:0042273","ribosomal large subunit biogenesis",114,76,51.63,3.3e-06,1.38928825622776e-05
+"GO:0007623","circadian rhythm",267,158,120.93,3.3e-06,1.38928825622776e-05
+"GO:0002181","cytoplasmic translation",123,81,55.71,3.3e-06,1.38928825622776e-05
+"GO:0016571","histone methylation",445,249,201.54,3.6e-06,1.512e-05
+"GO:0046149","pigment catabolic process",134,87,60.69,3.6e-06,1.512e-05
+"GO:0044089","positive regulation of cellular componen...",199,122,90.13,3.8e-06,1.5941134751773e-05
+"GO:0009199","ribonucleoside triphosphate metabolic pr...",652,352,295.3,4.2e-06,1.75156286721504e-05
+"GO:0030832","regulation of actin filament length",188,116,85.15,4.2e-06,1.75156286721504e-05
+"GO:0032956","regulation of actin cytoskeleton organiz...",188,116,85.15,4.2e-06,1.75156286721504e-05
+"GO:0032970","regulation of actin filament-based proce...",188,116,85.15,4.2e-06,1.75156286721504e-05
+"GO:0009144","purine nucleoside triphosphate metabolic...",646,349,292.58,4.2e-06,1.75156286721504e-05
+"GO:0006995","cellular response to nitrogen starvation",59,44,26.72,4.6e-06,1.91612676056338e-05
+"GO:1905039","carboxylic acid transmembrane transport",153,97,69.3,4.8e-06,1.99475409836066e-05
+"GO:0010584","pollen exine formation",76,54,34.42,4.8e-06,1.99475409836066e-05
+"GO:0015996","chlorophyll catabolic process",133,86,60.24,5.2e-06,2.15845614035088e-05
+"GO:0007051","spindle organization",126,82,57.07,5.8e-06,2.40189031505251e-05
+"GO:1901616","organic hydroxy compound catabolic proce...",126,82,57.07,5.8e-06,2.40189031505251e-05
+"GO:0009146","purine nucleoside triphosphate catabolic...",517,284,234.15,5.9e-06,2.43477906976744e-05
+"GO:0061640","cytoskeleton-dependent cytokinesis",61,45,27.63,5.9e-06,2.43477906976744e-05
+"GO:0006863","purine nucleobase transport",108,72,48.91,5.9e-06,2.43477906976744e-05
+"GO:0009967","positive regulation of signal transducti...",148,94,67.03,6e-06,2.47030162412993e-05
+"GO:0051084","'de novo' posttranslational protein fold...",29,25,13.13,6e-06,2.47030162412993e-05
+"GO:0007015","actin filament organization",273,160,123.64,6.3e-06,2.59081112398609e-05
+"GO:0023056","positive regulation of signaling",150,95,67.94,6.4e-06,2.62888888888889e-05
+"GO:0015851","nucleobase transport",110,73,49.82,6.6e-06,2.70790751445087e-05
+"GO:0032544","plastid translation",15,15,6.79,6.9e-06,2.82120967741935e-05
+"GO:0051502","diterpene phytoalexin biosynthetic proce...",19,18,8.61,6.9e-06,2.82120967741935e-05
+"GO:0051504","diterpene phytoalexin precursor biosynth...",19,18,8.61,6.9e-06,2.82120967741935e-05
+"GO:0009203","ribonucleoside triphosphate catabolic pr...",510,280,230.98,7.2e-06,2.93710344827586e-05
+"GO:0009207","purine ribonucleoside triphosphate catab...",510,280,230.98,7.2e-06,2.93710344827586e-05
+"GO:0052314","phytoalexin metabolic process",40,32,18.12,7.4e-06,3.01522388059702e-05
+"GO:0006464","cellular protein modification process",6368,3039,2884.12,7.5e-06,3.04548054919908e-05
+"GO:0036211","protein modification process",6368,3039,2884.12,7.5e-06,3.04548054919908e-05
+"GO:0009205","purine ribonucleoside triphosphate metab...",637,343,288.5,7.5e-06,3.04548054919908e-05
+"GO:0009556","microsporogenesis",75,53,33.97,7.6e-06,3.08256e-05
+"GO:1902600","proton transmembrane transport",419,234,189.77,8.2e-06,3.32212328767123e-05
+"GO:0045017","glycerolipid biosynthetic process",354,201,160.33,8.5e-06,3.43973774230331e-05
+"GO:0051607","defense response to virus",230,137,104.17,9e-06,3.6255391600454e-05
+"GO:0140546","defense response to symbiont",230,137,104.17,9e-06,3.6255391600454e-05
+"GO:0042631","cellular response to water deprivation",149,94,67.48,9e-06,3.6255391600454e-05
+"GO:0071462","cellular response to water stimulus",149,94,67.48,9e-06,3.6255391600454e-05
+"GO:0009403","toxin biosynthetic process",34,28,15.4,1e-05,4.01925254813137e-05
+"GO:0010304","PSII associated light-harvesting complex...",34,28,15.4,1e-05,4.01925254813137e-05
+"GO:1901069","guanosine-containing compound catabolic ...",131,84,59.33,1.1e-05,4.41118644067797e-05
+"GO:0006714","sesquiterpenoid metabolic process",111,73,50.27,1.1e-05,4.41118644067797e-05
+"GO:0046039","GTP metabolic process",146,92,66.12,1.2e-05,4.77443946188341e-05
+"GO:0045488","pectin metabolic process",254,149,115.04,1.2e-05,4.77443946188341e-05
+"GO:0032504","multicellular organism reproduction",774,409,350.55,1.2e-05,4.77443946188341e-05
+"GO:0000079","regulation of cyclin-dependent protein s...",62,45,28.08,1.2e-05,4.77443946188341e-05
+"GO:1904029","regulation of cyclin-dependent protein k...",62,45,28.08,1.2e-05,4.77443946188341e-05
+"GO:0016572","histone phosphorylation",81,56,36.69,1.2e-05,4.77443946188341e-05
+"GO:0051225","spindle assembly",81,56,36.69,1.2e-05,4.77443946188341e-05
+"GO:0048563","post-embryonic animal organ morphogenesi...",299,172,135.42,1.3e-05,5.16073825503356e-05
+"GO:0015718","monocarboxylic acid transport",69,49,31.25,1.3e-05,5.16073825503356e-05
+"GO:0071941","nitrogen cycle metabolic process",76,53,34.42,1.4e-05,5.53913043478261e-05
+"GO:0051128","regulation of cellular component organiz...",771,407,349.19,1.4e-05,5.53913043478261e-05
+"GO:1902749","regulation of cell cycle G2/M phase tran...",99,66,44.84,1.4e-05,5.53913043478261e-05
+"GO:1900864","mitochondrial RNA modification",110,72,49.82,1.6e-05,6.28837209302326e-05
+"GO:0010102","lateral root morphogenesis",143,90,64.77,1.6e-05,6.28837209302326e-05
+"GO:0009156","ribonucleoside monophosphate biosyntheti...",59,43,26.72,1.6e-05,6.28837209302326e-05
+"GO:0010393","galacturonan metabolic process",255,149,115.49,1.6e-05,6.28837209302326e-05
+"GO:0048236","plant-type sporogenesis",85,58,38.5,1.6e-05,6.28837209302326e-05
+"GO:0061025","membrane fusion",442,244,200.19,1.6e-05,6.28837209302326e-05
+"GO:0044772","mitotic cell cycle phase transition",173,106,78.35,1.7e-05,6.67400442477876e-05
+"GO:0071900","regulation of protein serine/threonine k...",123,79,55.71,1.8e-05,7.04321940463065e-05
+"GO:0062012","regulation of small molecule metabolic p...",238,140,107.79,1.8e-05,7.04321940463065e-05
+"GO:0042214","terpene metabolic process",87,59,39.4,1.8e-05,7.04321940463065e-05
+"GO:0009749","response to glucose",136,86,61.6,1.9e-05,7.39375e-05
+"GO:0010638","positive regulation of organelle organiz...",273,158,123.64,1.9e-05,7.39375e-05
+"GO:0015893","drug transport",149,93,67.48,1.9e-05,7.39375e-05
+"GO:0044273","sulfur compound catabolic process",80,55,36.23,1.9e-05,7.39375e-05
+"GO:0016036","cellular response to phosphate starvatio...",219,130,99.19,1.9e-05,7.39375e-05
+"GO:0051726","regulation of cell cycle",608,326,275.37,2e-05,7.75737704918033e-05
+"GO:0022603","regulation of anatomical structure morph...",248,145,112.32,2e-05,7.75737704918033e-05
+"GO:0030029","actin filament-based process",423,234,191.58,2e-05,7.75737704918033e-05
+"GO:0042538","hyperosmotic salinity response",344,194,155.8,2.1e-05,8.12748091603053e-05
+"GO:0010389","regulation of G2/M transition of mitotic...",98,65,44.39,2.1e-05,8.12748091603053e-05
+"GO:0015804","neutral amino acid transport",187,113,84.69,2.2e-05,8.49597388465724e-05
+"GO:0003333","amino acid transmembrane transport",118,76,53.44,2.2e-05,8.49597388465724e-05
+"GO:0009581","detection of external stimulus",172,105,77.9,2.3e-05,8.8628664495114e-05
+"GO:0051130","positive regulation of cellular componen...",305,174,138.14,2.3e-05,8.8628664495114e-05
+"GO:0010101","post-embryonic root morphogenesis",144,90,65.22,2.4e-05,9.21818181818182e-05
+"GO:0009161","ribonucleoside monophosphate metabolic p...",63,45,28.53,2.4e-05,9.21818181818182e-05
+"GO:0044770","cell cycle phase transition",176,107,79.71,2.4e-05,9.21818181818182e-05
+"GO:0006862","nucleotide transport",111,72,50.27,2.5e-05,9.58153347732181e-05
+"GO:0022610","biological adhesion",218,129,98.73,2.5e-05,9.58153347732181e-05
+"GO:0009615","response to virus",284,163,128.63,2.6e-05,9.93261571582347e-05
+"GO:0044275","cellular carbohydrate catabolic process",163,100,73.82,2.6e-05,9.93261571582347e-05
+"GO:0046620","regulation of organ growth",43,33,19.48,2.6e-05,9.93261571582347e-05
+"GO:2001057","reactive nitrogen species metabolic proc...",72,50,32.61,2.9e-05,0.000110667741935484
+"GO:0000086","G2/M transition of mitotic cell cycle",106,69,48.01,3.1e-05,0.000117793361884368
+"GO:0000959","mitochondrial RNA metabolic process",128,81,57.97,3.1e-05,0.000117793361884368
+"GO:0007129","homologous chromosome pairing at meiosis",128,81,57.97,3.1e-05,0.000117793361884368
+"GO:0010227","floral organ abscission",60,43,27.17,3.1e-05,0.000117793361884368
+"GO:0030036","actin cytoskeleton organization",332,187,150.37,3.3e-05,0.000124991462113127
+"GO:0044839","cell cycle G2/M phase transition",108,70,48.91,3.3e-05,0.000124991462113127
+"GO:0080156","mitochondrial mRNA modification",108,70,48.91,3.3e-05,0.000124991462113127
+"GO:0046482","para-aminobenzoic acid metabolic process",74,51,33.52,3.4e-05,0.000128504792332268
+"GO:1901663","quinone biosynthetic process",74,51,33.52,3.4e-05,0.000128504792332268
+"GO:0045859","regulation of protein kinase activity",293,167,132.7,3.5e-05,0.000131863057324841
+"GO:0000186","activation of MAPKK activity",45,34,20.38,3.5e-05,0.000131863057324841
+"GO:0030865","cortical cytoskeleton organization",45,34,20.38,3.5e-05,0.000131863057324841
+"GO:0046246","terpene biosynthetic process",50,37,22.65,3.6e-05,0.000135057082452431
+"GO:0048584","positive regulation of response to stimu...",370,206,167.58,3.6e-05,0.000135057082452431
+"GO:0010647","positive regulation of cell communicatio...",162,99,73.37,3.6e-05,0.000135057082452431
+"GO:0046467","membrane lipid biosynthetic process",297,169,134.51,3.6e-05,0.000135057082452431
+"GO:0006497","protein lipidation",414,228,187.5,3.7e-05,0.000138369863013699
+"GO:0042158","lipoprotein biosynthetic process",414,228,187.5,3.7e-05,0.000138369863013699
+"GO:0006650","glycerophospholipid metabolic process",424,233,192.03,3.7e-05,0.000138369863013699
+"GO:0043572","plastid fission",29,24,13.13,3.8e-05,0.00014181072555205
+"GO:0007167","enzyme linked receptor protein signaling...",231,135,104.62,3.8e-05,0.00014181072555205
+"GO:0042181","ketone biosynthetic process",76,52,34.42,3.9e-05,0.000145389705882353
+"GO:0070192","chromosome organization involved in meio...",151,93,68.39,4e-05,0.000148805031446541
+"GO:0043090","amino acid import",168,102,76.09,4e-05,0.000148805031446541
+"GO:0009638","phototropism",37,29,16.76,4.1e-05,0.000152206066945607
+"GO:0015977","carbon fixation",37,29,16.76,4.1e-05,0.000152206066945607
+"GO:0030091","protein repair",26,22,11.78,4.2e-05,0.00015526875
+"GO:0046653","tetrahydrofolate metabolic process",26,22,11.78,4.2e-05,0.00015526875
+"GO:0051501","diterpene phytoalexin metabolic process",26,22,11.78,4.2e-05,0.00015526875
+"GO:0010927","cellular component assembly involved in ...",114,73,51.63,4.2e-05,0.00015526875
+"GO:0008154","actin polymerization or depolymerization",218,128,98.73,4.5e-05,0.000166186264308012
+"GO:0046474","glycerophospholipid biosynthetic process",306,173,138.59,4.8e-05,0.000177081081081081
+"GO:1901362","organic cyclic compound biosynthetic pro...",8893,4184,4027.72,5e-05,0.000184267912772586
+"GO:0009251","glucan catabolic process",66,46,29.89,5.3e-05,0.000194717391304348
+"GO:1901568","fatty acid derivative metabolic process",66,46,29.89,5.3e-05,0.000194717391304348
+"GO:0006928","movement of cell or subcellular componen...",346,193,156.71,5.3e-05,0.000194717391304348
+"GO:1901987","regulation of cell cycle phase transitio...",150,92,67.94,5.5e-05,0.000201856256463289
+"GO:0033043","regulation of organelle organization",523,281,236.87,5.8e-05,0.000212646694214876
+"GO:0043562","cellular response to nitrogen levels",75,51,33.97,5.9e-05,0.000216089783281734
+"GO:0009641","shade avoidance",44,33,19.93,6e-05,0.000219299691040165
+"GO:0009736","cytokinin-activated signaling pathway",102,66,46.2,6e-05,0.000219299691040165
+"GO:0048826","cotyledon morphogenesis",68,47,30.8,6.1e-05,0.000222725308641975
+"GO:0052542","defense response by callose deposition",128,80,57.97,6.5e-05,0.000237086330935252
+"GO:0006099","tricarboxylic acid cycle",56,40,25.36,6.7e-05,0.000244130390143737
+"GO:0048446","petal morphogenesis",145,89,65.67,6.9e-05,0.000250902663934426
+"GO:0010311","lateral root formation",86,57,38.95,6.9e-05,0.000250902663934426
+"GO:0019852","L-ascorbic acid metabolic process",28,23,12.68,7e-05,0.000254278403275333
+"GO:1901990","regulation of mitotic cell cycle phase t...",147,90,66.58,7.2e-05,0.000261276073619632
+"GO:0048262","determination of dorsal/ventral asymmetr...",12,12,5.43,7.4e-05,0.000268259448416752
+"GO:0009891","positive regulation of biosynthetic proc...",1472,738,666.68,7.6e-05,0.000275228571428571
+"GO:0006690","icosanoid metabolic process",19,17,8.61,7.9e-05,0.000285510183299389
+"GO:0072350","tricarboxylic acid metabolic process",19,17,8.61,7.9e-05,0.000285510183299389
+"GO:0044070","regulation of anion transport",176,105,79.71,8.6e-05,0.000310492370295015
+"GO:0010193","response to ozone",101,65,45.74,8.7e-05,0.000313783536585366
+"GO:0044703","multi-organism reproductive process",662,348,299.83,8.8e-05,0.000317068020304569
+"GO:0044237","cellular metabolic process",26871,12298,12170.12,9.2e-05,0.000331144016227181
+"GO:0009820","alkaloid metabolic process",83,55,37.59,9.3e-05,0.000334065789473684
+"GO:0071368","cellular response to cytokinin stimulus",103,66,46.65,9.3e-05,0.000334065789473684
+"GO:0010564","regulation of cell cycle process",299,168,135.42,9.4e-05,0.000337316481294237
+"GO:0015824","proline transport",165,99,74.73,1e-04,0.000357762096774194
+"GO:0006085","acetyl-CoA biosynthetic process",43,32,19.48,1e-04,0.000357762096774194
+"GO:0035435","phosphate ion transmembrane transport",76,51,34.42,1e-04,0.000357762096774194
+"GO:1903509","liposaccharide metabolic process",266,151,120.47,0.00011,0.000391564694082247
+"GO:0009225","nucleotide-sugar metabolic process",69,47,31.25,0.00011,0.000391564694082247
+"GO:0009789","positive regulation of abscisic acid-act...",69,47,31.25,0.00011,0.000391564694082247
+"GO:0051093","negative regulation of developmental pro...",282,159,127.72,0.00011,0.000391564694082247
+"GO:0070925","organelle assembly",282,159,127.72,0.00011,0.000391564694082247
+"GO:0006109","regulation of carbohydrate metabolic pro...",71,48,32.16,0.00012,0.000426306306306306
+"GO:0017038","protein import",410,223,185.69,0.00012,0.000426306306306306
+"GO:0042126","nitrate metabolic process",57,40,25.82,0.00013,0.000457254707631318
+"GO:0042128","nitrate assimilation",57,40,25.82,0.00013,0.000457254707631318
+"GO:0006897","endocytosis",378,207,171.2,0.00013,0.000457254707631318
+"GO:0010020","chloroplast fission",27,22,12.23,0.00013,0.000457254707631318
+"GO:0010115","regulation of abscisic acid biosynthetic...",27,22,12.23,0.00013,0.000457254707631318
+"GO:0010090","trichome morphogenesis",255,145,115.49,0.00013,0.000457254707631318
+"GO:0043255","regulation of carbohydrate biosynthetic ...",40,30,18.12,0.00013,0.000457254707631318
+"GO:0006664","glycolipid metabolic process",257,146,116.4,0.00013,0.000457254707631318
+"GO:0051085","chaperone cofactor-dependent protein ref...",15,14,6.79,0.00013,0.000457254707631318
+"GO:0051513","regulation of monopolar cell growth",15,14,6.79,0.00013,0.000457254707631318
+"GO:0009084","glutamine family amino acid biosynthetic...",73,49,33.06,0.00014,0.00049096837944664
+"GO:0071370","cellular response to gibberellin stimulu...",166,99,75.18,0.00014,0.00049096837944664
+"GO:0019932","second-messenger-mediated signaling",191,112,86.51,0.00014,0.00049096837944664
+"GO:0042362","fat-soluble vitamin biosynthetic process",24,20,10.87,0.00015,0.000522937131630648
+"GO:0010588","cotyledon vascular tissue pattern format...",59,41,26.72,0.00015,0.000522937131630648
+"GO:1901570","fatty acid derivative biosynthetic proce...",59,41,26.72,0.00015,0.000522937131630648
+"GO:0009690","cytokinin metabolic process",134,82,60.69,0.00015,0.000522937131630648
+"GO:0051510","regulation of unidimensional cell growth",134,82,60.69,0.00015,0.000522937131630648
+"GO:0001932","regulation of protein phosphorylation",315,175,142.67,0.00015,0.000522937131630648
+"GO:0018198","peptidyl-cysteine modification",18,16,8.15,0.00016,0.000553450292397661
+"GO:0042814","monopolar cell growth",18,16,8.15,0.00016,0.000553450292397661
+"GO:0046112","nucleobase biosynthetic process",21,18,9.51,0.00016,0.000553450292397661
+"GO:0090376","seed trichome differentiation",21,18,9.51,0.00016,0.000553450292397661
+"GO:0007128","meiotic prophase I",11,11,4.98,0.00016,0.000553450292397661
+"GO:0051324","prophase",11,11,4.98,0.00016,0.000553450292397661
+"GO:0098764","meiosis I cell cycle phase",11,11,4.98,0.00016,0.000553450292397661
+"GO:0016106","sesquiterpenoid biosynthetic process",86,56,38.95,0.00016,0.000553450292397661
+"GO:0043650","dicarboxylic acid biosynthetic process",42,31,19.02,0.00017,0.00058405614714424
+"GO:0043622","cortical microtubule organization",37,28,16.76,0.00017,0.00058405614714424
+"GO:0006743","ubiquinone metabolic process",54,38,24.46,0.00017,0.00058405614714424
+"GO:0035384","thioester biosynthetic process",54,38,24.46,0.00017,0.00058405614714424
+"GO:0071616","acyl-CoA biosynthetic process",54,38,24.46,0.00017,0.00058405614714424
+"GO:1990542","mitochondrial transmembrane transport",54,38,24.46,0.00017,0.00058405614714424
+"GO:0044786","cell cycle DNA replication",110,69,49.82,0.00017,0.00058405614714424
+"GO:0006855","drug transmembrane transport",142,86,64.31,0.00018,0.000615433526011561
+"GO:0044247","cellular polysaccharide catabolic proces...",99,63,44.84,0.00018,0.000615433526011561
+"GO:0009687","abscisic acid metabolic process",88,57,39.86,0.00018,0.000615433526011561
+"GO:0043288","apocarotenoid metabolic process",88,57,39.86,0.00018,0.000615433526011561
+"GO:1902644","tertiary alcohol metabolic process",88,57,39.86,0.00018,0.000615433526011561
+"GO:0009625","response to insect",79,52,35.78,0.00019,0.000647130518234165
+"GO:1900140","regulation of seedling development",167,99,75.64,0.00019,0.000647130518234165
+"GO:1901661","quinone metabolic process",90,58,40.76,0.00019,0.000647130518234165
+"GO:0007000","nucleolus organization",29,23,13.13,0.00019,0.000647130518234165
+"GO:0048609","multicellular organismal reproductive pr...",719,373,325.64,2e-04,0.000679234449760766
+"GO:0045489","pectin biosynthetic process",72,48,32.61,2e-04,0.000679234449760766
+"GO:0052386","cell wall thickening",72,48,32.61,2e-04,0.000679234449760766
+"GO:0072524","pyridine-containing compound metabolic p...",44,32,19.93,0.00021,0.000712514340344168
+"GO:0032147","activation of protein kinase activity",105,66,47.56,0.00022,0.000745730659025788
+"GO:0006744","ubiquinone biosynthetic process",51,36,23.1,0.00023,0.0007774
+"GO:0009226","nucleotide-sugar biosynthetic process",51,36,23.1,0.00023,0.0007774
+"GO:0019853","L-ascorbic acid biosynthetic process",26,21,11.78,0.00023,0.0007774
+"GO:0048442","sepal development",124,76,56.16,0.00024,0.000808121442125237
+"GO:0048464","flower calyx development",124,76,56.16,0.00024,0.000808121442125237
+"GO:0010476","gibberellin mediated signaling pathway",164,97,74.28,0.00024,0.000808121442125237
+"GO:0008283","cell population proliferation",556,293,251.82,0.00024,0.000808121442125237
+"GO:0046356","acetyl-CoA catabolic process",46,33,20.83,0.00025,0.000840198863636364
+"GO:0046835","carbohydrate phosphorylation",46,33,20.83,0.00025,0.000840198863636364
+"GO:0042401","cellular biogenic amine biosynthetic pro...",87,56,39.4,0.00026,0.000872155009451796
+"GO:0008643","carbohydrate transport",201,116,91.03,0.00026,0.000872155009451796
+"GO:0006817","phosphate ion transport",100,63,45.29,0.00027,0.00090228813559322
+"GO:0048451","petal formation",130,79,58.88,0.00027,0.00090228813559322
+"GO:0019755","one-carbon compound transport",14,13,6.34,0.00027,0.00090228813559322
+"GO:0006560","proline metabolic process",31,24,14.04,0.00027,0.00090228813559322
+"GO:0052543","callose deposition in cell wall",69,46,31.25,0.00028,0.000931321462043111
+"GO:0000466","maturation of 5.8S rRNA from tricistroni...",36,27,16.3,0.00028,0.000931321462043111
+"GO:0000470","maturation of LSU-rRNA",36,27,16.3,0.00028,0.000931321462043111
+"GO:0010223","secondary shoot formation",36,27,16.3,0.00028,0.000931321462043111
+"GO:0010346","shoot axis formation",36,27,16.3,0.00028,0.000931321462043111
+"GO:0071806","protein transmembrane transport",348,190,157.61,0.00029,0.000963679775280899
+"GO:0009247","glycolipid biosynthetic process",227,129,102.81,3e-04,0.000993190298507463
+"GO:0010189","vitamin E biosynthetic process",20,17,9.06,3e-04,0.000993190298507463
+"GO:0042360","vitamin E metabolic process",20,17,9.06,3e-04,0.000993190298507463
+"GO:0015748","organophosphate ester transport",186,108,84.24,3e-04,0.000993190298507463
+"GO:0010025","wax biosynthetic process",55,38,24.91,0.00031,0.00102248141263941
+"GO:0035265","organ growth",55,38,24.91,0.00031,0.00102248141263941
+"GO:0051204","protein insertion into mitochondrial mem...",17,15,7.7,0.00031,0.00102248141263941
+"GO:0090151","establishment of protein localization to...",17,15,7.7,0.00031,0.00102248141263941
+"GO:1903959","regulation of anion transmembrane transp...",140,84,63.41,0.00032,0.00105350649350649
+"GO:0009740","gibberellic acid mediated signaling path...",163,96,73.82,0.00032,0.00105350649350649
+"GO:0043543","protein acylation",560,294,253.63,0.00033,0.00108441666666667
+"GO:0071482","cellular response to light stimulus",251,141,113.68,0.00033,0.00108441666666667
+"GO:0000041","transition metal ion transport",450,240,203.81,0.00034,0.00111624421831637
+"GO:0042274","ribosomal small subunit biogenesis",127,77,57.52,0.00036,0.00117972299168975
+"GO:0071266","'de novo' L-methionine biosynthetic proc...",10,10,4.53,0.00036,0.00117972299168975
+"GO:0051554","flavonol metabolic process",75,49,33.97,0.00037,0.00120803127874885
+"GO:0051555","flavonol biosynthetic process",75,49,33.97,0.00037,0.00120803127874885
+"GO:0098581","detection of external biotic stimulus",33,25,14.95,0.00037,0.00120803127874885
+"GO:0009958","positive gravitropism",66,44,29.89,0.00037,0.00120803127874885
+"GO:0044092","negative regulation of molecular functio...",563,295,254.99,0.00038,0.00123954044117647
+"GO:0051274","beta-glucan biosynthetic process",232,131,105.07,0.00039,0.00127099173553719
+"GO:0010166","wax metabolic process",59,40,26.72,4e-04,0.00130238532110092
+"GO:0010099","regulation of photomorphogenesis",45,32,20.38,0.00041,0.00133128087831656
+"GO:0000279","M phase",584,305,264.5,0.00041,0.00133128087831656
+"GO:1903046","meiotic cell cycle process",500,264,226.45,0.00041,0.00133128087831656
+"GO:2000243","positive regulation of reproductive proc...",137,82,62.05,0.00042,0.00136250457038391
+"GO:0043086","negative regulation of catalytic activit...",531,279,240.49,0.00043,0.0013923996350365
+"GO:2000030","regulation of response to red or far red...",79,51,35.78,0.00043,0.0013923996350365
+"GO:0006722","triterpenoid metabolic process",40,29,18.12,0.00045,0.0014531847133758
+"GO:0006949","syncytium formation",40,29,18.12,0.00045,0.0014531847133758
+"GO:0006333","chromatin assembly or disassembly",472,250,213.77,0.00045,0.0014531847133758
+"GO:0015766","disaccharide transport",30,23,13.59,0.00047,0.0015150136239782
+"GO:0015772","oligosaccharide transport",30,23,13.59,0.00047,0.0015150136239782
+"GO:0009142","nucleoside triphosphate biosynthetic pro...",176,102,79.71,0.00048,0.00154584392014519
+"GO:0015802","basic amino acid transport",72,47,32.61,0.00049,0.00157661831368994
+"GO:0001708","cell fate specification",63,42,28.53,5e-04,0.00160588235294118
+"GO:0006526","arginine biosynthetic process",22,18,9.96,5e-04,0.00160588235294118
+"GO:0045596","negative regulation of cell differentiat...",96,60,43.48,0.00051,0.0016350406504065
+"GO:0031328","positive regulation of cellular biosynth...",1363,677,617.31,0.00051,0.0016350406504065
+"GO:0019953","sexual reproduction",592,308,268.12,0.00053,0.00169762635379061
+"GO:0051262","protein tetramerization",42,30,19.02,0.00054,0.00172809738503156
+"GO:0048598","embryonic morphogenesis",134,80,60.69,0.00055,0.00175851351351351
+"GO:0033869","nucleoside bisphosphate catabolic proces...",49,34,22.19,0.00056,0.00178086021505376
+"GO:0034031","ribonucleoside bisphosphate catabolic pr...",49,34,22.19,0.00056,0.00178086021505376
+"GO:0034034","purine nucleoside bisphosphate catabolic...",49,34,22.19,0.00056,0.00178086021505376
+"GO:0009854","oxidative photosynthetic carbon pathway",13,12,5.89,0.00056,0.00178086021505376
+"GO:0016123","xanthophyll biosynthetic process",13,12,5.89,0.00056,0.00178086021505376
+"GO:0045143","homologous chromosome segregation",136,81,61.6,0.00056,0.00178086021505376
+"GO:0016101","diterpenoid metabolic process",165,96,74.73,0.00058,0.00183951742627346
+"GO:0051552","flavone metabolic process",76,49,34.42,0.00058,0.00183951742627346
+"GO:0051553","flavone biosynthetic process",76,49,34.42,0.00058,0.00183951742627346
+"GO:0006414","translational elongation",167,97,75.64,0.00059,0.00186622994652406
+"GO:0048447","sepal morphogenesis",119,72,53.9,0.00059,0.00186622994652406
+"GO:0048453","sepal formation",119,72,53.9,0.00059,0.00186622994652406
+"GO:0072525","pyridine-containing compound biosyntheti...",37,27,16.76,6e-04,0.0018928
+"GO:0016045","detection of bacterium",27,21,12.23,6e-04,0.0018928
+"GO:0098543","detection of other organism",27,21,12.23,6e-04,0.0018928
+"GO:0015837","amine transport",58,39,26.27,0.00061,0.00192093167701863
+"GO:0000304","response to singlet oxygen",16,14,7.25,0.00061,0.00192093167701863
+"GO:0046164","alcohol catabolic process",104,64,47.1,0.00062,0.0019506914893617
+"GO:0042157","lipoprotein metabolic process",464,245,210.15,0.00064,0.0020118334809566
+"GO:0009112","nucleobase metabolic process",51,35,23.1,0.00065,0.00204146017699115
+"GO:0071478","cellular response to radiation",260,144,117.76,0.00066,0.00207103448275862
+"GO:0009838","abscission",108,66,48.91,0.00067,0.00209870255957635
+"GO:0009846","pollen germination",108,66,48.91,0.00067,0.00209870255957635
+"GO:0022604","regulation of cell morphogenesis",189,108,85.6,0.00068,0.00212814814814815
+"GO:0051338","regulation of transferase activity",385,206,174.37,0.00069,0.00215754185022026
+"GO:0000462","maturation of SSU-rRNA from tricistronic...",71,46,32.16,0.00072,0.0022493661971831
+"GO:0016104","triterpenoid biosynthetic process",39,28,17.66,0.00073,0.00226862521891419
+"GO:0019742","pentacyclic triterpenoid metabolic proce...",39,28,17.66,0.00073,0.00226862521891419
+"GO:0019745","pentacyclic triterpenoid biosynthetic pr...",39,28,17.66,0.00073,0.00226862521891419
+"GO:0036294","cellular response to decreased oxygen le...",39,28,17.66,0.00073,0.00226862521891419
+"GO:0071453","cellular response to oxygen levels",39,28,17.66,0.00073,0.00226862521891419
+"GO:0070588","calcium ion transmembrane transport",53,36,24,0.00073,0.00226862521891419
+"GO:0000084","mitotic S phase",24,19,10.87,0.00075,0.00232467248908297
+"GO:0006553","lysine metabolic process",24,19,10.87,0.00075,0.00232467248908297
+"GO:0051320","S phase",24,19,10.87,0.00075,0.00232467248908297
+"GO:0051094","positive regulation of developmental pro...",243,135,110.06,0.00081,0.00250626852659111
+"GO:0015770","sucrose transport",29,22,13.13,0.00081,0.00250626852659111
+"GO:0000394","RNA splicing, via endonucleolytic cleava...",178,102,80.62,0.00083,0.00256591463414634
+"GO:0033866","nucleoside bisphosphate biosynthetic pro...",66,43,29.89,9e-04,0.00277025151777971
+"GO:0034030","ribonucleoside bisphosphate biosynthetic...",66,43,29.89,9e-04,0.00277025151777971
+"GO:0034033","purine nucleoside bisphosphate biosynthe...",66,43,29.89,9e-04,0.00277025151777971
+"GO:0048864","stem cell development",77,49,34.87,9e-04,0.00277025151777971
+"GO:0042592","homeostatic process",1577,775,714.24,9e-04,0.00277025151777971
+"GO:0016073","snRNA metabolic process",21,17,9.51,0.00092,0.00282446366782007
+"GO:0051289","protein homotetramerization",21,17,9.51,0.00092,0.00282446366782007
+"GO:0052325","cell wall pectin biosynthetic process",21,17,9.51,0.00092,0.00282446366782007
+"GO:0010029","regulation of seed germination",157,91,71.11,0.00094,0.00288337078651685
+"GO:0045860","positive regulation of protein kinase ac...",130,77,58.88,0.00095,0.00291152849740933
+"GO:0006563","L-serine metabolic process",36,26,16.3,0.00098,0.00299571059431525
+"GO:0048658","anther wall tapetum development",36,26,16.3,0.00098,0.00299571059431525
+"GO:0034293","sexual sporulation",132,78,59.78,0.00098,0.00299571059431525
+"GO:0042255","ribosome assembly",134,79,60.69,0.001,0.00305421686746988
+"GO:0009631","cold acclimation",59,39,26.72,0.00102,0.00311262252794497
+"GO:0006558","L-phenylalanine metabolic process",31,23,14.04,0.00105,0.00319318766066838
+"GO:1902221","erythrose 4-phosphate/phosphoenolpyruvat...",31,23,14.04,0.00105,0.00319318766066838
+"GO:1902930","regulation of alcohol biosynthetic proce...",31,23,14.04,0.00105,0.00319318766066838
+"GO:0015696","ammonium transport",70,45,31.7,0.00105,0.00319318766066838
+"GO:0002757","immune response-activating signal transd...",52,35,23.55,0.00112,0.00340315068493151
+"GO:0048582","positive regulation of post-embryonic de...",146,85,66.12,0.00113,0.00343059880239521
+"GO:0000187","activation of MAPK activity",12,11,5.43,0.00115,0.00347644804088586
+"GO:0015840","urea transport",12,11,5.43,0.00115,0.00347644804088586
+"GO:0017014","protein nitrosylation",12,11,5.43,0.00115,0.00347644804088586
+"GO:0018119","peptidyl-cysteine S-nitrosylation",12,11,5.43,0.00115,0.00347644804088586
+"GO:0071918","urea transmembrane transport",12,11,5.43,0.00115,0.00347644804088586
+"GO:0006775","fat-soluble vitamin metabolic process",38,27,17.21,0.00117,0.00353389787234043
+"GO:0006907","pinocytosis",203,114,91.94,0.00118,0.00355804587935429
+"GO:0009900","dehiscence",45,31,20.38,0.00118,0.00355804587935429
+"GO:0010497","plasmodesmata-mediated intercellular tra...",15,13,6.79,0.00119,0.00358515280135823
+"GO:0006749","glutathione metabolic process",106,64,48.01,0.00125,0.00376272264631043
+"GO:0010267","production of ta-siRNAs involved in RNA ...",129,76,58.43,0.00127,0.00381645215918713
+"GO:0046185","aldehyde catabolic process",129,76,58.43,0.00127,0.00381645215918713
+"GO:0016102","diterpenoid biosynthetic process",133,78,60.24,0.00132,0.00396335025380711
+"GO:0009970","cellular response to sulfate starvation",28,21,12.68,0.00138,0.00413650337837838
+"GO:2000022","regulation of jasmonic acid mediated sig...",28,21,12.68,0.00138,0.00413650337837838
+"GO:1901264","carbohydrate derivative transport",95,58,43.03,0.00143,0.00428275949367089
+"GO:0009616","RNAi-mediated antiviral immune response",143,83,64.77,0.00145,0.00433899662731872
+"GO:0044351","macropinocytosis",200,112,90.58,0.00147,0.00439513900589722
+"GO:0015931","nucleobase-containing compound transport",359,191,162.59,0.0015,0.00448106060606061
+"GO:0006662","glycerol ether metabolic process",58,38,26.27,0.00151,0.00450335294117647
+"GO:0030244","cellulose biosynthetic process",214,119,96.92,0.00151,0.00450335294117647
+"GO:0009269","response to desiccation",82,51,37.14,0.00152,0.00452937027707809
+"GO:0030490","maturation of SSU-rRNA",84,52,38.04,0.00159,0.00473398489932886
+"GO:0048448","stamen morphogenesis",42,29,19.02,0.0016,0.00475577889447236
+"GO:0072348","sulfur compound transport",42,29,19.02,0.0016,0.00475577889447236
+"GO:0006346","DNA methylation-dependent heterochromati...",161,92,72.92,0.00163,0.00484089539748954
+"GO:0002764","immune response-regulating signaling pat...",60,39,27.17,0.00164,0.00486652173913044
+"GO:0051347","positive regulation of transferase activ...",163,93,73.82,0.00165,0.00488802170283806
+"GO:0019321","pentose metabolic process",103,62,46.65,0.00165,0.00488802170283806
+"GO:0006108","malate metabolic process",20,16,9.06,0.00166,0.00490128119800333
+"GO:0006566","threonine metabolic process",20,16,9.06,0.00166,0.00490128119800333
+"GO:0006570","tyrosine metabolic process",20,16,9.06,0.00166,0.00490128119800333
+"GO:0048640","negative regulation of developmental gro...",20,16,9.06,0.00166,0.00490128119800333
+"GO:0010191","mucilage metabolic process",51,34,23.1,0.00169,0.00498571072319202
+"GO:0032506","cytokinetic process",30,22,13.59,0.00174,0.00512469709543568
+"GO:0071417","cellular response to organonitrogen comp...",30,22,13.59,0.00174,0.00512469709543568
+"GO:0051321","meiotic cell cycle",574,295,259.97,0.00178,0.0052381592039801
+"GO:0006561","proline biosynthetic process",25,19,11.32,0.0018,0.00528387096774194
+"GO:0042343","indole glucosinolate metabolic process",25,19,11.32,0.0018,0.00528387096774194
+"GO:0009875","pollen-pistil interaction",136,79,61.6,0.0018,0.00528387096774194
+"GO:0006760","folic acid-containing compound metabolic...",44,30,19.93,0.00183,0.00535863861386139
+"GO:0009954","proximal/distal pattern formation",44,30,19.93,0.00183,0.00535863861386139
+"GO:0001558","regulation of cell growth",193,108,87.41,0.00183,0.00535863861386139
+"GO:0006826","iron ion transport",271,147,122.74,0.00184,0.00538347897774114
+"GO:0009893","positive regulation of metabolic process",1921,932,870.04,0.00187,0.00546224691358025
+"GO:0033108","mitochondrial respiratory chain complex ...",37,26,16.76,0.00187,0.00546224691358025
+"GO:0097237","cellular response to toxic substance",241,132,109.15,0.00189,0.00551612664473684
+"GO:0000447","endonucleolytic cleavage in ITS1 to sepa...",17,14,7.7,0.00201,0.00584712295081967
+"GO:0009173","pyrimidine ribonucleoside monophosphate ...",17,14,7.7,0.00201,0.00584712295081967
+"GO:0016122","xanthophyll metabolic process",17,14,7.7,0.00201,0.00584712295081967
+"GO:0046184","aldehyde biosynthetic process",17,14,7.7,0.00201,0.00584712295081967
+"GO:0009688","abscisic acid biosynthetic process",66,42,29.89,0.00204,0.00591983646770237
+"GO:0043289","apocarotenoid biosynthetic process",66,42,29.89,0.00204,0.00591983646770237
+"GO:1902645","tertiary alcohol biosynthetic process",66,42,29.89,0.00204,0.00591983646770237
+"GO:0000460","maturation of 5.8S rRNA",46,31,20.83,0.00206,0.00597299019607843
+"GO:0090351","seedling development",480,249,217.4,0.00207,0.00599708571428571
+"GO:0009438","methylglyoxal metabolic process",121,71,54.8,0.00208,0.00601623471882641
+"GO:0051596","methylglyoxal catabolic process",121,71,54.8,0.00208,0.00601623471882641
+"GO:0009911","positive regulation of flower developmen...",98,59,44.39,0.0021,0.00606913680781759
+"GO:0015807","L-amino acid transport",32,23,14.49,0.00213,0.00615082994304312
+"GO:0009127","purine nucleoside monophosphate biosynth...",39,27,17.66,0.00217,0.00625107954545455
+"GO:0009168","purine ribonucleoside monophosphate bios...",39,27,17.66,0.00217,0.00625107954545455
+"GO:0046219","indolalkylamine biosynthetic process",39,27,17.66,0.00217,0.00625107954545455
+"GO:0006814","sodium ion transport",57,37,25.82,0.00222,0.00638474878444084
+"GO:0030522","intracellular receptor signaling pathway",57,37,25.82,0.00222,0.00638474878444084
+"GO:0030258","lipid modification",425,222,192.49,0.00226,0.00649452631578947
+"GO:0042558","pteridine-containing compound metabolic ...",48,32,21.74,0.00229,0.00657009700889248
+"GO:0045165","cell fate commitment",104,62,47.1,0.00229,0.00657009700889248
+"GO:0002221","pattern recognition receptor signaling p...",14,12,6.34,0.0023,0.00658282258064516
+"GO:0010206","photosystem II repair",14,12,6.34,0.0023,0.00658282258064516
+"GO:0045793","positive regulation of cell size",14,12,6.34,0.0023,0.00658282258064516
+"GO:0033674","positive regulation of kinase activity",133,77,60.24,0.00231,0.00659018488745981
+"GO:0006591","ornithine metabolic process",27,20,12.23,0.00231,0.00659018488745981
+"GO:0007135","meiosis II",27,20,12.23,0.00231,0.00659018488745981
+"GO:0061983","meiosis II cell cycle process",27,20,12.23,0.00231,0.00659018488745981
+"GO:0098869","cellular oxidant detoxification",236,129,106.89,0.00233,0.00664190361445783
+"GO:0051240","positive regulation of multicellular org...",210,116,95.11,0.00234,0.00665614525139665
+"GO:0000917","division septum assembly",11,10,4.98,0.00235,0.00665614525139665
+"GO:0001822","kidney development",11,10,4.98,0.00235,0.00665614525139665
+"GO:0007611","learning or memory",11,10,4.98,0.00235,0.00665614525139665
+"GO:0008614","pyridoxine metabolic process",11,10,4.98,0.00235,0.00665614525139665
+"GO:0008615","pyridoxine biosynthetic process",11,10,4.98,0.00235,0.00665614525139665
+"GO:0009092","homoserine metabolic process",11,10,4.98,0.00235,0.00665614525139665
+"GO:0010158","abaxial cell fate specification",11,10,4.98,0.00235,0.00665614525139665
+"GO:0022402","cell cycle process",1581,771,716.05,0.00243,0.00687724880382775
+"GO:0009901","anther dehiscence",41,28,18.57,0.00248,0.00701316334661355
+"GO:0032886","regulation of microtubule-based process",50,33,22.65,0.00253,0.00714317422434368
+"GO:0001934","positive regulation of protein phosphory...",147,84,66.58,0.00253,0.00714317422434368
+"GO:0031048","heterochromatin assembly by small RNA",149,85,67.48,0.00255,0.00719391891891892
+"GO:0006334","nucleosome assembly",151,86,68.39,0.00258,0.00727277204130262
+"GO:0019243","methylglyoxal catabolic process to D-lac...",120,70,54.35,0.00274,0.00770543581616482
+"GO:0061727","methylglyoxal catabolic process to lacta...",120,70,54.35,0.00274,0.00770543581616482
+"GO:0006302","double-strand break repair",263,142,119.12,0.00274,0.00770543581616482
+"GO:0009610","response to symbiotic fungus",63,40,28.53,0.00275,0.00772743467933492
+"GO:0009201","ribonucleoside triphosphate biosynthetic...",169,95,76.54,0.00276,0.00774939873417722
+"GO:0001763","morphogenesis of a branching structure",52,34,23.55,0.00277,0.00777132806324111
+"GO:0002758","innate immune response-activating signal...",43,29,19.48,0.0028,0.00784928909952607
+"GO:0009646","response to absence of light",78,48,35.33,0.00282,0.00789911602209945
+"GO:0016098","monoterpenoid metabolic process",29,21,13.13,0.00286,0.00799853427895981
+"GO:0016099","monoterpenoid biosynthetic process",29,21,13.13,0.00286,0.00799853427895981
+"GO:0044242","cellular lipid catabolic process",470,243,212.87,0.00289,0.00807607086614173
+"GO:0006541","glutamine metabolic process",65,41,29.44,0.00292,0.00815348544453186
+"GO:1902652","secondary alcohol metabolic process",36,25,16.3,0.00295,0.00823077830188679
+"GO:0009821","alkaloid biosynthetic process",19,15,8.61,0.00297,0.00827357142857143
+"GO:0051026","chiasma assembly",19,15,8.61,0.00297,0.00827357142857143
+"GO:0042182","ketone catabolic process",132,76,59.78,0.00301,0.00837842352941177
+"GO:0044743","protein transmembrane import into intrac...",294,157,133.16,0.00306,0.00851092476489028
+"GO:0006515","protein quality control for misfolded or...",24,18,10.87,0.00307,0.00851870992963252
+"GO:0006801","superoxide metabolic process",24,18,10.87,0.00307,0.00851870992963252
+"GO:0010065","primary meristem tissue development",24,18,10.87,0.00307,0.00851870992963252
+"GO:0009553","embryo sac development",345,182,156.25,0.00309,0.0085675078125
+"GO:0043549","regulation of kinase activity",341,180,154.44,0.00313,0.0086716393442623
+"GO:0098762","meiotic cell cycle phase",280,150,126.81,0.00318,0.00880329173166927
+"GO:0032103","positive regulation of response to exter...",144,82,65.22,0.00322,0.00890707716289946
+"GO:1990748","cellular detoxification",238,129,107.79,0.00347,0.00959114485981308
+"GO:0042023","DNA endoreduplication",92,55,41.67,0.00361,0.00997034241245136
+"GO:0006222","UMP biosynthetic process",16,13,7.25,0.0037,0.01011656394453
+"GO:0006465","signal peptide processing",16,13,7.25,0.0037,0.01011656394453
+"GO:0009089","lysine biosynthetic process via diaminop...",16,13,7.25,0.0037,0.01011656394453
+"GO:0009174","pyrimidine ribonucleoside monophosphate ...",16,13,7.25,0.0037,0.01011656394453
+"GO:0009953","dorsal/ventral pattern formation",16,13,7.25,0.0037,0.01011656394453
+"GO:0010496","intercellular transport",16,13,7.25,0.0037,0.01011656394453
+"GO:0042816","vitamin B6 metabolic process",16,13,7.25,0.0037,0.01011656394453
+"GO:0042819","vitamin B6 biosynthetic process",16,13,7.25,0.0037,0.01011656394453
+"GO:0042939","tripeptide transport",16,13,7.25,0.0037,0.01011656394453
+"GO:0046049","UMP metabolic process",16,13,7.25,0.0037,0.01011656394453
+"GO:0046451","diaminopimelate metabolic process",16,13,7.25,0.0037,0.01011656394453
+"GO:0080001","mucilage extrusion from seed coat",16,13,7.25,0.0037,0.01011656394453
+"GO:0006089","lactate metabolic process",123,71,55.71,0.0037,0.01011656394453
+"GO:0010639","negative regulation of organelle organiz...",75,46,33.97,0.00375,0.0102375
+"GO:0007052","mitotic spindle organization",49,32,22.19,0.00375,0.0102375
+"GO:0048544","recognition of pollen",127,73,57.52,0.0038,0.0103660261337433
+"GO:0051327","meiotic M phase",279,149,126.36,0.00382,0.0104125806451613
+"GO:0002833","positive regulation of response to bioti...",129,74,58.43,0.00385,0.0104302671755725
+"GO:0051259","protein complex oligomerization",129,74,58.43,0.00385,0.0104302671755725
+"GO:0000281","mitotic cytokinesis",26,19,11.78,0.00385,0.0104302671755725
+"GO:0009934","regulation of meristem structural organi...",26,19,11.78,0.00385,0.0104302671755725
+"GO:0032881","regulation of polysaccharide metabolic p...",26,19,11.78,0.00385,0.0104302671755725
+"GO:0043545","molybdopterin cofactor metabolic process",26,19,11.78,0.00385,0.0104302671755725
+"GO:0051189","prosthetic group metabolic process",26,19,11.78,0.00385,0.0104302671755725
+"GO:0031325","positive regulation of cellular metaboli...",1739,842,787.61,0.00385,0.0104302671755725
+"GO:0048523","negative regulation of cellular process",2514,1203,1138.61,0.00389,0.0105305949656751
+"GO:0002238","response to molecule of fungal origin",62,39,28.08,0.00393,0.0106307698170732
+"GO:0009085","lysine biosynthetic process",21,16,9.51,0.00404,0.01092
+"GO:0000469","cleavage involved in rRNA processing",51,33,23.1,0.00407,0.0109927168949772
+"GO:0030048","actin filament-based movement",102,60,46.2,0.00409,0.0110383346007605
+"GO:0018904","ether metabolic process",64,40,28.99,0.00415,0.0111917553191489
+"GO:0009126","purine nucleoside monophosphate metaboli...",42,28,19.02,0.00425,0.0114180545041635
+"GO:0009163","nucleoside biosynthetic process",42,28,19.02,0.00425,0.0114180545041635
+"GO:0009167","purine ribonucleoside monophosphate meta...",42,28,19.02,0.00425,0.0114180545041635
+"GO:0070507","regulation of microtubule cytoskeleton o...",42,28,19.02,0.00425,0.0114180545041635
+"GO:0048232","male gamete generation",153,86,69.3,0.00425,0.0114180545041635
+"GO:0007050","cell cycle arrest",106,62,48.01,0.00426,0.0114362632375189
+"GO:0009145","purine nucleoside triphosphate biosynthe...",157,88,71.11,0.00429,0.0115080952380952
+"GO:0006665","sphingolipid metabolic process",108,63,48.91,0.00434,0.0116334290030211
+"GO:0000103","sulfate assimilation",13,11,5.89,0.0044,0.0116883233532934
+"GO:0006000","fructose metabolic process",13,11,5.89,0.0044,0.0116883233532934
+"GO:0006696","ergosterol biosynthetic process",13,11,5.89,0.0044,0.0116883233532934
+"GO:0008204","ergosterol metabolic process",13,11,5.89,0.0044,0.0116883233532934
+"GO:0031125","rRNA 3'-end processing",13,11,5.89,0.0044,0.0116883233532934
+"GO:0042549","photosystem II stabilization",13,11,5.89,0.0044,0.0116883233532934
+"GO:0042822","pyridoxal phosphate metabolic process",13,11,5.89,0.0044,0.0116883233532934
+"GO:0042823","pyridoxal phosphate biosynthetic process",13,11,5.89,0.0044,0.0116883233532934
+"GO:0043406","positive regulation of MAP kinase activi...",13,11,5.89,0.0044,0.0116883233532934
+"GO:0044107","cellular alcohol metabolic process",13,11,5.89,0.0044,0.0116883233532934
+"GO:0044108","cellular alcohol biosynthetic process",13,11,5.89,0.0044,0.0116883233532934
+"GO:0046654","tetrahydrofolate biosynthetic process",13,11,5.89,0.0044,0.0116883233532934
+"GO:0051241","negative regulation of multicellular org...",201,110,91.03,0.00442,0.0117326701570681
+"GO:0009827","plant-type cell wall modification",331,174,149.91,0.0045,0.0119360986547085
+"GO:0042391","regulation of membrane potential",35,24,15.85,0.00461,0.0122096194029851
+"GO:0071456","cellular response to hypoxia",35,24,15.85,0.00461,0.0122096194029851
+"GO:0005980","glycogen catabolic process",10,9,4.53,0.00474,0.0124241211225997
+"GO:0006107","oxaloacetate metabolic process",10,9,4.53,0.00474,0.0124241211225997
+"GO:0006706","steroid catabolic process",10,9,4.53,0.00474,0.0124241211225997
+"GO:0006805","xenobiotic metabolic process",10,9,4.53,0.00474,0.0124241211225997
+"GO:0009095","aromatic amino acid family biosynthetic ...",10,9,4.53,0.00474,0.0124241211225997
+"GO:0009643","photosynthetic acclimation",10,9,4.53,0.00474,0.0124241211225997
+"GO:0010148","transpiration",10,9,4.53,0.00474,0.0124241211225997
+"GO:0010196","nonphotochemical quenching",10,9,4.53,0.00474,0.0124241211225997
+"GO:0016127","sterol catabolic process",10,9,4.53,0.00474,0.0124241211225997
+"GO:0034433","steroid esterification",10,9,4.53,0.00474,0.0124241211225997
+"GO:0034434","sterol esterification",10,9,4.53,0.00474,0.0124241211225997
+"GO:0051775","response to redox state",10,9,4.53,0.00474,0.0124241211225997
+"GO:0071466","cellular response to xenobiotic stimulus",10,9,4.53,0.00474,0.0124241211225997
+"GO:1990066","energy quenching",10,9,4.53,0.00474,0.0124241211225997
+"GO:0140352","export from cell",250,134,113.23,0.00495,0.0129649815498155
+"GO:0032940","secretion by cell",240,129,108.7,0.00507,0.0132694911504425
+"GO:0016246","RNA interference",232,125,105.07,0.00516,0.0134851546391753
+"GO:0006213","pyrimidine nucleoside metabolic process",23,17,10.42,0.00516,0.0134851546391753
+"GO:0010229","inflorescence development",74,45,33.52,0.00517,0.0135013465783664
+"GO:0016192","vesicle-mediated transport",1474,716,667.59,0.0052,0.013555931085044
+"GO:0048359","mucilage metabolic process involved in s...",37,25,16.76,0.00521,0.013555931085044
+"GO:0051090","regulation of DNA-binding transcription ...",37,25,16.76,0.00521,0.013555931085044
+"GO:0070417","cellular response to cold",37,25,16.76,0.00521,0.013555931085044
+"GO:0006997","nucleus organization",140,79,63.41,0.00521,0.013555931085044
+"GO:0032885","regulation of polysaccharide biosyntheti...",18,14,8.15,0.00526,0.0136559912216533
+"GO:0033260","nuclear DNA replication",18,14,8.15,0.00526,0.0136559912216533
+"GO:0048829","root cap development",18,14,8.15,0.00526,0.0136559912216533
+"GO:0042327","positive regulation of phosphorylation",150,84,67.94,0.00535,0.0138794956140351
+"GO:0051170","import into nucleus",164,91,74.28,0.00546,0.0141545215485756
+"GO:0045786","negative regulation of cell cycle",172,95,77.9,0.00549,0.0142219051094891
+"GO:0009612","response to mechanical stimulus",105,61,47.56,0.0056,0.0144962800875274
+"GO:0018298","protein-chromophore linkage",107,62,48.46,0.00569,0.0147185204081633
+"GO:0009608","response to symbiont",65,40,29.44,0.00611,0.0157934377276038
+"GO:0006638","neutral lipid metabolic process",86,51,38.95,0.00621,0.0160285745454545
+"GO:0006639","acylglycerol metabolic process",86,51,38.95,0.00621,0.0160285745454545
+"GO:0042548","regulation of photosynthesis, light reac...",32,22,14.49,0.00631,0.0162533913043478
+"GO:0001578","microtubule bundle formation",25,18,11.32,0.00632,0.0162533913043478
+"GO:0005986","sucrose biosynthetic process",25,18,11.32,0.00632,0.0162533913043478
+"GO:0042726","flavin-containing compound metabolic pro...",25,18,11.32,0.00632,0.0162533913043478
+"GO:0048455","stamen formation",25,18,11.32,0.00632,0.0162533913043478
+"GO:0015980","energy derivation by oxidation of organi...",422,217,191.13,0.00635,0.0163187183200579
+"GO:0008037","cell recognition",131,74,59.33,0.00646,0.0165893921852388
+"GO:0006312","mitotic recombination",90,53,40.76,0.0065,0.0166800433839479
+"GO:0031401","positive regulation of protein modificat...",203,110,91.94,0.00661,0.0169500650289017
+"GO:0043066","negative regulation of apoptotic process",69,42,31.25,0.00662,0.0169634512635379
+"GO:0008655","pyrimidine-containing compound salvage",15,12,6.79,0.00673,0.0172080475504323
+"GO:0031113","regulation of microtubule polymerization",15,12,6.79,0.00673,0.0172080475504323
+"GO:0097384","cellular lipid biosynthetic process",15,12,6.79,0.00673,0.0172080475504323
+"GO:0009206","purine ribonucleoside triphosphate biosy...",155,86,70.2,0.00678,0.0173234125269978
+"GO:0010150","leaf senescence",181,99,81.98,0.00679,0.0173240186915888
+"GO:0010608","posttranscriptional regulation of gene e...",669,335,303,0.00679,0.0173240186915888
+"GO:0015800","acidic amino acid transport",20,15,9.06,0.00691,0.0176048743718593
+"GO:0016139","glycoside catabolic process",20,15,9.06,0.00691,0.0176048743718593
+"GO:0010359","regulation of anion channel activity",100,58,45.29,0.00712,0.0181133643521833
+"GO:0006525","arginine metabolic process",34,23,15.4,0.00713,0.0181133643521833
+"GO:0007006","mitochondrial membrane organization",34,23,15.4,0.00713,0.0181133643521833
+"GO:0051275","beta-glucan catabolic process",34,23,15.4,0.00713,0.0181133643521833
+"GO:0072329","monocarboxylic acid catabolic process",425,218,192.49,0.00717,0.0182019527896996
+"GO:0044238","primary metabolic process",25757,11755,11665.58,0.0074,0.0187724088634739
+"GO:0019827","stem cell population maintenance",106,61,48.01,0.00743,0.0188216059957173
+"GO:0098727","maintenance of cell number",106,61,48.01,0.00743,0.0188216059957173
+"GO:0006086","acetyl-CoA biosynthetic process from pyr...",27,19,12.23,0.00749,0.0188926865671642
+"GO:0030111","regulation of Wnt signaling pathway",27,19,12.23,0.00749,0.0188926865671642
+"GO:0042559","pteridine-containing compound biosynthet...",27,19,12.23,0.00749,0.0188926865671642
+"GO:0042777","plasma membrane ATP synthesis coupled pr...",27,19,12.23,0.00749,0.0188926865671642
+"GO:0045037","protein import into chloroplast stroma",27,19,12.23,0.00749,0.0188926865671642
+"GO:0046040","IMP metabolic process",27,19,12.23,0.00749,0.0188926865671642
+"GO:0007267","cell-cell signaling",277,146,125.46,0.00767,0.0193329758522727
+"GO:0022412","cellular process involved in reproductio...",351,182,158.97,0.00768,0.0193444428672818
+"GO:0031122","cytoplasmic microtubule organization",60,37,27.17,0.00782,0.0196831063829787
+"GO:0042325","regulation of phosphorylation",378,195,171.2,0.00784,0.0197194613749114
+"GO:0010232","vascular transport",36,24,16.3,0.00793,0.0199176008492569
+"GO:0010233","phloem transport",36,24,16.3,0.00793,0.0199176008492569
+"GO:0006835","dicarboxylic acid transport",47,30,21.29,0.00804,0.0201653427561837
+"GO:0071472","cellular response to salt stress",47,30,21.29,0.00804,0.0201653427561837
+"GO:1903047","mitotic cell cycle process",401,206,181.62,0.00807,0.0202262923728814
+"GO:0018193","peptidyl-amino acid modification",1073,525,485.97,0.00821,0.0205626605504587
+"GO:0016145","S-glycoside catabolic process",12,10,5.43,0.00832,0.0206487272727273
+"GO:0019759","glycosinolate catabolic process",12,10,5.43,0.00832,0.0206487272727273
+"GO:0019762","glucosinolate catabolic process",12,10,5.43,0.00832,0.0206487272727273
+"GO:0019856","pyrimidine nucleobase biosynthetic proce...",12,10,5.43,0.00832,0.0206487272727273
+"GO:0030259","lipid glycosylation",12,10,5.43,0.00832,0.0206487272727273
+"GO:0034472","snRNA 3'-end processing",12,10,5.43,0.00832,0.0206487272727273
+"GO:0043620","regulation of DNA-templated transcriptio...",12,10,5.43,0.00832,0.0206487272727273
+"GO:0046621","negative regulation of organ growth",12,10,5.43,0.00832,0.0206487272727273
+"GO:0048833","specification of floral organ number",12,10,5.43,0.00832,0.0206487272727273
+"GO:0072001","renal system development",12,10,5.43,0.00832,0.0206487272727273
+"GO:0080026","response to indolebutyric acid",12,10,5.43,0.00832,0.0206487272727273
+"GO:0090529","cell septum assembly",12,10,5.43,0.00832,0.0206487272727273
+"GO:2000038","regulation of stomatal complex developme...",12,10,5.43,0.00832,0.0206487272727273
+"GO:0090693","plant organ senescence",182,99,82.43,0.00833,0.0206590985324948
+"GO:0010260","animal organ senescence",180,98,81.52,0.00835,0.0206942388268156
+"GO:0006606","protein import into nucleus",148,82,67.03,0.00845,0.0209274598743894
+"GO:0010562","positive regulation of phosphorus metabo...",154,85,69.75,0.00847,0.020947756097561
+"GO:0045937","positive regulation of phosphate metabol...",154,85,69.75,0.00847,0.020947756097561
+"GO:0007166","cell surface receptor signaling pathway",929,457,420.75,0.0085,0.0210073119777159
+"GO:0006144","purine nucleobase metabolic process",22,16,9.96,0.00859,0.0211707708333333
+"GO:0010067","procambium histogenesis",22,16,9.96,0.00859,0.0211707708333333
+"GO:0042761","very long-chain fatty acid biosynthetic ...",22,16,9.96,0.00859,0.0211707708333333
+"GO:0072337","modified amino acid transport",22,16,9.96,0.00859,0.0211707708333333
+"GO:0048863","stem cell differentiation",89,52,40.31,0.00863,0.0212545940319223
+"GO:0080022","primary root development",38,25,17.21,0.00872,0.021461359223301
+"GO:0009845","seed germination",460,234,208.34,0.00892,0.0219383783783784
+"GO:0006782","protoporphyrinogen IX biosynthetic proce...",17,13,7.7,0.00919,0.0224314374140303
+"GO:0009200","deoxyribonucleoside triphosphate metabol...",17,13,7.7,0.00919,0.0224314374140303
+"GO:0019430","removal of superoxide radicals",17,13,7.7,0.00919,0.0224314374140303
+"GO:0030178","negative regulation of Wnt signaling pat...",17,13,7.7,0.00919,0.0224314374140303
+"GO:0043173","nucleotide salvage",17,13,7.7,0.00919,0.0224314374140303
+"GO:0046501","protoporphyrinogen IX metabolic process",17,13,7.7,0.00919,0.0224314374140303
+"GO:0052646","alditol phosphate metabolic process",17,13,7.7,0.00919,0.0224314374140303
+"GO:0071450","cellular response to oxygen radical",17,13,7.7,0.00919,0.0224314374140303
+"GO:0071451","cellular response to superoxide",17,13,7.7,0.00919,0.0224314374140303
+"GO:0080036","regulation of cytokinin-activated signal...",17,13,7.7,0.00919,0.0224314374140303
+"GO:0009682","induced systemic resistance",97,56,43.93,0.00919,0.0224314374140303
+"GO:0071369","cellular response to ethylene stimulus",369,190,167.12,0.00942,0.0229698490048044
+"GO:0022898","regulation of transmembrane transporter ...",101,58,45.74,0.00943,0.0229698490048044
+"GO:0032412","regulation of ion transmembrane transpor...",101,58,45.74,0.00943,0.0229698490048044
+"GO:0010252","auxin homeostasis",40,26,18.12,0.00948,0.0230441917808219
+"GO:0019432","triglyceride biosynthetic process",40,26,18.12,0.00948,0.0230441917808219
+"GO:0034605","cellular response to heat",40,26,18.12,0.00948,0.0230441917808219
+"GO:0009312","oligosaccharide biosynthetic process",105,60,47.56,0.00964,0.0234170841889117
+"GO:0000162","tryptophan biosynthetic process",31,21,14.04,0.00978,0.0237409165526676
+"GO:0006898","receptor-mediated endocytosis",55,34,24.91,0.01002,0.0243068899521531
+"GO:0000478","endonucleolytic cleavage involved in rRN...",42,27,19.02,0.01022,0.0247369157608696
+"GO:0009068","aspartate family amino acid catabolic pr...",24,17,10.87,0.01026,0.0247369157608696
+"GO:0009148","pyrimidine nucleoside triphosphate biosy...",24,17,10.87,0.01026,0.0247369157608696
+"GO:0009396","folic acid-containing compound biosynthe...",24,17,10.87,0.01026,0.0247369157608696
+"GO:0009920","cell plate formation involved in plant-t...",24,17,10.87,0.01026,0.0247369157608696
+"GO:0009956","radial pattern formation",24,17,10.87,0.01026,0.0247369157608696
+"GO:0010161","red light signaling pathway",24,17,10.87,0.01026,0.0247369157608696
+"GO:0043666","regulation of phosphoprotein phosphatase...",24,17,10.87,0.01026,0.0247369157608696
+"GO:0048654","anther morphogenesis",24,17,10.87,0.01026,0.0247369157608696
+"GO:0000087","mitotic M phase",177,96,80.16,0.01027,0.024744215885947
+"GO:0009124","nucleoside monophosphate biosynthetic pr...",129,72,58.43,0.0104,0.025040434192673
+"GO:0031349","positive regulation of defense response",131,73,59.33,0.01043,0.0250956406779661
+"GO:1902850","microtubule cytoskeleton organization in...",57,35,25.82,0.01046,0.0251507723577236
+"GO:0006754","ATP biosynthetic process",143,79,64.77,0.01053,0.0253019431279621
+"GO:0072507","divalent inorganic cation homeostasis",82,48,37.14,0.01082,0.0259811772665765
+"GO:0010268","brassinosteroid homeostasis",33,22,14.95,0.01088,0.0261075862068966
+"GO:0044271","cellular nitrogen compound biosynthetic ...",9435,4367,4273.2,0.01103,0.0264496418918919
+"GO:0048193","Golgi vesicle transport",657,327,297.56,0.01108,0.0265516002700878
+"GO:0009873","ethylene-activated signaling pathway",333,172,150.82,0.01119,0.0267971052631579
+"GO:0016444","somatic cell DNA recombination",46,29,20.83,0.0116,0.0277602157788267
+"GO:0009704","de-etiolation",19,14,8.61,0.01167,0.0277965302013423
+"GO:0032324","molybdopterin cofactor biosynthetic proc...",19,14,8.61,0.01167,0.0277965302013423
+"GO:0062014","negative regulation of small molecule me...",19,14,8.61,0.01167,0.0277965302013423
+"GO:0071218","cellular response to misfolded protein",19,14,8.61,0.01167,0.0277965302013423
+"GO:0080170","hydrogen peroxide transmembrane transpor...",19,14,8.61,0.01167,0.0277965302013423
+"GO:1902653","secondary alcohol biosynthetic process",19,14,8.61,0.01167,0.0277965302013423
+"GO:0055088","lipid homeostasis",63,38,28.53,0.01167,0.0277965302013423
+"GO:0016998","cell wall macromolecule catabolic proces...",94,54,42.57,0.01184,0.0281825352112676
+"GO:0006188","IMP biosynthetic process",26,18,11.78,0.01189,0.0282069585561497
+"GO:0007098","centrosome cycle",26,18,11.78,0.01189,0.0282069585561497
+"GO:0009720","detection of hormone stimulus",26,18,11.78,0.01189,0.0282069585561497
+"GO:0009726","detection of endogenous stimulus",26,18,11.78,0.01189,0.0282069585561497
+"GO:0031110","regulation of microtubule polymerization...",26,18,11.78,0.01189,0.0282069585561497
+"GO:0010152","pollen maturation",35,23,15.85,0.01194,0.02825004
+"GO:0042455","ribonucleoside biosynthetic process",35,23,15.85,0.01194,0.02825004
+"GO:0052482","defense response by cell wall thickening",35,23,15.85,0.01194,0.02825004
+"GO:0052544","defense response by callose deposition i...",35,23,15.85,0.01194,0.02825004
+"GO:0009097","isoleucine biosynthetic process",14,11,6.34,0.01209,0.0285288630319149
+"GO:0009806","lignan metabolic process",14,11,6.34,0.01209,0.0285288630319149
+"GO:0009807","lignan biosynthetic process",14,11,6.34,0.01209,0.0285288630319149
+"GO:0010019","chloroplast-nucleus signaling pathway",14,11,6.34,0.01209,0.0285288630319149
+"GO:0018108","peptidyl-tyrosine phosphorylation",48,30,21.74,0.01225,0.0288680278884462
+"GO:0018212","peptidyl-tyrosine modification",48,30,21.74,0.01225,0.0288680278884462
+"GO:0002218","activation of innate immune response",102,58,46.2,0.01233,0.0290372727272727
+"GO:0045089","positive regulation of innate immune res...",106,60,48.01,0.01252,0.0294651724137931
+"GO:0019722","calcium-mediated signaling",114,64,51.63,0.01282,0.0301512127236581
+"GO:0002684","positive regulation of immune system pro...",154,84,69.75,0.013,0.0305543046357616
+"GO:0009787","regulation of abscisic acid-activated si...",144,79,65.22,0.01311,0.0307517448777264
+"GO:1901419","regulation of response to alcohol",144,79,65.22,0.01311,0.0307517448777264
+"GO:1905957","regulation of cellular response to alcoh...",144,79,65.22,0.01311,0.0307517448777264
+"GO:0045926","negative regulation of growth",52,32,23.55,0.01345,0.0315284346103038
+"GO:0009566","fertilization",75,44,33.97,0.01358,0.0318121584158416
+"GO:0032989","cellular component morphogenesis",207,110,93.75,0.01387,0.0324700725593668
+"GO:0071483","cellular response to blue light",39,25,17.66,0.01393,0.0325890375741595
+"GO:0046903","secretion",285,148,129.08,0.01401,0.0327474852652259
+"GO:0009835","fruit ripening",79,46,35.78,0.01408,0.0327474852652259
+"GO:0006002","fructose 6-phosphate metabolic process",21,15,9.51,0.01409,0.0327474852652259
+"GO:0006074","(1->3)-beta-D-glucan metabolic process",21,15,9.51,0.01409,0.0327474852652259
+"GO:0006535","cysteine biosynthetic process from serin...",21,15,9.51,0.01409,0.0327474852652259
+"GO:0009129","pyrimidine nucleoside monophosphate meta...",21,15,9.51,0.01409,0.0327474852652259
+"GO:0010833","telomere maintenance via telomere length...",21,15,9.51,0.01409,0.0327474852652259
+"GO:0048830","adventitious root development",21,15,9.51,0.01409,0.0327474852652259
+"GO:0071265","L-methionine biosynthetic process",21,15,9.51,0.01409,0.0327474852652259
+"GO:2000652","regulation of secondary cell wall biogen...",21,15,9.51,0.01409,0.0327474852652259
+"GO:0009593","detection of chemical stimulus",56,34,25.36,0.01453,0.0337259450621321
+"GO:0031537","regulation of anthocyanin metabolic proc...",56,34,25.36,0.01453,0.0337259450621321
+"GO:0003018","vascular process in circulatory system",41,26,18.57,0.01486,0.0344693725490196
+"GO:0034655","nucleobase-containing compound catabolic...",1036,504,469.21,0.01493,0.0346091247550621
+"GO:0043628","ncRNA 3'-end processing",30,20,13.59,0.01498,0.034702362924282
+"GO:0005985","sucrose metabolic process",89,51,40.31,0.01507,0.0348880821917808
+"GO:0002224","toll-like receptor signaling pathway",11,9,4.98,0.01554,0.0355815870967742
+"GO:0006207","'de novo' pyrimidine nucleobase biosynth...",11,9,4.98,0.01554,0.0355815870967742
+"GO:0006268","DNA unwinding involved in DNA replicatio...",11,9,4.98,0.01554,0.0355815870967742
+"GO:0006734","NADH metabolic process",11,9,4.98,0.01554,0.0355815870967742
+"GO:0007143","female meiotic nuclear division",11,9,4.98,0.01554,0.0355815870967742
+"GO:0009729","detection of brassinosteroid stimulus",11,9,4.98,0.01554,0.0355815870967742
+"GO:0031116","positive regulation of microtubule polym...",11,9,4.98,0.01554,0.0355815870967742
+"GO:0035999","tetrahydrofolate interconversion",11,9,4.98,0.01554,0.0355815870967742
+"GO:0042372","phylloquinone biosynthetic process",11,9,4.98,0.01554,0.0355815870967742
+"GO:0043649","dicarboxylic acid catabolic process",11,9,4.98,0.01554,0.0355815870967742
+"GO:0046500","S-adenosylmethionine metabolic process",11,9,4.98,0.01554,0.0355815870967742
+"GO:0052031","modulation by symbiont of host defense r...",11,9,4.98,0.01554,0.0355815870967742
+"GO:0071493","cellular response to UV-B",11,9,4.98,0.01554,0.0355815870967742
+"GO:0080060","integument development",11,9,4.98,0.01554,0.0355815870967742
+"GO:1901600","strigolactone metabolic process",11,9,4.98,0.01554,0.0355815870967742
+"GO:1901601","strigolactone biosynthetic process",11,9,4.98,0.01554,0.0355815870967742
+"GO:2000904","regulation of starch metabolic process",11,9,4.98,0.01554,0.0355815870967742
+"GO:0010440","stomatal lineage progression",43,27,19.48,0.01573,0.0359934042553192
+"GO:0007004","telomere maintenance via telomerase",16,12,7.25,0.01583,0.0360826396917148
+"GO:0010962","regulation of glucan biosynthetic proces...",16,12,7.25,0.01583,0.0360826396917148
+"GO:0016180","snRNA processing",16,12,7.25,0.01583,0.0360826396917148
+"GO:0017085","response to insecticide",16,12,7.25,0.01583,0.0360826396917148
+"GO:0034312","diol biosynthetic process",16,12,7.25,0.01583,0.0360826396917148
+"GO:0097164","ammonium ion metabolic process",16,12,7.25,0.01583,0.0360826396917148
+"GO:0034504","protein localization to nucleus",157,85,71.11,0.01587,0.0361505969191271
+"GO:0009582","detection of abiotic stimulus",131,72,59.33,0.01637,0.0370232401524778
+"GO:0006521","regulation of cellular amino acid metabo...",32,21,14.49,0.01641,0.0370232401524778
+"GO:0022616","DNA strand elongation",32,21,14.49,0.01641,0.0370232401524778
+"GO:0043462","regulation of ATPase activity",32,21,14.49,0.01641,0.0370232401524778
+"GO:0005983","starch catabolic process",23,16,10.42,0.01642,0.0370232401524778
+"GO:0006189","'de novo' IMP biosynthetic process",23,16,10.42,0.01642,0.0370232401524778
+"GO:0006241","CTP biosynthetic process",23,16,10.42,0.01642,0.0370232401524778
+"GO:0006559","L-phenylalanine catabolic process",23,16,10.42,0.01642,0.0370232401524778
+"GO:0009208","pyrimidine ribonucleoside triphosphate m...",23,16,10.42,0.01642,0.0370232401524778
+"GO:0009209","pyrimidine ribonucleoside triphosphate b...",23,16,10.42,0.01642,0.0370232401524778
+"GO:0019362","pyridine nucleotide metabolic process",23,16,10.42,0.01642,0.0370232401524778
+"GO:0032350","regulation of hormone metabolic process",23,16,10.42,0.01642,0.0370232401524778
+"GO:0042727","flavin-containing compound biosynthetic ...",23,16,10.42,0.01642,0.0370232401524778
+"GO:0046036","CTP metabolic process",23,16,10.42,0.01642,0.0370232401524778
+"GO:0048655","anther wall tapetum morphogenesis",23,16,10.42,0.01642,0.0370232401524778
+"GO:1902222","erythrose 4-phosphate/phosphoenolpyruvat...",23,16,10.42,0.01642,0.0370232401524778
+"GO:0016119","carotene metabolic process",45,28,20.38,0.01655,0.0372453709575143
+"GO:0046519","sphingoid metabolic process",45,28,20.38,0.01655,0.0372453709575143
+"GO:1902533","positive regulation of intracellular sig...",45,28,20.38,0.01655,0.0372453709575143
+"GO:0031497","chromatin assembly",405,205,183.43,0.01731,0.0389310456273764
+"GO:0010411","xyloglucan metabolic process",70,41,31.7,0.01743,0.039176105129829
+"GO:0140013","meiotic nuclear division",378,192,171.2,0.0176,0.039533164556962
+"GO:0051445","regulation of meiotic cell cycle",34,22,15.4,0.01777,0.0398897722960152
+"GO:0015908","fatty acid transport",25,17,11.32,0.01863,0.0417410795454545
+"GO:0042026","protein refolding",25,17,11.32,0.01863,0.0417410795454545
+"GO:0071491","cellular response to red light",25,17,11.32,0.01863,0.0417410795454545
+"GO:0034728","nucleosome organization",170,91,76.99,0.01868,0.0418267003154574
+"GO:0048285","organelle fission",686,338,310.7,0.019,0.042516393442623
+"GO:0000028","ribosomal small subunit assembly",36,23,16.3,0.01904,0.0425790548204159
+"GO:0043934","sporulation",158,85,71.56,0.01929,0.0431109634760705
+"GO:0009828","plant-type cell wall loosening",18,13,8.15,0.01941,0.0432973538654934
+"GO:0043410","positive regulation of MAPK cascade",18,13,8.15,0.01941,0.0432973538654934
+"GO:0051091","positive regulation of DNA-binding trans...",18,13,8.15,0.01941,0.0432973538654934
+"GO:0046351","disaccharide biosynthetic process",55,33,24.91,0.01998,0.0445408417085427
+"GO:0051129","negative regulation of cellular componen...",96,54,43.48,0.02003,0.044624274952919
+"GO:0032409","regulation of transporter activity",104,58,47.1,0.02033,0.0452642220828105
+"GO:0034219","carbohydrate transmembrane transport",106,59,48.01,0.02038,0.0453470971786834
+"GO:0051304","chromosome separation",57,34,25.82,0.02054,0.0456744736842105
+"GO:0009147","pyrimidine nucleoside triphosphate metab...",27,18,12.23,0.0207,0.0460014402003757
+"GO:0051336","regulation of hydrolase activity",344,175,155.8,0.02105,0.0467499687108886
+"GO:0022403","cell cycle phase",787,385,356.44,0.02111,0.0468539024390244
+"GO:0051983","regulation of chromosome segregation",40,25,18.12,0.02136,0.0471217318435754
+"GO:0000967","rRNA 5'-end processing",13,10,5.89,0.02139,0.0471217318435754
+"GO:0001738","morphogenesis of a polarized epithelium",13,10,5.89,0.02139,0.0471217318435754
+"GO:0007007","inner mitochondrial membrane organizatio...",13,10,5.89,0.02139,0.0471217318435754
+"GO:0009098","leucine biosynthetic process",13,10,5.89,0.02139,0.0471217318435754
+"GO:0010088","phloem development",13,10,5.89,0.02139,0.0471217318435754
+"GO:0019336","phenol-containing compound catabolic pro...",13,10,5.89,0.02139,0.0471217318435754
+"GO:0042938","dipeptide transport",13,10,5.89,0.02139,0.0471217318435754
+"GO:0048832","specification of plant organ number",13,10,5.89,0.02139,0.0471217318435754
+"GO:0051180","vitamin transport",13,10,5.89,0.02139,0.0471217318435754
+"GO:1901334","lactone metabolic process",13,10,5.89,0.02139,0.0471217318435754
+"GO:1901336","lactone biosynthetic process",13,10,5.89,0.02139,0.0471217318435754
+"GO:0030422","production of siRNA involved in RNA inte...",179,95,81.07,0.02181,0.0480171774193548
+"GO:0007276","gamete generation",359,182,162.59,0.02211,0.0486474829510229
+"GO:0044848","biological phase",794,388,359.61,0.02219,0.0487932527881041
+"GO:0033238","regulation of cellular amine metabolic p...",42,26,19.02,0.0224,0.0491636363636364
+"GO:0046520","sphingoid biosynthetic process",42,26,19.02,0.0224,0.0491636363636364
+"GO:0000160","phosphorelay signal transduction system",424,213,192.03,0.0224,0.0491636363636364
+"GO:0000919","cell plate assembly",29,19,13.13,0.02263,0.049576462962963
+"GO:0006206","pyrimidine nucleobase metabolic process",29,19,13.13,0.02263,0.049576462962963
+"GO:0030150","protein import into mitochondrial matrix",29,19,13.13,0.02263,0.049576462962963
+"GO:0007164","establishment of tissue polarity",20,14,9.06,0.02277,0.0496990959409594
+"GO:0009130","pyrimidine nucleoside monophosphate bios...",20,14,9.06,0.02277,0.0496990959409594
+"GO:0009299","mRNA transcription",20,14,9.06,0.02277,0.0496990959409594
+"GO:0009645","response to low light intensity stimulus",20,14,9.06,0.02277,0.0496990959409594
+"GO:0009803","cinnamic acid metabolic process",20,14,9.06,0.02277,0.0496990959409594
+"GO:0032781","positive regulation of ATPase activity",20,14,9.06,0.02277,0.0496990959409594
