@@ -1,0 +1,39 @@
+"GO.ID","Term","Annotated","Significant","Expected","classicFisher","q_value"
+"GO:0009415","response to water",920,13,1.53,2.6e-09,4.0222e-06
+"GO:0010035","response to inorganic substance",2650,20,4.4,3.2e-09,4.0222e-06
+"GO:0001101","response to acid chemical",942,13,1.56,3.4e-09,4.0222e-06
+"GO:0009414","response to water deprivation",895,12,1.48,2.1e-08,1.863225e-05
+"GO:0097305","response to alcohol",1585,15,2.63,2.8e-08,1.98744e-05
+"GO:0009737","response to abscisic acid",1398,14,2.32,4.4e-08,2.6026e-05
+"GO:1901700","response to oxygen-containing compound",4357,23,7.23,1.2e-07,6.084e-05
+"GO:0042221","response to chemical",7726,30,12.82,4.9e-07,0.00021737625
+"GO:0033993","response to lipid",2330,16,3.86,6.9e-07,0.00027209
+"GO:0006972","hyperosmotic response",495,8,0.82,1.5e-06,0.0004732
+"GO:1903792","negative regulation of anion transport",14,3,0.02,1.6e-06,0.0004732
+"GO:0042538","hyperosmotic salinity response",344,7,0.57,1.6e-06,0.0004732
+"GO:0043271","negative regulation of ion transport",17,3,0.03,2.9e-06,0.0007917
+"GO:0009628","response to abiotic stimulus",4953,22,8.22,5.3e-06,0.00134355
+"GO:0009738","abscisic acid-activated signaling pathwa...",606,8,1.01,6.7e-06,0.00158522
+"GO:0010876","lipid localization",461,7,0.76,1.1e-05,0.00229641176470588
+"GO:0071215","cellular response to abscisic acid stimu...",649,8,1.08,1.1e-05,0.00229641176470588
+"GO:0051051","negative regulation of transport",28,3,0.05,1.4e-05,0.00276033333333333
+"GO:0006970","response to osmotic stress",1690,12,2.8,1.7e-05,0.00317542105263158
+"GO:0097306","cellular response to alcohol",726,8,1.2,2.5e-05,0.00443625
+"GO:0009725","response to hormone",3459,17,5.74,2.7e-05,0.004563
+"GO:0009651","response to salt stress",1567,11,2.6,4.4e-05,0.00680225
+"GO:0003333","amino acid transmembrane transport",118,4,0.2,4.5e-05,0.00680225
+"GO:0009719","response to endogenous stimulus",3609,17,5.99,4.6e-05,0.00680225
+"GO:0009266","response to temperature stimulus",1651,11,2.74,7e-05,0.0099372
+"GO:0009787","regulation of abscisic acid-activated si...",144,4,0.24,9.8e-05,0.0124215
+"GO:1901419","regulation of response to alcohol",144,4,0.24,9.8e-05,0.0124215
+"GO:1905957","regulation of cellular response to alcoh...",144,4,0.24,9.8e-05,0.0124215
+"GO:1905039","carboxylic acid transmembrane transport",153,4,0.25,0.00012,0.0146855172413793
+"GO:0010033","response to organic substance",5165,20,8.57,0.00013,0.015379
+"GO:1903825","organic acid transmembrane transport",157,4,0.26,0.00014,0.0160277419354839
+"GO:0009788","negative regulation of abscisic acid-act...",64,3,0.11,0.00017,0.017745
+"GO:1901420","negative regulation of response to alcoh...",64,3,0.11,0.00017,0.017745
+"GO:1905958","negative regulation of cellular response...",64,3,0.11,0.00017,0.017745
+"GO:0009408","response to heat",511,6,0.85,2e-04,0.02028
+"GO:0006869","lipid transport",331,5,0.55,0.00022,0.0216883333333333
+"GO:0071396","cellular response to lipid",1302,9,2.16,0.00027,0.0258981081081081
+"GO:0009409","response to cold",1084,8,1.8,0.00039,0.036423947368421

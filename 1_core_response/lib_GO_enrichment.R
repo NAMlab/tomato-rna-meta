@@ -32,3 +32,7 @@ go_enrichment <- function(genes, seed = 845052) {
   
   return(tableGOresults)
 }
+
+export_for_revigo <- function(tableGOresults, out.path = "") {
+  write.table(tableGOresults[c(1,7)], out.path, row.names=F, col.names=F, quote=F, sep="\t")
+}

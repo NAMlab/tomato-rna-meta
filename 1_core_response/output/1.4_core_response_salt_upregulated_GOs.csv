@@ -1,0 +1,81 @@
+"GO.ID","Term","Annotated","Significant","Expected","classicFisher","q_value"
+"GO:0010035","response to inorganic substance",2650,44,10.58,7.6e-17,2.69724e-13
+"GO:0009628","response to abiotic stimulus",4953,59,19.78,2.7e-16,4.79115e-13
+"GO:0009266","response to temperature stimulus",1651,34,6.59,1.3e-15,1.5379e-12
+"GO:1901700","response to oxygen-containing compound",4357,54,17.4,2e-15,1.7745e-12
+"GO:0097305","response to alcohol",1585,32,6.33,1.9e-14,9.633e-12
+"GO:0009644","response to high light intensity",325,17,1.3,1.9e-14,9.633e-12
+"GO:0009408","response to heat",511,20,2.04,1.9e-14,9.633e-12
+"GO:0009415","response to water",920,25,3.67,3.2e-14,1.3013e-11
+"GO:0042221","response to chemical",7726,71,30.85,3.3e-14,1.3013e-11
+"GO:0001101","response to acid chemical",942,25,3.76,5.4e-14,1.91646e-11
+"GO:0009414","response to water deprivation",895,24,3.57,1.5e-13,4.43625e-11
+"GO:0010033","response to organic substance",5165,56,20.63,1.5e-13,4.43625e-11
+"GO:0006979","response to oxidative stress",1183,27,4.72,1.7e-13,4.641e-11
+"GO:0009642","response to light intensity",445,18,1.78,2.5e-13,6.3375e-11
+"GO:0000302","response to reactive oxygen species",776,22,3.1,5.7e-13,1.34862e-10
+"GO:0006970","response to osmotic stress",1690,31,6.75,6.4e-13,1.4196e-10
+"GO:0009737","response to abscisic acid",1398,27,5.58,8.1e-12,1.69099411764706e-09
+"GO:0009651","response to salt stress",1567,28,6.26,1.9e-11,3.73578947368421e-09
+"GO:0010286","heat acclimation",147,11,0.59,2e-11,3.73578947368421e-09
+"GO:0033993","response to lipid",2330,33,9.3,1e-10,1.7745e-08
+"GO:0006972","hyperosmotic response",495,16,1.98,1.6e-10,2.704e-08
+"GO:0042542","response to hydrogen peroxide",506,16,2.02,2.2e-10,3.549e-08
+"GO:0009725","response to hormone",3459,38,13.81,4.1e-09,6.32647826086957e-07
+"GO:0009416","response to light stimulus",2044,28,8.16,7.6e-09,1.093092e-06
+"GO:0045471","response to ethanol",18,5,0.07,7.7e-09,1.093092e-06
+"GO:0006457","protein folding",488,14,1.95,1.1e-08,1.5015e-06
+"GO:0009719","response to endogenous stimulus",3609,38,14.41,1.3e-08,1.70877777777778e-06
+"GO:0009314","response to radiation",2141,28,8.55,2.1e-08,2.56996551724138e-06
+"GO:0006950","response to stress",9673,69,38.63,2.1e-08,2.56996551724138e-06
+"GO:0046688","response to copper ion",46,6,0.18,3e-08,3.549e-06
+"GO:0071215","cellular response to abscisic acid stimu...",649,15,2.59,5.4e-08,6.18212903225806e-06
+"GO:0042538","hyperosmotic salinity response",344,11,1.37,1.5e-07,1.66359375e-05
+"GO:0009738","abscisic acid-activated signaling pathwa...",606,14,2.42,1.6e-07,1.72072727272727e-05
+"GO:0097306","cellular response to alcohol",726,15,2.9,2.3e-07,2.40079411764706e-05
+"GO:0046685","response to arsenic-containing substance",73,6,0.29,4.9e-07,4.9686e-05
+"GO:0050896","response to stimulus",17671,97,70.57,1.3e-06,0.000128158333333333
+"GO:0009409","response to cold",1084,17,4.33,1.6e-06,0.00015347027027027
+"GO:0032870","cellular response to hormone stimulus",1933,23,7.72,2.4e-06,0.000224147368421053
+"GO:0009755","hormone-mediated signaling pathway",1829,22,7.3,3.4e-06,0.0003094
+"GO:0071396","cellular response to lipid",1302,18,5.2,4.5e-06,0.000398180487804878
+"GO:1901701","cellular response to oxygen-containing c...",2013,23,8.04,4.6e-06,0.000398180487804878
+"GO:0071495","cellular response to endogenous stimulus",2085,23,8.33,8.2e-06,0.0006929
+"GO:0070887","cellular response to chemical stimulus",3232,30,12.91,8.8e-06,0.000726306976744186
+"GO:0051259","protein complex oligomerization",129,6,0.52,1.4e-05,0.00112922727272727
+"GO:0000303","response to superoxide",77,5,0.31,1.5e-05,0.001183
+"GO:0071310","cellular response to organic substance",2494,25,9.96,1.6e-05,0.0012344347826087
+"GO:1903792","negative regulation of anion transport",14,3,0.06,2.2e-05,0.00166123404255319
+"GO:0000305","response to oxygen radical",86,5,0.34,2.5e-05,0.0018484375
+"GO:0043271","negative regulation of ion transport",17,3,0.07,4.1e-05,0.00296957142857143
+"GO:0009611","response to wounding",777,12,3.1,6.9e-05,0.00489762
+"GO:0009845","seed germination",460,9,1.84,1e-04,0.006825
+"GO:0019752","carboxylic acid metabolic process",3678,30,14.69,1e-04,0.006825
+"GO:0046395","carboxylic acid catabolic process",689,11,2.75,0.00011,0.00736584905660377
+"GO:0009788","negative regulation of abscisic acid-act...",64,4,0.26,0.00013,0.00823875
+"GO:1901420","negative regulation of response to alcoh...",64,4,0.26,0.00013,0.00823875
+"GO:1905958","negative regulation of cellular response...",64,4,0.26,0.00013,0.00823875
+"GO:0016054","organic acid catabolic process",711,11,2.84,0.00014,0.00842135593220339
+"GO:0090351","seedling development",480,9,1.92,0.00014,0.00842135593220339
+"GO:0006082","organic acid metabolic process",3931,31,15.7,0.00014,0.00842135593220339
+"GO:0046686","response to cadmium ion",860,12,3.43,0.00018,0.010647
+"GO:0051051","negative regulation of transport",28,3,0.11,0.00019,0.0108759677419355
+"GO:0010431","seed maturation",295,7,1.18,0.00019,0.0108759677419355
+"GO:0009062","fatty acid catabolic process",397,8,1.59,2e-04,0.011090625
+"GO:0010038","response to metal ion",1146,14,4.58,2e-04,0.011090625
+"GO:0051235","maintenance of location",211,6,0.84,0.00021,0.011466
+"GO:0034976","response to endoplasmic reticulum stress",626,10,2.5,0.00022,0.0116534328358209
+"GO:0043436","oxoacid metabolic process",3839,30,15.33,0.00022,0.0116534328358209
+"GO:0071322","cellular response to carbohydrate stimul...",221,6,0.88,0.00027,0.0140916176470588
+"GO:0072329","monocarboxylic acid catabolic process",425,8,1.7,0.00032,0.0164591304347826
+"GO:0050826","response to freezing",148,5,0.59,0.00033,0.016731
+"GO:0010029","regulation of seed germination",157,5,0.63,0.00043,0.0214939436619718
+"GO:0010162","seed dormancy process",247,6,0.99,0.00049,0.0238220547945205
+"GO:0022611","dormancy process",247,6,0.99,0.00049,0.0238220547945205
+"GO:0032787","monocarboxylic acid metabolic process",2557,22,10.21,5e-04,0.0239797297297297
+"GO:1900140","regulation of seedling development",167,5,0.67,0.00057,0.0269724
+"GO:0044242","cellular lipid catabolic process",470,8,1.88,0.00062,0.0289523684210526
+"GO:0010255","glucose mediated signaling pathway",10,2,0.04,7e-04,0.03185
+"GO:0010344","seed oilbody biogenesis",10,2,0.04,7e-04,0.03185
+"GO:0009757","hexose mediated signaling",12,2,0.05,0.00102,0.04524975
+"GO:0009723","response to ethylene",764,10,3.05,0.00102,0.04524975

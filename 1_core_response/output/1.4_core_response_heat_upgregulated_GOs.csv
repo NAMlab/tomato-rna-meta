@@ -1,0 +1,34 @@
+"GO.ID","Term","Annotated","Significant","Expected","classicFisher","q_value"
+"GO:0009644","response to high light intensity",325,17,0.46,8.6e-23,3.05214e-19
+"GO:0009642","response to light intensity",445,17,0.63,1.8e-20,3.1941e-17
+"GO:0006457","protein folding",488,17,0.69,8.7e-20,1.02921e-16
+"GO:0042542","response to hydrogen peroxide",506,17,0.71,1.6e-19,1.34862e-16
+"GO:0009408","response to heat",511,17,0.72,1.9e-19,1.34862e-16
+"GO:0000302","response to reactive oxygen species",776,19,1.1,2.7e-19,1.59705e-16
+"GO:0010286","heat acclimation",147,12,0.21,1.6e-18,8.112e-16
+"GO:0006979","response to oxidative stress",1183,20,1.67,3.1e-17,1.3752375e-14
+"GO:0009266","response to temperature stimulus",1651,22,2.33,6.9e-17,2.7209e-14
+"GO:0045471","response to ethanol",18,7,0.03,2.2e-16,7.8078e-14
+"GO:0046685","response to arsenic-containing substance",73,8,0.1,1e-13,3.22636363636364e-11
+"GO:0034976","response to endoplasmic reticulum stress",626,14,0.88,1.1e-13,3.25325e-11
+"GO:0046688","response to copper ion",46,7,0.06,3.6e-13,9.828e-11
+"GO:0010038","response to metal ion",1146,16,1.62,1.8e-12,4.563e-10
+"GO:0046686","response to cadmium ion",860,14,1.22,8e-12,1.8928e-09
+"GO:0009416","response to light stimulus",2044,19,2.89,1.1e-11,2.29641176470588e-09
+"GO:0051259","protein complex oligomerization",129,8,0.18,1.1e-11,2.29641176470588e-09
+"GO:0009314","response to radiation",2141,19,3.03,2.4e-11,4.732e-09
+"GO:0010035","response to inorganic substance",2650,20,3.74,1.1e-10,2.05468421052632e-08
+"GO:1901700","response to oxygen-containing compound",4357,24,6.16,4e-10,7.098e-08
+"GO:0009628","response to abiotic stimulus",4953,24,7,5.7e-09,9.633e-07
+"GO:0033554","cellular response to stress",3495,20,4.94,1.4e-08,2.25845454545455e-06
+"GO:0006950","response to stress",9673,31,13.67,1.4e-07,2.16026086956522e-05
+"GO:0006970","response to osmotic stress",1690,13,2.39,3.9e-07,5.767125e-05
+"GO:0042221","response to chemical",7726,27,10.92,4.1e-07,5.82036e-05
+"GO:0051260","protein homooligomerization",77,4,0.11,4.4e-06,0.0006006
+"GO:0009651","response to salt stress",1567,11,2.21,8.7e-06,0.00114356666666667
+"GO:0065003","protein-containing complex assembly",1590,11,2.25,1e-05,0.0012675
+"GO:0043933","protein-containing complex subunit organ...",1729,11,2.44,2.2e-05,0.00269234482758621
+"GO:0051716","cellular response to stimulus",8327,25,11.77,3e-05,0.003549
+"GO:0097305","response to alcohol",1585,10,2.24,5.9e-05,0.00675454838709677
+"GO:0022607","cellular component assembly",2427,12,3.43,1e-04,0.011090625
+"GO:0010033","response to organic substance",5165,17,7.3,0.00042,0.0451690909090909

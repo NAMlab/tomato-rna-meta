@@ -1,0 +1,67 @@
+"GO.ID","Term","Annotated","Significant","Expected","classicFisher","q_value"
+"GO:0080163","regulation of protein serine/threonine p...",15,4,0.03,1.3e-08,4.6137e-05
+"GO:0043666","regulation of phosphoprotein phosphatase...",24,4,0.04,1e-07,0.00010647
+"GO:0035304","regulation of protein dephosphorylation",208,7,0.38,1e-07,0.00010647
+"GO:0035303","regulation of dephosphorylation",213,7,0.39,1.2e-07,0.00010647
+"GO:0010921","regulation of phosphatase activity",28,4,0.05,1.9e-07,0.000134862
+"GO:0010029","regulation of seed germination",157,6,0.28,4.2e-07,0.00024843
+"GO:1900140","regulation of seedling development",167,6,0.3,6e-07,0.0003042
+"GO:0071396","cellular response to lipid",1302,12,2.36,3.1e-06,0.0013752375
+"GO:0009755","hormone-mediated signaling pathway",1829,14,3.31,3.6e-06,0.0014196
+"GO:0032870","cellular response to hormone stimulus",1933,14,3.5,6.8e-06,0.00241332
+"GO:0050793","regulation of developmental process",1707,13,3.09,9.1e-06,0.00293599090909091
+"GO:0071495","cellular response to endogenous stimulus",2085,14,3.78,1.6e-05,0.004732
+"GO:1901700","response to oxygen-containing compound",4357,20,7.9,4.8e-05,0.010647
+"GO:0097306","cellular response to alcohol",726,8,1.32,4.8e-05,0.010647
+"GO:0006470","protein dephosphorylation",531,7,0.96,4.8e-05,0.010647
+"GO:0043086","negative regulation of catalytic activit...",531,7,0.96,4.8e-05,0.010647
+"GO:0010033","response to organic substance",5165,22,9.36,5.4e-05,0.0108441666666667
+"GO:0033993","response to lipid",2330,14,4.22,5.5e-05,0.0108441666666667
+"GO:0044092","negative regulation of molecular functio...",563,7,1.02,7e-05,0.0130752631578947
+"GO:0071554","cell wall organization or biogenesis",2094,13,3.8,7.7e-05,0.01366365
+"GO:0006569","tryptophan catabolic process",129,4,0.23,9e-05,0.0145186363636364
+"GO:0046218","indolalkylamine catabolic process",129,4,0.23,9e-05,0.0145186363636364
+"GO:0042436","indole-containing compound catabolic pro...",135,4,0.24,0.00011,0.0156156
+"GO:0031399","regulation of protein modification proce...",606,7,1.1,0.00011,0.0156156
+"GO:0071310","cellular response to organic substance",2494,14,4.52,0.00011,0.0156156
+"GO:0009074","aromatic amino acid family catabolic pro...",152,4,0.28,0.00017,0.023205
+"GO:0009845","seed germination",460,6,0.83,0.00018,0.02366
+"GO:0009791","post-embryonic development",4032,18,7.31,0.00019,0.0240825
+"GO:0044242","cellular lipid catabolic process",470,6,0.85,0.00021,0.024336
+"GO:0007020","microtubule nucleation",162,4,0.29,0.00022,0.024336
+"GO:1901701","cellular response to oxygen-containing c...",2013,12,3.65,0.00022,0.024336
+"GO:0090351","seedling development",480,6,0.87,0.00023,0.024336
+"GO:0019220","regulation of phosphate metabolic proces...",687,7,1.25,0.00024,0.024336
+"GO:0051174","regulation of phosphorus metabolic proce...",687,7,1.25,0.00024,0.024336
+"GO:0046785","microtubule polymerization",167,4,0.3,0.00024,0.024336
+"GO:0006568","tryptophan metabolic process",171,4,0.31,0.00027,0.02457
+"GO:0006586","indolalkylamine metabolic process",171,4,0.31,0.00027,0.02457
+"GO:0000003","reproduction",4930,20,8.94,0.00027,0.02457
+"GO:0009789","positive regulation of abscisic acid-act...",69,3,0.13,0.00027,0.02457
+"GO:0045229","external encapsulating structure organiz...",1470,10,2.66,0.00028,0.024843
+"GO:0009684","indoleacetic acid biosynthetic process",175,4,0.32,0.00029,0.0251026829268293
+"GO:0009725","response to hormone",3459,16,6.27,0.00032,0.0264111627906977
+"GO:0031109","microtubule polymerization or depolymeri...",180,4,0.33,0.00032,0.0264111627906977
+"GO:0042446","hormone biosynthetic process",512,6,0.93,0.00033,0.0266175
+"GO:0042445","hormone metabolic process",731,7,1.32,0.00035,0.0276033333333333
+"GO:0071669","plant-type cell wall organization or bio...",974,8,1.77,0.00036,0.0277747826086957
+"GO:0051336","regulation of hydrolase activity",344,5,0.62,4e-04,0.0302042553191489
+"GO:0009683","indoleacetic acid metabolic process",193,4,0.35,0.00042,0.03105375
+"GO:0005976","polysaccharide metabolic process",1547,10,2.8,0.00043,0.0311442857142857
+"GO:0042402","cellular biogenic amine catabolic proces...",197,4,0.36,0.00046,0.0326508
+"GO:0032268","regulation of cellular protein metabolic...",1017,8,1.84,0.00048,0.0334023529411765
+"GO:0009851","auxin biosynthetic process",202,4,0.37,5e-04,0.0334811320754717
+"GO:0070887","cellular response to chemical stimulus",3232,15,5.86,5e-04,0.0334811320754717
+"GO:0009719","response to endogenous stimulus",3609,16,6.54,0.00052,0.0341755555555556
+"GO:0048580","regulation of post-embryonic development",785,7,1.42,0.00053,0.0341994545454545
+"GO:0010817","regulation of hormone levels",1038,8,1.88,0.00055,0.03485625
+"GO:0009310","amine catabolic process",210,4,0.38,0.00058,0.0361126315789474
+"GO:0042435","indole-containing compound biosynthetic ...",214,4,0.39,0.00062,0.0379375862068966
+"GO:0006811","ion transport",4850,19,8.79,0.00064,0.0384976271186441
+"GO:0016311","dephosphorylation",819,7,1.48,0.00068,0.040222
+"GO:0009062","fatty acid catabolic process",397,5,0.72,0.00077,0.0445033333333333
+"GO:0071555","cell wall organization",1377,9,2.5,0.00079,0.0445033333333333
+"GO:0048856","anatomical structure development",10879,32,19.72,0.00079,0.0445033333333333
+"GO:0034754","cellular hormone metabolic process",403,5,0.73,0.00082,0.0454715625
+"GO:0051246","regulation of protein metabolic process",1109,8,2.01,0.00084,0.045864
+"GO:0016051","carbohydrate biosynthetic process",1397,9,2.53,0.00087,0.0467822727272727
