@@ -8,10 +8,6 @@ samples.annotation[samples.annotation$sra_run_id == "",]$sra_run_id = samples.an
 
 abundance = read.csv("input/combined_abundance.tsv.gz", sep="\t", check.names=F)
 row.names(abundance) = abundance$target_id
-quantified.samples = unique(str_split_fixed(names(abundance)[3:ncol(abundance)], "_", 2)[,1])
-
-samples.annotation = samples.annotation[samples.annotation$sra_run_id %in% quantified.samples,]
-samples.annotation$temperature = as.numeric(samples.annotation$temperature)
 
 plot_and_save_pca <- function(pca_res, point.annotations, outfile_name) {
   scores = as.data.frame(pca_res$x)
@@ -38,9 +34,11 @@ plot_and_save_pca <- function(pca_res, point.annotations, outfile_name) {
   rm(pca_res, scores, point.annotations)
 }
 
-### ----- TPMs -----
-
-tpms = t(as.matrix(abundance[grep("_tpm", names(abundance))]))
+### ----- log(TPMs) -----
+log.tpms = log(abundance[grep("_tpm", names(abundance))])
+# Kick out rows which contain -Inf (formerly 0 values)
+log.tpms = log.tpms[rowSums(log.tpms == -Inf) == 0,]
+log.tpms = t(as.matrix(log.tpms))
 row.names(tpms) = str_remove(row.names(tpms), "_tpm")
 
 pca_res <- prcomp(tpms)
@@ -49,9 +47,9 @@ scores = as.data.frame(pca_res$x)
 point.annotations = data.frame(sample = row.names(scores))
 point.annotations = merge(point.annotations, samples.annotation, by.x = "sample", by.y="sra_run_id", all.x=T)
 
-plot_and_save_pca(pca_res, point.annotations, "1.2_tpms_PCA")
+plot_and_save_pca(pca_res, point.annotations, "1.2_log_tpms_PCA")
 
-rm(abundance, scores, pca_res, tpms, point.annotations)
+rm(abundance, scores, pca_res, log.tpms, point.annotations)
 
 #### ---- fold-changes -------
 diffexp = read.csv("output/differential_expression.lfs.csv.gz")
@@ -59,8 +57,6 @@ row.names(diffexp) = diffexp$gene
 
 fcs = t(as.matrix(diffexp[grep("_logFC", names(diffexp))]))
 row.names(fcs) = str_remove(row.names(fcs), "_logFC")
-# fill in NAs with 0
-fcs[is.na(fcs)] <- 0
 
 pca_res <- prcomp(fcs)
 scores = as.data.frame(pca_res$x)
@@ -71,3 +67,10 @@ samples.annotation = unique(samples.annotation[c("genotype.name", "tissue", "str
 point.annotations = merge(point.annotations, samples.annotation, by.x = "sample", by.y="sample.group", all.x=T, all.y=F)
 
 plot_and_save_pca(pca_res, point.annotations, "1.2_FC_PCA")
+
+#### (snippet for playing with UMAP) ###
+# umap_res = umap(tpms)
+# row.names(point.annotations) = point.annotations$sample
+# p = merge(point.annotations, umap_res$layout, by="row.names")
+# ggplot(data=p, aes(x=V1, y=V2))+
+#        geom_point(aes(color=publication_id, shape=stress_type)) + xlab("UMAP 1") + ylab("UMAP 2")

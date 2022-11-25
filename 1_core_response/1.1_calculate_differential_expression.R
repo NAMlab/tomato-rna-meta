@@ -7,9 +7,6 @@ samples.annotation = read.csv("input/samples_annotation.csv")
 samples.annotation[samples.annotation$sra_run_id == "",]$sra_run_id = samples.annotation[samples.annotation$sra_run_id == "",]$sample.name
 abundance = read.csv("input/combined_abundance.tsv.gz", sep="\t", check.names=F)
 row.names(abundance) = abundance$target_id
-quantified.samples = unique(str_split_fixed(names(abundance)[3:ncol(abundance)], "_", 2)[,1])
-
-samples.annotation = samples.annotation[samples.annotation$sra_run_id %in% quantified.samples,]
 
 diffexp = data.frame(gene = abundance$target_id)
 
