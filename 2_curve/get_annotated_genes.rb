@@ -4,8 +4,11 @@ require "json"
 require "zlib"
 
 # As true positives we use GO:0009408	response to heat
-# As a similar but "wrong" term we use GO:0048868	pollen tube development
+# As a similar but "wrong" term we use GO:0009203	ribonucleoside triphosphate catabolic pr...
+# For drought stress the true/false controls are GO:0009414 response to water deprivation and GO:0042454 ribonucleoside catabolic process
+# For salt stress they are GO:0009651 response to salt stress and GO:0098542 defense response to other organism
 target_term = ARGV.first.to_sym
+
 
 ontology = Ontology.from_json_file("GO.json")
 Zlib::GzipReader.open("../data/GOMAP_annotation.map.lfs.gz") do |gz|
