@@ -50,6 +50,7 @@ for(direction in c("upregulated", "downregulated")) {
     # HSF binding sites
     fimo_matches = str_remove(read.csv("../data/fimo_hsfs_matches.tsv", sep="\t")$sequence_name, "\\([+-]\\)")
     genes_matched = str_remove(genes, "\\.[0-9]+$") %in% fimo_matches
+    prd_matches = genes %in% read.csv("input/ITAG4.1_PrDs.csv")$protein
     
     # Heatmap (right now only doing for HS)
     if(stress.type == "heat") {
@@ -62,10 +63,13 @@ for(direction in c("upregulated", "downregulated")) {
       ## Heatmap Annotations
       column_ha = HeatmapAnnotation(tissue = as.factor(samples.stress$tissue), temperature = as.numeric(samples.stress$temperature), log.duration = log(as.numeric(samples.stress$stress.duration)),
                                     genotype = samples.stress$genotype, col = list(tissue = c("anther" = "#CC79A7", "fruit" = "#D55E00", "leaf" = "#009E73", "pollen" = "#F0E442", "seed" = "#E69F00", "seedling" = "#56B4E9", "ovaries"="pink")))
-      row_ha = rowAnnotation(hsf_binding = genes_matched, col = list(hsf_binding = c("TRUE" = "black", "FALSE" = "white")))
+      row_ha = rowAnnotation(hsf_binding = genes_matched, has_PrD = prd_matches,
+                             col = list(hsf_binding = c("TRUE" = "black", "FALSE" = "white"), has_PrD = c("TRUE" = "black", "FALSE" = "white")))
       
-      pdf(paste0("output/plots/1.4_core_response_",stress.type,"_",direction,".lfs.pdf"), 15, 15)
-      print(Heatmap(as.matrix(cells), col = colorRamp2(c(-10, 0, 10), c("blue", "white", "red")), bottom_annotation = column_ha, left_annotation = row_ha))
+      pdf(paste0("output/plots/1.4_core_response_",stress.type,"_",direction,".lfs.pdf"), 17, 15)
+      draw(Heatmap(as.matrix(cells), col = colorRamp2(c(-10, 0, 10), c("blue", "white", "red")),
+                   bottom_annotation = column_ha, left_annotation = row_ha, row_names_max_width = max_text_width(rownames(cells), gp = gpar(fontsize = 11)), row_names_gp = grid::gpar(fontsize = 11)),
+           heatmap_legend_side="bottom", annotation_legend_side = 'bottom')
       dev.off()
       
     }
