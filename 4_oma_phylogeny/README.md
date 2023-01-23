@@ -5,10 +5,3 @@ For the first one, we are using the OMA Database. For each core response gene + 
 1. Querying OMA with the protein sequence and getting the genes it finds for it in tomato
 2. Finding out which HOGs these genes belong to
 3. Determining what the deepest level of that HOG is, i.e. how much of the phylogenetic tree it spans.
-
-Then we have to think about a nice way of visualizing that but that is step 2.
-
-To get a list of 500 random proteins from the genome:
-
-
-Then to 
