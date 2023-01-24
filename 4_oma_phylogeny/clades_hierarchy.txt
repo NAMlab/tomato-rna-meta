@@ -1,0 +1,17 @@
+LUCA
+Eukaryota
+Viridiplantae
+Streptophyta
+Streptophytina
+Embryophyta
+Tracheophyta
+Spermatophyta
+Magnoliopsida
+Mesangiospermae
+Pentapetalae
+asterids
+lamiids
+Solanaceae
+Solanoideae
+Solanum
+Solanum lycopersicum

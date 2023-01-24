@@ -5,3 +5,5 @@ For the first one, we are using the OMA Database. For each core response gene + 
 1. Querying OMA with the protein sequence and getting the genes it finds for it in tomato
 2. Finding out which HOGs these genes belong to
 3. Determining what the deepest level of that HOG is, i.e. how much of the phylogenetic tree it spans.
+
+`clades_hierarchy.txt` was created manually by inspecting the species phylogeny provided by OMA at https://omabrowser.org/oma/current/ .
