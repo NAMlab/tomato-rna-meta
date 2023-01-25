@@ -7,4 +7,280 @@ Solyc00g500188.1.1,
 Solyc00g500342.1.1,
 Solyc00g500371.1.1,HOG:C0675693->Eukaryota 
 Solyc01g005380.4.1,HOG:C0259272->Embryophyta 
-Solyc01g005690.4.1,
+Solyc01g005690.4.1,HOG:C0181150->Solanaceae HOG:C0182771->lamiids HOG:C0222139->Pentapetalae HOG:C0179252->Solanoideae HOG:C0185078->asterids HOG:C0179313->Solanoideae HOG:C0179253->Solanoideae HOG:C0180629->Solanaceae HOG:C0182853->lamiids 
+Solyc01g005780.1.1,HOG:C0221482->Pentapetalae 
+Solyc01g005800.3.1,HOG:C0257187->Tracheophyta 
+Solyc01g006140.4.1,HOG:C0675738->Eukaryota 
+Solyc01g006170.5.1,HOG:C0264520->Viridiplantae 
+Solyc01g006555.2.1,HOG:C0260646->Embryophyta 
+Solyc01g006600.3.1,HOG:C0246208->Magnoliopsida 
+Solyc01g007240.3.1,HOG:C0666550->Eukaryota 
+Solyc01g007790.4.1,
+Solyc01g008090.4.1,HOG:C0663960->Eukaryota 
+Solyc01g009970.3.1,
+Solyc01g016300.1.1,
+Solyc01g020150.4.1,HOG:C0664707->Eukaryota HOG:C0259518->Embryophyta 
+Solyc01g057390.2.1,HOG:C0179506->Solanoideae HOG:C0258350->Embryophyta 
+Solyc01g060070.3.1,
+Solyc01g060180.4.1,HOG:C0258650->Embryophyta 
+Solyc01g065647.1.1,HOG:C0663044->Eukaryota 
+Solyc01g066760.2.1,HOG:C0181888->Solanaceae HOG:C0246703->Magnoliopsida HOG:C0181692->Solanaceae HOG:C0230547->Pentapetalae HOG:C0181734->Solanaceae HOG:C0181563->Solanaceae HOG:C0181785->Solanaceae 
+Solyc01g068100.4.1,
+Solyc01g068320.3.1,HOG:C0231193->Pentapetalae 
+Solyc01g079360.4.1,HOG:C0247971->Spermatophyta 
+Solyc01g081125.1.1,HOG:C0222845->Pentapetalae HOG:C0182491->lamiids HOG:C0178669->Solanum HOG:C0257435->Tracheophyta HOG:C0179068->Solanum HOG:C0236832->Mesangiospermae 
+Solyc01g086800.4.1,HOG:C0246195->Magnoliopsida 
+Solyc01g088480.3.1,HOG:C0221340->Pentapetalae HOG:C0179395->Solanoideae HOG:C0179516->Solanoideae 
+Solyc01g090420.4.1,HOG:C0261369->Streptophytina 
+Solyc01g090900.3.1,HOG:C0663300->Eukaryota 
+Solyc01g091190.3.1,
+Solyc01g091410.3.1,HOG:C0254642->Spermatophyta 
+Solyc01g094500.3.1,HOG:C0243643->Magnoliopsida 
+Solyc01g094700.5.1,HOG:C0885008->LUCA 
+Solyc01g095800.3.1,HOG:C0234295->Mesangiospermae 
+Solyc01g095905.1.1,HOG:C0256726->Tracheophyta 
+Solyc01g096320.3.1,HOG:C0234288->Mesangiospermae 
+Solyc01g096570.3.1,HOG:C0259044->Embryophyta 
+Solyc01g096700.4.1,HOG:C0178625->Solanum HOG:C0258732->Embryophyta 
+Solyc01g097500.4.1,HOG:C0183793->asterids 
+Solyc01g097830.2.1,
+Solyc01g098350.3.1,HOG:C0663376->Eukaryota 
+Solyc01g098630.3.1,HOG:C0231379->Pentapetalae 
+Solyc01g098940.3.1,HOG:C0243903->Magnoliopsida 
+Solyc01g099310.4.1,HOG:C0665502->Eukaryota 
+Solyc01g100620.3.1,HOG:C0265817->Viridiplantae 
+Solyc01g100810.3.1,HOG:C0245387->Magnoliopsida 
+Solyc01g100910.3.1,HOG:C0672515->Eukaryota 
+Solyc01g103180.4.1,HOG:C0226710->Pentapetalae 
+Solyc01g103670.4.1,
+Solyc01g105130.5.1,HOG:C0232065->Mesangiospermae 
+Solyc01g105260.1.1,HOG:C0232563->Mesangiospermae 
+Solyc01g105350.3.1,HOG:C0226493->Pentapetalae 
+Solyc01g105550.1.1,HOG:C0181365->Solanaceae HOG:C0179166->Solanum HOG:C0181751->Solanaceae HOG:C0184175->asterids HOG:C0180696->Solanaceae 
+Solyc01g105710.3.1,HOG:C0258278->Embryophyta 
+Solyc01g107990.3.1,HOG:C0261321->Streptophytina 
+Solyc01g108730.3.1,HOG:C0260001->Embryophyta 
+Solyc01g109100.2.1,HOG:C0184471->asterids 
+Solyc01g109730.1.1,HOG:C0663024->Eukaryota 
+Solyc01g109750.2.1,HOG:C0263021->Streptophyta 
+Solyc01g109810.2.1,HOG:C0234628->Mesangiospermae 
+Solyc01g110320.4.1,HOG:C0183810->asterids 
+Solyc01g110540.3.1,HOG:C0179206->Solanoideae 
+Solyc01g150155.1.1,HOG:C0233153->Mesangiospermae 
+Solyc01g160630.1.1,HOG:C0221912->Pentapetalae 
+Solyc01g161050.1.1,HOG:C0684207->Eukaryota 
+Solyc01g161360.1.1,HOG:C0260716->Embryophyta 
+Solyc02g005410.4.1,HOG:C0665032->Eukaryota HOG:C0662869->Eukaryota 
+Solyc02g005560.1.1,HOG:C0181574->Solanaceae HOG:C0181646->Solanaceae 
+Solyc02g005601.1.1,HOG:C0663957->Eukaryota 
+Solyc02g005606.1.1,
+Solyc02g014380.3.1,HOG:C0244310->Magnoliopsida 
+Solyc02g014660.1.1,HOG:C0182308->lamiids HOG:C0182297->lamiids HOG:C0181902->Solanaceae HOG:C0182728->lamiids HOG:C0181816->Solanaceae HOG:C0181788->Solanaceae HOG:C0183396->lamiids HOG:C0242488->Mesangiospermae HOG:C0183382->lamiids 
+Solyc02g021160.2.1,HOG:C0663281->Eukaryota 
+Solyc02g021210.1.1,
+Solyc02g024040.1.1,
+Solyc02g030317.1.1,
+Solyc02g031740.3.1,
+Solyc02g031940.3.1,HOG:C0180544->Solanaceae 
+Solyc02g032290.1.1,HOG:C0178662->Solanum 
+Solyc02g037550.3.1,HOG:C0178662->Solanum HOG:C0179539->Solanoideae 
+Solyc02g038790.3.1,HOG:C0244274->Magnoliopsida 
+Solyc02g044040.3.1,HOG:C0231302->Pentapetalae HOG:C0892248->LUCA 
+Solyc02g062313.1.1,
+Solyc02g063133.1.1,HOG:C0663561->Eukaryota 
+Solyc02g064630.4.1,HOG:C0182776->lamiids 
+Solyc02g064850.2.1,HOG:C0221327->Pentapetalae HOG:C0256771->Tracheophyta HOG:C0225050->Pentapetalae HOG:C0222032->Pentapetalae 
+Solyc02g065060.3.1,HOG:C0257985->Embryophyta HOG:C0256764->Tracheophyta 
+Solyc02g065170.3.1,HOG:C0662959->Eukaryota 
+Solyc02g070050.3.1,HOG:C0244274->Magnoliopsida 
+Solyc02g070520.3.1,HOG:C0235844->Mesangiospermae 
+Solyc02g071050.4.1,HOG:C0244868->Magnoliopsida 
+Solyc02g071790.4.1,HOG:C0667888->Eukaryota 
+Solyc02g072230.3.1,HOG:C0890616->LUCA 
+Solyc02g072280.1.1,HOG:C0182410->lamiids 
+Solyc02g076770.1.1,HOG:C0245059->Magnoliopsida 
+Solyc02g076790.4.1,HOG:C0265742->Viridiplantae 
+Solyc02g076855.2.1,HOG:C0893319->LUCA 
+Solyc02g077140.3.1,HOG:C0224884->Pentapetalae 
+Solyc02g077390.2.1,HOG:C0259325->Embryophyta 
+Solyc02g077880.3.1,HOG:C0178689->Solanum HOG:C0885514->LUCA HOG:C0185859->asterids 
+Solyc02g078020.3.1,HOG:C0231481->Pentapetalae 
+Solyc02g079520.3.1,HOG:C0232429->Mesangiospermae 
+Solyc02g081540.2.1,HOG:C0258209->Embryophyta 
+Solyc02g081870.4.1,HOG:C0234383->Mesangiospermae 
+Solyc02g081880.3.1,HOG:C0221565->Pentapetalae 
+Solyc02g081980.3.1,HOG:C0234900->Mesangiospermae 
+Solyc02g082000.3.1,HOG:C0664487->Eukaryota 
+Solyc02g083470.3.1,
+Solyc02g083920.1.1,HOG:C0664248->Eukaryota 
+Solyc02g085550.3.1,HOG:C0884652->LUCA 
+Solyc02g086160.4.1,HOG:C0667913->Eukaryota 
+Solyc02g087730.3.1,HOG:C0221841->Pentapetalae 
+Solyc02g087800.3.1,HOG:C0245012->Magnoliopsida HOG:C0237365->Mesangiospermae 
+Solyc02g088980.3.1,HOG:C0663179->Eukaryota 
+Solyc02g090810.4.1,HOG:C0259143->Embryophyta 
+Solyc02g091630.1.1,HOG:C0251719->Spermatophyta 
+Solyc02g092750.3.1,
+Solyc02g092820.4.1,HOG:C0663587->Eukaryota 
+Solyc02g093180.3.1,HOG:C0259518->Embryophyta 
+Solyc02g160270.1.1,HOG:C0263088->Streptophyta 
+Solyc02g160370.1.1,HOG:C0885282->LUCA 
+Solyc02g160580.1.1,HOG:C0231850->Mesangiospermae 
+Solyc02g160700.1.1,
+Solyc02g160710.1.1,HOG:C0179152->Solanum 
+Solyc03g005090.4.1,HOG:C0247303->Spermatophyta 
+Solyc03g006740.3.1,HOG:C0231397->Pentapetalae 
+Solyc03g006770.5.1,HOG:C0221575->Pentapetalae 
+Solyc03g006870.3.1,HOG:C0663826->Eukaryota 
+Solyc03g006910.3.1,HOG:C0221571->Pentapetalae 
+Solyc03g020000.3.1,HOG:C0261012->Embryophyta 
+Solyc03g025420.3.1,HOG:C0179292->Solanoideae HOG:C0662959->Eukaryota HOG:C0234148->Mesangiospermae HOG:C0185224->asterids 
+Solyc03g026375.1.1,
+Solyc03g031610.1.1,
+Solyc03g031650.5.1,HOG:C0179402->Solanoideae HOG:C0222375->Pentapetalae 
+Solyc03g031830.1.1,HOG:C0224378->Pentapetalae 
+Solyc03g033290.1.1,HOG:C0664175->Eukaryota 
+Solyc03g033740.4.1,
+Solyc03g034070.1.1,HOG:C0179195->Solanoideae HOG:C0179417->Solanoideae HOG:C0178606->Solanum HOG:C0246699->Magnoliopsida HOG:C0178429->Solanum HOG:C0179525->Solanoideae 
+Solyc03g034205.1.1,HOG:C0663758->Eukaryota 
+Solyc03g043880.3.1,
+Solyc03g044420.2.1,
+Solyc03g044560.1.1,
+Solyc03g053085.1.1,
+Solyc03g063340.3.1,HOG:C0663999->Eukaryota 
+Solyc03g063653.2.1,HOG:C0246275->Magnoliopsida 
+Solyc03g063710.1.1,
+Solyc03g071730.1.1,HOG:C0182392->lamiids HOG:C0183011->lamiids HOG:C0179430->Solanoideae HOG:C0224929->Pentapetalae HOG:C0224369->Pentapetalae 
+Solyc03g077990.1.1,
+Solyc03g078240.3.1,HOG:C0182274->lamiids HOG:C0245254->Magnoliopsida HOG:C0248570->Spermatophyta 
+Solyc03g082890.4.1,HOG:C0667773->Eukaryota 
+Solyc03g083390.5.1,HOG:C0253038->Spermatophyta 
+Solyc03g093110.3.1,HOG:C0224770->Pentapetalae 
+Solyc03g093380.2.1,HOG:C0238435->Mesangiospermae 
+Solyc03g095850.1.1,HOG:C0222112->Pentapetalae 
+Solyc03g096410.1.1,HOG:C0178372->Solanum HOG:C0179087->Solanum 
+Solyc03g096640.5.1,HOG:C0232719->Mesangiospermae 
+Solyc03g096780.1.1,
+Solyc03g097070.3.1,HOG:C0662906->Eukaryota 
+Solyc03g111650.4.1,HOG:C0244489->Magnoliopsida 
+Solyc03g112640.3.1,HOG:C0263122->Streptophyta 
+Solyc03g113430.3.1,
+Solyc03g113490.3.1,HOG:C0178407->Solanum 
+Solyc03g113850.1.1,HOG:C0244104->Magnoliopsida 
+Solyc03g116220.1.1,
+Solyc03g116560.1.1,HOG:C0235088->Mesangiospermae HOG:C0666034->Eukaryota 
+Solyc03g117370.3.1,HOG:C0238387->Mesangiospermae HOG:C0684985->Eukaryota 
+Solyc03g117580.3.1,HOG:C0232868->Mesangiospermae 
+Solyc03g117720.3.1,
+Solyc03g118100.4.1,HOG:C0247279->Spermatophyta 
+Solyc03g118380.3.1,HOG:C0254529->Spermatophyta 
+Solyc03g119860.3.1,HOG:C0244465->Magnoliopsida 
+Solyc03g121060.4.1,HOG:C0233077->Mesangiospermae 
+Solyc03g121530.3.1,HOG:C0669451->Eukaryota HOG:C0662906->Eukaryota 
+Solyc03g121710.2.1,HOG:C0257104->Tracheophyta 
+Solyc03g123950.4.1,HOG:C0675698->Eukaryota 
+Solyc03g160090.1.1,HOG:C0221566->Pentapetalae 
+Solyc03g160370.1.1,HOG:C0222060->Pentapetalae 
+Solyc03g161040.1.1,
+Solyc04g007210.3.1,
+Solyc04g007580.1.1,
+Solyc04g008320.3.1,HOG:C0258472->Embryophyta 
+Solyc04g009220.2.1,HOG:C0183835->asterids 
+Solyc04g011500.3.1,HOG:C0247606->Spermatophyta HOG:C0246587->Magnoliopsida 
+Solyc04g014350.1.1,HOG:C0247316->Spermatophyta 
+Solyc04g014500.3.1,HOG:C0884733->LUCA 
+Solyc04g015030.5.1,
+Solyc04g015040.3.1,HOG:C0669264->Eukaryota 
+Solyc04g016230.5.1,HOG:C0248295->Spermatophyta HOG:C0244525->Magnoliopsida 
+Solyc04g017860.1.1,HOG:C0258737->Embryophyta 
+Solyc04g018210.1.1,HOG:C0247606->Spermatophyta HOG:C0234133->Mesangiospermae HOG:C0184340->asterids 
+Solyc04g039780.1.1,HOG:C0224291->Pentapetalae 
+Solyc04g040210.5.1,
+Solyc04g048950.4.1,
+Solyc04g049405.1.1,HOG:C0224470->Pentapetalae 
+Solyc04g049980.1.1,HOG:C0222825->Pentapetalae HOG:C0227308->Pentapetalae HOG:C0231365->Pentapetalae 
+Solyc04g051150.3.1,HOG:C0257011->Tracheophyta 
+Solyc04g051187.1.1,
+Solyc04g052890.3.1,
+Solyc04g054500.3.1,HOG:C0664278->Eukaryota 
+Solyc04g055140.1.1,HOG:C0264329->Viridiplantae 
+Solyc04g056380.3.1,HOG:C0232173->Mesangiospermae HOG:C0250148->Spermatophyta 
+Solyc04g056700.1.1,HOG:C0247595->Spermatophyta 
+Solyc04g063380.3.1,HOG:C0221817->Pentapetalae 
+Solyc04g064620.4.1,HOG:C0234490->Mesangiospermae 
+Solyc04g064700.4.1,HOG:C0178845->Solanum HOG:C0253095->Spermatophyta HOG:C0225277->Pentapetalae HOG:C0178928->Solanum 
+Solyc04g071130.1.1,
+Solyc04g071880.3.1,HOG:C0262898->Streptophyta 
+Solyc04g072100.1.1,HOG:C0663980->Eukaryota 
+Solyc04g072380.3.1,HOG:C0663237->Eukaryota 
+Solyc04g072410.4.1,HOG:C0253273->Spermatophyta 
+Solyc04g072790.2.1,HOG:C0884624->LUCA 
+Solyc04g076470.1.1,HOG:C0261342->Streptophytina 
+Solyc04g077250.4.1,HOG:C0677145->Eukaryota 
+Solyc04g078850.4.1,HOG:C0664731->Eukaryota 
+Solyc04g082080.1.1,HOG:C0262469->Streptophyta 
+Solyc04g082910.1.1,HOG:C0260772->Embryophyta 
+Solyc04g160090.1.1,HOG:C0663758->Eukaryota HOG:C0245825->Magnoliopsida 
+Solyc04g160140.1.1,HOG:C0221914->Pentapetalae 
+Solyc04g162120.1.1,HOG:C0179573->Solanoideae 
+Solyc05g005390.3.1,HOG:C0222441->Pentapetalae 
+Solyc05g005880.2.1,HOG:C0181764->Solanaceae HOG:C0181271->Solanaceae HOG:C0178666->Solanum HOG:C0180720->Solanaceae 
+Solyc05g009370.4.1,HOG:C0890558->LUCA 
+Solyc05g010310.3.1,HOG:C0246253->Magnoliopsida HOG:C0179233->Solanoideae 
+Solyc05g012510.3.1,HOG:C0263154->Streptophyta 
+Solyc05g012760.3.1,HOG:C0263865->Streptophyta 
+Solyc05g012920.3.1,HOG:C0667452->Eukaryota 
+Solyc05g013390.1.1,
+Solyc05g013470.4.1,HOG:C0245245->Magnoliopsida 
+Solyc05g014290.5.1,
+Solyc05g018310.1.1,HOG:C0663508->Eukaryota 
+Solyc05g023600.3.1,HOG:C0182670->lamiids 
+Solyc05g024060.1.1,HOG:C0185534->asterids 
+Solyc05g025700.1.1,HOG:C0664612->Eukaryota HOG:C0181352->Solanaceae HOG:C0669842->Eukaryota HOG:C0179415->Solanoideae 
+Solyc05g041640.3.1,
+Solyc05g045760.1.1,HOG:C0232279->Mesangiospermae 
+Solyc05g046160.1.1,HOG:C0674759->Eukaryota 
+Solyc05g046330.5.1,
+Solyc05g047430.1.1,
+Solyc05g047470.1.1,HOG:C0246683->Magnoliopsida HOG:C0231353->Pentapetalae HOG:C0664146->Eukaryota HOG:C0668761->Eukaryota HOG:C0234231->Mesangiospermae HOG:C0182898->lamiids HOG:C0231277->Pentapetalae HOG:C0227472->Pentapetalae 
+Solyc05g051040.5.1,HOG:C0224483->Pentapetalae 
+Solyc05g051970.5.1,HOG:C0178914->Solanum 
+Solyc05g054020.3.1,HOG:C0673291->Eukaryota 
+Solyc05g054280.1.1,
+Solyc05g054430.4.1,HOG:C0662951->Eukaryota HOG:C0249654->Spermatophyta HOG:C0222051->Pentapetalae 
+Solyc05g055950.1.1,HOG:C0257990->Embryophyta 
+Solyc05g150104.2.1,HOG:C0263226->Streptophyta 
+Solyc05g160270.1.1,HOG:C0179359->Solanoideae HOG:C0179333->Solanoideae HOG:C0180635->Solanaceae 
+Solyc05g160570.1.1,
+Solyc05g160730.1.1,HOG:C0664116->Eukaryota 
+Solyc06g005120.1.1,HOG:C0184285->asterids 
+Solyc06g007570.3.1,HOG:C0179349->Solanoideae 
+Solyc06g008080.2.1,HOG:C0663702->Eukaryota 
+Solyc06g008560.2.1,HOG:C0233345->Mesangiospermae HOG:C0663194->Eukaryota 
+Solyc06g008610.3.1,HOG:C0232706->Mesangiospermae 
+Solyc06g009260.3.1,HOG:C0221734->Pentapetalae 
+Solyc06g009807.1.1,
+Solyc06g011530.3.1,HOG:C0236688->Mesangiospermae 
+Solyc06g019160.1.1,
+Solyc06g033960.3.1,HOG:C0185642->asterids 
+Solyc06g043030.4.1,HOG:C0179397->Solanoideae HOG:C0179080->Solanum HOG:C0179649->Solanoideae 
+Solyc06g050590.3.1,HOG:C0663421->Eukaryota 
+Solyc06g051360.3.1,HOG:C0258523->Embryophyta 
+Solyc06g051525.1.1,HOG:C0245336->Magnoliopsida 
+Solyc06g051610.1.1,
+Solyc06g051820.5.1,HOG:C0180772->Solanaceae 
+Solyc06g053930.3.1,HOG:C0674750->Eukaryota 
+Solyc06g054590.3.1,HOG:C0891806->LUCA 
+Solyc06g060530.1.1,HOG:C0221486->Pentapetalae 
+Solyc06g060675.1.1,HOG:C0260725->Embryophyta 
+Solyc06g065100.3.1,
+Solyc06g065470.4.1,HOG:C0183723->asterids 
+Solyc06g066360.3.1,HOG:C0262421->Streptophyta 
+Solyc06g066790.3.1,HOG:C0222482->Pentapetalae HOG:C0179305->Solanoideae HOG:C0178969->Solanum 
+Solyc06g069380.4.1,HOG:C0663482->Eukaryota 
+Solyc06g069400.4.1,HOG:C0263364->Streptophyta 
+Solyc06g069490.3.1,HOG:C0667581->Eukaryota 
+Solyc06g073970.3.1,HOG:C0684871->Eukaryota 
+Solyc06g074100.1.1,HOG:C0231233->Pentapetalae HOG:C0260594->Embryophyta 
+Solyc06g075190.1.1,HOG:C0182539->lamiids 
+Solyc06g075770.1.1,HOG:C0258664->Embryophyta 
