@@ -5,6 +5,9 @@ library(rpart.plot)
 
 diffexp = read.csv("output/differential_expression.lfs.csv.gz")
 
+# Drop Yunlong columns and e6
+diffexp = diffexp[,-grep("yunlong|e6", names(diffexp))]
+
 # Build table for training: Classify each gene x sample in upregulated, downregulated, or non-significant (this is what we want to predict)
 gene.effect = data.frame(sapply(unique(str_split_fixed(colnames(diffexp)[2:ncol(diffexp)], "_", 2)[,1]), FUN=function(s) {
   sapply(1:nrow(diffexp), FUN=function(g) {
@@ -30,19 +33,15 @@ sample.annotation$sample.group = make.names(sample.annotation$sample.group)
 gene.effect$sample.group = row.names(gene.effect)
 train.table = merge(sample.annotation, gene.effect, by="sample.group", all=F)
 
-# @TODO we're just assuming temps now because we don't have them numerically yet
-train.table[train.table$stress.duration == "recovery",]$stress.duration = -1
-train.table$stress.duration = as.numeric(train.table$stress.duration)
-train.table[train.table$temperature == "42",]$temperature = "high"
-train.table[train.table$temperature == "34",]$temperature = "low"
-train.table[train.table$temperature == "35",]$temperature = "low"
+# @TODO for Robert's data we will just assume 72 hours as duration
+train.table[is.na(train.table$stress.duration),]$stress.duration = 72
 
 train.table$tissue = as.factor(train.table$tissue)
-train.table$temperature = as.factor(train.table$temperature)
+#train.table$temperature = as.factor(train.table$temperature)
 
 # Now we'll try predicting the effect on a specific gene by all our input factors
 gene.predictability = data.frame(gene=character(), up=numeric(), down=numeric(), accuracy=numeric())
-for(g in names(gene.effect)) {
+for(g in sample(names(gene.effect), 500)) {
   print(g)
   train.table[[g]] = factor(train.table[[g]], levels=c("down","ns","up"))
   r_tree =  rpart(get(g) ~ tissue + temperature + stress.duration, data = train.table, method="class")
@@ -59,11 +58,29 @@ system("pigz -11 output/gene_predictability_decision_tree.lfs.csv")
 
 show_tree <- function(g) {
   train.table[[g]] = factor(train.table[[g]], levels=c("down","ns","up"))
-  r_tree =  rpart(get(g) ~ tissue + temperature + stress.duration, data = train.table, method="class")
+  r_tree =  rpart(get(g) ~ tissue + temperature + stress.duration, data = train.table, method="class", control = rpart.control(cp = 0, maxdepth=3, minsplit=3))
   print(r_tree); printcp(r_tree); rpart.plot(r_tree)
 }
 # Example:
-show_tree("Solyc03g113930")
+show_tree("Solyc02g005140")
+# Example Solyc01g005985
+
+for(g in a$gene) {
+  tryCatch(
+    {show_tree(g)},
+    error=function(cond){}
+  )
+}
+
+
+# Find an interesting tree
+for(g in gene.predictability$gene) {
+  train.table[[g]] = factor(train.table[[g]], levels=c("down","ns","up"))
+  r_tree =  rpart(get(g) ~ tissue + temperature + stress.duration, data = train.table, method="class", control = rpart.control(cp = 0))
+  if(length(capture.output(print(r_tree))) > 8)
+    print(g)
+}
+
 
 # protein.descriptions = read.csv("input/protein_descriptions.csv.gz")
 # responsive.genes$gene = str_split_fixed(responsive.genes$gene, "\\.", 2)[,1]
