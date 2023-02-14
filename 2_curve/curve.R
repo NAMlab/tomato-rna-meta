@@ -100,4 +100,69 @@ for(stress in c("heat", "drought", "salt")) {
   points(d[d$youden == max(d$youden),]$tpr ~ d[d$youden == max(d$youden),]$fpr, col="black", pch=16)
 }
 
+## Do the number of genes and % annotated genes again but rather than adding more contrasts here we are
+# just lowering the p-value.
+plt = data.frame(p.value=numeric(), n.genes.upper=numeric(), n.genes.mean=numeric(), n.genes.lower=numeric(), 
+                 tp.upper=numeric(), tp.mean=numeric(), tp.lower=numeric(), 
+                 fp.upper=numeric(), fp.mean=numeric(), fp.lower=numeric(),
+                 stress=character())
+for(stress in c("heat", "drought", "salt")) {
+  samples.stress = samples.annotation[samples.annotation$stress_type == stress,]
+  
+  contrasts = unique(samples.stress$sample.group)
+  
+  res = data.frame(p.val = numeric(), n.genes=numeric(), true.pos=numeric(), false.pos=numeric())
+  for(p.val in c(1e-01, 0.05, 0.01, 1e-05, 1e-10, 1e-15, 1e-20, 1e-25, 1e-30, 1e-40, 1e-50, 1e-60, 1e-70, 1e-80, 1e-100)) {
+    print(p.val)
+    #@TODO speed this up by applying it across all columns rather than looping
+    for(co in contrasts) {
+      found.genes = str_split_fixed(diffexp[diffexp[paste0(co, "_FDR")] < p.val & diffexp[paste0(co, "_logFC")] > 0,]$gene, "\\.", 2)[,1]
+      true.pos = sum(found.genes %in% annotated.genes[annotated.genes$stress == stress & annotated.genes$reasonable_term == "true",]$gene)
+      false.pos = sum(found.genes %in% annotated.genes[annotated.genes$stress == stress & annotated.genes$reasonable_term == "false",]$gene)
+      res = rbind(res, list(p.val=p.val, n.genes=length(found.genes), true.pos=true.pos, false.pos=false.pos))
+    }
+  }
+
+  # Number of genes in intersect set
+  ci.genes = group.CI(n.genes ~ p.val, res)
+  
+  # Number of Genes annotated with a specific term
+  res$tp = (res$true.pos / (res$n.genes)) * 100 # [%]
+  ci.tp = group.CI(tp ~ p.val, res)
+  
+  res$fp = (res$false.pos / (res$n.genes)) * 100 # [%]
+  ci.fp = group.CI(fp ~ p.val, res)
+  
+  
+  m = merge(ci.genes, merge(ci.tp, ci.fp))
+  m$stress = stress
+  plt = rbind(plt, m)
+}
+
+# N Genes Plot
+plt$p.val = -log(plt$p.val, base=10)
+plt$n.genes.lower = log(plt$n.genes.lower, base=10)
+plt$n.genes.mean = log(plt$n.genes.mean, base=10)
+plt$n.genes.upper = log(plt$n.genes.upper, base=10)
+plot(plt$n.genes.mean ~ plt$p.val, type="n", xlab="p-value cutoff (1e-x)", las=2, ylab="# of selected genes (10^x)", ylim=c(min(plt$n.genes.lower), max(plt$n.genes.upper)))
+for(stress in c("heat", "drought", "salt")) {
+  d = plt[plt$stress == stress,]
+  polygon(c(d$p.val,rev(d$p.val)),c(d$n.genes.upper,rev(d$n.genes.lower)),col = rgb(0.9,0.9,0.9,0.5), border = FALSE)
+  lines(d$n.genes.mean ~ d$p.val, type="l", col=stress.cols[[stress]])
+}
+
+
+# Invert p.val for plotting
+plot(plt$tp.mean ~ plt$p.val, type="n", xlab="p-value cutoff (1e-x)", las=2, ylab="Genes Annotated [%]", ylim=c(0,max(plt$tp.upper)))
+for(stress in c("heat", "drought", "salt")) {
+  d = plt[plt$stress == stress,]
+  # True positives
+  polygon(c(d$p.val,rev(d$p.val)),c(d$tp.upper,rev(d$tp.lower)),col = rgb(0.9,0.9,0.9,0.5), border = FALSE)
+  lines(d$tp.mean ~ d$p.val, type="l", col=stress.cols[[stress]])
+  
+  # False positives
+  polygon(c(d$p.val,rev(d$p.val)),c(d$fp.upper,rev(d$fp.lower)),col = rgb(0.9,0.9,0.9,0.5), border = FALSE)
+  lines(d$fp.mean ~ d$p.val, type="l", col=stress.cols[[stress]], lty=2)
+}
+
 dev.off()
