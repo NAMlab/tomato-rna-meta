@@ -1,0 +1,138 @@
+{
+  "Solyc01g102950.3.1": [
+    [
+      "IPR036188",
+      "FAD/NAD-bd_sf",
+      "FAD/NAD(P)-binding domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc08g063090.2.1": [
+    [
+      "IPR012171",
+      "Fatty_acid_desaturase",
+      "Fatty acid desaturase",
+      "FAMILY"
+    ],
+    [
+      "IPR036400",
+      "Cyt_B5-like_heme/steroid_sf",
+      "Cytochrome b5-like heme/steroid binding domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc10g011810.4.1": [
+    [
+      "IPR012171",
+      "Fatty_acid_desaturase",
+      "Fatty acid desaturase",
+      "FAMILY"
+    ],
+    [
+      "IPR036400",
+      "Cyt_B5-like_heme/steroid_sf",
+      "Cytochrome b5-like heme/steroid binding domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc03g096950.4.1": [
+    [
+      "IPR003663",
+      "Sugar/inositol_transpt",
+      "Sugar/inositol transporter",
+      "FAMILY"
+    ],
+    [
+      "IPR005828",
+      "MFS_sugar_transport-like",
+      "Major facilitator,  sugar transporter-like",
+      "FAMILY"
+    ],
+    [
+      "IPR036259",
+      "MFS_trans_sf",
+      "MFS transporter superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc04g080850.3.1": [
+    [
+      "IPR005746",
+      "Thioredoxin",
+      "Thioredoxin",
+      "FAMILY"
+    ],
+    [
+      "IPR036249",
+      "Thioredoxin-like_sf",
+      "Thioredoxin-like superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc12g055930.3.1": [
+    [
+      "IPR005886",
+      "UDP_G4E",
+      "UDP-glucose 4-epimerase",
+      "FAMILY"
+    ],
+    [
+      "IPR036291",
+      "NAD(P)-bd_dom_sf",
+      "NAD(P)-binding domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc07g006830.4.1": [
+    [
+      "IPR012416",
+      "CBP60",
+      "CALMODULIN-BINDING PROTEIN60",
+      "FAMILY"
+    ]
+  ],
+  "Solyc01g103760.3.1": [
+    [
+      "IPR008521",
+      "Mg_trans_NIPA",
+      "Magnesium transporter NIPA",
+      "FAMILY"
+    ]
+  ],
+  "Solyc06g082710.5.1": [
+    [
+      "IPR036612",
+      "KH_dom_type_1_sf",
+      "K Homology domain, type 1 superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR045071",
+      "BBP-like",
+      "KH domain-containing BBP-like",
+      "FAMILY"
+    ]
+  ],
+  "Solyc09g091510.3.1": [
+    [
+      "IPR011141",
+      "Polyketide_synthase_type-III",
+      "Polyketide synthase, type III",
+      "FAMILY"
+    ],
+    [
+      "IPR016039",
+      "Thiolase-like",
+      "Thiolase-like",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc10g012410.3.1": [
+    [
+      "IPR036412",
+      "HAD-like_sf",
+      "HAD-like superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ]
+}

@@ -1,0 +1,633 @@
+{
+  "Solyc03g096800.4.1": [
+
+  ],
+  "Solyc10g079700.2.1": [
+    [
+      "IPR011006",
+      "CheY-like_superfamily",
+      "CheY-like superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR045279",
+      "ARR-like",
+      "Two-component response regulator ARR-like",
+      "FAMILY"
+    ]
+  ],
+  "Solyc11g069020.4.1": [
+    [
+      "IPR027417",
+      "P-loop_NTPase",
+      "P-loop containing nucleoside triphosphate hydrolase",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR044974",
+      "Disease_R_plants",
+      "Disease resistance protein, plants",
+      "FAMILY"
+    ]
+  ],
+  "Solyc02g088390.4.1": [
+    [
+      "IPR039391",
+      "Phytocyanin",
+      "Phytocyanin",
+      "FAMILY"
+    ],
+    [
+      "IPR008972",
+      "Cupredoxin",
+      "Cupredoxin",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc07g005540.1.1": [
+    [
+      "IPR011009",
+      "Kinase-like_dom_sf",
+      "Protein kinase-like domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc06g061230.3.1": [
+
+  ],
+  "Solyc09g018230.1.1": [
+    [
+      "IPR016024",
+      "ARM-type_fold",
+      "Armadillo-type fold",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc12g006980.2.1": [
+
+  ],
+  "Solyc02g070000.4.1": [
+    [
+      "IPR011009",
+      "Kinase-like_dom_sf",
+      "Protein kinase-like domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc11g008960.3.1": [
+    [
+      "IPR011009",
+      "Kinase-like_dom_sf",
+      "Protein kinase-like domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc05g054620.4.1": [
+    [
+      "IPR040217",
+      "ACR1-12",
+      "ACT domain-containing protein ACR1-12",
+      "FAMILY"
+    ],
+    [
+      "IPR045865",
+      "ACT-like_dom_sf",
+      "ACT-like domain",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc04g076190.1.1": [
+    [
+      "IPR001461",
+      "Aspartic_peptidase_A1",
+      "Aspartic peptidase A1 family",
+      "FAMILY"
+    ],
+    [
+      "IPR021109",
+      "Peptidase_aspartic_dom_sf",
+      "Aspartic peptidase domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc04g082480.3.1": [
+    [
+      "IPR045012",
+      "NLP",
+      "Protein NLP",
+      "FAMILY"
+    ]
+  ],
+  "Solyc01g087740.1.1": [
+    [
+      "IPR036852",
+      "Peptidase_S8/S53_dom_sf",
+      "Peptidase S8/S53 domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR015500",
+      "Peptidase_S8_subtilisin-rel",
+      "Peptidase S8, subtilisin-related",
+      "FAMILY"
+    ],
+    [
+      "IPR045051",
+      "SBT",
+      "Subtilisin-like protease",
+      "FAMILY"
+    ]
+  ],
+  "Solyc10g076410.1.1": [
+    [
+      "IPR019587",
+      "Polyketide_cyclase/dehydratase",
+      "Polyketide cyclase/dehydrase",
+      "FAMILY"
+    ]
+  ],
+  "Solyc07g005950.5.1": [
+
+  ],
+  "Solyc08g005240.3.1": [
+
+  ],
+  "Solyc11g051160.2.1": [
+    [
+      "IPR036865",
+      "CRAL-TRIO_dom_sf",
+      "CRAL-TRIO lipid binding domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR044834",
+      "PATL",
+      "Patellin",
+      "FAMILY"
+    ],
+    [
+      "IPR036273",
+      "CRAL/TRIO_N_dom_sf",
+      "CRAL/TRIO, N-terminal domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR036598",
+      "GOLD_dom_sf",
+      "GOLD domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc07g041730.4.1": [
+    [
+      "IPR036703",
+      "MOB_kinase_act_sf",
+      "MOB kinase activator superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR005301",
+      "MOB_kinase_act_fam",
+      "MOB kinase activator family",
+      "FAMILY"
+    ]
+  ],
+  "Solyc11g005190.3.1": [
+    [
+      "IPR044616",
+      "RUP1/2",
+      "WD repeat-containing protein RUP1/2",
+      "FAMILY"
+    ],
+    [
+      "IPR036322",
+      "WD40_repeat_dom_sf",
+      "WD40-repeat-containing domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc12g009650.2.1": [
+    [
+      "IPR036312",
+      "Bifun_inhib/LTP/seed_sf",
+      "Bifunctional inhibitor/plant lipid transfer protein/seed storage helical domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc08g005580.3.1": [
+    [
+      "IPR027417",
+      "P-loop_NTPase",
+      "P-loop containing nucleoside triphosphate hydrolase",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc01g106910.4.1": [
+    [
+      "IPR044670",
+      "SOFL",
+      "SOB-five-Like (SOFL) family",
+      "FAMILY"
+    ]
+  ],
+  "Solyc02g088220.3.1": [
+
+  ],
+  "Solyc03g093410.3.1": [
+    [
+      "IPR003663",
+      "Sugar/inositol_transpt",
+      "Sugar/inositol transporter",
+      "FAMILY"
+    ],
+    [
+      "IPR044778",
+      "MFS_STP/MST-like_plant",
+      "Sugar transport protein STP/MST-like, plant",
+      "FAMILY"
+    ],
+    [
+      "IPR005828",
+      "MFS_sugar_transport-like",
+      "Major facilitator,  sugar transporter-like",
+      "FAMILY"
+    ],
+    [
+      "IPR045262",
+      "STP/PLT_plant",
+      "Sugar transport protein STP/Polyol transporter PLT, plant",
+      "FAMILY"
+    ],
+    [
+      "IPR036259",
+      "MFS_trans_sf",
+      "MFS transporter superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc07g053540.1.1": [
+    [
+      "IPR045003",
+      "FLA_A",
+      "Fasciclin-like arabinogalactan protein, group A",
+      "FAMILY"
+    ],
+    [
+      "IPR036378",
+      "FAS1_dom_sf",
+      "FAS1 domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc09g075560.1.1": [
+    [
+      "IPR029044",
+      "Nucleotide-diphossugar_trans",
+      "Nucleotide-diphospho-sugar transferases",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR002495",
+      "Glyco_trans_8",
+      "Glycosyl transferase, family 8",
+      "FAMILY"
+    ]
+  ],
+  "Solyc03g032040.3.1": [
+    [
+      "IPR003663",
+      "Sugar/inositol_transpt",
+      "Sugar/inositol transporter",
+      "FAMILY"
+    ],
+    [
+      "IPR036259",
+      "MFS_trans_sf",
+      "MFS transporter superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR005828",
+      "MFS_sugar_transport-like",
+      "Major facilitator,  sugar transporter-like",
+      "FAMILY"
+    ]
+  ],
+  "Solyc07g062680.3.1": [
+    [
+      "IPR005333",
+      "Transcription_factor_TCP",
+      "Transcription factor, TCP",
+      "FAMILY"
+    ]
+  ],
+  "Solyc02g086454.2.1": [
+
+  ],
+  "Solyc02g086458.2.1": [
+
+  ],
+  "Solyc07g042510.3.1": [
+    [
+      "IPR006214",
+      "Bax_inhibitor_1-related",
+      "Bax inhibitor 1-related",
+      "FAMILY"
+    ]
+  ],
+  "Solyc09g090680.3.1": [
+
+  ],
+  "Solyc07g047770.4.1": [
+    [
+      "IPR011006",
+      "CheY-like_superfamily",
+      "CheY-like superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR036890",
+      "HATPase_C_sf",
+      "Histidine kinase/HSP90-like ATPase superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR036097",
+      "HisK_dim/P_sf",
+      "Signal transduction histidine kinase, dimerisation/phosphoacceptor domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc09g066100.3.1": [
+    [
+      "IPR036390",
+      "WH_DNA-bd_sf",
+      "Winged helix DNA-binding domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR005819",
+      "H1/H5",
+      "Linker histone H1/H5",
+      "FAMILY"
+    ]
+  ],
+  "Solyc02g091840.3.1": [
+    [
+      "IPR011009",
+      "Kinase-like_dom_sf",
+      "Protein kinase-like domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc03g007760.3.1": [
+    [
+      "IPR027417",
+      "P-loop_NTPase",
+      "P-loop containing nucleoside triphosphate hydrolase",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc07g009380.5.1": [
+    [
+      "IPR016455",
+      "XTH",
+      "Xyloglucan endotransglucosylase/hydrolase",
+      "FAMILY"
+    ],
+    [
+      "IPR013320",
+      "ConA-like_dom_sf",
+      "Concanavalin A-like lectin/glucanase domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR044791",
+      "Beta-glucanase/XTH",
+      "Beta-glucanase/XTH",
+      "FAMILY"
+    ]
+  ],
+  "Solyc08g078950.3.1": [
+    [
+      "IPR036259",
+      "MFS_trans_sf",
+      "MFS transporter superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR000109",
+      "POT_fam",
+      "Proton-dependent oligopeptide transporter family",
+      "FAMILY"
+    ]
+  ],
+  "Solyc01g087850.2.1": [
+    [
+      "IPR015500",
+      "Peptidase_S8_subtilisin-rel",
+      "Peptidase S8, subtilisin-related",
+      "FAMILY"
+    ],
+    [
+      "IPR036852",
+      "Peptidase_S8/S53_dom_sf",
+      "Peptidase S8/S53 domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR045051",
+      "SBT",
+      "Subtilisin-like protease",
+      "FAMILY"
+    ]
+  ],
+  "Solyc12g100010.1.1": [
+    [
+      "IPR046956",
+      "RLP23-like",
+      "Receptor-like protein 23-like",
+      "FAMILY"
+    ]
+  ],
+  "Solyc01g102310.3.1": [
+
+  ],
+  "Solyc01g109660.2.1": [
+    [
+      "IPR035979",
+      "RBD_domain_sf",
+      "RNA-binding domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc03g083560.1.1": [
+    [
+      "IPR006766",
+      "EXORDIUM-like",
+      "Protein EXORDIUM-like",
+      "FAMILY"
+    ]
+  ],
+  "Solyc05g009820.5.1": [
+    [
+      "IPR029044",
+      "Nucleotide-diphossugar_trans",
+      "Nucleotide-diphospho-sugar transferases",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR002495",
+      "Glyco_trans_8",
+      "Glycosyl transferase, family 8",
+      "FAMILY"
+    ]
+  ],
+  "Solyc04g011500.3.1": [
+    [
+      "IPR004000",
+      "Actin",
+      "Actin family",
+      "FAMILY"
+    ],
+    [
+      "IPR043129",
+      "ATPase_NBD",
+      "ATPase, nucleotide binding domain",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc04g007200.4.1": [
+    [
+      "IPR029069",
+      "HotDog_dom_sf",
+      "HotDog domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc01g081570.3.1": [
+
+  ],
+  "Solyc03g111970.4.1": [
+    [
+      "IPR001128",
+      "Cyt_P450",
+      "Cytochrome P450",
+      "FAMILY"
+    ],
+    [
+      "IPR002401",
+      "Cyt_P450_E_grp-I",
+      "Cytochrome P450, E-class, group I",
+      "FAMILY"
+    ],
+    [
+      "IPR036396",
+      "Cyt_P450_sf",
+      "Cytochrome P450 superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc03g123410.1.1": [
+    [
+      "IPR001929",
+      "Germin",
+      "Germin",
+      "FAMILY"
+    ],
+    [
+      "IPR011051",
+      "RmlC_Cupin_sf",
+      "RmlC-like cupin domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc02g086452.1.1": [
+
+  ],
+  "Solyc06g050500.2.1": [
+    [
+      "IPR019587",
+      "Polyketide_cyclase/dehydratase",
+      "Polyketide cyclase/dehydrase",
+      "FAMILY"
+    ]
+  ],
+  "Solyc05g012790.4.1": [
+
+  ],
+  "Solyc10g085310.1.1": [
+    [
+      "IPR019587",
+      "Polyketide_cyclase/dehydratase",
+      "Polyketide cyclase/dehydrase",
+      "FAMILY"
+    ]
+  ],
+  "Solyc01g102700.4.1": [
+    [
+      "IPR011009",
+      "Kinase-like_dom_sf",
+      "Protein kinase-like domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc08g067240.4.1": [
+    [
+      "IPR036420",
+      "BRCT_dom_sf",
+      "BRCT domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc03g095780.3.1": [
+    [
+      "IPR019587",
+      "Polyketide_cyclase/dehydratase",
+      "Polyketide cyclase/dehydrase",
+      "FAMILY"
+    ]
+  ],
+  "Solyc05g054860.1.1": [
+    [
+      "IPR011009",
+      "Kinase-like_dom_sf",
+      "Protein kinase-like domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR045272",
+      "ANXUR1-like",
+      "Receptor-like protein kinase ANXUR1-like",
+      "FAMILY"
+    ]
+  ],
+  "Solyc06g007170.4.1": [
+    [
+      "IPR026057",
+      "PC-Esterase",
+      "PC-Esterase",
+      "FAMILY"
+    ],
+    [
+      "IPR029962",
+      "TBL",
+      "Trichome birefringence-like family",
+      "FAMILY"
+    ]
+  ],
+  "Solyc05g013880.2.1": [
+    [
+      "IPR045182",
+      "JINGUBANG-like",
+      "Protein JINGUBANG-like",
+      "FAMILY"
+    ],
+    [
+      "IPR036322",
+      "WD40_repeat_dom_sf",
+      "WD40-repeat-containing domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ]
+}

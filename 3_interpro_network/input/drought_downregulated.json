@@ -1,0 +1,188 @@
+{
+  "Solyc08g083280.3.1": [
+    [
+      "IPR036291",
+      "NAD(P)-bd_dom_sf",
+      "NAD(P)-binding domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR011032",
+      "GroES-like_sf",
+      "GroES-like superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc05g009820.5.1": [
+    [
+      "IPR029044",
+      "Nucleotide-diphossugar_trans",
+      "Nucleotide-diphospho-sugar transferases",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR002495",
+      "Glyco_trans_8",
+      "Glycosyl transferase, family 8",
+      "FAMILY"
+    ]
+  ],
+  "Solyc03g120470.4.1": [
+    [
+      "IPR036866",
+      "RibonucZ/Hydroxyglut_hydro",
+      "Ribonuclease Z/Hydroxyacylglutathione hydrolase-like",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR000425",
+      "MIP",
+      "Major intrinsic protein",
+      "FAMILY"
+    ],
+    [
+      "IPR013471",
+      "RNase_Z/BN",
+      "Ribonuclease Z/BN",
+      "FAMILY"
+    ],
+    [
+      "IPR047151",
+      "RNZ2-like",
+      "Zinc phosphodiesterase ELAC protein 2-like",
+      "FAMILY"
+    ],
+    [
+      "IPR023271",
+      "Aquaporin-like",
+      "Aquaporin-like",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc07g052980.3.1": [
+    [
+      "IPR044791",
+      "Beta-glucanase/XTH",
+      "Beta-glucanase/XTH",
+      "FAMILY"
+    ],
+    [
+      "IPR008264",
+      "Beta_glucanase",
+      "Beta-glucanase",
+      "FAMILY"
+    ],
+    [
+      "IPR013320",
+      "ConA-like_dom_sf",
+      "Concanavalin A-like lectin/glucanase domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR016455",
+      "XTH",
+      "Xyloglucan endotransglucosylase/hydrolase",
+      "FAMILY"
+    ]
+  ],
+  "Solyc08g005800.4.1": [
+    [
+      "IPR004963",
+      "PAE/NOTUM",
+      "Pectinacetylesterase/NOTUM",
+      "FAMILY"
+    ]
+  ],
+  "Solyc07g053540.1.1": [
+    [
+      "IPR045003",
+      "FLA_A",
+      "Fasciclin-like arabinogalactan protein, group A",
+      "FAMILY"
+    ],
+    [
+      "IPR036378",
+      "FAS1_dom_sf",
+      "FAS1 domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc11g071640.3.1": [
+    [
+      "IPR017853",
+      "Glycoside_hydrolase_SF",
+      "Glycoside hydrolase superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR036881",
+      "Glyco_hydro_3_C_sf",
+      "Glycoside hydrolase family 3 C-terminal domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc03g083360.3.1": [
+    [
+      "IPR035513",
+      "Invertase/methylesterase_inhib",
+      "Invertase/pectin methylesterase inhibitor domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR011050",
+      "Pectin_lyase_fold/virulence",
+      "Pectin lyase fold/virulence factor",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc09g075460.3.1": [
+    [
+      "IPR000743",
+      "Glyco_hydro_28",
+      "Glycoside hydrolase, family 28",
+      "FAMILY"
+    ],
+    [
+      "IPR011050",
+      "Pectin_lyase_fold/virulence",
+      "Pectin lyase fold/virulence factor",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc04g014510.3.1": [
+    [
+      "IPR014746",
+      "Gln_synth/guanido_kin_cat_dom",
+      "Glutamine synthetase/guanido kinase, catalytic domain",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR036651",
+      "Gln_synt_N_sf",
+      "Glutamine synthetase, N-terminal domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc12g009650.2.1": [
+    [
+      "IPR036312",
+      "Bifun_inhib/LTP/seed_sf",
+      "Bifunctional inhibitor/plant lipid transfer protein/seed storage helical domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc06g051960.3.1": [
+    [
+      "IPR035513",
+      "Invertase/methylesterase_inhib",
+      "Invertase/pectin methylesterase inhibitor domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR011050",
+      "Pectin_lyase_fold/virulence",
+      "Pectin lyase fold/virulence factor",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ]
+}

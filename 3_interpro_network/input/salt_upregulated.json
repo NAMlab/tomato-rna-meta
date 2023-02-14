@@ -1,0 +1,1370 @@
+{
+  "Solyc06g074940.5.1": [
+    [
+      "IPR027417",
+      "P-loop_NTPase",
+      "P-loop containing nucleoside triphosphate hydrolase",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc03g111100.1.1": [
+
+  ],
+  "Solyc01g099800.4.1": [
+
+  ],
+  "Solyc01g112230.4.1": [
+    [
+      "IPR000316",
+      "Metallthion_15",
+      "Plant EC metallothionein-like protein, family 15",
+      "FAMILY"
+    ]
+  ],
+  "Solyc04g079300.3.1": [
+    [
+      "IPR029052",
+      "Metallo-depent_PP-like",
+      "Metallo-dependent phosphatase-like",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc01g090740.3.1": [
+
+  ],
+  "Solyc03g007960.3.1": [
+    [
+      "IPR045019",
+      "BETA-OHASE-like",
+      "Beta-carotene hydroxylase-like",
+      "FAMILY"
+    ]
+  ],
+  "Solyc04g007130.1.1": [
+
+  ],
+  "Solyc03g122310.4.1": [
+    [
+      "IPR044638",
+      "ALDH7A1-like",
+      "Aldehyde dehydrogenase family 7 member A1-like",
+      "FAMILY"
+    ],
+    [
+      "IPR016161",
+      "Ald_DH/histidinol_DH",
+      "Aldehyde/histidinol dehydrogenase",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc03g121880.5.1": [
+    [
+      "IPR015655",
+      "PP2C",
+      "Protein phosphatase 2C family",
+      "FAMILY"
+    ],
+    [
+      "IPR036457",
+      "PPM-type-like_dom_sf",
+      "PPM-type phosphatase-like domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc02g084850.3.1": [
+    [
+      "IPR000167",
+      "Dehydrin",
+      "Dehydrin",
+      "FAMILY"
+    ]
+  ],
+  "Solyc01g080910.2.1": [
+
+  ],
+  "Solyc01g108080.4.1": [
+    [
+      "IPR046347",
+      "bZIP_sf",
+      "Basic-leucine zipper domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR043452",
+      "BZIP46-like",
+      "Plant bZIP transcription factors",
+      "FAMILY"
+    ]
+  ],
+  "Solyc03g046380.1.1": [
+
+  ],
+  "Solyc04g078840.3.1": [
+    [
+      "IPR043452",
+      "BZIP46-like",
+      "Plant bZIP transcription factors",
+      "FAMILY"
+    ],
+    [
+      "IPR046347",
+      "bZIP_sf",
+      "Basic-leucine zipper domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc06g060840.1.1": [
+    [
+      "IPR000136",
+      "Oleosin",
+      "Oleosin",
+      "FAMILY"
+    ]
+  ],
+  "Solyc05g050220.3.1": [
+    [
+      "IPR044827",
+      "GBF-like",
+      "G-box-binding factor-like",
+      "FAMILY"
+    ],
+    [
+      "IPR046347",
+      "bZIP_sf",
+      "Basic-leucine zipper domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc06g050800.5.1": [
+
+  ],
+  "Solyc02g091390.3.1": [
+
+  ],
+  "Solyc02g093180.3.1": [
+
+  ],
+  "Solyc06g065050.2.1": [
+
+  ],
+  "Solyc02g091250.1.1": [
+
+  ],
+  "Solyc05g012210.4.1": [
+    [
+      "IPR031307",
+      "Ninja_fam",
+      "Ninja family",
+      "FAMILY"
+    ]
+  ],
+  "Solyc02g081550.3.1": [
+    [
+      "IPR037219",
+      "Peptidase_M41-like",
+      "Peptidase M41-like",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR005936",
+      "FtsH",
+      "Peptidase, FtsH",
+      "FAMILY"
+    ],
+    [
+      "IPR027417",
+      "P-loop_NTPase",
+      "P-loop containing nucleoside triphosphate hydrolase",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc04g005380.3.1": [
+    [
+      "IPR031307",
+      "Ninja_fam",
+      "Ninja family",
+      "FAMILY"
+    ]
+  ],
+  "Solyc06g076560.2.1": [
+    [
+      "IPR008978",
+      "HSP20-like_chaperone",
+      "HSP20-like chaperone",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR031107",
+      "Small_HSP",
+      "Small heat shock protein",
+      "FAMILY"
+    ]
+  ],
+  "Solyc06g067980.3.1": [
+
+  ],
+  "Solyc06g074260.4.1": [
+    [
+      "IPR007608",
+      "Senescence_reg_S40",
+      "Senescence regulator S40",
+      "FAMILY"
+    ]
+  ],
+  "Solyc03g098100.4.1": [
+    [
+      "IPR020471",
+      "AKR",
+      "Aldo-keto reductase",
+      "FAMILY"
+    ],
+    [
+      "IPR036812",
+      "NADP_OxRdtase_dom_sf",
+      "NADP-dependent oxidoreductase domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc06g084170.3.1": [
+
+  ],
+  "Solyc01g104740.3.1": [
+    [
+      "IPR010982",
+      "Lambda_DNA-bd_dom_sf",
+      "Lambda repressor-like, DNA-binding domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc06g082440.1.1": [
+    [
+      "IPR011009",
+      "Kinase-like_dom_sf",
+      "Protein kinase-like domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc01g103920.3.1": [
+    [
+      "IPR010241",
+      "Fd_pln",
+      "Ferredoxin [2Fe-2S], plant",
+      "FAMILY"
+    ],
+    [
+      "IPR036010",
+      "2Fe-2S_ferredoxin-like_sf",
+      "2Fe-2S ferredoxin-like superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc04g081900.4.1": [
+    [
+      "IPR036249",
+      "Thioredoxin-like_sf",
+      "Thioredoxin-like superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR046349",
+      "C1-like_sf",
+      "C1-like domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc03g114160.1.1": [
+    [
+      "IPR016024",
+      "ARM-type_fold",
+      "Armadillo-type fold",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc04g076340.3.1": [
+
+  ],
+  "Solyc05g007950.5.1": [
+    [
+      "IPR001568",
+      "RNase_T2-like",
+      "Ribonuclease T2-like",
+      "FAMILY"
+    ],
+    [
+      "IPR033697",
+      "Ribonuclease_T2_eukaryotic",
+      "Ribonuclease T2, eukaryotic",
+      "FAMILY"
+    ],
+    [
+      "IPR036430",
+      "RNase_T2-like_sf",
+      "Ribonuclease T2-like superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc06g076520.1.1": [
+    [
+      "IPR008978",
+      "HSP20-like_chaperone",
+      "HSP20-like chaperone",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR031107",
+      "Small_HSP",
+      "Small heat shock protein",
+      "FAMILY"
+    ]
+  ],
+  "Solyc01g096320.3.1": [
+    [
+      "IPR009057",
+      "Homeobox-like_sf",
+      "Homeobox-like domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR045224",
+      "HDZip_class_I_plant",
+      "Homeobox-leucine zipper protein, class I, plant",
+      "FAMILY"
+    ]
+  ],
+  "Solyc02g077040.4.1": [
+    [
+      "IPR038765",
+      "Papain-like_cys_pep_sf",
+      "Papain-like cysteine peptidase superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR013128",
+      "Peptidase_C1A",
+      "Peptidase C1A",
+      "FAMILY"
+    ]
+  ],
+  "Solyc04g015520.3.1": [
+
+  ],
+  "Solyc01g007110.3.1": [
+    [
+      "IPR038765",
+      "Papain-like_cys_pep_sf",
+      "Papain-like cysteine peptidase superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc06g009050.3.1": [
+    [
+      "IPR006015",
+      "Universal_stress_UspA",
+      "Universal stress protein A family",
+      "FAMILY"
+    ]
+  ],
+  "Solyc06g072430.3.1": [
+    [
+      "IPR040400",
+      "BAG5/6/7/8",
+      "BAG family molecular chaperone regulator 5/6/7/8",
+      "FAMILY"
+    ],
+    [
+      "IPR036533",
+      "BAG_dom_sf",
+      "BAG domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc06g050980.3.1": [
+    [
+      "IPR001519",
+      "Ferritin",
+      "Ferritin",
+      "FAMILY"
+    ],
+    [
+      "IPR009078",
+      "Ferritin-like_SF",
+      "Ferritin-like superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc05g015470.1.1": [
+
+  ],
+  "Solyc03g116390.5.1": [
+
+  ],
+  "Solyc01g102960.3.1": [
+    [
+      "IPR031107",
+      "Small_HSP",
+      "Small heat shock protein",
+      "FAMILY"
+    ],
+    [
+      "IPR008978",
+      "HSP20-like_chaperone",
+      "HSP20-like chaperone",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc03g116590.3.1": [
+    [
+      "IPR010417",
+      "Embryo-specific_ATS3",
+      "Embryo-specific ATS3",
+      "FAMILY"
+    ],
+    [
+      "IPR036392",
+      "PLAT/LH2_dom_sf",
+      "PLAT/LH2 domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc03g117800.4.1": [
+    [
+      "IPR036291",
+      "NAD(P)-bd_dom_sf",
+      "NAD(P)-binding domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc03g013160.5.1": [
+
+  ],
+  "Solyc06g071750.3.1": [
+
+  ],
+  "Solyc04g006960.3.1": [
+    [
+      "IPR027417",
+      "P-loop_NTPase",
+      "P-loop containing nucleoside triphosphate hydrolase",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc06g076570.4.1": [
+    [
+      "IPR031107",
+      "Small_HSP",
+      "Small heat shock protein",
+      "FAMILY"
+    ],
+    [
+      "IPR008978",
+      "HSP20-like_chaperone",
+      "HSP20-like chaperone",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc02g084980.3.1": [
+    [
+      "IPR029044",
+      "Nucleotide-diphossugar_trans",
+      "Nucleotide-diphospho-sugar transferases",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR002495",
+      "Glyco_trans_8",
+      "Glycosyl transferase, family 8",
+      "FAMILY"
+    ]
+  ],
+  "Solyc06g076670.3.1": [
+    [
+      "IPR035979",
+      "RBD_domain_sf",
+      "RNA-binding domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc01g095140.5.1": [
+    [
+      "IPR045043",
+      "Lea14-like",
+      "Late embryogenesis abundant protein Lea14-like",
+      "FAMILY"
+    ]
+  ],
+  "Solyc02g086530.4.1": [
+    [
+      "IPR017853",
+      "Glycoside_hydrolase_SF",
+      "Glycoside hydrolase superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR008811",
+      "Glycosyl_hydrolases_36",
+      "Glycosyl hydrolases 36",
+      "FAMILY"
+    ]
+  ],
+  "Solyc04g014600.3.1": [
+    [
+      "IPR006015",
+      "Universal_stress_UspA",
+      "Universal stress protein A family",
+      "FAMILY"
+    ]
+  ],
+  "Solyc01g087180.5.1": [
+
+  ],
+  "Solyc02g077980.3.1": [
+
+  ],
+  "Solyc01g107700.4.1": [
+    [
+      "IPR007325",
+      "KFase/CYL",
+      "Kynurenine formamidase/cyclase-like",
+      "FAMILY"
+    ],
+    [
+      "IPR037175",
+      "KFase_sf",
+      "Kynurenine formamidase superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc01g067740.3.1": [
+    [
+      "IPR036423",
+      "SOD-like_Cu/Zn_dom_sf",
+      "Superoxide dismutase-like, copper/zinc binding domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR024134",
+      "SOD_Cu/Zn_/chaperone",
+      "Superoxide dismutase (Cu/Zn) / superoxide dismutase copper chaperone",
+      "FAMILY"
+    ]
+  ],
+  "Solyc02g088610.4.1": [
+    [
+      "IPR036628",
+      "Clp_N_dom_sf",
+      "Clp, N-terminal domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR001270",
+      "ClpA/B",
+      "ClpA/B family",
+      "FAMILY"
+    ],
+    [
+      "IPR027417",
+      "P-loop_NTPase",
+      "P-loop containing nucleoside triphosphate hydrolase",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR017730",
+      "Chaperonin_ClpB",
+      "Chaperonin ClpB",
+      "FAMILY"
+    ]
+  ],
+  "Solyc06g066600.3.1": [
+    [
+      "IPR045263",
+      "GLUT",
+      "Glucose transporter GLUT",
+      "FAMILY"
+    ],
+    [
+      "IPR036259",
+      "MFS_trans_sf",
+      "MFS transporter superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR003663",
+      "Sugar/inositol_transpt",
+      "Sugar/inositol transporter",
+      "FAMILY"
+    ],
+    [
+      "IPR005828",
+      "MFS_sugar_transport-like",
+      "Major facilitator,  sugar transporter-like",
+      "FAMILY"
+    ]
+  ],
+  "Solyc04g011440.4.1": [
+    [
+      "IPR029048",
+      "HSP70_C_sf",
+      "Heat shock protein 70kD, C-terminal domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR013126",
+      "Hsp_70_fam",
+      "Heat shock protein 70 family",
+      "FAMILY"
+    ],
+    [
+      "IPR029047",
+      "HSP70_peptide-bd_sf",
+      "Heat shock protein 70kD, peptide-binding domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR043129",
+      "ATPase_NBD",
+      "ATPase, nucleotide binding domain",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc04g077220.3.1": [
+    [
+      "IPR009057",
+      "Homeobox-like_sf",
+      "Homeobox-like domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc06g084320.1.1": [
+    [
+      "IPR040267",
+      "EID1-like",
+      "F-box protein EID1-like",
+      "FAMILY"
+    ]
+  ],
+  "Solyc02g083280.5.1": [
+    [
+      "IPR036873",
+      "Rhodanese-like_dom_sf",
+      "Rhodanese-like domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc03g112080.1.1": [
+    [
+      "IPR029052",
+      "Metallo-depent_PP-like",
+      "Metallo-dependent phosphatase-like",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc03g007230.4.1": [
+    [
+      "IPR015655",
+      "PP2C",
+      "Protein phosphatase 2C family",
+      "FAMILY"
+    ],
+    [
+      "IPR036457",
+      "PPM-type-like_dom_sf",
+      "PPM-type phosphatase-like domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc01g099810.3.1": [
+    [
+      "IPR035979",
+      "RBD_domain_sf",
+      "RNA-binding domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc02g079930.3.1": [
+    [
+      "IPR036112",
+      "ComA_synth_sf",
+      "(2R)-phospho-3-sulpholactate synthase, ComA superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR003830",
+      "ComA_synth",
+      "(2R)-phospho-3-sulpholactate synthase, ComA",
+      "FAMILY"
+    ]
+  ],
+  "Solyc03g095650.3.1": [
+    [
+      "IPR004326",
+      "Mlo",
+      "Mlo-related protein",
+      "FAMILY"
+    ]
+  ],
+  "Solyc04g072890.4.1": [
+    [
+      "IPR036322",
+      "WD40_repeat_dom_sf",
+      "WD40-repeat-containing domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc06g076400.3.1": [
+    [
+      "IPR036457",
+      "PPM-type-like_dom_sf",
+      "PPM-type phosphatase-like domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR015655",
+      "PP2C",
+      "Protein phosphatase 2C family",
+      "FAMILY"
+    ]
+  ],
+  "Solyc01g103970.4.1": [
+    [
+      "IPR038896",
+      "RNF170",
+      "E3 ubiquitin-protein ligase RNF170",
+      "FAMILY"
+    ]
+  ],
+  "Solyc03g115230.3.1": [
+    [
+      "IPR036628",
+      "Clp_N_dom_sf",
+      "Clp, N-terminal domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR001270",
+      "ClpA/B",
+      "ClpA/B family",
+      "FAMILY"
+    ],
+    [
+      "IPR027417",
+      "P-loop_NTPase",
+      "P-loop containing nucleoside triphosphate hydrolase",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc03g123540.3.1": [
+    [
+      "IPR008978",
+      "HSP20-like_chaperone",
+      "HSP20-like chaperone",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR031107",
+      "Small_HSP",
+      "Small heat shock protein",
+      "FAMILY"
+    ]
+  ],
+  "Solyc05g015390.3.1": [
+    [
+      "IPR008802",
+      "REF",
+      "Rubber elongation factor",
+      "FAMILY"
+    ]
+  ],
+  "Solyc03g096670.3.1": [
+    [
+      "IPR036457",
+      "PPM-type-like_dom_sf",
+      "PPM-type phosphatase-like domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR015655",
+      "PP2C",
+      "Protein phosphatase 2C family",
+      "FAMILY"
+    ]
+  ],
+  "Solyc02g082450.3.1": [
+    [
+      "IPR045033",
+      "PILS1/3/4/5/7",
+      "Protein PIN-LIKES 1/3/4/5/7",
+      "FAMILY"
+    ],
+    [
+      "IPR004776",
+      "Mem_trans",
+      "Membrane transport protein",
+      "FAMILY"
+    ]
+  ],
+  "Solyc06g050130.3.1": [
+    [
+      "IPR017853",
+      "Glycoside_hydrolase_SF",
+      "Glycoside hydrolase superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR002241",
+      "Glyco_hydro_27",
+      "Glycoside hydrolase, family 27",
+      "FAMILY"
+    ]
+  ],
+  "Solyc06g052020.2.1": [
+
+  ],
+  "Solyc07g005210.3.1": [
+    [
+      "IPR012674",
+      "Calycin",
+      "Calycin",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR022271",
+      "Lipocalin_ApoD",
+      "Lipocalin, ApoD type",
+      "FAMILY"
+    ],
+    [
+      "IPR002446",
+      "Lipocalin_bac",
+      "Lipocalin, bacterial",
+      "FAMILY"
+    ]
+  ],
+  "Solyc02g092760.3.1": [
+    [
+      "IPR029058",
+      "AB_hydrolase",
+      "Alpha/Beta hydrolase fold",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc02g087890.4.1": [
+
+  ],
+  "Solyc04g005250.4.1": [
+    [
+      "IPR001525",
+      "C5_MeTfrase",
+      "C-5 cytosine methyltransferase",
+      "FAMILY"
+    ],
+    [
+      "IPR029063",
+      "SAM-dependent_MTases_sf",
+      "S-adenosyl-L-methionine-dependent methyltransferase superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc01g105660.4.1": [
+
+  ],
+  "Solyc11g018680.1.1": [
+
+  ],
+  "Solyc09g064820.1.1": [
+    [
+      "IPR040267",
+      "EID1-like",
+      "F-box protein EID1-like",
+      "FAMILY"
+    ]
+  ],
+  "Solyc07g062970.3.1": [
+    [
+      "IPR015655",
+      "PP2C",
+      "Protein phosphatase 2C family",
+      "FAMILY"
+    ],
+    [
+      "IPR036457",
+      "PPM-type-like_dom_sf",
+      "PPM-type phosphatase-like domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc08g080940.3.1": [
+    [
+      "IPR000889",
+      "Glutathione_peroxidase",
+      "Glutathione peroxidase",
+      "FAMILY"
+    ],
+    [
+      "IPR036249",
+      "Thioredoxin-like_sf",
+      "Thioredoxin-like superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc07g006140.4.1": [
+    [
+      "IPR036396",
+      "Cyt_P450_sf",
+      "Cytochrome P450 superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR001128",
+      "Cyt_P450",
+      "Cytochrome P450",
+      "FAMILY"
+    ],
+    [
+      "IPR002401",
+      "Cyt_P450_E_grp-I",
+      "Cytochrome P450, E-class, group I",
+      "FAMILY"
+    ]
+  ],
+  "Solyc07g045140.4.1": [
+    [
+      "IPR040229",
+      "At3g27390-like",
+      "Uncharacterized membrane protein At3g27390-like",
+      "FAMILY"
+    ]
+  ],
+  "Solyc08g076880.3.1": [
+
+  ],
+  "Solyc10g084400.2.1": [
+    [
+      "IPR036282",
+      "Glutathione-S-Trfase_C_sf",
+      "Glutathione S-transferase, C-terminal domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR036249",
+      "Thioredoxin-like_sf",
+      "Thioredoxin-like superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR040079",
+      "Glutathione_S-Trfase",
+      "Glutathione transferase family",
+      "FAMILY"
+    ],
+    [
+      "IPR044629",
+      "GSTL1/2/3",
+      "Glutathione S-transferase L1/2/3",
+      "FAMILY"
+    ]
+  ],
+  "Solyc07g053550.3.1": [
+    [
+      "IPR011905",
+      "GlrX-like_pln_2",
+      "Glutaredoxin-like, plant II",
+      "FAMILY"
+    ],
+    [
+      "IPR036249",
+      "Thioredoxin-like_sf",
+      "Thioredoxin-like superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc07g062530.3.1": [
+    [
+      "IPR015813",
+      "Pyrv/PenolPyrv_Kinase-like_dom",
+      "Pyruvate/Phosphoenolpyruvate kinase-like domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR021135",
+      "PEP_COase",
+      "Phosphoenolpyruvate carboxylase",
+      "FAMILY"
+    ],
+    [
+      "IPR022805",
+      "PEP_COase_bac/pln-type",
+      "Phosphoenolpyruvate carboxylase, bacterial/plant-type",
+      "FAMILY"
+    ]
+  ],
+  "Solyc10g075070.3.1": [
+    [
+      "IPR000528",
+      "Plant_nsLTP",
+      "Plant non-specific lipid-transfer protein/Par allergen",
+      "FAMILY"
+    ],
+    [
+      "IPR036312",
+      "Bifun_inhib/LTP/seed_sf",
+      "Bifunctional inhibitor/plant lipid transfer protein/seed storage helical domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc10g079150.3.1": [
+    [
+      "IPR001289",
+      "NFYA",
+      "Nuclear transcription factor Y subunit A",
+      "FAMILY"
+    ]
+  ],
+  "Solyc07g006860.3.1": [
+    [
+      "IPR044791",
+      "Beta-glucanase/XTH",
+      "Beta-glucanase/XTH",
+      "FAMILY"
+    ],
+    [
+      "IPR016455",
+      "XTH",
+      "Xyloglucan endotransglucosylase/hydrolase",
+      "FAMILY"
+    ],
+    [
+      "IPR013320",
+      "ConA-like_dom_sf",
+      "Concanavalin A-like lectin/glucanase domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc08g083130.5.1": [
+    [
+      "IPR009057",
+      "Homeobox-like_sf",
+      "Homeobox-like domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR045224",
+      "HDZip_class_I_plant",
+      "Homeobox-leucine zipper protein, class I, plant",
+      "FAMILY"
+    ]
+  ],
+  "Solyc08g078160.3.1": [
+    [
+      "IPR000136",
+      "Oleosin",
+      "Oleosin",
+      "FAMILY"
+    ]
+  ],
+  "Solyc12g098900.2.1": [
+
+  ],
+  "Solyc07g043590.3.1": [
+    [
+      "IPR001613",
+      "Flavin_amine_oxidase",
+      "Flavin amine oxidase",
+      "FAMILY"
+    ],
+    [
+      "IPR036188",
+      "FAD/NAD-bd_sf",
+      "FAD/NAD(P)-binding domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc08g078040.4.1": [
+    [
+      "IPR036188",
+      "FAD/NAD-bd_sf",
+      "FAD/NAD(P)-binding domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR044560",
+      "MO/PqsH",
+      "Monooxygenase/2-heptyl-3-hydroxy-4(1H)-quinolone synthase",
+      "FAMILY"
+    ]
+  ],
+  "Solyc11g072500.2.1": [
+    [
+      "IPR045174",
+      "Dof",
+      "Dof zinc finger protein",
+      "FAMILY"
+    ]
+  ],
+  "Solyc07g040990.4.1": [
+    [
+      "IPR036457",
+      "PPM-type-like_dom_sf",
+      "PPM-type phosphatase-like domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR015655",
+      "PP2C",
+      "Protein phosphatase 2C family",
+      "FAMILY"
+    ]
+  ],
+  "Solyc09g007270.3.1": [
+    [
+      "IPR044831",
+      "Ccp1-like",
+      "Heme-binding peroxidase Ccp1-like",
+      "FAMILY"
+    ],
+    [
+      "IPR002207",
+      "Peroxidase_I",
+      "Class I peroxidase",
+      "FAMILY"
+    ],
+    [
+      "IPR010255",
+      "Haem_peroxidase_sf",
+      "Haem peroxidase superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc10g081980.2.1": [
+    [
+      "IPR044839",
+      "NDR1-like",
+      "Protein NDR1-like",
+      "FAMILY"
+    ]
+  ],
+  "Solyc09g091030.3.1": [
+    [
+      "IPR017853",
+      "Glycoside_hydrolase_SF",
+      "Glycoside hydrolase superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR001371",
+      "Glyco_hydro_14B_pln",
+      "Glycoside hydrolase, family 14B, plant",
+      "FAMILY"
+    ],
+    [
+      "IPR001554",
+      "Glyco_hydro_14",
+      "Glycoside hydrolase, family 14",
+      "FAMILY"
+    ]
+  ],
+  "Solyc12g006380.2.1": [
+
+  ],
+  "Solyc12g019740.2.1": [
+    [
+      "IPR036249",
+      "Thioredoxin-like_sf",
+      "Thioredoxin-like superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc10g078770.2.1": [
+    [
+      "IPR005513",
+      "LEA_1",
+      "Late embryogenesis abundant protein, LEA_1 subgroup",
+      "FAMILY"
+    ]
+  ],
+  "Solyc08g062340.3.1": [
+    [
+      "IPR031107",
+      "Small_HSP",
+      "Small heat shock protein",
+      "FAMILY"
+    ],
+    [
+      "IPR008978",
+      "HSP20-like_chaperone",
+      "HSP20-like chaperone",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc09g011370.3.1": [
+
+  ],
+  "Solyc08g075020.3.1": [
+    [
+      "IPR004963",
+      "PAE/NOTUM",
+      "Pectinacetylesterase/NOTUM",
+      "FAMILY"
+    ]
+  ],
+  "Solyc07g150145.2.1": [
+
+  ],
+  "Solyc07g054270.3.1": [
+    [
+      "IPR008507",
+      "DUF789",
+      "Protein of unknown function DUF789",
+      "FAMILY"
+    ]
+  ],
+  "Solyc07g055840.3.1": [
+    [
+      "IPR002020",
+      "Citrate_synthase",
+      "Citrate synthase",
+      "FAMILY"
+    ],
+    [
+      "IPR036969",
+      "Citrate_synthase_sf",
+      "Citrate synthase superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc09g065560.3.1": [
+    [
+      "IPR001902",
+      "SLC26A/SulP_fam",
+      "SLC26A/SulP transporter",
+      "FAMILY"
+    ],
+    [
+      "IPR036513",
+      "STAS_dom_sf",
+      "STAS domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc12g013620.2.1": [
+    [
+      "IPR036093",
+      "NAC_dom_sf",
+      "NAC domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc11g056650.2.1": [
+    [
+      "IPR036638",
+      "HLH_DNA-bd_sf",
+      "Helix-loop-helix DNA-binding domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc11g006720.2.1": [
+    [
+      "IPR009057",
+      "Homeobox-like_sf",
+      "Homeobox-like domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR043363",
+      "DIVARICATA-like",
+      "Transcription factor DIVARICATA-like",
+      "FAMILY"
+    ]
+  ],
+  "Solyc08g062220.3.1": [
+    [
+      "IPR002213",
+      "UDP_glucos_trans",
+      "UDP-glucuronosyl/UDP-glucosyltransferase",
+      "FAMILY"
+    ]
+  ],
+  "Solyc10g008040.5.1": [
+
+  ],
+  "Solyc07g055660.2.1": [
+
+  ],
+  "Solyc07g006130.3.1": [
+    [
+      "IPR029064",
+      "L30e-like",
+      "50S ribosomal protein L30e-like",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR004403",
+      "Peptide_chain-rel_eRF1/aRF1",
+      "Peptide chain release factor eRF1/aRF1",
+      "FAMILY"
+    ],
+    [
+      "IPR024049",
+      "eRF1_1_sf",
+      "eRF1, domain 1",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc09g098590.4.1": [
+    [
+      "IPR012820",
+      "Sucrose_synthase_pln/cyn",
+      "Sucrose synthase, plant/cyanobacteria",
+      "FAMILY"
+    ]
+  ],
+  "Solyc12g007070.2.1": [
+    [
+      "IPR027725",
+      "HSF_fam",
+      "Heat shock transcription factor family",
+      "FAMILY"
+    ],
+    [
+      "IPR036390",
+      "WH_DNA-bd_sf",
+      "Winged helix DNA-binding domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc07g056430.3.1": [
+    [
+      "IPR045073",
+      "Omega/Tau-like",
+      "Glutathione S-transferase Omega/Tau-like",
+      "FAMILY"
+    ],
+    [
+      "IPR036282",
+      "Glutathione-S-Trfase_C_sf",
+      "Glutathione S-transferase, C-terminal domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ],
+    [
+      "IPR036249",
+      "Thioredoxin-like_sf",
+      "Thioredoxin-like superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ],
+  "Solyc09g089650.1.1": [
+    [
+      "IPR040381",
+      "At4g14450-like",
+      "Uncharacterized protein At4g14450-like",
+      "FAMILY"
+    ]
+  ],
+  "Solyc09g015670.3.1": [
+    [
+      "IPR046450",
+      "PA_dom_sf",
+      "PA domain superfamily",
+      "HOMOLOGOUS_SUPERFAMILY"
+    ]
+  ]
+}
