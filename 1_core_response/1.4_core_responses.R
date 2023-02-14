@@ -75,7 +75,15 @@ for(direction in c("upregulated", "downregulated")) {
     }
   }
 }
-
+# Save the IDs of all the core response genes
+core.genes.out = data.frame(stress.type=character(), direction=character(), target.id=character())
+for(direction in names(core.genes)) {
+  for(stress.type in names(core.genes[[direction]])) {
+    core.genes.out = rbind(core.genes.out, data.frame(stress.type=stress.type, direction=direction, core.genes[[direction]][[stress.type]]))
+  }
+}
+names(core.genes.out) = c("stress.type", "direction", "target.id")
+write.csv(core.genes.out, "output/1.4_core_response_genes.csv", row.names=F, quote=F)
 
 # Make Venn Diagrams for genes and GO terms
 pdf("output/plots/1.4_core_response_upsets.pdf", 9, 7)
