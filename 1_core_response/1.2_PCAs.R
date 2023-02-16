@@ -39,9 +39,9 @@ log.tpms = log(abundance[grep("_tpm", names(abundance))])
 # Kick out rows which contain -Inf (formerly 0 values)
 log.tpms = log.tpms[rowSums(log.tpms == -Inf) == 0,]
 log.tpms = t(as.matrix(log.tpms))
-row.names(tpms) = str_remove(row.names(tpms), "_tpm")
+row.names(log.tpms) = str_remove(row.names(log.tpms), "_tpm")
 
-pca_res <- prcomp(tpms)
+pca_res <- prcomp(log.tpms)
 scores = as.data.frame(pca_res$x)
 
 point.annotations = data.frame(sample = row.names(scores))
