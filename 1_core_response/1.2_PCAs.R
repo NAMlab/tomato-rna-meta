@@ -68,6 +68,26 @@ point.annotations = merge(point.annotations, samples.annotation, by.x = "sample"
 
 plot_and_save_pca(pca_res, point.annotations, "1.2_FC_PCA")
 
+## Finally, OPLS-DA
+# Finally, we want to see if we can split the contrasts according to stress types, tissues etc.
+# This could be very interesting to see which genes are used here.
+library(ropls)
+
+fcs.heat = fcs[which(point.annotations$stress_type == "heat"),]
+points.heat = point.annotations[point.annotations$stress_type == "heat",]
+
+heat.psda = opls(fcs.heat, points.heat$tissue, predI=1, subset="odd")
+trainVi <- getSubsetVi(heat.psda)
+confusion_train.tb <- table(points.heat$tissue[trainVi], fitted(heat.psda))
+confusion_train.tb
+
+confusion_test.tb <- table(points.heat$tissue[-trainVi],
+                           predict(heat.psda, fcs.heat[-trainVi,]))
+confusion_test.tb
+
+# For a combination of multiple y's (online possible with numeric values):
+heat.psda <- opls(fcs.heat, as.matrix(points.heat[c("stress.duration", "temperature")]))
+
 #### (snippet for playing with UMAP) ###
 # umap_res = umap(tpms)
 # row.names(point.annotations) = point.annotations$sample
