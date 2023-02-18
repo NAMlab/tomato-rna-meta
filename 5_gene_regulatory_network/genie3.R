@@ -9,16 +9,17 @@ names(abundance) = str_remove(names(abundance), "_tpm")
 exprMatr = as.matrix(abundance)
 
 set.seed(2023)
-# Step 1: Find the probable regulators of our core HS genes
+# Try to find the 5 most probable regulators for each HS core gene
 core.genes = read.csv("../1_core_response/output/1.4_core_response_genes.csv")
 targets = core.genes[core.genes$stress.type == "heat",]$target.id
-weightMat <- GENIE3(exprMatr, targets = targets, verbose=T, nCores = 20)
-linkList <- getLinkList(weightMat, reportMax = 100)
 
-write.csv(linkList, "regulators.csv", row.names=F)
-
-
-# Step 2: Find other genes probably regulated by our found regulators
+linkList = data.frame(regulatoryGene=character(), targetGene=character(), weight=numeric())
+for(t in targets) {
+  weightMat <- GENIE3(exprMatr, targets = t, verbose=T, nCores=20)
+  linkList <- rbind(linkList, getLinkList(weightMat, reportMax = 3))
+  write.csv(linkList, "top5_regulators.csv", row.names=F)
+  #system("Rscript 2_plot.R")
+}
 
 
 
