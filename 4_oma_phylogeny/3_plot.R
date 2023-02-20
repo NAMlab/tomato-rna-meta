@@ -1,13 +1,13 @@
 d = read.csv("output/combined_deepest_levels.csv")
 
-freqs = reshape(data.frame(table(d$deepest_level, d$set)), direction="wide", timevar="Var2", idvar="Var1")
+freqs = reshape(data.frame(table(d$level, d$set)), direction="wide", timevar="Var2", idvar="Var1")
 freqs$Var1 = as.numeric(freqs$Var1)
 freqs$p.heat = cumsum(freqs$Freq.heat)/sum(freqs$Freq.heat) * 100
 freqs$p.drought = cumsum(freqs$Freq.drought)/sum(freqs$Freq.drought) * 100
 freqs$p.salt = cumsum(freqs$Freq.salt)/sum(freqs$Freq.salt) * 100
 freqs$p.random = cumsum(freqs$Freq.random)/sum(freqs$Freq.random) * 100
 
-labels = scan("clades_hierarchy.txt", character())[(min(d$deepest_level)+1):(max(d$deepest_level)+1)]
+labels = scan("clades_hierarchy.txt", character())[(min(d$level)+1):(max(d$level)+1)]
 labels[length(labels)] = "S. lycopersicum"
 
 pdf("output/plots/4.1_oldest_orthologs.pdf")
