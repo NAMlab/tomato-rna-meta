@@ -7,7 +7,7 @@ freqs$p.drought = cumsum(freqs$Freq.drought)/sum(freqs$Freq.drought) * 100
 freqs$p.salt = cumsum(freqs$Freq.salt)/sum(freqs$Freq.salt) * 100
 freqs$p.random = cumsum(freqs$Freq.random)/sum(freqs$Freq.random) * 100
 
-labels = scan("clades_hierarchy.txt", character())[(min(d$level)+1):(max(d$level)+1)]
+labels = scan("input/clades_hierarchy.txt", character())[(min(d$level)+1):(max(d$level)+1)]
 labels[length(labels)] = "S. lycopersicum"
 
 pdf("output/plots/4.1_oldest_orthologs.pdf")

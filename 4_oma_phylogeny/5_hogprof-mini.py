@@ -4,14 +4,19 @@
 # file_utils.py, and hashutils.py files.
 import pyham
 import numpy as np
+import pandas as pd
 from datasketch import WeightedMinHashGenerator
 
-pyham_analysis = pyham.Ham("speciestree.nwk", "oma-hogs.orthoXML", tree_format="newick", use_internal_name=True, species_resolve_mode="OMA")
+# The oma-hogs.orthoXML is too big for this repo, you can download the latest versions of both files from https://omabrowser.org/oma/current/
+pyham_analysis = pyham.Ham("input/speciestree.nwk", "input/oma-hogs.orthoXML", tree_format="newick", use_internal_name=True, species_resolve_mode="OMA")
 
 full_tree = pyham_analysis.taxonomy.tree
 taxa_index = {}
 for i, n in enumerate(full_tree.traverse()):
-    taxa_index[n.name] = i-1
+  # For some reason newick chars are replaced by "_" automatically in the tree
+  # profile but not here, so we have to do it manually to avoid a key error later.
+  name = n.name.replace("(", "_").replace(")", "_").replace(",", "_").replace(":", "_")
+  taxa_index[name] = i-1
 
 wmg = WeightedMinHashGenerator(3*len(taxa_index), sample_size = 256 , seed=1)
 
@@ -43,9 +48,29 @@ def hog2hash(hog_id):
 
   return wmg.minhash(list(hog_matrix_binary.flatten()))
 
-hash1 = hog2hash(178595)
-hash2 = hog2hash(666324) #@TODO there is a key error here because "Capsaspora owczarzaki (strain ATCC 30864)" is transformed into "Capsaspora owczarzaki _strain ATCC 30864_" somehow but not in the taxa_index... Not sure why but it's an easy workaround (just transform it when building the taxa_index).
-print(hash1.jaccard(hash2))
+# TEST CASES
+# hash1 = hog2hash(178595)
+# hash2 = hog2hash(666324)
+# print(hash1.jaccard(hash2))
 
-#@TODO get all HOGs and properly compare all vs all and save it out.
+# Read HS core hogs and perform all v all jaccard distances
+df = pd.read_csv("output/combined_deepest_levels.csv")
+df = df[(df.set == "heat") & (df.hog_id.notnull())]
+df.hog_id = df.hog_id.astype(int)
 
+# Save minhashes once for each HOG
+df["minhash"] = df.apply(lambda r: hog2hash(r["hog_id"]), axis=1) 
+
+jaccard_matrix = np.zeros((len(df), len(df)))
+for i, hog1 in enumerate(df.hog_id):
+  for j, hog2 in enumerate(df.hog_id):
+    if i < j:
+      jaccard_matrix[i,j] = df.minhash.values[i].jaccard(df.minhash.values[j])
+
+jaccard_matrix = jaccard_matrix + jaccard_matrix.T
+np.fill_diagonal(jaccard_matrix, 1)
+
+df_out = pd.DataFrame(jaccard_matrix, columns = df.target)
+df_out.insert(0, "target", list(df.target))
+
+df_out.to_csv("output/heat_hogprof_jaccard_matrix.csv")

@@ -4,7 +4,7 @@ d = read.csv("output/combined_deepest_levels.csv")
 d = d[d$set == "heat",]
 d$level = d$level + 1
 
-labels = scan("clades_hierarchy.txt", character())[(min(d$level)):(max(d$level))]
+labels = scan("input/clades_hierarchy.txt", character())[(min(d$level)):(max(d$level))]
 labels[length(labels)] = "S. lycopersicum"
 
 labels = data.frame(level = 1:length(labels), origin=labels)

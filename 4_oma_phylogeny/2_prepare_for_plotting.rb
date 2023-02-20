@@ -4,7 +4,7 @@ require "csv"
 require "net/http"
 require "json"
 
-levels = IO.readlines("clades_hierarchy.txt").map(&:chomp)
+levels = IO.readlines("input/clades_hierarchy.txt").map(&:chomp)
 
 def get_hogid(hog)
   # Returns the integer ID of the HOG by retrieving it from OMA
