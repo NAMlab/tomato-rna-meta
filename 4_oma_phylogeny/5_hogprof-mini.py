@@ -12,7 +12,8 @@ pyham_analysis = pyham.Ham("input/speciestree.nwk", "input/oma-hogs.orthoXML", t
 
 full_tree = pyham_analysis.taxonomy.tree
 taxa_index = {}
-for i, n in enumerate(full_tree.traverse()):
+# Search term here limits analysis to specific clade, e.g. Eukaryota or Streptophyta
+for i, n in enumerate(full_tree.search_nodes(name="Streptophyta")[0].traverse()):
   # For some reason newick chars are replaced by "_" automatically in the tree
   # profile but not here, so we have to do it manually to avoid a key error later.
   name = n.name.replace("(", "_").replace(")", "_").replace(",", "_").replace(":", "_")
@@ -37,9 +38,9 @@ def hog2hash(hog_id):
   # vector which will then be converted to a minHash.
   hog_matrix_binary = np.zeros((1, 3*len(taxa_index)))
 
-  losses = [ taxa_index[n.name]  for n in tp.traverse() if n.lost  ]
-  dupl = [ taxa_index[n.name]  for n in tp.traverse() if n.dupl  ]
-  presence = [ taxa_index[n.name]  for n in tp.traverse() if n.nbr_genes > 0 ]
+  losses = [ taxa_index[n.name]  for n in tp.traverse() if n.lost and n.name in taxa_index ]
+  dupl = [ taxa_index[n.name]  for n in tp.traverse() if n.dupl and n.name in taxa_index ]
+  presence = [ taxa_index[n.name]  for n in tp.traverse() if n.nbr_genes > 0 and n.name in taxa_index ]
   indices = dict(zip (['presence', 'loss', 'dup'],[presence,losses,dupl] ) )
   for i,event in enumerate(indices):
       if len(indices[event])>0:
@@ -73,4 +74,4 @@ np.fill_diagonal(jaccard_matrix, 1)
 df_out = pd.DataFrame(jaccard_matrix, columns = df.target)
 df_out.insert(0, "target", list(df.target))
 
-df_out.to_csv("output/heat_hogprof_jaccard_matrix.csv")
+df_out.to_csv("output/heat_hogprof_jaccard_matrix.csv", index=False)
