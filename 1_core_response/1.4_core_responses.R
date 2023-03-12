@@ -21,6 +21,7 @@ samples.annotation$sample.group = make.names(samples.annotation$sample.group)
 samples.annotation = samples.annotation[samples.annotation$sample.group %in% unique(str_split_fixed(names(diffexp), "_", 2)[,1]),]
 
 protein.descriptions = read.csv("input/protein_descriptions.csv.gz")
+internal.names = read.csv("input/hs_core_genes_internal_names.csv")
 
 core.genes = list(upregulated=list(), downregulated=list())
 core.GOs   = list(upregulated=list(), downregulated=list())
@@ -46,35 +47,38 @@ for(direction in c("upregulated", "downregulated")) {
     write.csv(enriched.GOs, paste0("output/1.4_core_response_",stress.type,"_",direction,"_GOs.csv"), row.names=F)
     core.GOs[[direction]][[stress.type]] = enriched.GOs$GO.ID
     GO.names = unique(rbind(GO.names, enriched.GOs[1:2]))
-    
-    # HSF binding sites
-    fimo_matches = str_remove(read.csv("../data/fimo_hsfs_matches.tsv", sep="\t")$sequence_name, "\\([+-]\\)")
-    genes_matched = str_remove(genes, "\\.[0-9]+$") %in% fimo_matches
-    prd_matches = genes %in% read.csv("input/ITAG4.1_PrDs.csv")$protein
-    
-    # Heatmap (right now only doing for HS)
-    if(stress.type == "heat") {
-      cells = diffexp.stress[row.names(diffexp.stress) %in% genes, grep("_logFC", names(diffexp.stress))]
-      ## Add protein descriptions to the name
-      cells$gene = str_split_fixed(row.names(cells), "\\.", 2)[,1]
-      cells = merge(cells, unique(protein.descriptions[c("gene", "ITAG4.1_description")]), all.y=F)
-      row.names(cells) = paste0(gsub(" \\(AHRD.*\\)", "", cells$ITAG4.1_description), " (", cells$gene, ")")
-      cells = cells[ , -which(names(cells) %in% c("gene","ITAG4.1_description"))]
-      ## Heatmap Annotations
-      column_ha = HeatmapAnnotation(tissue = as.factor(samples.stress$tissue), temperature = as.numeric(samples.stress$temperature), log.duration = log(as.numeric(samples.stress$stress.duration)),
-                                    genotype = samples.stress$genotype, col = list(tissue = c("anther" = "#CC79A7", "fruit" = "#D55E00", "leaf" = "#009E73", "pollen" = "#F0E442", "seed" = "#E69F00", "seedling" = "#56B4E9", "ovaries"="pink")))
-      row_ha = rowAnnotation(hsf_binding = genes_matched, has_PrD = prd_matches,
-                             col = list(hsf_binding = c("TRUE" = "black", "FALSE" = "white"), has_PrD = c("TRUE" = "black", "FALSE" = "white")))
-      
-      pdf(paste0("output/plots/1.4_core_response_",stress.type,"_",direction,".lfs.pdf"), 17, 15)
-      draw(Heatmap(as.matrix(cells), col = colorRamp2(c(-10, 0, 10), c("blue", "white", "red")),
-                   bottom_annotation = column_ha, left_annotation = row_ha, row_names_max_width = max_text_width(rownames(cells), gp = gpar(fontsize = 11)), row_names_gp = grid::gpar(fontsize = 11)),
-           heatmap_legend_side="bottom", annotation_legend_side = 'bottom')
-      dev.off()
-      
-    }
   }
 }
+
+# Make a heatmap of HS core genes across all the samples
+cells = diffexp[row.names(diffexp) %in% c(core.genes[["upregulated"]][["heat"]], core.genes[["downregulated"]][["heat"]]),
+                       grep("_logFC", names(diffexp))]
+names(cells) = str_remove(names(cells), "_logFC")
+row.split = ifelse(row.names(cells) %in% core.genes[["upregulated"]][["heat"]], "up", "down")
+col.split = unique(samples.annotation[samples.annotation$sample.group %in% names(cells), c("stress_type", "sample.group")])$stress_type
+
+# HSF binding sites
+fimo_matches = str_remove(read.csv("../data/fimo_hsfs_matches.tsv", sep="\t")$sequence_name, "\\([+-]\\)")
+genes_matched = str_remove(row.names(cells), "\\.[0-9]+$") %in% fimo_matches
+
+cells$gene = str_split_fixed(row.names(cells), "\\.", 2)[,1]
+cells = merge(cells, internal.names, sort=F, by.x="row.names", by.y="target")
+cells = merge(cells, unique(protein.descriptions[c("gene", "ITAG4.1_description")]), all.y=F, sort=F)
+row.names(cells) = paste0(cells$internal.name, " (", gsub(" \\(AHRD.*\\)", "", cells$ITAG4.1_description), ")")
+cells = cells[ , -which(names(cells) %in% c("Row.names","internal.name", "gene", "ITAG4.1_description"))]
+
+column_data = unique(samples.annotation[c("sample.group", "tissue", "temperature", "stress.duration", "genotype.name")])
+column_ha = HeatmapAnnotation(tissue = as.factor(column_data$tissue), temperature = as.numeric(column_data$temperature), log.duration = log(as.numeric(column_data$stress.duration)),
+                              genotype = column_data$genotype, col = list(tissue = c("anther" = "#CC79A7", "fruit" = "#D55E00", "leaf" = "#009E73", "pollen" = "#F0E442", "seed" = "#E69F00", "seedling" = "#56B4E9", "ovaries"="pink", "root"="brown")))
+row_ha = rowAnnotation(hsf_binding = genes_matched, col = list(hsf_binding = c("TRUE" = "grey90", "FALSE" = "white")))
+
+pdf("output/plots/1.4_core_response_heatmap.lfs.pdf", 17, 16)
+draw(Heatmap(as.matrix(cells), col = colorRamp2(c(-10, 0, 10), c("blue", "white", "red")),
+             row_names_max_width = max_text_width(rownames(cells), gp = gpar(fontsize = 11)), row_names_gp = grid::gpar(fontsize = 11),
+             row_split = row.split, column_split = col.split, bottom_annotation = column_ha, left_annotation = row_ha),
+     heatmap_legend_side="bottom", annotation_legend_side = 'bottom')
+dev.off()
+
 # Save the IDs of all the core response genes
 core.genes.out = data.frame(stress.type=character(), direction=character(), target.id=character())
 for(direction in names(core.genes)) {
