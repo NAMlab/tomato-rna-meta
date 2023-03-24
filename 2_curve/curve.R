@@ -107,59 +107,70 @@ pdf("output/curves.pdf", 6.5, 5)
 par(mfrow=c(2,2), family="serif", cex=0.6)
 
 # N Genes Plots
-par(mar=c(2,3,0,0))
+par(mar=c(2,3,0,0.5))
 plot(plt$n.genes.mean ~ plt$n.contrasts, type="n", ylim=c(0, 4), axes=F)
-axis(side = 1, las=1, lwd=0, lwd.ticks = 1, labels=F)
-axis(side = 2, las=1, lwd=0, lwd.ticks = 1, at = 0:4, labels=c(1,10,100,"1k","10k"))
-text(max(plt$n.contrasts), 3.6, "Number of selected genes \nby number of contrasts (50 simulations)", pos=2, cex=1.2)
+axis(side = 1, las=1, col=F, col.axis="gray52")
+axis(side = 2, las=1, at = 0:4, labels=c(1,10,100,"1k","10k"), col=F, col.axis="gray52")
+text(max(plt$n.contrasts), 3.6, "number of selected genes \nby number of contrasts (50 simulations)", pos=2, cex=1.1)
 for(stress in c("heat", "drought", "salt")) {
   d = plt[plt$stress == stress,]
   polygon(c(d$n.contrasts,rev(d$n.contrasts)),c(d$n.genes.upper,rev(d$n.genes.lower)),col = rgb(0.9,0.9,0.9,0.5), border = FALSE)
   lines(d$n.genes.mean, type="l", col=stress.cols[[stress]])
+  mtext("|", side=2, at=min(d$n.genes.mean), col=stress.cols[[stress]], cex=0.5)
 }
+text(12.5, log(240, 10), "salt", col=stress.cols[["salt"]])
+text(20, log(20, 10), "drought", col=stress.cols[["drought"]])
+text(25.3, log(100, 10), "heat", col=stress.cols[["heat"]])
 
-par(mar=c(2,1,0,0))
+par(mar=c(2,1.5,0,0.2))
 plot(plt.p$n.genes.mean ~ plt.p$p.val, type="n", axes=F, ylim=c(0, 4))
-axis(side = 1, las=1, lwd=0, lwd.ticks = 1, labels=F)
-axis(side = 2, las=1, lwd=0, lwd.ticks = 1, labels=F)
-text(max(plt.p$p.val), 3.6, "Number of selected genes \nby p-value cutoff", pos=2, cex=1.2)
+axis(side = 1, las=1, col=F, col.axis="gray52", at = seq(0,100,20), labels=paste0("1e-", seq(0,100,20)))
+axis(side = 2, las=1, at = 0:4, labels=c(1,10,100,"1k","10k"), col=F, col.axis="gray52")
+text(max(plt.p$p.val), 3.6, "number of selected genes \nby p-value cutoff", pos=2, cex=1.1)
 for(stress in c("heat", "drought", "salt")) {
   d = plt.p[plt.p$stress == stress,]
   polygon(c(d$p.val,rev(d$p.val)),c(d$n.genes.upper,rev(d$n.genes.lower)),col = rgb(0.9,0.9,0.9,0.5), border = FALSE)
   lines(d$n.genes.mean ~ d$p.val, type="l", col=stress.cols[[stress]])
+  mtext("|", side=2, at=min(d$n.genes.mean), col=stress.cols[[stress]], cex=0.5)
 }
 
 # % Annotated plots
-par(mar=c(2,3,1,0))
+par(mar=c(2,3,1,0.5))
 plot(plt$tp.mean ~ plt$n.contrasts, type="n", ylim=c(0, 50), axes=F)
-axis(side = 1, las=1, lwd=0, lwd.ticks = 1)
-axis(side = 2, las=1, lwd=0, lwd.ticks = 1, at=seq(0,50,10), labels=paste0(seq(0,50,10), "%"))
+axis(side = 1, las=1, col=F, col.axis="gray52")
+axis(side = 2, las=1, col=F, col.axis="gray52", at=seq(0,50,10), labels=paste0(seq(0,50,10), "%"))
+text(0.5, 46, "proportion of correctly/incorrectly annotated genes \nby number of contrasts (50 simulations)", pos=4, cex=1.1)
+segments(11.8, 47, 16.8, lty=2)
 for(stress in c("heat", "drought", "salt")) {
   d = plt[plt$stress == stress,]
   # True positives
   polygon(c(d$n.contrasts,rev(d$n.contrasts)),c(d$tp.upper,rev(d$tp.lower)),col = rgb(0.9,0.9,0.9,0.5), border = FALSE)
   lines(d$tp.mean, type="l", col=stress.cols[[stress]])
+  mtext("|", side=2, at=max(d$tp.mean), col=stress.cols[[stress]], cex=0.5)
   
   # False positives
   polygon(c(d$n.contrasts,rev(d$n.contrasts)),c(d$fp.upper,rev(d$fp.lower)),col = rgb(0.9,0.9,0.9,0.5), border = FALSE)
   lines(d$fp.mean, type="l", col=stress.cols[[stress]], lty=2)
 }
 
-par(mar=c(2,1,1,0))
+par(mar=c(2,1.5,1,0.2))
 plot(plt.p$tp.mean ~ plt.p$p.val, type="n", ylim=c(0, 50), axes=F)
-axis(side = 1, las=1, lwd=0, lwd.ticks = 1, at = seq(0,100,20), labels=paste0("1e-", seq(0,100,20)))
-axis(side = 2, las=1, lwd=0, lwd.ticks = 1, labels=F)
+axis(side = 1, las=1, col=F, col.axis="gray52", at = seq(0,100,20), labels=paste0("1e-", seq(0,100,20)))
+axis(side = 2, las=1, col=F, col.axis="gray52", at=seq(0,50,10), labels=paste0(seq(0,50,10), "%"))
 #axis(side = 1, las=1, lwd=0, lwd.ticks = 1, at = seq(0,100,20), labels=as.expression(sapply(seq(0,100,20), FUN=function(x) {bquote(1 ^- .(x))} )))
 for(stress in c("heat", "drought", "salt")) {
   d = plt.p[plt.p$stress == stress,]
   # True positives
   polygon(c(d$p.val,rev(d$p.val)),c(d$tp.upper,rev(d$tp.lower)),col = rgb(0.9,0.9,0.9,0.5), border = FALSE)
   lines(d$tp.mean ~ d$p.val, type="l", col=stress.cols[[stress]])
+  mtext("|", side=2, at=max(d$tp.mean), col=stress.cols[[stress]], cex=0.5)
   
   # False positives
   polygon(c(d$p.val,rev(d$p.val)),c(d$fp.upper,rev(d$fp.lower)),col = rgb(0.9,0.9,0.9,0.5), border = FALSE)
   lines(d$fp.mean ~ d$p.val, type="l", col=stress.cols[[stress]], lty=2)
 }
+text(0.5, 46, "proportion of correctly/incorrectly annotated genes \nby p-value cutoff", pos=4, cex=1.1)
+segments(39, 47, 55, lty=2)
 
 dev.off()
 
