@@ -1,0 +1,84 @@
+digraph G {
+    fontname="Lato,Helvetica,Arial,sans-serif";
+    node [fontname="Lato,Helvetica,Arial,sans-serif"]
+	edge [fontname="Lato,Helvetica,Arial,sans-serif"]
+    
+    subgraph cluster_0 {
+		style=filled;
+		color=lightgrey;
+		node [style=filled,color=white,shape=cylinder];
+		d1 [label="Heat Data"];
+        d2 [label="Drought Data"];
+        d3 [label="Salt Data"];
+		label = "NCBI SRA";
+	}
+	
+	subgraph cluster_1 {
+		style=filled;
+		color=lightgrey;
+		node [style=filled,color=white,shape=cylinder];
+		d4 [label="ITAG 4.1 CDS"];
+		label = "Solgenomics";
+	}
+	
+	subgraph cluster_2 {
+		style=filled;
+		color=lightblue;
+		node [style=filled,color=white,shape=component];
+		edge [penwidth=0,arrowsize=0]
+		f1 [label="2A"];
+		f2 [label="2B"];
+		f3 [label="3"];
+		f4 [label="4"];
+		f5 [label="5"];
+		f1 -> f2 -> f3 -> f4 -> f5;
+		label = "Figures";
+	}
+	
+	subgraph cluster_3 {
+		style=filled;
+		color=lightgrey;
+		node [style=filled,color=white,shape=cylinder];
+		d5 [label="Heat Stress QTLs"];
+		label = "Literature";
+	}
+	
+	subgraph cluster_4 {
+		style=filled;
+		color=lightgrey;
+		node [style=filled,color=white,shape=cylinder];
+		d6 [label="Orthologs"];
+		label = "OMA Database";
+	}
+
+    
+    p1 [shape=none,label="Annotate and Filter"];
+    p2 [shape=none,label="Quantify Transcript Abundance"];
+    p3 [shape=none,label="Calculate Differential Expression"];
+    p4 [shape=none,label="Select Diffexp Genes in Any Contrast"];
+    p5 [shape=none,label="Select Core Genes"];
+    p6 [shape=none,label="Find Oldest Ortholog"];
+    
+    d1 -> p1;
+	d2 -> p1;
+	d3 -> p1;
+	
+	d4 -> p2;
+	p1 -> p2;
+	p2 -> f1;
+	
+	p2 -> p3;
+	p3 -> f2;
+	
+	p3 -> p4;
+	p4 -> f3;
+	
+	p3 -> p5;
+	p5 -> f4;
+	d5 -> f4;
+	
+	p5 -> p6;
+	p6 -> f5;
+	d6 -> f5;
+	
+}
