@@ -3,6 +3,19 @@ digraph G {
     node [fontname="Lato,Helvetica,Arial,sans-serif"]
 	edge [fontname="Lato,Helvetica,Arial,sans-serif"]
     
+    subgraph cluster_hypo {
+        label = "Hypotheses"
+        style=filled;
+        color=orange;
+        node [shape=rect,style=filled,color=white];
+        edge [penwidth=0,arrowsize=0];
+        h1 [label="HS Response dominated by \n HSPs + Fat & Redox Genes"];
+        h2 [label="HS Response ≠ \nDrought or Salt Response"];
+        h3 [label="HS Response Genes lie \n in Known QTLs"];
+        h4 [label="HS Response is Ancient \n and Conserved"];
+        h1 -> h2 -> h3 -> h4;
+    }
+    
     subgraph cluster_0 {
 		style=filled;
 		color=lightgrey;
@@ -79,6 +92,13 @@ digraph G {
 	
 	p5 -> p6;
 	p6 -> f5;
-	d6 -> f5;
+	d6 -> p6;
+	
+	h1 -> f3;
+	h1 -> f4;
+	h2 -> f3;
+	h2 -> f4;
+	h3 -> f4;
+	h4 -> f5;
 	
 }
