@@ -2,6 +2,9 @@ library(stringr)
 library(htmlwidgets)
 library(plotly)
 library(ggfortify)
+library(gridExtra)
+
+source("../config.R")
 
 samples.annotation = read.csv("input/samples_annotation.csv")
 samples.annotation[samples.annotation$sra_run_id == "",]$sra_run_id = samples.annotation[samples.annotation$sra_run_id == "",]$sample.name
@@ -9,29 +12,14 @@ samples.annotation[samples.annotation$sra_run_id == "",]$sra_run_id = samples.an
 abundance = read.csv("input/combined_abundance.tsv.gz", sep="\t", check.names=F)
 row.names(abundance) = abundance$target_id
 
-plot_and_save_pca <- function(pca_res, point.annotations, outfile_name) {
+plot_and_save_pca <- function(pca_res, point.annotations, outfile_name, x = 1, y = 2) {
   scores = as.data.frame(pca_res$x)
   
   ## 2D
   pdf(paste0("output/plots/", outfile_name, ".pdf"))
-  print(autoplot(pca_res, data = point.annotations, colour='tissue', shape='stress_type'))
+  print(autoplot(pca_res, data = point.annotations, colour='tissue', shape='stress_type', x = x, y = y) +
+          scale_color_manual(values = colors[["tissue"]]) + theme_minimal())
   dev.off()
-  
-  ## 3D
-  fig <- plot_ly(scores, x = ~PC1, y = ~PC2, z = ~PC3,
-                 text=paste0(point.annotations$sample, "\n",
-                             "Sample Group: ", point.annotations$sample.group, "\n",
-                             "Temperature: ", point.annotations$temperature, "\n",
-                             "Duration: ", point.annotations$stress.duration, "\n",
-                             "Genotype: ", point.annotations$genotype.name, "\n"
-                 ), 
-                 hoverinfo="text", mode="markers", type="scatter3d", color = as.factor(point.annotations$tissue)) %>%
-    layout(scene = list(xaxis = list(title = paste0('PC1 (',summary(pca_res)$importance[2,1]*100,"%)")),
-                        yaxis = list(title = paste0('PC2 (',summary(pca_res)$importance[2,2]*100,"%)")),
-                        zaxis = list(title = paste0('PC3 (',summary(pca_res)$importance[2,3]*100,"%)"))))
-  saveWidget(fig, paste0("output/plots/",outfile_name,".html"), selfcontained = F, libdir = "lib")
-  
-  rm(pca_res, scores, point.annotations)
 }
 
 ### ----- log(TPMs) -----
@@ -47,7 +35,8 @@ scores = as.data.frame(pca_res$x)
 point.annotations = data.frame(sample = row.names(scores))
 point.annotations = merge(point.annotations, samples.annotation, by.x = "sample", by.y="sra_run_id", all.x=T)
 
-plot_and_save_pca(pca_res, point.annotations, "1.2_log_tpms_PCA")
+plot.log.tpm <- autoplot(pca_res, data = point.annotations, colour='tissue', shape='stress_type', x = 1, y = 2) +
+  scale_color_manual(values = colors[["tissue"]]) + ggtitle("PCA of logTPMs") + theme_minimal()+ theme(legend.position = "none")
 
 rm(abundance, scores, pca_res, log.tpms, point.annotations)
 
@@ -66,7 +55,13 @@ samples.annotation$sample.group = str_replace_all(samples.annotation$sample.grou
 samples.annotation = unique(samples.annotation[c("genotype.name", "tissue", "stress.duration", "temperature", "sample.group", "stress_type")])
 point.annotations = merge(point.annotations, samples.annotation, by.x = "sample", by.y="sample.group", all.x=T, all.y=F)
 
-plot_and_save_pca(pca_res, point.annotations, "1.2_FC_PCA")
+plot.fcs <- autoplot(pca_res, data = point.annotations, colour='tissue', shape='stress_type', x = 1, y = 2) +
+  scale_color_manual(values = colors[["tissue"]]) + ggtitle("PCA of log Fold Changes") + theme_minimal()
+
+pdf("output/plots/1.2_PCA.pdf", 14, 8.5)
+print(grid.arrange(plot.log.tpm, plot.fcs, ncol = 2))
+dev.off()
+
 
 ## Finally, OPLS-DA
 # Finally, we want to see if we can split the contrasts according to stress types, tissues etc.
