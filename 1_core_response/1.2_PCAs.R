@@ -38,6 +38,23 @@ point.annotations = merge(point.annotations, samples.annotation, by.x = "sample"
 plot.log.tpm <- autoplot(pca_res, data = point.annotations, colour='tissue', shape='stress_type', x = 1, y = 2) +
   scale_color_manual(values = colors[["tissue"]]) + ggtitle("PCA of logTPMs") + theme_minimal()+ theme(legend.position = "none")
 
+pdf("output/plots/1.2_supplement_PCA_all_logTPMs.lfs.pdf", 14, 8.5)
+for(i in seq(3, 337, 2)) {
+  message(i)
+  print(autoplot(pca_res, data = point.annotations, colour='tissue', shape='stress_type', x = i, y = i+1) +
+          scale_color_manual(values = colors[["tissue"]]) + ggtitle("PCA of logTPMs") + theme_minimal())
+}
+dev.off()
+
+library(ape)
+pdf("output/plots/1.2_supplement_clustering_all_logTPMs.pdf", 15, 60)
+sa = samples.annotation[order(samples.annotation$sra_run_id),]
+sa$color <- colors[["tissue"]][match(sa$tissue, names(colors[["tissue"]]))]
+tree = hclust(d = dist(x = log.tpms, method = "euclidean"))
+tree.phylo = as.phylo(tree)
+plot(tree.phylo)
+dev.off()
+
 rm(abundance, scores, pca_res, log.tpms, point.annotations)
 
 #### ---- fold-changes -------
