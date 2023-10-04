@@ -36,16 +36,22 @@ n.diffexp.genes = merge(n.diffexp.genes, unique(samples.annotation[c("sample.gro
 n.diffexp.genes = n.diffexp.genes[order(n.diffexp.genes$temperature, n.diffexp.genes$stress.duration, decreasing = TRUE),]
 n.diffexp.genes$col = colors[["tissue"]][match(n.diffexp.genes$tissue, names(colors[["tissue"]]))]
 
+# Add info about number of significantly enriched GO terms
+GO.info = as.data.frame(t(sapply(n.diffexp.genes$contrast, FUN=function(a) {
+  up = read.csv(paste0("output/individual_contrasts_supplement/",a,"/GO_upregulated.csv"))
+  down = read.csv(paste0("output/individual_contrasts_supplement/",a,"/GO_downregulated.csv"))
+  c(GO.up = nrow(up[up$q_value <= 0.05,]), GO.down = nrow(down[down$q_value <= 0.05,]))
+})))
+n.diffexp.genes = cbind(n.diffexp.genes, GO.info)
+
 color_segments <- function(df, x.coords, print.text = F) {
   df[is.na(df$temperature),]$temperature <- "?"
   current.tmp = df[1,]$temperature
   x.start <- 0
   for(row in 1:nrow(df)) {
-    print(df[row,]$contrast)
-    print(paste(df[row,]$temperature, current.tmp))
     if(df[row,]$temperature != current.tmp) {
       if(print.text) {
-        mtext(paste0(current.tmp, "°C"), at = mean(c(x.start, x.coords[row])), adj=1, cex=0.3)
+        mtext(paste0(current.tmp, "°C"), at = mean(c(x.start, x.coords[row])), adj=1, cex=0.4)
       }
       current.tmp = df[row,]$temperature
       abline(v = x.coords[row] - 0.6)
@@ -54,18 +60,36 @@ color_segments <- function(df, x.coords, print.text = F) {
   }
 }
 
-pdf("output/plots/1.X_barplots.pdf", 4, 3)
-par(mfrow=c(2,1), mar=c(0.5,4,2,1), cex=0.4)
-bp.x.coords <- barplot(n.diffexp.genes$up, axes=F, col=n.diffexp.genes$col, border = "white")
+pdf("output/plots/1.X_barplots.pdf", 4, 6)
+par(mfrow=c(4,1), mar=c(0.5,4,2,1), cex=0.4, family="serif")
+bp.x.coords <- barplot(n.diffexp.genes$up, axes=F, col=n.diffexp.genes$col, border = "white", ylab = "upregulated")
 color_segments(n.diffexp.genes, bp.x.coords, T)
-axis(1, at=bp.x.coords, labels = n.diffexp.genes$contrast, las=2, lwd = 0)
-axis(2, las=2)
+axis(2, las=2, lwd=0, line=-1.5)
 #polygon(x=c(0,0,bp.x.coords[7] + 0.6, bp.x.coords[7] + 0.6), y=c(-7000,max(n.diffexp.genes$up),max(n.diffexp.genes$up),-7000), col="#0000FF22", border=F, xpd=T)
 #polygon(x=c(bp.x.coords[11] - 0.6, bp.x.coords[11] - 0.6, bp.x.coords[12] + 0.6, bp.x.coords[12] + 0.6), y=c(-7000,max(n.diffexp.genes$up),max(n.diffexp.genes$up),-7000), col="#0000FF22", border=F, xpd=T)
 par(mar=c(2,4,0,1))
-barplot(-n.diffexp.genes$down, axes=F, col=n.diffexp.genes$col, border="white")
+barplot(-n.diffexp.genes$down, axes=F, col=n.diffexp.genes$col, border="white", ylab = "downregulated")
+axis(1, at=bp.x.coords, labels = n.diffexp.genes$contrast, las=2, lwd = 0)
 color_segments(n.diffexp.genes, bp.x.coords)
 #polygon(x=c(0,0,bp.x.coords[7] + 0.6, bp.x.coords[7] + 0.6), y=c(-7000,max(n.diffexp.genes$up),max(n.diffexp.genes$up),-7000), col="#0000FF22", border=F, xpd=T)
-axis(2, las=2)
+axis(2, las=2, lwd=0, line=-1.5)
+
+par(mar=c(0.5,4,2,1))
+barplot(n.diffexp.genes$GO.up, axes=F, col=n.diffexp.genes$col, border = "white", ylim=c(0, 1800), ylab = "upregulated")
+color_segments(n.diffexp.genes, bp.x.coords)
+axis(2, las=2, lwd=0, line=-1.5)
+par(mar=c(2,4,0,1))
+barplot(-n.diffexp.genes$GO.down, axes=F, col=n.diffexp.genes$col, border="white", ylim=c(-1700, 0), ylab = "downregulated")
+color_segments(n.diffexp.genes, bp.x.coords)
+axis(2, las=2, lwd=0, line=-1.5)
 dev.off()
 
+pdf("output/plots/1.X_non_barplots.pdf", 4, 3)
+par(cex = 0.5, mar=c(0.5,4,2,1), family="serif")
+plot(n.diffexp.genes$up, col=n.diffexp.genes$col, pch=0, ylab = "differentially expressed genes", cex=2, axes=F)
+points(n.diffexp.genes$down, col=n.diffexp.genes$col, pch=1, cex=2)
+axis(2, las=2, lwd=0, line=0, lwd.ticks = 0.5)
+color_segments(n.diffexp.genes, 1:28, T)
+polygon(x=c(1,1:28, 28), y=c(0, n.diffexp.genes$stress.duration+2000, 0), col="#00000011", border=F)
+#polygon(x=c(bp.x.coords[11] - 0.6, bp.x.coords[11] - 0.6, bp.x.coords[12] + 0.6, bp.x.coords[12] + 0.6), y=c(-7000,max(n.diffexp.genes$up),max(n.diffexp.genes$up),-7000), col="#0000FF22", border=F, xpd=T)
+dev.off()
