@@ -15,7 +15,7 @@ for(trt.group in unique(samples.annotation$sample.group)) {
   ctrl.group = unique(samples.annotation[samples.annotation$sample.group == trt.group,]$respective_control)
   if(length(ctrl.group) > 1)
     stop(paste0("Multiple different control groups for sample group ", trt.group))
-  if(ctrl.group == "") {
+  if(ctrl.group == "" || ctrl.group == "X") {
     print("This is a control group (skip)")
     next
   }
