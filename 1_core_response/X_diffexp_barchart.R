@@ -61,7 +61,9 @@ color_segments <- function(df, x.coords, print.text = F) {
 }
 # n.diffexp.genes[is.na(n.diffexp.genes$stress.duration),]$stress.duration = "?"
 
-pdf("output/plots/1.X_barplots.pdf", 5, 6)
+used.tissues = colors[["tissue"]][names(colors[["tissue"]]) %in% n.diffexp.genes$tissue]
+
+cairo_pdf("output/plots/1.X_barplots.pdf", 5, 6) # to get short hyphens in the axis labels
 par(mfrow=c(4,1), mar=c(1,4,2,1), cex=0.4, family="serif")
 bp.x.coords <- barplot(n.diffexp.genes$up, axes=F, col=n.diffexp.genes$col, border = "white", ylab = "upregulated", xlab="stress duration[h]")
 color_segments(n.diffexp.genes, bp.x.coords, T)
@@ -69,9 +71,11 @@ axis(2, las=2, lwd=0, line=-1.5)
 axis(1, las=2, lwd=0, labels = n.diffexp.genes$stress.duration, at=bp.x.coords, line=-0.75)
 mtext("stress duration [h]", side=1, at=max(bp.x.coords), adj=1, xpd=T, cex=0.4, line=0.5)
 mtext("DEGs", side=2, at = -500, xpd=T, cex=0.7, line=2)
+legend("topleft", inset=.03, title="Tissue",
+       names(used.tissues), border=used.tissues, fill=used.tissues, box.lty=0, cex=1.2)
 par(mar=c(2,4,1,1))
 barplot(-n.diffexp.genes$down, axes=F, col=n.diffexp.genes$col, border="white", ylab = "downregulated")
-axis(1, at=bp.x.coords, labels=n.diffexp.genes$contrast, las=2, lwd = 0)
+axis(1, at=bp.x.coords, labels=str_replace_all(n.diffexp.genes$contrast, "\\.", "-"), las=2, lwd = 0)
 color_segments(n.diffexp.genes, bp.x.coords)
 axis(2, las=2, lwd=0, line=-1.5, at=seq(-0,-7000,-1000), labels=seq(0, 7000, 1000))
 

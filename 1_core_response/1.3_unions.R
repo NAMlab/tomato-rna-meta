@@ -74,12 +74,18 @@ for(direction in c("upregulated", "downregulated")) {
   }
 }
 
+# Prettify names
+unlisted.genes = unlist(union.genes, recursive=F)
+names(unlisted.genes) = c("Heat (up)", "Drought (up)", "Salt (up)", "Heat (down)", "Drought (down)", "Salt (down)")
+unlisted.GOs = unlist(union.GOs, recursive=F)
+names(unlisted.GOs) = c("Heat (up)", "Drought (up)", "Salt (up)", "Heat (down)", "Drought (down)", "Salt (down)")
+
 # Make Upset Plots for genes and GO terms
-pdf("output/plots/1.3_union_upsets.pdf", 9, 7)
-print(upset(fromList(unlist(union.genes, recursive=F)), order.by = "freq", nsets=6))
-grid.text("Overlapping Genes",x = 0.65, y=0.95, gp=gpar(fontsize=16))
-print(upset(fromList(unlist(union.GOs, recursive=F)), order.by = "freq", nsets=6))
-grid.text("Overlapping Gene Ontology Terms (BP)",x = 0.65, y=0.95, gp=gpar(fontsize=16))
+pdf("output/plots/1.3_union_upsets.pdf", 5, 3)
+print(upset(fromList(unlisted.genes), order.by = "freq", nsets=6, point.size=1.5, nintersects = 24, text.scale = 0.7))
+grid.text("Overlapping Genes",x = 0.65, y=0.95, gp=gpar(fontsize=12))
+print(upset(fromList(unlisted.GOs), order.by = "freq", nsets=6, point.size=1.5, nintersects = 24, text.scale = 0.7))
+grid.text("Overlapping Gene\n Ontology Terms",x = 0.65, y=0.9, gp=gpar(fontsize=12))
 dev.off()
 
 # @TODO output lists of which genes & GO terms are shared/unique for each stress type
