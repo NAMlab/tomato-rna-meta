@@ -64,7 +64,7 @@ genes_matched = str_remove(row.names(cells), "\\.[0-9]+$") %in% fimo_matches
 cells$gene = str_split_fixed(row.names(cells), "\\.", 2)[,1]
 cells = merge(cells, internal.names, sort=F, by.x="row.names", by.y="target")
 cells = merge(cells, unique(protein.descriptions[c("gene", "ITAG4.1_description")]), all.y=F, sort=F)
-row.names(cells) = paste0(cells$internal.name, " (", gsub(" \\(AHRD.*\\)", "", cells$ITAG4.1_description), ")")
+row.names(cells) = cells$internal.name
 cells = cells[ , -which(names(cells) %in% c("Row.names","internal.name", "gene", "ITAG4.1_description"))]
 
 column_data = unique(samples.annotation[c("sample.group", "tissue", "temperature", "stress.duration", "genotype.name")])
@@ -72,11 +72,13 @@ column_ha = HeatmapAnnotation(tissue = as.factor(column_data$tissue), temperatur
                               genotype = column_data$genotype, col = list(tissue = c("anther" = "#CC79A7", "fruit" = "#D55E00", "leaf" = "#009E73", "pollen" = "#F0E442", "seed" = "#E69F00", "seedling" = "#56B4E9", "ovaries"="pink", "root"="brown")))
 row_ha = rowAnnotation(hsf_binding = genes_matched, col = list(hsf_binding = c("TRUE" = "grey90", "FALSE" = "white")))
 
-pdf("output/plots/1.4_core_response_heatmap.lfs.pdf", 17, 16)
+names(cells) = str_replace_all(names(cells), "\\.", "-")
+cairo_pdf("output/plots/1.4_core_response_heatmap.lfs.pdf", 17, 11)
 draw(Heatmap(as.matrix(cells), col = colorRamp2(c(-10, 0, 10), c("blue", "white", "red")),
              row_names_max_width = max_text_width(rownames(cells), gp = gpar(fontsize = 11)), row_names_gp = grid::gpar(fontsize = 11),
-             row_split = row.split, column_split = col.split, bottom_annotation = column_ha, left_annotation = row_ha),
-     heatmap_legend_side="bottom", annotation_legend_side = 'bottom')
+             row_split = row.split, column_split = col.split, bottom_annotation = column_ha, left_annotation = row_ha,
+             heatmap_legend_param = list(title = "logFC")),
+     heatmap_legend_side="right", annotation_legend_side = 'right')
 dev.off()
 
 # Save the IDs of all the core response genes
@@ -90,11 +92,18 @@ names(core.genes.out) = c("stress.type", "direction", "target.id")
 write.csv(core.genes.out, "output/1.4_core_response_genes.csv", row.names=F, quote=F)
 
 # Make Venn Diagrams for genes and GO terms
-pdf("output/plots/1.4_core_response_upsets.pdf", 9, 7)
-print(upset(fromList(unlist(core.genes, recursive=F)), order.by = "freq", nsets=6))
-grid.text("Overlapping Genes",x = 0.65, y=0.95, gp=gpar(fontsize=16))
-print(upset(fromList(unlist(core.GOs, recursive=F)), order.by = "freq", nsets=6))
-grid.text("Overlapping Gene Ontology Terms (BP)",x = 0.65, y=0.95, gp=gpar(fontsize=16))
+
+# Prettify names
+unlisted.genes = unlist(core.genes, recursive=F)
+names(unlisted.genes) = c("Heat (up)", "Drought (up)", "Salt (up)", "Heat (down)", "Drought (down)", "Salt (down)")
+unlisted.GOs = unlist(core.GOs, recursive=F)
+names(unlisted.GOs) = c("Heat (up)", "Drought (up)", "Salt (up)", "Heat (down)", "Drought (down)", "Salt (down)")
+
+pdf("output/plots/1.4_core_response_upsets.pdf", 5, 3)
+print(upset(fromList(unlisted.genes), order.by = "freq", nsets=6, point.size=1.5, nintersects = 24, text.scale = 0.7))
+grid.text("Overlapping Genes",x = 0.65, y=0.95, gp=gpar(fontsize=12))
+print(upset(fromList(unlisted.GOs), order.by = "freq", nsets=6, point.size=1.5, nintersects = 24, text.scale = 0.7))
+grid.text("Overlapping Gene\n Ontology Terms",x = 0.65, y=0.9, gp=gpar(fontsize=12))
 dev.off()
 
 # @TODO output lists of which genes & GO terms are shared/unique for each stress type
