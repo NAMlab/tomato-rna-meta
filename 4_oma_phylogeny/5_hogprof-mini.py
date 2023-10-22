@@ -7,13 +7,16 @@ import numpy as np
 import pandas as pd
 from datasketch import WeightedMinHashGenerator
 
+STREPTOPHYTA_ONLY = False
+
 # The oma-hogs.orthoXML is too big for this repo, you can download the latest versions of both files from https://omabrowser.org/oma/current/
 pyham_analysis = pyham.Ham("input/speciestree.nwk", "input/oma-hogs.orthoXML", tree_format="newick", use_internal_name=True, species_resolve_mode="OMA")
 
 full_tree = pyham_analysis.taxonomy.tree
 taxa_index = {}
 # Search term here limits analysis to specific clade, e.g. Eukaryota or Streptophyta
-for i, n in enumerate(full_tree.search_nodes(name="Streptophyta")[0].traverse()):
+tree_traverser = enumerate(full_tree.search_nodes(name="Streptophyta")[0].traverse()) if STREPTOPHYTA_ONLY else enumerate(full_tree.traverse())
+for i, n in tree_traverser:
   # For some reason newick chars are replaced by "_" automatically in the tree
   # profile but not here, so we have to do it manually to avoid a key error later.
   name = n.name.replace("(", "_").replace(")", "_").replace(",", "_").replace(":", "_")
@@ -74,4 +77,5 @@ np.fill_diagonal(jaccard_matrix, 1)
 df_out = pd.DataFrame(jaccard_matrix, columns = df.target)
 df_out.insert(0, "target", list(df.target))
 
-df_out.to_csv("output/heat_hogprof_jaccard_matrix.csv", index=False)
+outfile_name = "output/heat_hogprof_jaccard_matrix.csv" if STREPTOPHYTA_ONLY else "output/heat_hogprof_jaccard_matrix_all_taxa.csv"
+df_out.to_csv(outfile_name, index=False)
