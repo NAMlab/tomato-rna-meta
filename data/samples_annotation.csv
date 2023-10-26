@@ -1,19 +1,19 @@
 sra_run_id,layout,fragment_length_average,fragment_length_sd,publication_id,datasource_id,species,genotype.name,genotype.accession,tissue,tissue.comment,stress_type,stress.duration,temperature,sample.name,sample.group,respective_control
-SRR11855648,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,none,0,25,m82_h_c_1,DS-6-0,
-SRR11855649,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,none,0,25,m82_h_c_2,DS-6-0,
-SRR11855650,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,none,0,25,m82_h_c_3,DS-6-0,
-SRR11855651,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,heat,2,42,m82_h_2h_1,DS-6-1,DS-6-0
-SRR11855652,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,heat,2,42,m82_h_2h_2,DS-6-1,DS-6-0
-SRR11855653,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,heat,2,42,m82_h_2h_3,DS-6-1,DS-6-0
-SRR11855654,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,heat,4,42,m82_h_4h_1,DS-6-2,DS-6-0
-SRR11855655,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,heat,4,42,m82_h_4h_2,DS-6-2,DS-6-0
-SRR11855656,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,heat,4,42,m82_h_4h_3,DS-6-2,DS-6-0
-SRR11855657,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,heat,12,42,m82_h_12h_1,DS-6-3,DS-6-0
-SRR11855658,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,heat,12,42,m82_h_12h_2,DS-6-3,DS-6-0
-SRR11855659,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,heat,12,42,m82_h_12h_3,DS-6-3,DS-6-0
-SRR11855660,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,heat,24,42,m82_h_24h_1,DS-6-4,DS-6-0
-SRR11855661,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,heat,24,42,m82_h_24h_2,DS-6-4,DS-6-0
-SRR11855662,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,heat,24,42,m82_h_24h_3,DS-6-4,DS-6-0
+SRR11855648,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,none,0,25,m82_h_c_1,DS-6-1-0,
+SRR11855649,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,none,0,25,m82_h_c_2,DS-6-1-0,
+SRR11855650,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,none,0,25,m82_h_c_3,DS-6-1-0,
+SRR11855651,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,heat,2,42,m82_h_2h_1,DS-6-1-1,DS-6-1-0
+SRR11855652,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,heat,2,42,m82_h_2h_2,DS-6-1-1,DS-6-1-0
+SRR11855653,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,heat,2,42,m82_h_2h_3,DS-6-1-1,DS-6-1-0
+SRR11855654,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,heat,4,42,m82_h_4h_1,DS-6-1-2,DS-6-1-0
+SRR11855655,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,heat,4,42,m82_h_4h_2,DS-6-1-2,DS-6-1-0
+SRR11855656,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,heat,4,42,m82_h_4h_3,DS-6-1-2,DS-6-1-0
+SRR11855657,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,heat,12,42,m82_h_12h_1,DS-6-1-3,DS-6-1-0
+SRR11855658,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,heat,12,42,m82_h_12h_2,DS-6-1-3,DS-6-1-0
+SRR11855659,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,heat,12,42,m82_h_12h_3,DS-6-1-3,DS-6-1-0
+SRR11855660,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,heat,24,42,m82_h_24h_1,DS-6-1-4,DS-6-1-0
+SRR11855661,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,heat,24,42,m82_h_24h_2,DS-6-1-4,DS-6-1-0
+SRR11855662,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,heat,24,42,m82_h_24h_3,DS-6-1-4,DS-6-1-0
 SRR3420878,paired,,,p5,DS-21,Solanum lycopersicum,Moneymaker,,pollen,tetrad,none,0,24,mm_h_t_c_1,DS-21-1-0,
 SRR3420879,paired,,,p5,DS-21,Solanum lycopersicum,Moneymaker,,pollen,tetrad,none,0,24,mm_h_t_c_2,DS-21-1-0,
 SRR3420880,paired,,,p5,DS-21,Solanum lycopersicum,Moneymaker,,pollen,tetrad,heat,1,39,mm_h_t_1,DS-21-1,DS-21-1-0
@@ -141,24 +141,24 @@ SRR14575361,paired,,,p38,DS-20,Solanum lycopersicum,Micro tom,,leaf,,heat,96,42,
 ,paired,,,none (data from Robert),DS-11,Solanum lycopersicum,LA4024,LA4024,leaf,mature leaves,heat,,37,A61,DS-11-5-3,DS-11-5-0
 ,paired,,,none (data from Robert),DS-11,Solanum lycopersicum,LA4024,LA4024,leaf,mature leaves,heat,,37,A62,DS-11-5-3,DS-11-5-0
 ,paired,,,none (data from Robert),DS-11,Solanum lycopersicum,LA4024,LA4024,leaf,mature leaves,heat,,37,A64,DS-11-5-3,DS-11-5-0
-SRR11855627,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,none,0,,0h_ D_1,DS-6-0,
-SRR11855628,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,none,0,,0h_ D_2,DS-6-0,
-SRR11855629,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,none,0,,0h_ D_3,DS-6-0,
-SRR11855630,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,drought,24,,1d_D_1,DS-6-1,DS-6-0
-SRR11855631,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,drought,24,,1d_D_2,DS-6-1,DS-6-0
-SRR11855632,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,drought,24,,1d_D_3,DS-6-1,DS-6-0
-SRR11855633,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,drought,48,,2d_D_1,DS-6-2,DS-6-0
-SRR11855634,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,drought,48,,2d_D_2,DS-6-2,DS-6-0
-SRR11855635,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,drought,48,,2d_D_3,DS-6-2,DS-6-0
-SRR11855636,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,drought,72,,3d_D_1,DS-6-3,DS-6-0
-SRR11855637,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,drought,72,,3d_D_2,DS-6-3,DS-6-0
-SRR11855638,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,drought,72,,3d_D_3,DS-6-3,DS-6-0
-SRR11855639,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,drought,96,,4d_D_1,DS-6-4,DS-6-0
-SRR11855640,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,drought,96,,4d_D_2,DS-6-4,DS-6-0
-SRR11855641,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,drought,96,,4d_D_3,DS-6-4,DS-6-0
-SRR11855642,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,drought,120,,5d_D_1,DS-6-5,DS-6-0
-SRR11855643,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,drought,120,,5d_D_2,DS-6-5,DS-6-0
-SRR11855644,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,drought,120,,5d_D_3,DS-6-5,DS-6-0
+SRR11855627,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,none,0,,0h_ D_1,DS-6-2-0,
+SRR11855628,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,none,0,,0h_ D_2,DS-6-2-0,
+SRR11855629,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,none,0,,0h_ D_3,DS-6-2-0,
+SRR11855630,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,drought,24,,1d_D_1,DS-6-2-1,DS-6-2-0
+SRR11855631,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,drought,24,,1d_D_2,DS-6-2-1,DS-6-2-0
+SRR11855632,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,drought,24,,1d_D_3,DS-6-2-1,DS-6-2-0
+SRR11855633,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,drought,48,,2d_D_1,DS-6-2-2,DS-6-2-0
+SRR11855634,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,drought,48,,2d_D_2,DS-6-2-2,DS-6-2-0
+SRR11855635,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,drought,48,,2d_D_3,DS-6-2-2,DS-6-2-0
+SRR11855636,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,drought,72,,3d_D_1,DS-6-2-3,DS-6-2-0
+SRR11855637,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,drought,72,,3d_D_2,DS-6-2-3,DS-6-2-0
+SRR11855638,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,drought,72,,3d_D_3,DS-6-2-3,DS-6-2-0
+SRR11855639,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,drought,96,,4d_D_1,DS-6-2-4,DS-6-2-0
+SRR11855640,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,drought,96,,4d_D_2,DS-6-2-4,DS-6-2-0
+SRR11855641,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,drought,96,,4d_D_3,DS-6-2-4,DS-6-2-0
+SRR11855642,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,drought,120,,5d_D_1,DS-6-2-5,DS-6-2-0
+SRR11855643,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,drought,120,,5d_D_2,DS-6-2-5,DS-6-2-0
+SRR11855644,paired,,,p1,DS-6,Solanum lycopersicum,M82,,leaf,,drought,120,,5d_D_3,DS-6-2-5,DS-6-2-0
 SRR12467597,single,200,30,p21,DS-1,Solanum lycopersicum,,,leaf,vein,none,,,Vein_T1_Watered_1,DS-1-1-0,
 SRR12467598,single,200,30,p21,DS-1,Solanum lycopersicum,,,leaf,vein,none,,,Vein_T1_Watered_2,DS-1-1-0,
 SRR12467599,single,200,30,p21,DS-1,Solanum lycopersicum,,,leaf,vein,none,,,Vein_T1_Watered_3,DS-1-1-0,
@@ -171,14 +171,14 @@ SRR12467605,single,200,30,p21,DS-1,Solanum lycopersicum,,,leaf,intervein,none,,,
 SRR12467600,single,200,30,p21,DS-1,Solanum lycopersicum,,,leaf,intervein,drought,144,,Intervein_T1_Drought_1,DS-1-2-1,DS-1-2-0
 SRR12467601,single,200,30,p21,DS-1,Solanum lycopersicum,,,leaf,intervein,drought,144,,Intervein_T1_Drought_2,DS-1-2-1,DS-1-2-0
 SRR12467602,single,200,30,p21,DS-1,Solanum lycopersicum,,,leaf,intervein,drought,144,,Intervein_T1_Drought_3,DS-1-2-1,DS-1-2-0
-SRR11539290,paired,,,p22,DS-12,Solanum lycopersicum,Micro tom,,leaf,,none,0,,0h_ 1,DS-12-0,
-SRR11539291,paired,,,p22,DS-12,Solanum lycopersicum,Micro tom,,leaf,,none,0,,0h_ 2,DS-12-0,
-SRR11539292,paired,,,p22,DS-12,Solanum lycopersicum,Micro tom,,leaf,,none,0,,0h_ 3,DS-12-0,
-SRR11539293,paired,,,p22,DS-12,Solanum lycopersicum,Micro tom,,leaf,,drought,3,,3h_1,DS-12-1,DS-12-0
-SRR11539294,paired,,,p22,DS-12,Solanum lycopersicum,Micro tom,,leaf,,drought,3,,3h_2,DS-12-1,DS-12-0
-SRR11539296,paired,,,p22,DS-12,Solanum lycopersicum,Micro tom,,leaf,,drought,6,,6h_1,DS-12-2,DS-12-0
-SRR11539297,paired,,,p22,DS-12,Solanum lycopersicum,Micro tom,,leaf,,drought,6,,6h_2,DS-12-2,DS-12-0
-SRR11539298,paired,,,p22,DS-12,Solanum lycopersicum,Micro tom,,leaf,,drought,6,,6h_3,DS-12-2,DS-12-0
+SRR11539290,paired,,,p22,DS-12,Solanum lycopersicum,Micro tom,,leaf,,none,0,,0h_ 1,DS-12-1-0,
+SRR11539291,paired,,,p22,DS-12,Solanum lycopersicum,Micro tom,,leaf,,none,0,,0h_ 2,DS-12-1-0,
+SRR11539292,paired,,,p22,DS-12,Solanum lycopersicum,Micro tom,,leaf,,none,0,,0h_ 3,DS-12-1-0,
+SRR11539293,paired,,,p22,DS-12,Solanum lycopersicum,Micro tom,,leaf,,drought,3,,3h_1,DS-12-1-1,DS-12-1-0
+SRR11539294,paired,,,p22,DS-12,Solanum lycopersicum,Micro tom,,leaf,,drought,3,,3h_2,DS-12-1-1,DS-12-1-0
+SRR11539296,paired,,,p22,DS-12,Solanum lycopersicum,Micro tom,,leaf,,drought,6,,6h_1,DS-12-1-2,DS-12-1-0
+SRR11539297,paired,,,p22,DS-12,Solanum lycopersicum,Micro tom,,leaf,,drought,6,,6h_2,DS-12-1-2,DS-12-1-0
+SRR11539298,paired,,,p22,DS-12,Solanum lycopersicum,Micro tom,,leaf,,drought,6,,6h_3,DS-12-1-2,DS-12-1-0
 SRR7652567,paired,,,p26,DS-2,Solanum lycopersicum,Jinlingmeiyu,,leaf,,none,,,control_1,DS-2-0,
 SRR7652566,paired,,,p26,DS-2,Solanum lycopersicum,Jinlingmeiyu,,leaf,,none,,,control_2,DS-2-0,
 SRR7652565,paired,,,p26,DS-2,Solanum lycopersicum,Jinlingmeiyu,,leaf,,none,,,control_3,DS-2-0,
@@ -225,23 +225,23 @@ SRR12172682,paired,,,p30,DS-4,Solanum lycopersicum,Cervil,,leaf,,none,,,control_
 SRR12172681,paired,,,p30,DS-4,Solanum lycopersicum,Cervil,,fruit,,none,,,control_cervil_fruit,DS-4-8-2-0,
 SRR12172685,paired,,,p30,DS-4,Solanum lycopersicum,Cervil,,leaf,,drought,,,d_cervil_leaf,DS-4-8-1-1,DS-4-8-1-0
 SRR12172684,paired,,,p30,DS-4,Solanum lycopersicum,Cervil,,fruit,,drought,,,d_cervil_fruit,DS-4-8-2-1,DS-4-8-2-0
-SRR11517921,paired,,,p22,DS-12,Solanum lycopersicum,Micro tom,,leaf,,none,,,0h_ 1,DS-12-1-0,
-SRR11517922,paired,,,p22,DS-12,Solanum lycopersicum,Micro tom,,leaf,,none,,,0h_ 2,DS-12-1-0,
-SRR11517923,paired,,,p22,DS-12,Solanum lycopersicum,Micro tom,,leaf,,none,,,0h_ 3,DS-12-1-0,
-SRR11517924,paired,,,p22,DS-12,Solanum lycopersicum,Micro tom,,leaf,,salt,2,,2h_1,DS-12-1,DS-12-1-0
-SRR11517925,paired,,,p22,DS-12,Solanum lycopersicum,Micro tom,,leaf,,salt,2,,2h_2,DS-12-1,DS-12-1-0
-SRR11517926,paired,,,p22,DS-12,Solanum lycopersicum,Micro tom,,leaf,,salt,2,,2h_3,DS-12-1,DS-12-1-0
-SRR11517927,paired,,,p22,DS-12,Solanum lycopersicum,Micro tom,,leaf,,salt,8,,8h_1,DS-12-2,DS-12-1-0
-SRR11517928,paired,,,p22,DS-12,Solanum lycopersicum,Micro tom,,leaf,,salt,8,,8h_2,DS-12-2,DS-12-1-0
-SRR11517929,paired,,,p22,DS-12,Solanum lycopersicum,Micro tom,,leaf,,salt,8,,8h_3,DS-12-2,DS-12-1-0
+SRR11517921,paired,,,p22,DS-12,Solanum lycopersicum,Micro tom,,leaf,,none,,,0h_ 1,DS-12-2-0,
+SRR11517922,paired,,,p22,DS-12,Solanum lycopersicum,Micro tom,,leaf,,none,,,0h_ 2,DS-12-2-0,
+SRR11517923,paired,,,p22,DS-12,Solanum lycopersicum,Micro tom,,leaf,,none,,,0h_ 3,DS-12-2-0,
+SRR11517924,paired,,,p22,DS-12,Solanum lycopersicum,Micro tom,,leaf,,salt,2,,2h_1,DS-12-2-1,DS-12-2-0
+SRR11517925,paired,,,p22,DS-12,Solanum lycopersicum,Micro tom,,leaf,,salt,2,,2h_2,DS-12-2-1,DS-12-2-0
+SRR11517926,paired,,,p22,DS-12,Solanum lycopersicum,Micro tom,,leaf,,salt,2,,2h_3,DS-12-2-1,DS-12-2-0
+SRR11517927,paired,,,p22,DS-12,Solanum lycopersicum,Micro tom,,leaf,,salt,8,,8h_1,DS-12-2-2,DS-12-2-0
+SRR11517928,paired,,,p22,DS-12,Solanum lycopersicum,Micro tom,,leaf,,salt,8,,8h_2,DS-12-2-2,DS-12-2-0
+SRR11517929,paired,,,p22,DS-12,Solanum lycopersicum,Micro tom,,leaf,,salt,8,,8h_3,DS-12-2-2,DS-12-2-0
 SRR9964713,single,200,30,p32,DS-22,Solanum lycopersicum,Kashi Amrit,,leaf,,none,,,control_KA,DS-22-0,
 SRR9964712,single,200,30,p32,DS-22,Solanum lycopersicum,Kashi Amrit,,leaf,,salt,,,treatment_KA,DS-22-1,DS-22-0
-SRR7349520,single,200,30,p34,DS-23,Solanum lycopersicum,Micro tom,,seedling,,none,,,control_mt_1,DS-23-1-0,
-SRR7349521,single,200,30,p34,DS-23,Solanum lycopersicum,Micro tom,,seedling,,none,,,control_mt_2,DS-23-1-0,
-SRR7349518,single,200,30,p34,DS-23,Solanum lycopersicum,Micro tom,,seedling,,none,,,control_mt_3,DS-23-1-0,
-SRR7349522,single,200,30,p34,DS-23,Solanum lycopersicum,Micro tom,,seedling,,salt,,,s_mt_1,DS-23-1,DS-23-1-0
-SRR7349523,single,200,30,p34,DS-23,Solanum lycopersicum,Micro tom,,seedling,,salt,,,s_mt_2,DS-23-1,DS-23-1-0
-SRR7349527,single,200,30,p34,DS-23,Solanum lycopersicum,Micro tom,,seedling,,salt,,,s_mt_3,DS-23-1,DS-23-1-0
+SRR7349520,single,200,30,p34,DS-23,Solanum lycopersicum,Micro tom,,seedling,,none,,,control_mt_1,DS-23-0,
+SRR7349521,single,200,30,p34,DS-23,Solanum lycopersicum,Micro tom,,seedling,,none,,,control_mt_2,DS-23-0,
+SRR7349518,single,200,30,p34,DS-23,Solanum lycopersicum,Micro tom,,seedling,,none,,,control_mt_3,DS-23-0,
+SRR7349522,single,200,30,p34,DS-23,Solanum lycopersicum,Micro tom,,seedling,,salt,,,s_mt_1,DS-23-1,DS-23-0
+SRR7349523,single,200,30,p34,DS-23,Solanum lycopersicum,Micro tom,,seedling,,salt,,,s_mt_2,DS-23-1,DS-23-0
+SRR7349527,single,200,30,p34,DS-23,Solanum lycopersicum,Micro tom,,seedling,,salt,,,s_mt_3,DS-23-1,DS-23-0
 SRR12026418,paired,,,p37,DS-17,Solanum lycopersicum,Boludo,,leaf,,salt,336,25,S1,DS-17-1,DS-17-0
 SRR12026419,paired,,,p37,DS-17,Solanum lycopersicum,Boludo,,leaf,,salt,336,25,S2,DS-17-1,DS-17-0
 SRR12026420,paired,,,p37,DS-17,Solanum lycopersicum,Boludo,,leaf,,salt,336,25,S3,DS-17-1,DS-17-0
