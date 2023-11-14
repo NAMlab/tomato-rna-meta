@@ -3,6 +3,8 @@ library(htmlwidgets)
 library(plotly)
 library(ggfortify)
 library(gridExtra)
+library(VCA)
+library(ape)
 
 source("../config.R")
 
@@ -46,7 +48,30 @@ for(i in seq(3, 337, 2)) {
 }
 dev.off()
 
-library(ape)
+# Now do VCA
+vca.res = data.frame(gene = character(), percent.stress_type = numeric(), percent.tissue = numeric(),
+                     percent.datasource_id = numeric(), percent.error = numeric())
+samples.annotation$tissue = as.factor(samples.annotation$tissue)
+samples.annotation$datasource_id = as.factor(samples.annotation$datasource_id)
+samples.annotation$stress_type = as.factor(samples.annotation$stress_type)
+for(i in 1:ncol(log.tpms)) {
+  print(i)
+  df.vca = cbind(data.frame(log.tpm = log.tpms[,i]), samples.annotation)
+  tryCatch({
+    a = fitVCA(log.tpm ~ stress_type + tissue + datasource_id, df.vca, method="reml")
+    vca.res = rbind(vca.res, list(gene = colnames(log.tpms)[i], 
+                                  percent.stress_type = a$aov.tab[2,3],
+                                  percent.tissue = a$aov.tab[3,3],
+                                  percent.datasource_id = a$aov.tab[4,3],
+                                  percent.error = a$aov.tab[5,3]
+    ))
+  }, error=function(cond) {
+    
+  })
+}
+write.csv(vca.res, "output/1.2_VCA_logTPMs.csv", row.names=F)
+system("pigz -11 output/1.2_VCA_logTPMs.csv")
+
 pdf("output/plots/1.2_supplement_clustering_all_logTPMs.pdf", 15, 60)
 sa = samples.annotation[order(samples.annotation$sra_run_id),]
 sa$color <- colors[["tissue"]][match(sa$tissue, names(colors[["tissue"]]))]
@@ -68,9 +93,12 @@ pca_res <- prcomp(fcs)
 scores = as.data.frame(pca_res$x)
 
 point.annotations = data.frame(sample = row.names(scores))
+point.annotations$row_number = 1:nrow(point.annotations)
+# @TODO is something off here with the mapping of point annotations to points?
 samples.annotation$sample.group = str_replace_all(samples.annotation$sample.group, "-", ".")
-samples.annotation = unique(samples.annotation[c("genotype.name", "tissue", "stress.duration", "temperature", "sample.group", "stress_type")])
+samples.annotation = unique(samples.annotation[c("genotype.name", "tissue", "stress.duration", "temperature", "sample.group", "stress_type", "datasource_id")])
 point.annotations = merge(point.annotations, samples.annotation, by.x = "sample", by.y="sample.group", all.x=T, all.y=F)
+point.annotations = point.annotations[order(point.annotations$row_number),]
 
 plot.fcs <- autoplot(pca_res, data = point.annotations, colour='tissue', shape='stress_type', x = 1, y = 2) +
   scale_color_manual(values = colors[["tissue"]]) + ggtitle("PCA of log Fold Changes") + theme_minimal()
@@ -79,30 +107,43 @@ pdf("output/plots/1.2_PCA.pdf", 14, 8.5)
 print(grid.arrange(plot.log.tpm, plot.fcs, ncol = 2))
 dev.off()
 
+# Now do VCA
+vca.res = data.frame(gene = character(), percent.stress_type = numeric(), percent.tissue = numeric(),
+                     percent.datasource_id = numeric(), percent.error = numeric())
+for(i in ncol(fcs)) {
+  print(i)
+  df.vca = cbind(data.frame(log.fc = fcs[,i]), point.annotations)
+  tryCatch({
+    a = fitVCA(log.fc ~ stress_type + tissue + datasource_id, df.vca, method="reml")
+    vca.res = rbind(vca.res, list(gene = colnames(log.tpms)[i], 
+                                  percent.stress_type = a$aov.tab[2,3],
+                                  percent.tissue = a$aov.tab[3,3],
+                                  percent.datasource_id = a$aov.tab[4,3],
+                                  percent.error = a$aov.tab[5,3]
+    ))
+  }, error=function(cond) {
+    
+  })
+}
+write.csv(vca.res, "output/1.2_VCA_logFC.csv", row.names=F)
+system("pigz -11 output/1.2_VCA_logFC.csv")
 
 ## Finally, OPLS-DA
 # Finally, we want to see if we can split the contrasts according to stress types, tissues etc.
 # This could be very interesting to see which genes are used here.
-library(ropls)
-
-fcs.heat = fcs[which(point.annotations$stress_type == "heat"),]
-points.heat = point.annotations[point.annotations$stress_type == "heat",]
-
-heat.psda = opls(fcs.heat, points.heat$tissue, predI=1, subset="odd")
-trainVi <- getSubsetVi(heat.psda)
-confusion_train.tb <- table(points.heat$tissue[trainVi], fitted(heat.psda))
-confusion_train.tb
-
-confusion_test.tb <- table(points.heat$tissue[-trainVi],
-                           predict(heat.psda, fcs.heat[-trainVi,]))
-confusion_test.tb
-
-# For a combination of multiple y's (online possible with numeric values):
-heat.psda <- opls(fcs.heat, as.matrix(points.heat[c("stress.duration", "temperature")]))
-
-#### (snippet for playing with UMAP) ###
-# umap_res = umap(tpms)
-# row.names(point.annotations) = point.annotations$sample
-# p = merge(point.annotations, umap_res$layout, by="row.names")
-# ggplot(data=p, aes(x=V1, y=V2))+
-#        geom_point(aes(color=publication_id, shape=stress_type)) + xlab("UMAP 1") + ylab("UMAP 2")
+# library(ropls)
+# 
+# fcs.heat = fcs[which(point.annotations$stress_type == "heat"),]
+# points.heat = point.annotations[point.annotations$stress_type == "heat",]
+# 
+# heat.psda = opls(fcs.heat, points.heat$tissue, predI=1, subset="odd")
+# trainVi <- getSubsetVi(heat.psda)
+# confusion_train.tb <- table(points.heat$tissue[trainVi], fitted(heat.psda))
+# confusion_train.tb
+# 
+# confusion_test.tb <- table(points.heat$tissue[-trainVi],
+#                            predict(heat.psda, fcs.heat[-trainVi,]))
+# confusion_test.tb
+# 
+# # For a combination of multiple y's (online possible with numeric values):
+# heat.psda <- opls(fcs.heat, as.matrix(points.heat[c("stress.duration", "temperature")]))
