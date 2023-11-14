@@ -50,20 +50,22 @@ dev.off()
 
 # Now do VCA
 vca.res = data.frame(gene = character(), percent.stress_type = numeric(), percent.tissue = numeric(),
-                     percent.datasource_id = numeric(), percent.error = numeric())
+                     percent.datasource_id = numeric(), percent.genotype = numeric(), percent.error = numeric())
 samples.annotation$tissue = as.factor(samples.annotation$tissue)
 samples.annotation$datasource_id = as.factor(samples.annotation$datasource_id)
 samples.annotation$stress_type = as.factor(samples.annotation$stress_type)
+samples.annotation$genotype.name = as.factor(samples.annotation$genotype.name)
 for(i in 1:ncol(log.tpms)) {
   print(i)
   df.vca = cbind(data.frame(log.tpm = log.tpms[,i]), samples.annotation)
   tryCatch({
-    a = fitVCA(log.tpm ~ stress_type + tissue + datasource_id, df.vca, method="reml")
+    a = fitVCA(log.tpm ~ stress_type + tissue + datasource_id + genotype.name, df.vca, method="reml")
     vca.res = rbind(vca.res, list(gene = colnames(log.tpms)[i], 
                                   percent.stress_type = a$aov.tab[2,3],
                                   percent.tissue = a$aov.tab[3,3],
                                   percent.datasource_id = a$aov.tab[4,3],
-                                  percent.error = a$aov.tab[5,3]
+                                  percent.genotype = a$aov.tab[5,3],
+                                  percent.error = a$aov.tab[6,3]
     ))
   }, error=function(cond) {
     
@@ -94,7 +96,6 @@ scores = as.data.frame(pca_res$x)
 
 point.annotations = data.frame(sample = row.names(scores))
 point.annotations$row_number = 1:nrow(point.annotations)
-# @TODO is something off here with the mapping of point annotations to points?
 samples.annotation$sample.group = str_replace_all(samples.annotation$sample.group, "-", ".")
 samples.annotation = unique(samples.annotation[c("genotype.name", "tissue", "stress.duration", "temperature", "sample.group", "stress_type", "datasource_id")])
 point.annotations = merge(point.annotations, samples.annotation, by.x = "sample", by.y="sample.group", all.x=T, all.y=F)
@@ -108,18 +109,20 @@ print(grid.arrange(plot.log.tpm, plot.fcs, ncol = 2))
 dev.off()
 
 # Now do VCA
+point.annotations$stress_type = droplevels(point.annotations$stress_type)
 vca.res = data.frame(gene = character(), percent.stress_type = numeric(), percent.tissue = numeric(),
-                     percent.datasource_id = numeric(), percent.error = numeric())
-for(i in ncol(fcs)) {
+                     percent.datasource_id = numeric(), percent.genotype = numeric(), percent.error = numeric())
+for(i in 1:ncol(fcs)) {
   print(i)
   df.vca = cbind(data.frame(log.fc = fcs[,i]), point.annotations)
   tryCatch({
-    a = fitVCA(log.fc ~ stress_type + tissue + datasource_id, df.vca, method="reml")
-    vca.res = rbind(vca.res, list(gene = colnames(log.tpms)[i], 
+    a = fitVCA(log.fc ~ stress_type + tissue + datasource_id + genotype.name, df.vca, method="reml")
+    vca.res = rbind(vca.res, list(gene = colnames(fcs)[i], 
                                   percent.stress_type = a$aov.tab[2,3],
                                   percent.tissue = a$aov.tab[3,3],
                                   percent.datasource_id = a$aov.tab[4,3],
-                                  percent.error = a$aov.tab[5,3]
+                                  percent.genotype = a$aov.tab[5,3],
+                                  percent.error = a$aov.tab[6,3]
     ))
   }, error=function(cond) {
     

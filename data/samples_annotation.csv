@@ -44,12 +44,12 @@ SRR10998560,single,200,30,p17,DS-15,Solanum lycopersicum,Ailsa Craig,,fruit,,non
 SRR10998559,single,200,30,p17,DS-15,Solanum lycopersicum,Ailsa Craig,,fruit,,heat,48,40,alisa_h_f_3h_1,DS-15-2,DS-15-2-0
 SRR10998568,single,200,30,p17,DS-15,Solanum lycopersicum,Ailsa Craig,,fruit,,heat,48,40,alisa_h_f_3h_2,DS-15-2,DS-15-2-0
 SRR10998567,single,200,30,p17,DS-15,Solanum lycopersicum,Ailsa Craig,,fruit,,heat,48,40,alisa_h_f_3h_3,DS-15-2,DS-15-2-0
-SRR10056921,paired,,,p18,DS-16,Solanum lycopersicum,,LA1509,seed,,none,0,20,la1509_h_s_c_1,DS-16-0,
-SRR10056920,paired,,,p18,DS-16,Solanum lycopersicum,,LA1509,seed,,none,0,20,la1509_h_s_c_2,DS-16-0,
-SRR10056919,paired,,,p18,DS-16,Solanum lycopersicum,,LA1509,seed,,none,0,20,la1509_h_s_c_3,DS-16-0,
-SRR10056918,paired,,,p18,DS-16,Solanum lycopersicum,,LA1509,seed,,heat,2,38,la1509_h_s_1,DS-16-1,DS-16-0
-SRR10056917,paired,,,p18,DS-16,Solanum lycopersicum,,LA1509,seed,,heat,2,38,la1509_h_s_2,DS-16-1,DS-16-0
-SRR10056916,paired,,,p18,DS-16,Solanum lycopersicum,,LA1509,seed,,heat,2,38,la1509_h_s_3,DS-16-1,DS-16-0
+SRR10056921,paired,,,p18,DS-16,Solanum lycopersicum,LA1509,LA1509,seed,,none,0,20,la1509_h_s_c_1,DS-16-0,
+SRR10056920,paired,,,p18,DS-16,Solanum lycopersicum,LA1509,LA1509,seed,,none,0,20,la1509_h_s_c_2,DS-16-0,
+SRR10056919,paired,,,p18,DS-16,Solanum lycopersicum,LA1509,LA1509,seed,,none,0,20,la1509_h_s_c_3,DS-16-0,
+SRR10056918,paired,,,p18,DS-16,Solanum lycopersicum,LA1509,LA1509,seed,,heat,2,38,la1509_h_s_1,DS-16-1,DS-16-0
+SRR10056917,paired,,,p18,DS-16,Solanum lycopersicum,LA1509,LA1509,seed,,heat,2,38,la1509_h_s_2,DS-16-1,DS-16-0
+SRR10056916,paired,,,p18,DS-16,Solanum lycopersicum,LA1509,LA1509,seed,,heat,2,38,la1509_h_s_3,DS-16-1,DS-16-0
 ,paired,,,none (data from Yunlong),DS-13,Solanum lycopersicum,Moneymaker,,seedling,,none,1,25,MM25CZT01,DS-13-0-1,
 ,paired,,,none (data from Yunlong),DS-13,Solanum lycopersicum,Moneymaker,,seedling,,none,4,25,MM25CZT04,DS-13-0-4,
 ,paired,,,none (data from Yunlong),DS-13,Solanum lycopersicum,Moneymaker,,seedling,,none,8,25,MM25CZT08,DS-13-0-8,
@@ -205,14 +205,14 @@ SRR12172697,paired,,,p30,DS-4,Solanum lycopersicum,PlovdivXIVa,,leaf,,none,,,con
 SRR12172698,paired,,,p30,DS-4,Solanum lycopersicum,PlovdivXIVa,,fruit,,none,,,control_plov_fruit,DS-4-3-2-0,
 SRR12172695,paired,,,p30,DS-4,Solanum lycopersicum,PlovdivXIVa,,leaf,,drought,,,d_plov_leaf,DS-4-3-1-1,DS-4-3-1-0
 SRR12172696,paired,,,p30,DS-4,Solanum lycopersicum,PlovdivXIVa,,fruit,,drought,,,d_plov_fruit,DS-4-3-2-1,DS-4-3-2-0
-SRR12172701,paired,,,p30,DS-4,Solanum lycopersicum,,LA1420,leaf,,none,,,contol_1420_leaf,DS-4-4-1-0,
-SRR12172702,paired,,,p30,DS-4,Solanum lycopersicum,,LA1420,fruit,,none,,,contol_1420_fruit,DS-4-4-2-0,
-SRR12172699,paired,,,p30,DS-4,Solanum lycopersicum,,LA1420,leaf,,drought,,,d_1420_leaf,DS-4-4-1-1,DS-4-4-1-0
-SRR12172700,paired,,,p30,DS-4,Solanum lycopersicum,,LA1420,fruit,,drought,,,d_1420_fruit,DS-4-4-2-1,DS-4-4-2-0
-SRR12172675,paired,,,p30,DS-4,Solanum lycopersicum,,LA0147,leaf,,none,,,control_0147_leaf,DS-4-5-1-0,
-SRR12172676,paired,,,p30,DS-4,Solanum lycopersicum,,LA0147,fruit,,none,,,control_0147_fruit,DS-4-5-2-0,
-SRR12172703,paired,,,p30,DS-4,Solanum lycopersicum,,LA0147,leaf,,drought,,,d_0147_leaf,DS-4-5-1-1,DS-4-5-1-0
-SRR12172704,paired,,,p30,DS-4,Solanum lycopersicum,,LA0147,fruit,,drought,,,d_0147_fruit,DS-4-5-2-1,DS-4-5-2-0
+SRR12172701,paired,,,p30,DS-4,Solanum lycopersicum,LA1420,LA1420,leaf,,none,,,contol_1420_leaf,DS-4-4-1-0,
+SRR12172702,paired,,,p30,DS-4,Solanum lycopersicum,LA1420,LA1420,fruit,,none,,,contol_1420_fruit,DS-4-4-2-0,
+SRR12172699,paired,,,p30,DS-4,Solanum lycopersicum,LA1420,LA1420,leaf,,drought,,,d_1420_leaf,DS-4-4-1-1,DS-4-4-1-0
+SRR12172700,paired,,,p30,DS-4,Solanum lycopersicum,LA1420,LA1420,fruit,,drought,,,d_1420_fruit,DS-4-4-2-1,DS-4-4-2-0
+SRR12172675,paired,,,p30,DS-4,Solanum lycopersicum,LA0147,LA0147,leaf,,none,,,control_0147_leaf,DS-4-5-1-0,
+SRR12172676,paired,,,p30,DS-4,Solanum lycopersicum,LA0147,LA0147,fruit,,none,,,control_0147_fruit,DS-4-5-2-0,
+SRR12172703,paired,,,p30,DS-4,Solanum lycopersicum,LA0147,LA0147,leaf,,drought,,,d_0147_leaf,DS-4-5-1-1,DS-4-5-1-0
+SRR12172704,paired,,,p30,DS-4,Solanum lycopersicum,LA0147,LA0147,fruit,,drought,,,d_0147_fruit,DS-4-5-2-1,DS-4-5-2-0
 SRR12172692,paired,,,p30,DS-4,Solanum lycopersicum,Stupicke Polni Rane,,leaf,,none,,,control_ stup_leaf,DS-4-6-1-0,
 SRR12172693,paired,,,p30,DS-4,Solanum lycopersicum,Stupicke Polni Rane,,fruit,,none,,,control_ stup_fruit,DS-4-6-2-0,
 SRR12172690,paired,,,p30,DS-4,Solanum lycopersicum,Stupicke Polni Rane,,leaf,,drought,,,d_stup_leaf,DS-4-6-1-1,DS-4-6-1-0
