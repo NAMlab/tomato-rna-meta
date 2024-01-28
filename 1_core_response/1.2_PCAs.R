@@ -38,7 +38,10 @@ point.annotations = data.frame(sample = row.names(scores))
 point.annotations = merge(point.annotations, samples.annotation, by.x = "sample", by.y="sra_run_id", all.x=T)
 
 plot.log.tpm <- autoplot(pca_res, data = point.annotations, colour='tissue', shape='stress_type', x = 1, y = 2) +
-  scale_color_manual(values = colors[["tissue"]]) + ggtitle("PCA of logTPMs") + theme_minimal()+ theme(legend.position = "none")
+  scale_color_manual(name="Tissue", values = colors[["tissue"]]) + ggtitle("PCA of logTPMs") + 
+  scale_shape_manual(name="Treatment", values=c("drought"=15,"heat"=16,"salt"=17,"none"=3), drop=F) + 
+  theme_minimal(base_size = 18) + theme(legend.position = "left") + guides(color = guide_legend(override.aes = list(size = 3)), shape = guide_legend(override.aes = list(size = 3)))
+plot.log.tpm
 
 pdf("output/plots/1.2_supplement_PCA_all_logTPMs.lfs.pdf", 14, 8.5)
 for(i in seq(3, 337, 2)) {
@@ -102,10 +105,13 @@ point.annotations = merge(point.annotations, samples.annotation, by.x = "sample"
 point.annotations = point.annotations[order(point.annotations$row_number),]
 
 plot.fcs <- autoplot(pca_res, data = point.annotations, colour='tissue', shape='stress_type', x = 1, y = 2) +
-  scale_color_manual(values = colors[["tissue"]]) + ggtitle("PCA of log Fold Changes") + theme_minimal()
+  scale_color_manual(values = colors[["tissue"]]) + 
+  scale_shape_manual(values=c("drought"=15,"heat"=16,"salt"=17,"none"=3), drop=F) + 
+  theme_minimal(base_size = 16) + theme(legend.position = "none") +
+  ggtitle("PCA of log Fold Changes")
 
 pdf("output/plots/1.2_PCA.pdf", 14, 8.5)
-print(grid.arrange(plot.log.tpm, plot.fcs, ncol = 2))
+plot_grid(plot.log.tpm, plot.fcs, align="h", ncol=2, rel_widths = c(0.58, 0.42))
 dev.off()
 
 # Now do VCA
