@@ -1,5 +1,5 @@
-# This script combines the ITAG4.1 descriptions for each gene with Arabidopsis homologues from OMA (SL3.0!!) 
-# and respective descriptions for each of the Arabidopsis homologues from TAIR
+# This script combines the ITAG4.1 descriptions for each gene in the tomato genome with Arabidopsis homologues from OMA (SL3.0) 
+# and respective descriptions for each of the Arabidopsis homologues from TAIR.
 require "pry"
 require "csv"
 require "zlib"
