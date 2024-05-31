@@ -72,3 +72,5 @@ for(trt.group in unique(samples.annotation$sample.group)) {
                 theme(legend.position="none")
         ggsave(paste0("output/individual_contrasts_supplement/", trt.group, "/volcano_plot.jpg"), width = 30, height = 20, units = "cm")
 }
+
+# @TODO compress each folder and put into lfs?

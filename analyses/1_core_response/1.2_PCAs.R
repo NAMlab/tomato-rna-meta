@@ -114,6 +114,14 @@ pdf("output/plots/1.2_PCA.pdf", 14, 8.5)
 plot_grid(plot.log.tpm, plot.fcs, align="h", ncol=2, rel_widths = c(0.58, 0.42))
 dev.off()
 
+pdf("output/plots/1.2_supplement_PCA_all_logFCs.lfs.pdf", 14, 8.5)
+for(i in seq(3, 88, 2)) {
+  message(i)
+  print(autoplot(pca_res, data = point.annotations, colour='tissue', shape='stress_type', x = i, y = i+1) +
+          scale_color_manual(values = colors[["tissue"]]) + ggtitle("PCA of logFCs") + theme_minimal())
+}
+dev.off()
+
 # Now do VCA
 point.annotations$stress_type = droplevels(point.annotations$stress_type)
 vca.res = data.frame(gene = character(), percent.stress_type = numeric(), percent.tissue = numeric(),

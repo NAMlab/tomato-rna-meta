@@ -1,0 +1,1 @@
+- uses git LFS for all files matching `*.lfs.*`

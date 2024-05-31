@@ -1,4 +1,5 @@
 library(networkD3)
+library(htmlwidgets)
 sankey.keys = read.csv("input/display_datasource_mapping.csv")
 samples.annotation = read.csv("input/samples_annotation.csv")
 samples.annotation$sample.group = make.names(samples.annotation$sample.group)
@@ -37,6 +38,6 @@ my_color <- paste0('d3.scaleOrdinal() .domain([', '"', paste(node.names, collaps
 p <- sankeyNetwork(Links = links, Nodes = nodes,
                    Source = "IDsource", Target = "IDtarget",
                    Value = "value", NodeID = "name", fontSize = 18, nodeWidth = 30,
-                   sinksRight=FALSE, colourScale = my_color)
+                   sinksRight=FALSE, colourScale = my_color, width=600, height=800)
 p
-
+saveWidget(p, "output/plots/1_sankey_plot.html")

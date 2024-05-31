@@ -1,5 +1,5 @@
 # Calculates fold-changes and corresponding p- and q values to determine differentially expressed
-# genes in all the sample groups present in the 
+# genes in all the sample groups present in the data set.
 library(edgeR)
 library(stringr)
 
@@ -51,4 +51,4 @@ for(trt.group in unique(samples.annotation$sample.group)) {
 }
 
 write.csv(diffexp, "output/differential_expression.lfs.csv", row.names=F)
-system("pigz -11 output/differential_expression.lfs.csv")
+system("pigz -11 output/differential_expression.lfs.csv") # compress
