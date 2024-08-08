@@ -1,0 +1,3 @@
+[submodule "analyses/7_gene_conservation/al2co"]
+	path = analyses/7_gene_conservation/al2co
+	url = https://github.com/TheApacheCats/al2co.git

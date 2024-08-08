@@ -1,0 +1,4 @@
+In this analysis, we compare the gene conservation of our heat stress core response to the random baseline also used in the OMA analysis across the 14 assemblies from https://doi.org/10.1016/j.cell.2020.05.021 and ITAG4.1.
+For that we download the genomes and extract CDS and protein sequences (`1_get_genomes.sh`) and then align all sequences for each gene using mafft.
+Based on the alignment, we can then calculate position-specific conservation scores using al2co ( https://doi.org/10.1093/bioinformatics/17.8.700 , `3_run.sh`).
+Finally, we calculate the mean conservation score across all positions for each sequence and then compare our heat stress core genes to the random baseline using a t test and plot the results (`4_analyse.R`).
