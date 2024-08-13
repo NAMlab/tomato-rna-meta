@@ -1,0 +1,147 @@
+set,source,target,paths,length
+heat-core,Solyc01g095320.4.1,Solyc02g078030.3.1,"[['Solyc01g095320.4.1', 'Solyc03g114070.3.1', 'Solyc07g043250.1.1', 'Solyc02g078030.3.1']]",3
+heat-core,Solyc01g101070.3.1,Solyc02g078030.3.1,"[['Solyc01g101070.3.1', 'Solyc07g006900.2.1', 'Solyc12g019860.2.1', 'Solyc02g078030.3.1']]",3
+heat-core,Solyc01g102960.3.1,Solyc02g078030.3.1,"[['Solyc01g102960.3.1', 'Solyc07g052350.3.1', 'Solyc02g078360.4.1', 'Solyc02g078030.3.1']]",3
+heat-core,Solyc01g104740.3.1,Solyc06g005170.3.1,"[['Solyc01g104740.3.1', 'Solyc06g005170.3.1']]",1
+heat-core,Solyc02g030450.3.1,Solyc02g078030.3.1,"[['Solyc02g030450.3.1', 'Solyc02g087300.1.1', 'Solyc09g008740.1.1', 'Solyc02g078030.3.1']]",3
+heat-core,Solyc02g079020.4.1,Solyc02g078030.3.1,"[['Solyc02g079020.4.1', 'Solyc08g081000.3.1', 'Solyc09g008740.1.1', 'Solyc02g078030.3.1']]",3
+heat-core,Solyc02g080130.5.1,Solyc02g078030.3.1,"[['Solyc02g080130.5.1', 'Solyc02g093530.4.1', 'Solyc07g043250.1.1', 'Solyc02g078030.3.1']]",3
+heat-core,Solyc03g063760.4.1,Solyc02g078030.3.1,"[['Solyc03g063760.4.1', 'Solyc10g079500.2.1', 'Solyc09g008740.1.1', 'Solyc02g078030.3.1']]",3
+heat-core,Solyc03g082420.3.1,Solyc08g005170.3.1,"[['Solyc03g082420.3.1', 'Solyc08g005170.3.1']]",1
+heat-core,Solyc03g097960.1.1,Solyc02g078030.3.1,"[['Solyc03g097960.1.1', '4081.A0A3Q7FUH8', 'Solyc11g005720.1.1', 'Solyc02g078030.3.1']]",3
+heat-core,Solyc03g113590.3.1,Solyc06g005170.3.1,"[['Solyc03g113590.3.1', 'Solyc06g005170.3.1']]",1
+heat-core,Solyc03g113930.3.1,Solyc02g078030.3.1,"[['Solyc03g113930.3.1', 'Solyc07g052350.3.1', 'Solyc02g078360.4.1', 'Solyc02g078030.3.1']]",3
+heat-core,Solyc03g117440.3.1,Solyc02g078030.3.1,"[['Solyc03g117440.3.1', 'Solyc09g008740.1.1', 'Solyc02g078030.3.1']]",2
+heat-core,Solyc04g011440.4.1,Solyc02g078030.3.1,"[['Solyc04g011440.4.1', 'Solyc07g043250.1.1', 'Solyc02g078030.3.1']]",2
+heat-core,Solyc04g014480.3.1,Solyc02g078030.3.1,"[['Solyc04g014480.3.1', 'Solyc03g114070.3.1', 'Solyc07g043250.1.1', 'Solyc02g078030.3.1']]",3
+heat-core,Solyc04g054290.3.1,Solyc02g078030.3.1,"[['Solyc04g054290.3.1', 'Solyc03g120630.5.1', 'Solyc07g043250.1.1', 'Solyc02g078030.3.1']]",3
+heat-core,Solyc05g014280.4.1,Solyc08g005170.3.1,"[['Solyc05g014280.4.1', 'Solyc08g005170.3.1']]",1
+heat-core,Solyc05g055010.4.1,Solyc02g078030.3.1,"[['Solyc05g055010.4.1', 'Solyc12g037980.2.1', 'Solyc06g061190.1.1', 'Solyc02g078030.3.1']]",3
+heat-core,Solyc06g011370.4.1,Solyc03g117590.3.1,"[['Solyc06g011370.4.1', 'Solyc03g117590.3.1']]",1
+heat-core,Solyc06g036290.3.1,Solyc02g088340.4.1,"[['Solyc06g036290.3.1', 'Solyc02g088340.4.1']]",1
+heat-core,Solyc06g076520.1.1,Solyc02g078030.3.1,"[['Solyc06g076520.1.1', 'Solyc07g052350.3.1', 'Solyc02g078360.4.1', 'Solyc02g078030.3.1']]",3
+heat-core,Solyc06g076560.2.1,Solyc02g078030.3.1,"[['Solyc06g076560.2.1', 'Solyc07g052350.3.1', 'Solyc02g078360.4.1', 'Solyc02g078030.3.1']]",3
+heat-core,Solyc06g076670.3.1,Solyc02g078030.3.1,"[['Solyc06g076670.3.1', 'Solyc02g062620.3.1', 'Solyc07g043250.1.1', 'Solyc02g078030.3.1']]",3
+heat-core,Solyc07g065410.1.1,Solyc02g078030.3.1,"[['Solyc07g065410.1.1', 'Solyc01g107160.3.1', 'Solyc02g078360.4.1', 'Solyc02g078030.3.1']]",3
+heat-core,Solyc08g005420.3.1,Solyc02g078030.3.1,"[['Solyc08g005420.3.1', 'Solyc11g005720.1.1', 'Solyc02g078030.3.1']]",2
+heat-core,Solyc08g006150.3.1,Solyc02g078030.3.1,"[['Solyc08g006150.3.1', 'Solyc12g005630.2.1', 'Solyc02g078360.4.1', 'Solyc02g078030.3.1']]",3
+heat-core,Solyc08g062340.3.1,Solyc08g005170.3.1,"[['Solyc08g062340.3.1', 'Solyc08g005170.3.1']]",1
+heat-core,Solyc08g066940.4.1,Solyc02g078030.3.1,"[['Solyc08g066940.4.1', 'Solyc08g075570.4.1', 'Solyc09g008740.1.1', 'Solyc02g078030.3.1']]",3
+heat-core,Solyc08g067960.3.1,Solyc03g096730.3.1,"[['Solyc08g067960.3.1', 'Solyc03g096730.3.1']]",1
+heat-core,Solyc08g078700.3.1,Solyc02g078030.3.1,"[['Solyc08g078700.3.1', 'Solyc02g068410.3.1', 'Solyc02g078030.3.1']]",2
+heat-core,Solyc09g007270.3.1,Solyc04g078770.5.1,"[['Solyc09g007270.3.1', 'Solyc04g078770.5.1']]",1
+heat-core,Solyc09g008970.1.1,Solyc02g078030.3.1,"[['Solyc09g008970.1.1', 'Solyc04g077970.5.1', 'Solyc02g078360.4.1', 'Solyc02g078030.3.1']]",3
+heat-core,Solyc09g011410.4.1,Solyc02g078030.3.1,"[['Solyc09g011410.4.1', 'Solyc07g043250.1.1', 'Solyc02g078030.3.1']]",2
+heat-core,Solyc10g006610.5.1,Solyc02g078030.3.1,"[['Solyc10g006610.5.1', '4081.A0A3Q7HR18', 'Solyc07g043250.1.1', 'Solyc02g078030.3.1']]",3
+heat-core,Solyc11g020040.2.1,Solyc02g078030.3.1,"[['Solyc11g020040.2.1', 'Solyc07g043250.1.1', 'Solyc02g078030.3.1']]",2
+heat-core,Solyc11g066100.2.1,Solyc02g078030.3.1,"[['Solyc11g066100.2.1', 'Solyc07g043250.1.1', 'Solyc02g078030.3.1']]",2
+heat-core,Solyc11g066830.2.1,Solyc02g078030.3.1,"[['Solyc11g066830.2.1', 'Solyc09g008740.1.1', 'Solyc02g078030.3.1']]",2
+heat-core,Solyc11g070060.2.1,Solyc02g078030.3.1,"[['Solyc11g070060.2.1', '4081.A0A3Q7ITW7', 'Solyc07g043250.1.1', 'Solyc02g078030.3.1']]",3
+heat-core,Solyc11g071830.2.1,Solyc03g117590.3.1,"[['Solyc11g071830.2.1', 'Solyc03g117590.3.1']]",1
+heat-core,Solyc01g102950.3.1,Solyc02g078030.3.1,"[['Solyc01g102950.3.1', 'Solyc01g090120.3.1', 'Solyc09g008740.1.1', 'Solyc02g078030.3.1']]",3
+heat-core,Solyc01g103760.3.1,Solyc02g078030.3.1,"[['Solyc01g103760.3.1', 'Solyc07g053730.4.1', 'Solyc07g043250.1.1', 'Solyc02g078030.3.1']]",3
+heat-core,Solyc03g096950.4.1,Solyc02g078030.3.1,"[['Solyc03g096950.4.1', 'Solyc05g054990.3.1', 'Solyc02g068460.1.1', 'Solyc02g078030.3.1']]",3
+heat-core,Solyc04g080850.3.1,Solyc02g078030.3.1,"[['Solyc04g080850.3.1', 'Solyc01g104770.4.1', 'Solyc06g061190.1.1', 'Solyc02g078030.3.1']]",3
+heat-core,Solyc07g006830.4.1,Solyc02g078030.3.1,"[['Solyc07g006830.4.1', 'Solyc05g050730.1.1', 'Solyc11g005720.1.1', 'Solyc02g078030.3.1']]",3
+heat-core,Solyc08g063090.2.1,Solyc12g019460.2.1,"[['Solyc08g063090.2.1', 'Solyc12g019460.2.1']]",1
+heat-core,Solyc09g091510.3.1,Solyc07g007790.3.1,"[['Solyc09g091510.3.1', 'Solyc07g007790.3.1']]",1
+heat-core,Solyc10g011810.4.1,Solyc02g078030.3.1,"[['Solyc10g011810.4.1', 'Solyc04g080270.4.1', 'Solyc09g008740.1.1', 'Solyc02g078030.3.1']]",3
+heat-core,Solyc10g012410.3.1,Solyc02g078030.3.1,"[['Solyc10g012410.3.1', 'Solyc07g008340.4.1', 'Solyc02g078360.4.1', 'Solyc02g078030.3.1']]",3
+heat-core,Solyc12g055930.3.1,Solyc03g096730.3.1,"[['Solyc12g055930.3.1', 'Solyc03g096730.3.1']]",1
+random,Solyc09g015580.1.1,Solyc02g078030.3.1,"[['Solyc09g015580.1.1', '4081.A0A3Q7EM34', 'Solyc06g061190.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc09g065920.3.1,Solyc02g078030.3.1,"[['Solyc09g065920.3.1', '4081.A0A3Q7EM34', 'Solyc06g061190.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc01g010870.3.1,Solyc02g078030.3.1,"[['Solyc01g010870.3.1', 'Solyc05g055880.4.1', 'Solyc09g008740.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc06g060680.2.1,Solyc02g083850.3.1,"[['Solyc06g060680.2.1', 'Solyc02g083850.3.1']]",1
+random,Solyc02g086200.4.1,Solyc05g007100.3.1,"[['Solyc02g086200.4.1', 'Solyc05g007100.3.1']]",1
+random,Solyc02g069550.1.1,Solyc02g078030.3.1,"[['Solyc02g069550.1.1', 'Solyc06g082090.4.1', 'Solyc07g043250.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc01g112280.3.1,Solyc02g078030.3.1,"[['Solyc01g112280.3.1', 'Solyc06g082090.4.1', 'Solyc07g043250.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc07g063575.1.1,Solyc02g078030.3.1,"[['Solyc07g063575.1.1', 'Solyc02g068410.3.1', 'Solyc02g078030.3.1']]",2
+random,Solyc07g063530.3.1,Solyc02g078030.3.1,"[['Solyc07g063530.3.1', 'Solyc02g068410.3.1', 'Solyc02g078030.3.1']]",2
+random,Solyc07g006160.3.1,Solyc02g078030.3.1,"[['Solyc07g006160.3.1', 'Solyc10g079500.2.1', 'Solyc09g008740.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc10g005840.4.1,Solyc02g078030.3.1,"[['Solyc10g005840.4.1', 'Solyc10g079500.2.1', 'Solyc09g008740.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc08g068030.1.1,Solyc02g078030.3.1,"[['Solyc08g068030.1.1', '4081.A0A3Q7EW07', 'Solyc09g008740.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc07g045410.2.1,Solyc02g078030.3.1,"[['Solyc07g045410.2.1', 'Solyc03g120630.5.1', 'Solyc07g043250.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc02g068090.3.1,Solyc02g078030.3.1,"[['Solyc02g068090.3.1', 'Solyc01g017085.2.1', 'Solyc07g043250.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc02g038813.1.1,Solyc02g078030.3.1,"[['Solyc02g038813.1.1', 'Solyc03g019850.3.1', 'Solyc11g005720.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc07g017730.3.1,Solyc02g078030.3.1,"[['Solyc07g017730.3.1', 'Solyc01g104770.4.1', 'Solyc06g061190.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc03g025150.4.1,Solyc02g078030.3.1,"[['Solyc03g025150.4.1', 'Solyc08g021990.3.1', 'Solyc02g078360.4.1', 'Solyc02g078030.3.1']]",3
+random,Solyc11g069170.2.1,Solyc02g078030.3.1,"[['Solyc11g069170.2.1', '4081.A0A3Q7EM34', 'Solyc06g061190.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc01g105080.2.1,Solyc02g078030.3.1,"[['Solyc01g105080.2.1', 'Solyc06g071770.4.1', 'Solyc07g043250.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc04g045470.4.1,Solyc02g078030.3.1,"[['Solyc04g045470.4.1', 'Solyc01g104490.3.1', 'Solyc11g005720.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc02g011720.1.1,Solyc02g078030.3.1,"[['Solyc02g011720.1.1', 'Solyc01g090120.3.1', 'Solyc09g008740.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc07g054400.3.1,Solyc02g078030.3.1,"[['Solyc07g054400.3.1', 'Solyc07g018300.3.1', 'Solyc04g055050.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc10g078670.3.1,Solyc02g078030.3.1,"[['Solyc10g078670.3.1', 'Solyc07g047790.3.1', 'Solyc07g043250.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc08g065470.5.1,Solyc02g078030.3.1,"[['Solyc08g065470.5.1', 'Solyc04g039850.1.1', 'Solyc09g008740.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc09g010720.3.1,Solyc02g078030.3.1,"[['Solyc09g010720.3.1', 'Solyc11g033280.2.1', 'Solyc07g043250.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc02g083980.3.1,Solyc02g078030.3.1,"[['Solyc02g083980.3.1', 'Solyc12g037980.2.1', 'Solyc06g061190.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc11g061870.3.1,Solyc02g078030.3.1,"[['Solyc11g061870.3.1', 'Solyc09g010420.4.1', 'Solyc02g078360.4.1', 'Solyc02g078030.3.1']]",3
+random,Solyc06g043150.4.1,Solyc02g078030.3.1,"[['Solyc06g043150.4.1', 'Solyc11g005720.1.1', 'Solyc02g078030.3.1']]",2
+random,Solyc06g050630.3.1,Solyc02g078030.3.1,"[['Solyc06g050630.3.1', 'Solyc05g054990.3.1', 'Solyc02g068460.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc01g087540.5.1,Solyc02g078030.3.1,"[['Solyc01g087540.5.1', 'Solyc02g067150.5.1', 'Solyc02g068460.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc07g053200.5.1,Solyc02g078030.3.1,"[['Solyc07g053200.5.1', 'Solyc09g008740.1.1', 'Solyc02g078030.3.1']]",2
+random,Solyc00g022100.1.1,Solyc02g078030.3.1,"[['Solyc00g022100.1.1', 'Solyc01g090120.3.1', 'Solyc09g008740.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc07g053570.4.1,Solyc06g005170.3.1,"[['Solyc07g053570.4.1', 'Solyc06g005170.3.1']]",1
+random,Solyc09g008120.4.1,Solyc02g078030.3.1,"[['Solyc09g008120.4.1', 'Solyc09g008740.1.1', 'Solyc02g078030.3.1']]",2
+random,Solyc04g008770.3.1,Solyc02g078030.3.1,"[['Solyc04g008770.3.1', 'Solyc08g080990.3.1', 'Solyc11g005720.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc11g006500.2.1,Solyc02g078030.3.1,"[['Solyc11g006500.2.1', 'Solyc05g054990.3.1', 'Solyc02g068460.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc04g009620.5.1,Solyc02g078030.3.1,"[['Solyc04g009620.5.1', 'Solyc06g082090.4.1', 'Solyc07g043250.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc08g078680.4.1,Solyc02g078030.3.1,"[['Solyc08g078680.4.1', 'Solyc01g111560.3.1', 'Solyc07g043250.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc07g005330.3.1,Solyc02g078030.3.1,"[['Solyc07g005330.3.1', 'Solyc01g098920.4.1', 'Solyc06g061190.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc10g054090.2.1,Solyc02g078030.3.1,"[['Solyc10g054090.2.1', 'Solyc02g062310.1.1', 'Solyc07g043250.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc10g079080.2.1,Solyc02g078030.3.1,"[['Solyc10g079080.2.1', 'Solyc09g090610.3.1', 'Solyc09g008740.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc09g090540.3.1,Solyc02g078030.3.1,"[['Solyc09g090540.3.1', 'Solyc03g008010.3.1', 'Solyc08g021990.3.1', 'Solyc02g078360.4.1', 'Solyc02g078030.3.1']]",4
+random,Solyc01g150101.2.1,Solyc02g078030.3.1,"[['Solyc01g150101.2.1', 'Solyc07g043250.1.1', 'Solyc02g078030.3.1']]",2
+random,Solyc02g150118.1.1,Solyc02g078030.3.1,"[['Solyc02g150118.1.1', 'Solyc12g037980.2.1', 'Solyc06g061190.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc01g099450.4.1,Solyc07g007790.3.1,"[['Solyc01g099450.4.1', 'Solyc07g007790.3.1']]",1
+random,Solyc02g071050.4.1,Solyc02g078030.3.1,"[['Solyc02g071050.4.1', 'Solyc04g077790.3.1', 'Solyc06g061190.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc04g074930.4.1,Solyc02g078030.3.1,"[['Solyc04g074930.4.1', 'Solyc12g099500.2.1', 'Solyc03g117320.4.1', 'Solyc07g043250.1.1', 'Solyc02g078030.3.1']]",4
+random,Solyc03g113390.3.1,Solyc02g088340.4.1,"[['Solyc03g113390.3.1', 'Solyc02g088340.4.1']]",1
+random,Solyc07g049420.1.1,Solyc10g084170.1.1,"[['Solyc07g049420.1.1', 'Solyc10g084170.1.1']]",1
+random,Solyc11g160230.1.1,Solyc02g078030.3.1,"[['Solyc11g160230.1.1', 'Solyc03g120630.5.1', 'Solyc07g043250.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc10g009340.1.1,Solyc02g083850.3.1,"[['Solyc10g009340.1.1', 'Solyc02g083850.3.1']]",1
+random,Solyc03g006700.3.1,Solyc02g078030.3.1,"[['Solyc03g006700.3.1', 'Solyc09g074320.3.1', 'Solyc09g008740.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc09g011680.1.1,Solyc04g078770.5.1,"[['Solyc09g011680.1.1', 'Solyc04g078770.5.1']]",1
+random,Solyc10g011740.3.1,Solyc02g078030.3.1,"[['Solyc10g011740.3.1', 'Solyc07g043250.1.1', 'Solyc02g078030.3.1']]",2
+random,Solyc11g070030.2.1,Solyc09g011920.3.1,"[['Solyc11g070030.2.1', 'Solyc09g011920.3.1']]",1
+random,Solyc05g014880.3.1,Solyc02g078030.3.1,"[['Solyc05g014880.3.1', 'Solyc05g005190.3.1', 'Solyc06g061190.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc07g062720.3.1,Solyc02g078030.3.1,"[['Solyc07g062720.3.1', 'Solyc01g112180.4.1', 'Solyc11g005720.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc01g097800.3.1,Solyc07g007790.3.1,"[['Solyc01g097800.3.1', 'Solyc07g007790.3.1']]",1
+random,Solyc04g081630.2.1,Solyc03g117590.3.1,"[['Solyc04g081630.2.1', 'Solyc03g117590.3.1']]",1
+random,Solyc11g013720.1.1,Solyc02g078030.3.1,"[['Solyc11g013720.1.1', 'Solyc01g090120.3.1', 'Solyc09g008740.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc06g062940.5.1,Solyc02g078030.3.1,"[['Solyc06g062940.5.1', 'Solyc01g104770.4.1', 'Solyc06g061190.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc05g055290.3.1,Solyc02g078030.3.1,"[['Solyc05g055290.3.1', 'Solyc09g074320.3.1', 'Solyc09g008740.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc02g078480.3.1,Solyc02g078030.3.1,"[['Solyc02g078480.3.1', 'Solyc04g077790.3.1', 'Solyc06g061190.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc01g098060.1.1,Solyc06g005170.3.1,"[['Solyc01g098060.1.1', 'Solyc06g005170.3.1']]",1
+random,Solyc03g150160.1.1,Solyc02g078030.3.1,"[['Solyc03g150160.1.1', 'Solyc07g018300.3.1', 'Solyc04g055050.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc05g051890.1.1,Solyc02g078030.3.1,"[['Solyc05g051890.1.1', 'Solyc06g061200.1.1', '4081.A0A494G8Y4', 'Solyc11g005720.1.1', 'Solyc02g078030.3.1']]",4
+random,Solyc02g087870.3.1,Solyc02g078030.3.1,"[['Solyc02g087870.3.1', 'Solyc07g006900.2.1', 'Solyc12g019860.2.1', 'Solyc02g078030.3.1']]",3
+random,Solyc01g073940.3.1,Solyc02g078030.3.1,"[['Solyc01g073940.3.1', 'Solyc11g056650.2.1', 'Solyc07g043250.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc10g085000.2.1,Solyc06g005170.3.1,"[['Solyc10g085000.2.1', 'Solyc06g005170.3.1']]",1
+random,Solyc06g074030.1.1,Solyc02g078030.3.1,"[['Solyc06g074030.1.1', 'Solyc09g008740.1.1', 'Solyc02g078030.3.1']]",2
+random,Solyc08g022240.1.1,Solyc02g078030.3.1,"[['Solyc08g022240.1.1', 'Solyc09g075950.1.1', 'Solyc07g043250.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc06g051570.4.1,Solyc10g084170.1.1,"[['Solyc06g051570.4.1', 'Solyc10g084170.1.1']]",1
+random,Solyc11g065380.2.1,Solyc02g078030.3.1,"[['Solyc11g065380.2.1', 'Solyc01g096580.3.1', 'Solyc07g043250.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc03g079920.3.1,Solyc02g078030.3.1,"[['Solyc03g079920.3.1', 'Solyc07g018300.3.1', 'Solyc04g055050.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc08g061270.1.1,Solyc02g078030.3.1,"[['Solyc08g061270.1.1', 'Solyc02g062310.1.1', 'Solyc07g043250.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc03g114750.3.1,Solyc02g078030.3.1,"[['Solyc03g114750.3.1', 'Solyc03g098620.3.1', 'Solyc11g073210.2.1', 'Solyc07g043250.1.1', 'Solyc02g078030.3.1']]",4
+random,Solyc09g082080.1.1,Solyc02g078030.3.1,"[['Solyc09g082080.1.1', 'Solyc05g055470.4.1', 'Solyc06g068930.2.1', 'Solyc11g005720.1.1', 'Solyc02g078030.3.1']]",4
+random,Solyc05g056570.3.1,Solyc06g005170.3.1,"[['Solyc05g056570.3.1', 'Solyc06g005170.3.1']]",1
+random,Solyc01g006650.2.1,Solyc06g005170.3.1,"[['Solyc01g006650.2.1', 'Solyc06g005170.3.1']]",1
+random,Solyc03g083540.3.1,Solyc02g078030.3.1,"[['Solyc03g083540.3.1', 'Solyc05g054990.3.1', 'Solyc02g068460.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc07g063900.3.1,Solyc02g078030.3.1,"[['Solyc07g063900.3.1', 'Solyc09g008740.1.1', 'Solyc02g078030.3.1']]",2
+random,Solyc01g096270.3.1,Solyc02g078030.3.1,"[['Solyc01g096270.3.1', 'Solyc01g104770.4.1', 'Solyc06g061190.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc04g051360.3.1,Solyc02g078030.3.1,"[['Solyc04g051360.3.1', 'Solyc06g065100.3.1', 'Solyc12g019860.2.1', 'Solyc02g078030.3.1']]",3
+random,Solyc03g115810.3.1,Solyc02g078030.3.1,"[['Solyc03g115810.3.1', 'Solyc06g061190.1.1', 'Solyc02g078030.3.1']]",2
+random,Solyc04g082060.4.1,Solyc02g078030.3.1,"[['Solyc04g082060.4.1', 'Solyc02g014180.2.1', 'Solyc01g111200.3.1', 'Solyc02g078030.3.1']]",3
+random,Solyc02g083280.5.1,Solyc02g078030.3.1,"[['Solyc02g083280.5.1', 'Solyc06g082090.4.1', 'Solyc07g043250.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc03g094010.3.1,Solyc02g078030.3.1,"[['Solyc03g094010.3.1', 'Solyc10g018705.2.1', 'Solyc02g078030.3.1']]",2
+random,Solyc04g009540.1.1,Solyc02g078030.3.1,"[['Solyc04g009540.1.1', 'Solyc07g043250.1.1', 'Solyc02g078030.3.1']]",2
+random,Solyc09g074660.3.1,Solyc02g078030.3.1,"[['Solyc09g074660.3.1', 'Solyc09g083390.3.1', 'Solyc02g078360.4.1', 'Solyc02g078030.3.1']]",3
+random,Solyc01g056960.1.1,Solyc06g005170.3.1,"[['Solyc01g056960.1.1', 'Solyc04g049720.4.1', 'Solyc06g005170.3.1']]",2
+random,Solyc04g051610.3.1,Solyc02g078030.3.1,"[['Solyc04g051610.3.1', 'Solyc01g109830.3.1', 'Solyc09g008740.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc08g082860.4.1,Solyc07g007790.3.1,"[['Solyc08g082860.4.1', 'Solyc07g007790.3.1']]",1
+random,Solyc02g080200.5.1,Solyc10g084170.1.1,"[['Solyc02g080200.5.1', 'Solyc10g084170.1.1']]",1
+random,Solyc12g009850.1.1,Solyc02g078030.3.1,"[['Solyc12g009850.1.1', 'Solyc01g104770.4.1', 'Solyc06g061190.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc02g087200.2.1,Solyc02g078030.3.1,"[['Solyc02g087200.2.1', 'Solyc03g095600.1.1', 'Solyc02g068460.1.1', 'Solyc02g078030.3.1']]",3
+random,Solyc04g074500.3.1,Solyc06g005170.3.1,"[['Solyc04g074500.3.1', 'Solyc06g005170.3.1']]",1
+random,Solyc07g022840.1.1,Solyc02g083850.3.1,"[['Solyc07g022840.1.1', 'Solyc03g093460.3.1', 'Solyc02g083850.3.1']]",2

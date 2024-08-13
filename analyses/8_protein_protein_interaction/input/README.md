@@ -1,3 +1,4 @@
+# Network construction
 For this analysis, some pre-processing was done outside this repository because the files involved are rather large in size.
 The result of this pre-processing is the file `string_edges.lfs.txt.gz` which contains all not-just-predicted protein-protein associations from the [STRING database](https://string-db.org/) in tomato, mapped to their ITAG4.1 protein ids.
 The steps for producing this file are described below:
@@ -63,3 +64,10 @@ edges$p2 = ifelse(!is.na(m[edges$protein2]), m[edges$protein2], edges$protein2)
 edges = edges[c("p1", "p2", "score")]
 write.table(edges, "string_edges.txt", row.names=F, quote=F, sep=" ")
 ```
+
+# Validated and random genes
+`validated_heat_proteins.txt` contains a list of proteins which are known to be involved in heat stress tolerance in tomato according to https://doi.org/10.1016/j.scienta.2023.112435 .
+The gene IDs in the paper were mapped to the respective canonical protein IDs in ITAG4.1.
+One further adjustment was made: The paper lists Solyc01g095320 as a confirmed gene and https://doi.org/10.3390/antiox11081467 as the source but when checking the reference, it was actually confirming Solyc10g084170 (see supplemmentary table). So this was corrected here.
+
+`random_proteins.txt` contains 200 random protein IDs from the ITAG4.1 genome to be used as a comparison in our analyses.
