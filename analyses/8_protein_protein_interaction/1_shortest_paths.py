@@ -48,7 +48,7 @@ with open("output/shortest_paths.csv", "w") as file:
             paths = g.get_shortest_paths(source, target)
             if paths:
                 if not current_shortest_path or len(paths[0]) < current_shortest_path:
-                    current_shortest_path = len(paths[0]) - 1
+                    current_shortest_path = len(paths[0])
                     current_target = target
                     current_paths = [g.vs[x]["name"] for x in paths]
         subnetwork = subnetwork + [g for path in current_paths for g in path] # flatten the list
@@ -63,7 +63,7 @@ with open("output/shortest_paths.csv", "w") as file:
             paths = g.get_shortest_paths(source, target)
             if paths:
                 if not current_shortest_path or len(paths[0]) < current_shortest_path:
-                    current_shortest_path = len(paths[0]) - 1
+                    current_shortest_path = len(paths[0])
                     current_target = target
                     current_paths = [g.vs[x]["name"] for x in paths]
         subnetwork = subnetwork + [g for path in current_paths for g in path] # flatten the list
@@ -80,5 +80,6 @@ visual_style["vertex_size"] = [7 if v["name"] in heat_core or v["name"] in valid
 visual_style["vertex_frame_width"] = 0
 visual_style["vertex_color"] = [color_dict["heat-core"] if v["name"] in heat_core else color_dict["validated"] if v["name"] in validated_proteins else color_dict["random"] if v["name"] in random_proteins else color_dict["none"] for v in s.vs]
 visual_style["edge_width"] = 0.5
-visual_style["edge_color"] = "#00000011"
+visual_style["edge_color"] = [color_dict["validated"] if s.vs["name"][e.source] in validated_proteins or s.vs["name"][e.target] in validated_proteins else "#00000011" for e in s.es]
+
 ig.plot(s, "output/plots/8.1_shortest_path_subgraph.pdf", **visual_style)
