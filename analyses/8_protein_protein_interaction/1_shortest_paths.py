@@ -10,11 +10,13 @@ g.ecount()
 
 # Load our relevant gene sets
 heat_core = []
+heat_core_names = {}
 with open("../1_core_response/input/hs_core_genes_internal_names.csv", "r") as file:
     reader = csv.reader(file)
     next(reader)  # Skip the first row (header)
     for row in reader:
         heat_core.append(row[0])
+        heat_core_names[row[0]] = row[1]
 
 validated_proteins = []
 with open("input/validated_heat_proteins.txt", "r") as file:
@@ -46,7 +48,7 @@ heat_core = [gene for gene in heat_core if gene in g.vs["name"]]
 random_proteins = [gene for gene in random_proteins if gene in g.vs["name"]]
 
 # This is for plotting a subnetwork later, we'll add the intermediate genes as well
-subnetwork = validated_proteins + heat_core + random_proteins
+subnetwork = heat_core
 # Calculate and save the shortest path of each core and random gene to any of the validated genes
 with open("output/shortest_paths.csv", "w") as file:
     writer = csv.writer(file)
@@ -79,7 +81,6 @@ with open("output/shortest_paths.csv", "w") as file:
                     current_shortest_path = len(paths[0])
                     current_target = target
                     current_paths = [g.vs[x]["name"] for x in paths]
-        subnetwork = subnetwork + [g for path in current_paths for g in path] # flatten the list
         writer.writerow(["random", source, current_target, current_paths, current_shortest_path or -1])
 
 subnetwork = list(set(subnetwork)) # remove duplicates
@@ -88,11 +89,16 @@ s = g.subgraph(subnetwork)
 visual_style = {}
 layout = s.layout("kk")
 visual_style["layout"] = layout
-color_dict = {"none": "#00000011", "heat-core": "#D55E0099", "validated": "#56B4E999", "random": "#F0E442aa"}
-visual_style["vertex_size"] = [7 if v["name"] in heat_core or v["name"] in validated_proteins else 5 for v in s.vs]
+color_dict = {"none": "#00000049", "heat-core": "#D55E0099", "validated": "#56B4E999", "random": "#F0E442aa"}
+visual_style["vertex_size"] = [7 if v["name"] in heat_core + validated_proteins else 5 for v in s.vs]
 visual_style["vertex_frame_width"] = 0
 visual_style["vertex_color"] = [color_dict["heat-core"] if v["name"] in heat_core else color_dict["validated"] if v["name"] in validated_proteins else color_dict["random"] if v["name"] in random_proteins else color_dict["none"] for v in s.vs]
 visual_style["edge_width"] = 0.5
-visual_style["edge_color"] = [color_dict["validated"] if s.vs["name"][e.source] in validated_proteins or s.vs["name"][e.target] in validated_proteins else "#00000011" for e in s.es]
+visual_style["edge_color"] = "#00000049" # [color_dict["validated"] if s.vs["name"][e.source] in validated_proteins or s.vs["name"][e.target] in validated_proteins else "#00000011" for e in s.es]
+visual_style["vertex_label"] = [ heat_core_names[n] if n in heat_core_names else n for n in s.vs["name"] ]
+visual_style["vertex_label_color"] = visual_style["vertex_color"]
+visual_style["vertex_label_size"] = 8
+visual_style["vertex_label_dist"] = 1.5
+visual_style["bbox"] = (600, 400)
 
 ig.plot(s, "output/plots/8.1_shortest_path_subgraph.pdf", **visual_style)
