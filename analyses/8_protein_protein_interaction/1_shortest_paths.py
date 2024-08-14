@@ -26,9 +26,22 @@ with open("input/random_proteins.txt", "r") as file:
     for line in file:
         random_proteins.append(line.strip())
 
-
 # Remove any entries that are not in the graph
 validated_proteins = [protein for protein in validated_proteins if protein in g.vs["name"]]
+
+# Get the direct neighbors of the proteins in validated_proteins
+direct_neighbors = set()
+for protein in validated_proteins:
+    neighbors = g.neighbors(protein)
+    direct_neighbors.update(neighbors)
+
+# Calculate the proportion of entries in heat_core and in the entire proteome that are in the direct neighborhood
+direct_neighbor_names = [g.vs[index]["name"] for index in direct_neighbors]
+proportion = len(set(heat_core).intersection(direct_neighbor_names)) / len(heat_core)
+print("Proportion of entries in heat_core in the direct neighborhood of validated_proteins:", proportion)
+print("Proportion of entries in heat_core in the direct neighborhood of validated_proteins:", len(direct_neighbors) / 34688.0)
+
+# Now remove any entries that are not in the graph from the other sets
 heat_core = [gene for gene in heat_core if gene in g.vs["name"]]
 random_proteins = [gene for gene in random_proteins if gene in g.vs["name"]]
 
