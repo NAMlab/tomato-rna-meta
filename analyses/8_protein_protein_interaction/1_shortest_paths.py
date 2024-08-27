@@ -18,6 +18,18 @@ with open("../1_core_response/input/hs_core_genes_internal_names.csv", "r") as f
         heat_core.append(row[0])
         heat_core_names[row[0]] = row[1]
 
+
+upregulated_proteins = []
+downregulated_proteins = []
+with open("../1_core_response/input/core_genes.csv", "r") as file:
+    reader = csv.reader(file)
+    for row in reader:
+        if row[4] == "upregulated":
+            upregulated_proteins.append(row[0])
+        else:
+            downregulated_proteins.append(row[0])
+
+
 validated_proteins = []
 with open("input/validated_heat_proteins.txt", "r") as file:
     for line in file:
@@ -89,10 +101,24 @@ s = g.subgraph(subnetwork)
 visual_style = {}
 layout = s.layout("kk")
 visual_style["layout"] = layout
-color_dict = {"none": "#00000049", "heat-core": "#D55E0099", "validated": "#56B4E999", "random": "#F0E442aa"}
+color_dict = {"none": "#00000049", "upregulated": "#D55E0099", "downregulated": "#0072B299", "validated": "#009E7399", "random": "#F0E442aa"}
+vertex_colors = []
+for vertex in s.vs:
+    if vertex["name"] in heat_core:
+        if heat_core_names[vertex["name"]] in upregulated_proteins:
+            vertex_colors.append(color_dict["upregulated"])
+        elif heat_core_names[vertex["name"]] in downregulated_proteins:
+            vertex_colors.append(color_dict["downregulated"])
+    elif vertex["name"] in validated_proteins:
+        vertex_colors.append(color_dict["validated"])
+    elif vertex["name"] in random_proteins:
+        vertex_colors.append(color_dict["random"])
+    else:
+        vertex_colors.append(color_dict["none"])
+
 visual_style["vertex_size"] = [7 if v["name"] in heat_core + validated_proteins else 5 for v in s.vs]
 visual_style["vertex_frame_width"] = 0
-visual_style["vertex_color"] = [color_dict["heat-core"] if v["name"] in heat_core else color_dict["validated"] if v["name"] in validated_proteins else color_dict["random"] if v["name"] in random_proteins else color_dict["none"] for v in s.vs]
+visual_style["vertex_color"] = vertex_colors # [color_dict["heat-core"] if v["name"] in heat_core else color_dict["validated"] if v["name"] in validated_proteins else color_dict["random"] if v["name"] in random_proteins else color_dict["none"] for v in s.vs]
 visual_style["edge_width"] = 0.5
 visual_style["edge_color"] = "#00000049" # [color_dict["validated"] if s.vs["name"][e.source] in validated_proteins or s.vs["name"][e.target] in validated_proteins else "#00000011" for e in s.es]
 visual_style["vertex_label"] = [ heat_core_names[n] if n in heat_core_names else n for n in s.vs["name"] ]
