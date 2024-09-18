@@ -36,7 +36,6 @@ with open("../analyses/1_core_response/input/core_genes.csv", "r") as file:
         hs_gene_info[row[0]] = row[1:]
 
 
-layout = g.layout("kk")
 visual_style = {}
 
 color_dict = {"none": "#00000049", "upregulated": "#D55E0099", "downregulated": "#0072B299", "superfamily": "#80008099" }
@@ -65,6 +64,12 @@ visual_style["vertex_label_color"] = visual_style["vertex_color"]
 visual_style["vertex_shape"] = ["square" if n in interpro_info else "circle" for n in g.vs["name"]]
 visual_style["edge_width"] = 0.5
 visual_style["edge_color"] = "#00000049" # [color_dict["validated"] if s.vs["name"][e.source] in validated_proteins or s.vs["name"][e.target] in validated_proteins else "#00000011" for e in s.es]
+visual_style["margin"] = 60
 visual_style["bbox"] = (800, 600)
 
-ig.plot(g, "output/plots/6_hs_core_interpro_families.pdf", **visual_style)
+ig.plot(g, "output/plots/3_hs_core_interpro_families.pdf", **visual_style)
+
+# Print the vertices sorted by number of edges
+[x["name"] for x in sorted(g.vs, key=lambda v: v.degree(), reverse=True)]
+
+len(g.connected_components())
