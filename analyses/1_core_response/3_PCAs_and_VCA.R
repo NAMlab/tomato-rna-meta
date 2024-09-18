@@ -74,8 +74,8 @@ for(i in 1:ncol(log.tpms)) {
     
   })
 }
-write.csv(vca.res, "output/1.3_VCA_logTPMs.csv", row.names=F)
-system("pigz -11 output/1.3_VCA_logTPMs.csv")
+write.csv(vca.res, "output/3_VCA_logTPMs.csv", row.names=F)
+system("pigz -11 output/3_VCA_logTPMs.csv")
 
 pdf("output/plots/1.3_supplement_clustering_all_logTPMs.pdf", 15, 60)
 sa = samples.annotation[order(samples.annotation$sra_run_id),]

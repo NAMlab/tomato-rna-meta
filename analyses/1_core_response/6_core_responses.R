@@ -58,7 +58,7 @@ row.split = ifelse(row.names(cells) %in% core.genes[["upregulated"]][["heat"]], 
 col.split = unique(samples.annotation[samples.annotation$sample.group %in% names(cells), c("stress_type", "sample.group")])$stress_type
 
 # HSF binding sites
-fimo_matches = str_remove(read.csv("../data/fimo_hsfs_matches.tsv", sep="\t")$sequence_name, "\\([+-]\\)")
+fimo_matches = str_remove(read.csv("input/fimo_hsfs_matches.tsv", sep="\t")$sequence_name, "\\([+-]\\)")
 genes_matched = str_remove(row.names(cells), "\\.[0-9]+$") %in% fimo_matches
 
 cells$gene = str_split_fixed(row.names(cells), "\\.", 2)[,1]

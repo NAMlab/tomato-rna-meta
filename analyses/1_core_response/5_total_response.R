@@ -50,7 +50,7 @@ for(direction in c("upregulated", "downregulated")) {
     diffexp.stress = diffexp.stress[-c(1)]
     
     # HSF binding sites
-    fimo_matches = str_remove(read.csv("../data/fimo_hsfs_matches.tsv", sep="\t")$sequence_name, "\\([+-]\\)")
+    fimo_matches = str_remove(read.csv("input/fimo_hsfs_matches.tsv", sep="\t")$sequence_name, "\\([+-]\\)")
     genes_matched = str_remove(genes, "\\.[0-9]+$") %in% fimo_matches
     
     # Heatmap
