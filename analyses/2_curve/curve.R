@@ -148,7 +148,7 @@ plt.s$n.genes.upper = log(plt.s$n.genes.upper, base=10)
 source("../config.R")
 stress.cols = colors[["stress"]]
 
-pdf("output/curves.pdf", 6.5, 5)
+pdf("output/plots/2_curves.pdf", 6.5, 5)
 par(mfrow=c(2,3), family="serif", cex=0.6)
 
 # N Genes Plots
