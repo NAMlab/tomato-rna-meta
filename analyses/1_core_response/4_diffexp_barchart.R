@@ -1,4 +1,7 @@
 library(stringr)
+# Visualize the number of differentially expressed genes in heat stress by temperature and duration.
+# Also show the number of significantly enriched GO terms.
+
 # library(ggplot2)
 
 source("../config.R")
@@ -63,7 +66,7 @@ color_segments <- function(df, x.coords, print.text = F) {
 
 used.tissues = colors[["tissue"]][names(colors[["tissue"]]) %in% n.diffexp.genes$tissue]
 
-cairo_pdf("output/plots/1.X_barplots.pdf", 5, 6) # to get short hyphens in the axis labels
+cairo_pdf("output/plots/1.4_barplots.pdf", 5, 6) # to get short hyphens in the axis labels
 par(mfrow=c(4,1), mar=c(1,4,2,1), cex=0.4, family="serif")
 bp.x.coords <- barplot(n.diffexp.genes$up, axes=F, col=n.diffexp.genes$col, border = "white", ylab = "upregulated", xlab="stress duration[h]")
 color_segments(n.diffexp.genes, bp.x.coords, T)
@@ -92,7 +95,8 @@ color_segments(n.diffexp.genes, bp.x.coords)
 axis(2, las=2, lwd=0, line=-1.5, at=seq(-0,-1500,-500), labels=seq(0, 1500, 500))
 dev.off()
 
-pdf("output/plots/1.X_non_barplots.pdf", 4, 3)
+# Try a different method of visualizing the data.
+pdf("output/plots/1.4_non_barplots.pdf", 4, 3)
 par(cex = 0.5, mar=c(0.5,4,2,1), family="serif")
 plot(n.diffexp.genes$up, col=n.diffexp.genes$col, pch=0, ylab = "differentially expressed genes", cex=2, axes=F)
 points(n.diffexp.genes$down, col=n.diffexp.genes$col, pch=1, cex=2)

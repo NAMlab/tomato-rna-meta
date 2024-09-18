@@ -43,7 +43,7 @@ plot.log.tpm <- autoplot(pca_res, data = point.annotations, colour='tissue', sha
   theme_minimal(base_size = 18) + theme(legend.position = "left") + guides(color = guide_legend(override.aes = list(size = 3)), shape = guide_legend(override.aes = list(size = 3)))
 plot.log.tpm
 
-pdf("output/plots/1.2_supplement_PCA_all_logTPMs.lfs.pdf", 14, 8.5)
+pdf("output/plots/1.3_supplement_PCA_all_logTPMs.lfs.pdf", 14, 8.5)
 for(i in seq(3, 337, 2)) {
   message(i)
   print(autoplot(pca_res, data = point.annotations, colour='tissue', shape='stress_type', x = i, y = i+1) +
@@ -74,10 +74,10 @@ for(i in 1:ncol(log.tpms)) {
     
   })
 }
-write.csv(vca.res, "output/1.2_VCA_logTPMs.csv", row.names=F)
-system("pigz -11 output/1.2_VCA_logTPMs.csv")
+write.csv(vca.res, "output/1.3_VCA_logTPMs.csv", row.names=F)
+system("pigz -11 output/1.3_VCA_logTPMs.csv")
 
-pdf("output/plots/1.2_supplement_clustering_all_logTPMs.pdf", 15, 60)
+pdf("output/plots/1.3_supplement_clustering_all_logTPMs.pdf", 15, 60)
 sa = samples.annotation[order(samples.annotation$sra_run_id),]
 sa$color <- colors[["tissue"]][match(sa$tissue, names(colors[["tissue"]]))]
 tree = hclust(d = dist(x = log.tpms, method = "euclidean"))
@@ -110,11 +110,11 @@ plot.fcs <- autoplot(pca_res, data = point.annotations, colour='tissue', shape='
   theme_minimal(base_size = 16) + theme(legend.position = "none") +
   ggtitle("PCA of log Fold Changes")
 
-pdf("output/plots/1.2_PCA.pdf", 14, 8.5)
+pdf("output/plots/1.3_PCA.pdf", 14, 8.5)
 plot_grid(plot.log.tpm, plot.fcs, align="h", ncol=2, rel_widths = c(0.58, 0.42))
 dev.off()
 
-pdf("output/plots/1.2_supplement_PCA_all_logFCs.lfs.pdf", 14, 8.5)
+pdf("output/plots/1.3_supplement_PCA_all_logFCs.lfs.pdf", 14, 8.5)
 for(i in seq(3, 88, 2)) {
   message(i)
   print(autoplot(pca_res, data = point.annotations, colour='tissue', shape='stress_type', x = i, y = i+1) +
@@ -142,8 +142,8 @@ for(i in 1:ncol(fcs)) {
     
   })
 }
-write.csv(vca.res, "output/1.2_VCA_logFC.csv", row.names=F)
-system("pigz -11 output/1.2_VCA_logFC.csv")
+write.csv(vca.res, "output/1.3_VCA_logFC.csv", row.names=F)
+system("pigz -11 output/1.3_VCA_logFC.csv")
 
 ## Finally, OPLS-DA
 # Finally, we want to see if we can split the contrasts according to stress types, tissues etc.

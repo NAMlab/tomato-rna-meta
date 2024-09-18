@@ -1,3 +1,4 @@
+# This script finds out in which contrasts the term GO:0009408 (response to heat) is enriched among the upregulated genes.
 require_relative "../2_curve/ontology_class"
 require "set"
 require "json"

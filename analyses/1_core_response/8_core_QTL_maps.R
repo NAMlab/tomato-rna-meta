@@ -1,3 +1,4 @@
+# Visualize co-localization of our core genes and QTLs on the chromosomes
 library(chromoMap)
 
 a = read.csv("input/core_genes.csv", header=F)

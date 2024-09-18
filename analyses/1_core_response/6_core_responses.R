@@ -1,8 +1,8 @@
-# This script generates (for each stress type) a heatmap visualizing all genes that are differentially expressed
-# in *any* sample (that is, the union of all of them). To ensure we don't just plot the whole genome,
-# we are applying a somewhat stricter p-value threshold: Instead of just adjusting the p-value within each
-# experiment separately, we use the raw p values and then adjust them across *all* the contrasts.
-# Only genes differentially expressed in any contrast using that p value are included in the heatmap.
+# This script determines the core heat stress response for each stress type (heat, drought, salt) 
+# by identifying genes that are differentially expressed in at least 80% of the samples for that 
+# stress type. It then performs GO term enrichment analysis on these genes and generates a heatmap 
+# of the core response genes across all samples. Finally, it creates Upset plots to visualize 
+# the overlap of core response genes and GO terms between different stress types.
 
 library(stringr)
 library(data.table)
@@ -44,7 +44,7 @@ for(direction in c("upregulated", "downregulated")) {
     
     # GO term enrichment
     enriched.GOs = go_enrichment(str_remove(genes, "\\.[0-9]+\\.[0-9]+$"))
-    write.csv(enriched.GOs, paste0("output/1.4_core_response_",stress.type,"_",direction,"_GOs.csv"), row.names=F)
+    write.csv(enriched.GOs, paste0("output/1.6_core_response_",stress.type,"_",direction,"_GOs.csv"), row.names=F)
     core.GOs[[direction]][[stress.type]] = enriched.GOs$GO.ID
     GO.names = unique(rbind(GO.names, enriched.GOs[1:2]))
   }
@@ -73,7 +73,7 @@ column_ha = HeatmapAnnotation(tissue = as.factor(column_data$tissue), temperatur
 row_ha = rowAnnotation(hsf_binding = genes_matched, col = list(hsf_binding = c("TRUE" = "grey90", "FALSE" = "white")))
 
 names(cells) = str_replace_all(names(cells), "\\.", "-")
-cairo_pdf("output/plots/1.4_core_response_heatmap.lfs.pdf", 17, 11)
+cairo_pdf("output/plots/1.6_core_response_heatmap.lfs.pdf", 17, 11)
 draw(Heatmap(as.matrix(cells), col = colorRamp2(c(-10, 0, 10), c("blue", "white", "red")),
              row_names_max_width = max_text_width(rownames(cells), gp = gpar(fontsize = 11)), row_names_gp = grid::gpar(fontsize = 11),
              row_split = row.split, column_split = col.split, bottom_annotation = column_ha, left_annotation = row_ha,
@@ -89,9 +89,9 @@ for(direction in names(core.genes)) {
   }
 }
 names(core.genes.out) = c("stress.type", "direction", "target.id")
-write.csv(core.genes.out, "output/1.4_core_response_genes.csv", row.names=F, quote=F)
+write.csv(core.genes.out, "output/1.6_core_response_genes.csv", row.names=F, quote=F)
 
-# Make Venn Diagrams for genes and GO terms
+# Make Upset Plots for genes and GO terms
 
 # Prettify names
 unlisted.genes = unlist(core.genes, recursive=F)
@@ -99,7 +99,7 @@ names(unlisted.genes) = c("Heat (up)", "Drought (up)", "Salt (up)", "Heat (down)
 unlisted.GOs = unlist(core.GOs, recursive=F)
 names(unlisted.GOs) = c("Heat (up)", "Drought (up)", "Salt (up)", "Heat (down)", "Drought (down)", "Salt (down)")
 
-pdf("output/plots/1.4_core_response_upsets.pdf", 5, 3)
+pdf("output/plots/1.6_core_response_upsets.pdf", 5, 3)
 print(upset(fromList(unlisted.genes), order.by = "freq", nsets=6, point.size=1.5, nintersects = 24, text.scale = 0.7))
 grid.text("Overlapping Genes",x = 0.65, y=0.95, gp=gpar(fontsize=12))
 print(upset(fromList(unlisted.GOs), order.by = "freq", nsets=6, point.size=1.5, nintersects = 24, text.scale = 0.7))

@@ -22,7 +22,7 @@ samples.annotation$respective_control = make.names(samples.annotation$respective
 samples.annotation$sra_run_id = make.names(samples.annotation$sra_run_id)
 
 protein.descriptions = read.csv("input/protein_descriptions.csv.gz")
-id.mapping = read.csv("../data/id_mapping.csv.gz")
+id.mapping = read.csv("../../data/id_mapping.csv.gz")
 
 for(trt.group in unique(samples.annotation$sample.group)) {
         print(trt.group)
@@ -58,9 +58,9 @@ for(trt.group in unique(samples.annotation$sample.group)) {
         
         #### GO terms ####
         genes.up = unique(str_remove(out.csv[out.csv$FDR < 0.05 & out.csv$logFC > 0,]$target_id, "\\.[0-9]+\\.[0-9]+$"))
-        write.csv(go_enrichment(genes.up), paste0("output/individual_contrasts_supplement/", trt.group, "/GO_upregulated.csv"), row.names=F)
+        #write.csv(go_enrichment(genes.up), paste0("output/individual_contrasts_supplement/", trt.group, "/GO_upregulated.csv"), row.names=F)
         genes.down = unique(str_remove(out.csv[out.csv$FDR < 0.05 & out.csv$logFC < 0,]$target_id, "\\.[0-9]+\\.[0-9]+$"))
-        write.csv(go_enrichment(genes.down), paste0("output/individual_contrasts_supplement/", trt.group, "/GO_downregulated.csv"), row.names=F)
+        #write.csv(go_enrichment(genes.down), paste0("output/individual_contrasts_supplement/", trt.group, "/GO_downregulated.csv"), row.names=F)
         
         ggplot(data=out.csv, aes(x=logFC, y=-log10(FDR)))+
                 geom_point(aes(color=ifelse(FDR < 0.05, ifelse(logFC < 0, "down", "up"), "ns"), alpha=0.5))+

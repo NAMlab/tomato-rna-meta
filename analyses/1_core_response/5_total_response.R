@@ -42,7 +42,7 @@ for(direction in c("upregulated", "downregulated")) {
     
     # GO term enrichment
     enriched.GOs = go_enrichment(str_remove(genes, "\\.[0-9]+\\.[0-9]+$"))
-    write.csv(enriched.GOs, paste0("output/1.3_union_",stress.type,"_",direction,"_GOs.csv"), row.names=F)
+    write.csv(enriched.GOs, paste0("output/1.5_union_",stress.type,"_",direction,"_GOs.csv"), row.names=F)
     union.GOs[[direction]][[stress.type]] = enriched.GOs$GO.ID
     GO.names = unique(rbind(GO.names, enriched.GOs[1:2]))
     
@@ -66,7 +66,7 @@ for(direction in c("upregulated", "downregulated")) {
                                     genotype = samples.stress$genotype, col = list(tissue = c("anther" = "#CC79A7", "fruit" = "#D55E00", "leaf" = "#009E73", "pollen" = "#F0E442", "seed" = "#E69F00", "seedling" = "#56B4E9")))
       row_ha = rowAnnotation(hsf_binding = genes_matched, col = list(hsf_binding = c("TRUE" = "black", "FALSE" = "white")))
       
-      pdf(paste0("output/plots/1.3_union_",stress.type,"_",direction,".lfs.pdf"), 10, 450)
+      pdf(paste0("output/plots/1.5_union_",stress.type,"_",direction,".lfs.pdf"), 10, 450)
       print(Heatmap(as.matrix(cells), col = colorRamp2(c(-10, 0, 10), c("blue", "white", "red")), bottom_annotation = column_ha, left_annotation = row_ha, 
                     row_names_gp = gpar(fontsize = 1)))
       dev.off()
@@ -81,11 +81,9 @@ unlisted.GOs = unlist(union.GOs, recursive=F)
 names(unlisted.GOs) = c("Heat (up)", "Drought (up)", "Salt (up)", "Heat (down)", "Drought (down)", "Salt (down)")
 
 # Make Upset Plots for genes and GO terms
-pdf("output/plots/1.3_union_upsets.pdf", 5, 3)
+pdf("output/plots/1.5_union_upsets.pdf", 5, 3)
 print(upset(fromList(unlisted.genes), order.by = "freq", nsets=6, point.size=1.5, nintersects = 24, text.scale = 0.7))
 grid.text("Overlapping Genes",x = 0.65, y=0.95, gp=gpar(fontsize=12))
 print(upset(fromList(unlisted.GOs), order.by = "freq", nsets=6, point.size=1.5, nintersects = 24, text.scale = 0.7))
 grid.text("Overlapping Gene\n Ontology Terms",x = 0.65, y=0.9, gp=gpar(fontsize=12))
 dev.off()
-
-# @TODO output lists of which genes & GO terms are shared/unique for each stress type

@@ -1,3 +1,5 @@
+# Provides functionality to perform Gene Ontology enrichment analysis using topGO package
+# this is used in multiple places.
 library(topGO)
 
 geneID2GO <- readMappings("input/GOMAP_annotation.map.lfs.gz")

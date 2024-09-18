@@ -1,3 +1,5 @@
+# Visualize our data set as a sankey diagram
+
 library(networkD3)
 library(htmlwidgets)
 sankey.keys = read.csv("input/display_datasource_mapping.csv")
