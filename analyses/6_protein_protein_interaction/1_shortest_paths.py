@@ -127,4 +127,4 @@ visual_style["vertex_label_size"] = 8
 visual_style["vertex_label_dist"] = 1.5
 visual_style["bbox"] = (600, 400)
 
-ig.plot(s, "output/plots/8.1_shortest_path_subgraph.pdf", **visual_style)
+ig.plot(s, "output/plots/6.1_shortest_path_subgraph.pdf", **visual_style)

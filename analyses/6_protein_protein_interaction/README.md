@@ -1,0 +1,3 @@
+In this analysis we look at protein-protein interactions of our heat stress core proteins with validated proteins for heat tolerance in tomato from https://doi.org/10.1016/j.scienta.2023.112435 .
+We do that by analysing the proportion of direct interactions as well as finding the shortest paths in the interaction network.
+The interaction network consists of non-predicted interactions from STRING (see input folder for more details).
