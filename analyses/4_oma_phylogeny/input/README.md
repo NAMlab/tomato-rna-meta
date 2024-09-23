@@ -1,0 +1,1 @@
+`input/clades_hierarchy.txt` was created manually by inspecting the species phylogeny provided by OMA at https://omabrowser.org/oma/current/ .

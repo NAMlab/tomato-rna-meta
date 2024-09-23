@@ -1,15 +1,30 @@
+library(Rmisc)
+
 d = read.csv("output/combined_deepest_levels.csv")
+
+d.random = d[d$set == "random",]
+d = d[d$set != "random",]
+set.seed(23012024)
+d.random$set = paste0(d.random$set, "_", sample(rep(1:5, 100)))
+freqs.random = data.frame(t(table(d.random$level, d.random$set)))
+freqs.random = freqs.random[order(freqs.random$Var1),]
+freqs.random$p = unlist(lapply(unique(freqs.random$Var1), FUN=function(x) {
+    cumsum(freqs.random[freqs.random$Var1 == x,]$Freq)
+}))
+cis.random = group.CI(p ~ Var2, freqs.random)
+cis.random$Var2 = as.numeric(cis.random$Var2)
 
 freqs = reshape(data.frame(table(d$level, d$set)), direction="wide", timevar="Var2", idvar="Var1")
 freqs$Var1 = as.numeric(freqs$Var1)
 freqs$p.heat = cumsum(freqs$Freq.heat)/sum(freqs$Freq.heat) * 100
 freqs$p.drought = cumsum(freqs$Freq.drought)/sum(freqs$Freq.drought) * 100
 freqs$p.salt = cumsum(freqs$Freq.salt)/sum(freqs$Freq.salt) * 100
-freqs$p.random = cumsum(freqs$Freq.random)/sum(freqs$Freq.random) * 100
+#freqs$p.random = cumsum(freqs$Freq.random)/sum(freqs$Freq.random) * 100
 
 labels = scan("input/clades_hierarchy.txt", character())[(min(d$level)+1):(max(d$level))]
 # Remove the last class (S. lycopersicum -- no orthologs within own species)
 freqs = freqs[freqs$Var1 < 17,]
+cis.random = cis.random[cis.random$Var2 < 17,]
 
 # Prepare for plotting the genes at each level
 d.h = d[d$set == "heat" & d$level < 16,]
@@ -18,13 +33,17 @@ d.h = merge(d.h, read.csv("../1_core_response/input/hs_core_genes_internal_names
 
 plot.cols = list(heat="#D55E00", drought="#0072B2", salt="#009E73", baseline="black")
 
-pdf("output/plots/4.1_oldest_orthologs.pdf", 6.5, 3)
+pdf("output/plots/4.3_oldest_orthologs.pdf", 6.5, 3)
 par(mar=c(2,7,1,4), family="serif", cex=0.6)
-plot(freqs$p.random, -freqs$Var1, type="b", xlim=c(0,100), axes=F, xlab="", ylab="", xaxs="i")
+plot(freqs$p.heat, -freqs$Var1, type="n", xlim=c(0,100), axes=F, xlab="", ylab="", xaxs="i")
 axis(side = 2, labels=labels, at=-c(1:length(labels)), las=2, col=F, col.axis="gray52")
 axis(side = 1, col=F, col.axis="gray52", at=seq(0,100,20), labels=paste0(seq(0,100,20), "%"))
 
 text(10, -14, "proportion of core genes \nwith ortholog at ancestor node...", pos=4, cex=1.2, xpd=T)
+
+polygon(c(cis.random$p.upper, rev(cis.random$p.lower)), c(-cis.random$Var2, rev(-cis.random$Var2)), 
+        col=rgb(t(col2rgb("gray")/255), alpha=0.2), border=NA)
+lines(cis.random$p.mean, -cis.random$Var2, type="b")
 
 lines(freqs$p.salt,-freqs$Var1, type="b", col=plot.cols[["salt"]])
 lines(freqs$p.drought,-freqs$Var1, type="b", col=plot.cols[["drought"]])

@@ -1,5 +1,4 @@
-# This is a super-slimmed down, minimal version of the HogProf library which I thought was easier
-# to re-create than get the full HogProf software running (which is still in early Alpha).
+# This is a super-slimmed down, minimal version of the HogProf library (https://github.com/DessimozLab/HogProf)
 # There are many code snippets taken and simplified from HogProf, mostly the lshbuilder.py, pyhamutils.py, 
 # file_utils.py, and hashutils.py files.
 import pyham
