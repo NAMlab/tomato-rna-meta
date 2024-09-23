@@ -1,19 +1,19 @@
 digraph G {
     fontname="Lato,Helvetica,Arial,sans-serif";
+    compound=true;
     node [fontname="Lato,Helvetica,Arial,sans-serif"]
 	edge [fontname="Lato,Helvetica,Arial,sans-serif"]
     
     subgraph cluster_hypo {
-        label = "Hypotheses"
+        label = "Study Aims"
         style=filled;
         color=orange;
         node [shape=rect,style=filled,color=white];
         edge [penwidth=0,arrowsize=0];
-        h1 [label="HS Response dominated by \n HSPs + Fat & Redox Genes"];
-        h2 [label="HS Response ≠ \nDrought or Salt Response"];
-        h3 [label="HS Response Genes lie \n in Known QTLs"];
-        h4 [label="HS Response is Ancient \n and Conserved"];
-        h1 -> h2 -> h3 -> h4;
+        h1 [label="Conditional vs Core Heat Response"];
+        h2 [label="Overlaps and Specificity of\n Heat, Drought and Salt Response"];
+        h4 [label="Is Heat Response Ancient \n and Conserved?"];
+        h1 -> h2 -> h4;
     }
     
     subgraph cluster_0 {
@@ -24,6 +24,16 @@ digraph G {
         d2 [label="Drought Data"];
         d3 [label="Salt Data"];
 		label = "NCBI SRA";
+	}
+	
+	subgraph cluster_01 {
+		style=filled;
+		color=lightgrey;
+		node [style=filled,color=white,shape=cylinder];
+		dn1 [label="DS-10"];
+        dn2 [label="DS-11"];
+        dn3 [label="DS-13"];
+		label = "Novel Data";
 	}
 	
 	subgraph cluster_1 {
@@ -76,6 +86,8 @@ digraph G {
 	d2 -> p1;
 	d3 -> p1;
 	
+	dn1 -> p2 [ltail=cluster_01];
+	
 	d4 -> p2;
 	p1 -> p2;
 	p2 -> f1;
@@ -98,7 +110,6 @@ digraph G {
 	h1 -> f4;
 	h2 -> f3;
 	h2 -> f4;
-	h3 -> f4;
 	h4 -> f5;
 	
 }

@@ -43,7 +43,7 @@ intersect.panel <- function(prefix, displaying="genes") {
     sidebarLayout(
       sidebarPanel(
         p(paste0("Only display ", displaying ," which are part of all following sets:")),
-        h4("Union Sets"),
+        h4("Union Sets (Figure 3)"),
         checkboxInput(inputId = paste0(prefix, ".union.up.heat"),
                       label = "Heat (Upregulated)"),
         checkboxInput(inputId = paste0(prefix, ".union.down.heat"),
@@ -56,7 +56,7 @@ intersect.panel <- function(prefix, displaying="genes") {
                       label = "Salt (Upregulated)"),
         checkboxInput(inputId = paste0(prefix, ".union.down.salt"),
                       label = "Salt (Downregulated)"),
-        h4("Core Sets"),
+        h4("Core Sets (Figure 4)"),
         checkboxInput(inputId = paste0(prefix, ".core.up.heat"),
                       label = "Heat (Upregulated)"),
         checkboxInput(inputId = paste0(prefix, ".core.down.heat"),
