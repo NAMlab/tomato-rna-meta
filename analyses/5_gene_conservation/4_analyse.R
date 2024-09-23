@@ -1,5 +1,5 @@
 library(ggplot2)
-pdf("output/plots/7_mean_conservation_scores.pdf", height=14)
+pdf("output/plots/5_mean_conservation_scores.pdf", height=14)
 
 for(seqtype in c("proteins", "cds")) {
   mean_conservation_scores <- data.frame(gene = character(),
@@ -30,7 +30,9 @@ for(seqtype in c("proteins", "cds")) {
   
   print(paste0(seqtype, " conservation (HS core genes vs random baseline)"))
   print(t.test(core_genes$mean_score, baseline_genes$mean_score))
-  
+  print(paste0(seqtype, " median conservation score"))
+  print(paste0("core genes: ", median(core_genes$mean_score)))
+  print(paste0("random baseline: ", median(baseline_genes$mean_score)))
   
   # Plot mean_conservation_scores
   plot <- ggplot(mean_conservation_scores, aes(x = jitter(as.numeric(factor(gene))), y = mean_score)) +
