@@ -1,0 +1,3 @@
+Whenever I export the SVG to PDF from Inkscape, the boxes in the Sankey diagram disappear.
+The only way I could get it to work is to use https://svgtopdf.com/ 
+¯\_(ツ)_/¯

@@ -1,28 +1,29 @@
 digraph G {
-    fontname="Lato,Helvetica,Arial,sans-serif";
-    compound=true;
-    node [fontname="Lato,Helvetica,Arial,sans-serif"]
+	fontname="Lato,Helvetica,Arial,sans-serif";
+	compound=true;
+	node [fontname="Lato,Helvetica,Arial,sans-serif"]
 	edge [fontname="Lato,Helvetica,Arial,sans-serif"]
-    
-    subgraph cluster_hypo {
-        label = "Study Aims"
-        style=filled;
-        color=orange;
-        node [shape=rect,style=filled,color=white];
-        edge [penwidth=0,arrowsize=0];
-        h1 [label="Conditional vs Core Heat Response"];
-        h2 [label="Overlaps and Specificity of\n Heat, Drought and Salt Response"];
-        h4 [label="Is Heat Response Ancient \n and Conserved?"];
-        h1 -> h2 -> h4;
-    }
-    
-    subgraph cluster_0 {
+	
+	subgraph cluster_hypo {
+		label = "Study Aims"
+		style=filled;
+		color=orange;
+		node [shape=rect,style=filled,color=white];
+		edge [penwidth=0,arrowsize=0];
+		h1 [label="Conditional vs Core Heat Response"];
+		h2 [label="Overlaps and Specificity of\n Heat, Drought and Salt Response"];
+		h3 [label="Are core genes relevant\n for heat tolerance?"];
+		h4 [label="Is Heat Response Ancient \n and Conserved?"];
+		h1 -> h2 -> h3 -> h4;
+	}
+	
+	subgraph cluster_0 {
 		style=filled;
 		color=lightgrey;
 		node [style=filled,color=white,shape=cylinder];
 		d1 [label="Heat Data"];
-        d2 [label="Drought Data"];
-        d3 [label="Salt Data"];
+		d2 [label="Drought Data"];
+		d3 [label="Salt Data"];
 		label = "NCBI SRA";
 	}
 	
@@ -31,8 +32,8 @@ digraph G {
 		color=lightgrey;
 		node [style=filled,color=white,shape=cylinder];
 		dn1 [label="DS-10"];
-        dn2 [label="DS-11"];
-        dn3 [label="DS-13"];
+		dn2 [label="DS-11"];
+		dn3 [label="DS-13"];
 		label = "Novel Data";
 	}
 	
@@ -54,7 +55,8 @@ digraph G {
 		f3 [label="3"];
 		f4 [label="4"];
 		f5 [label="5"];
-		f1 -> f2 -> f3 -> f4 -> f5;
+		f6 [label="6"];
+		f1 -> f2 -> f3 -> f4 -> f5 -> f6;
 		label = "Figures";
 	}
 	
@@ -62,7 +64,10 @@ digraph G {
 		style=filled;
 		color=lightgrey;
 		node [style=filled,color=white,shape=cylinder];
+		edge [penwidth=0,arrowsize=0,weight=2];
 		d5 [label="Heat Stress QTLs"];
+		d7 [label="Heat Tolerance Genes"];
+		d5 -> d7;
 		label = "Literature";
 	}
 	
@@ -73,16 +78,32 @@ digraph G {
 		d6 [label="Orthologs"];
 		label = "OMA Database";
 	}
+	
+	subgraph cluster_5 {
+		style=filled;
+		color=lightgrey;
+		node [style=filled,color=white,shape=cylinder];
+		d8 [label="Protein-Protein\n Interactions"];
+		label = "STRING Database";
+	}
+	
+	subgraph cluster_6 {
+		style=filled;
+		color=lightgrey;
+		node [style=filled,color=white,shape=cylinder];
+		d9 [label="Protein Families"];
+		label = "InterPro";
+	}
 
     
-    p1 [shape=none,label="Annotate and Filter"];
-    p2 [shape=none,label="Quantify Transcript Abundance"];
-    p3 [shape=none,label="Calculate Differential Expression"];
-    p4 [shape=none,label="Select Diffexp Genes in Any Contrast"];
-    p5 [shape=none,label="Select Core Genes"];
-    p6 [shape=none,label="Find Oldest Ortholog"];
+	p1 [shape=none,label="Annotate and Filter"];
+	p2 [shape=none,label="Quantify Transcript Abundance"];
+	p3 [shape=none,label="Calculate Differential Expression"];
+	p4 [shape=none,label="Select Diffexp Genes in Any Contrast"];
+	p5 [shape=none,label="Select Core Genes"];
+	p6 [shape=none,label="Find Oldest Ortholog"];
     
-    d1 -> p1;
+	d1 -> p1;
 	d2 -> p1;
 	d3 -> p1;
 	
@@ -100,16 +121,19 @@ digraph G {
 	
 	p3 -> p5;
 	p5 -> f4;
-	d5 -> f4;
+	d5 -> f5[ltail=cluster_3];
+	d8 -> f5;
+	d9 -> f5;
 	
 	p5 -> p6;
-	p6 -> f5;
+	p6 -> f6;
 	d6 -> p6;
 	
 	h1 -> f3;
 	h1 -> f4;
 	h2 -> f3;
 	h2 -> f4;
-	h4 -> f5;
+	h3 -> f5;
+	h4 -> f6;
 	
 }
