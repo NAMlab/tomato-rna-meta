@@ -100,9 +100,9 @@ unlisted.GOs = unlist(core.GOs, recursive=F)
 names(unlisted.GOs) = c("Heat (up)", "Drought (up)", "Salt (up)", "Heat (down)", "Drought (down)", "Salt (down)")
 
 pdf("output/plots/1.6_core_response_upsets.pdf", 5, 3)
-print(upset(fromList(unlisted.genes), order.by = "freq", nsets=6, point.size=1.5, nintersects = 24, text.scale = 0.7))
+print(upset(fromList(unlisted.genes), order.by = "freq", nsets=6, point.size=1.5, nintersects = 24, text.scale = 1, show.numbers = F))
 grid.text("Overlapping Genes",x = 0.65, y=0.95, gp=gpar(fontsize=12))
-print(upset(fromList(unlisted.GOs), order.by = "freq", nsets=6, point.size=1.5, nintersects = 24, text.scale = 0.7))
+print(upset(fromList(unlisted.GOs), order.by = "freq", nsets=6, point.size=1.5, nintersects = 24, text.scale = 1, show.numbers = F))
 grid.text("Overlapping Gene\n Ontology Terms",x = 0.65, y=0.9, gp=gpar(fontsize=12))
 dev.off()
 
