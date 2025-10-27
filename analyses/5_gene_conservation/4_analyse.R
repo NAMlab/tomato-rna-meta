@@ -1,4 +1,5 @@
 library(ggplot2)
+library(ggrepel)
 pdf("output/plots/5_mean_conservation_scores.pdf", height=14)
 
 for(seqtype in c("proteins", "cds")) {
@@ -37,7 +38,7 @@ for(seqtype in c("proteins", "cds")) {
   # Plot mean_conservation_scores
   plot <- ggplot(mean_conservation_scores, aes(x = jitter(as.numeric(factor(gene))), y = mean_score)) +
       geom_point(aes(color = ifelse(!is.na(internal.name), "core gene", "random baseline")), show.legend = FALSE) +
-      geom_text(aes(label = internal.name), color = "red", vjust = -0.5) +
+      geom_text_repel(aes(label = internal.name), color = "red", size=3, max.overlaps = Inf) +
       labs(x = "Gene", y = "Mean Conservation Score") +
       ggtitle(seqtype) +
       theme_minimal()
